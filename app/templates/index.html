@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+    <!--<link rel="stylesheet" type="text/css" href="../static/css/bot.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="../static/css/iphone.css">-->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bot.css') }}">
+</head>
+<body>
+    <div id="mainbox">
+        <ul id="list">
+            <li class="bot"><div class="botmsg">Здравствуйте, {{user.nickname}}!  Введите вопрос</div></li>
+          <li id="l1" class="human">
+               <input id="q1"
+                onkeydown = "if (event.keyCode == 13)
+                            document.getElementById('btnSearch').click()"
+               />
+               <button id="btnSearch" onclick="sendQuestion()">send</button>
+          </li>
+        </ul>
+    </div>
+	
+	<script>
+		function httpGet(theUrl)
+		{
+		    var xmlHttp = new XMLHttpRequest();
+		    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+		    xmlHttp.send(null);
+		    return xmlHttp.responseText;
+		}
+
+		function sendQuestion(){
+			 var humanMsg = document.createElement('li');
+			 humanMsg.className="human";
+			 var q = document.getElementById("q1").value;
+			 humanMsg.innerHTML = "<span class='humanmsg'>"+q+"</span>";
+			 // list.insertBefore(humanMsg, list.children[1]);
+			 list.insertBefore(humanMsg, document.getElementById("l1"));
+			 try {
+                var response = httpGet("bot?question="+q);
+             } catch (err) {
+                var response = "ошибка при отправке запроса :("
+             }
+
+			 var botMsg = document.createElement('li');
+			 botMsg.className="bot";
+			 botMsg.innerHTML = "<span class='botmsg'>"+response+"</span>";
+			 list.insertBefore(botMsg, document.getElementById("l1"));
+			 document.getElementById("q1").value="";
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,3756 @@
+What Factors Control Shale Gas Production and Production Decline Trend 
+in Fractured Systems: A Comprehensive Analysis and Investigation  
+ 
+HanYi Wang 
+
+Petroleum and Geosystem Engineering Department, The University of Texas at Austin, USA 
+
+Summary 
+One  of  the  biggest  practical  problems  with  the  optimization  of  shale  gas  stimulation  design  is  estimating  post-fracture 
+production  rate,  production  decline,  and  ultimate  recovery.  Without  a  realistic  prediction  of  the  production  decline  trend 
+resulting  from  a  given  completion  and  reservoir  properties,  it  is  impossible  to  evaluate  the  economic  viability  of  producing 
+natural gas from shale plays.  
+
+Traditionally, decline curve analysis (DCA) is commonly used to predict gas production and its decline trend to determine the 
+estimated  ultimate  recovery  (EUR),  but  its  analysis  cannot  be  used  to  analyze  what  factors  influence  the  production  decline 
+trend  due  to  lack  of  underlying  support  of  physics,  which  make  it  difficult  to  guide  completion  designs  or  optimize  field 
+development. 
+
+In this article, we presented a unified shale gas reservoir model, which incorporates real gas transport, nano-flow mechanisms 
+and  geomechanics  into  fractured  shale  system.  This  model  is  used  to  predict  shale  gas  production  under  different  reservoir 
+scenarios and investigate  what factors control its  decline trend. The results and analysis presented in the article provide us a 
+better  understanding  of  gas  production  and  decline  mechanisms  in  a  shale  gas  well  with  certain  conditions  of  the  reservoir 
+characteristics.  More  in-depth  knowledge  regarding  the  effects  of  factors  controlling  the  behavior  of  the  gas  production  can 
+help us develop more reliable models to forecast shale gas decline trend and ultimate recovery. This article also reveals that 
+some  commonly  hold  beliefs  may  sound  reasonable  to  infer  production  decline  trend,  but  may  not  be  true  in  a  coupled 
+reservoir system in reality.  
+
+Introduction 
+With  ever  increasing  demanding  for  cleaner  energy,  unconventional  gas  reservoirs  are  expected  to  play  a  vital  role  in 
+satisfying the global needs for gas in the future. The major component of unconventional gas reservoirs comprises of shale gas. 
+Shales and silts are the most abundant sedimentary rocks in the earth’s crust and it is evident from the recent year’s activities 
+in shale gas plays that in the future shale gas will constitute the largest component in gas production globally, as conventional 
+reservoirs continue declines (Energy  Information  Administration 2015). According to  GSGI, there are  more than 688  shales 
+worldwide in 142 basins and 48 major shale basins are located in 32 countries (Newell 2011). Better reservoir knowledge and 
+advancing horizontal drilling and hydraulic fracturing technologies make the production of shale gas resources economically 
+viable and more efficient.  
+
+Unlike conventional reservoirs, the shale gas reservoirs tend to be more expensive to develop and require special technologies 
+to  enable  the  gas  to  be  produced  at  an  economical  rate  due  to  its  extremely  low  matrix  permeability  and  porosity.  Thus 
+modeling the shale gas production and its declines correctly is essential to predict how fast the gas can be produced and turned 
+into revenue from each well, and the economic viability of producing natural gas from the operated shale plays. Fig.1 shows 
+the average gas production rate per well, for wells that grouped by their first production date in different shale basin across the 
+United States. It can be observed that gas production rate declines rapidly within the first a few months of production. We can 
+also notice that the peak of production rate does not occur in the first month, this is because early time production are affected 
+by wellbore clean-up effects, when gas are produced with water and fracturing fluids. 
+
+Fig. 1  Gas production rate in different shale gas basins (Modified from Baihly et al. 2010) 
+
+ 
+
+ 
+
+The  estimated  ultimate  recovery  (EUR)  of  shale  gas  wells  has  been  forecasted  in  a  number  of  ways  within  the  industry, 
+primarily  based  on  initial  production  rates  (IPs)  and  decline  trends.  The  decline  curve  analysis  (DCA)  is  probably  the  most 
+
+*:1) This is uncorrected proof 
+   2) Citation Export: Wang, H. 2017. What Factors Control Shale Gas Production and Production Decline Trend in Fractured Systems: A 
+
+Comprehensive Analysis and Investigation. SPE Journal, Vol 22(02): 562-581. http://dx.doi.org/10.2118/179967-PA 
+
+ 
+
+frequently  used  production  forecasting  tool  for  shale  gas  reservoirs  due  to  its  relative  simplicity  and  speed.  The  common 
+methods  used  to  estimate  oil  and  gas  reserves  rely  on  a  set  of  empirical  production  decline  curves  based  on  the  following 
+hyperbolic function (Arps 1945):  
+
+𝑞𝑡 = 𝑞𝑖(1 + 𝑏𝐷𝑖𝑡)
+
+−1
+𝑏  
+
+where 𝑞𝑡 is the production rate at time t, 𝑞𝑖 is the initial production rate at time t = 0, 𝐷𝑖 and 𝑏 are two constants (the former is 
+the initial rate of decline in production and 𝑏 is the rate of change in 𝐷𝑖 over time, which control the curvature of the decline 
+trend). 
+
+The Arps equation was designed for conventional reservoirs where the boundary-dominated flow is the norm. However, shale 
+gas reservoirs are characterized by transient production behavior and in general boundary-dominated flow only occurs in later 
+times. Shale  gas production rates generally  have steep initial decline trends and  gradually  flatten out (also shown in  Fig. 1). 
+The  resulting  DCA  can  often  yield  b  values  greater  than  1.0.  This  not  only  gives  higher  EUR  values,  but  also  leads  to  an 
+extrapolation  of  infinite  EUR.  When  this  occurs,  production  decline  curve  must  be  converted  to  another  type  of  function  at 
+some point so as to restrict the EUR to be finite. In addition, the Arps model has too few freely adjustable parameters to fit the 
+data fully, so biased and subjective extrapolation could be off the accepted range (e.g., during early well productions, models 
+with vastly different b values all look similar). The differences only show up in the long-term, leading to vastly different EUR 
+values. 
+
+The flaws in Arps model has led to the development of many new DCA models for predicting estimated EUR in the shale gas 
+wells,  such  as  the  power  law  exponential  model  (Ilk  et  al.  2008),  logistic  growth  analysis  (Clark  et  al.  2011)  and  Duong’s 
+model (Duong 2011), etc. Even though all these models were formulated differently, they are all empirical equations and lack 
+of underlying support of physics, so the same production data may lead to different estimation of EUR and production decline 
+trend, with different practice of tuning parameters. Moreover, shale has very distinct characteristics even it lays next to each 
+other in the same area, and decline rate may differ from stage to stage, well to well (King 2010), thus make it impossible to 
+extrapolate the results of DCA model from one well to another.   
+
+In  general,  few  shale  wells  have  gone  through  whole  life  cycles,  and  there  are  significant  uncertainties  that  associated  with 
+different decline models when trying to estimate the volume of technically recoverable reserves. Since production decline most 
+dramatically in the first a few years and the economically preferred completion designs may be more driven by the net present 
+value derived in the ﬁrst 5 years of production rather than the ultimate recovery of the well (Barree et al. 2015). This early 5-
+year  period  that  represents  most  of  the  useful  economic  life  of  the  well,  is  hard  to  predict  with  enough  confidence  using 
+empirical models due to short of production data. In addition, empirical models cannot be used to analyze what factors cause 
+the shift of production decline curve in field cases with different practices, which makes it impossible to assign value to one 
+design  over  another  and  equally  impossible  to  optimize  the  treatment  for  whichever  goal  is  sought,  either  acceleration  of 
+recovery or increase in reserves. 
+
+A better understanding of gas production and its decline trend in a shale gas well, in particular, regions with certain conditions 
+of  the  reservoir  characteristics,  will  give  a  better  insight  of  whether  the  DCA  model  used  is  appropriate.  More  in-depth 
+knowledge regarding the effects of factors controlling the behavior of the production decline can help us develop more reliable 
+models to forecast shale gas production, decline trend and ultimate recovery. In this study, a unified shale gas reservoir model 
+is used to investigate what factors control shale gas production and its decline trend in a systematic manner. The results of this 
+study provide us a comprehensive  understanding of the correlations  between  various factors and production decline trend in 
+hydraulic fractured, horizontal gas wells.  
+
+The  structure  of  this  article  is  as  follows.  First,  some  unique  characteristics  that  influence  shale  gas  production  and  decline 
+trend  are  reviewed  and  discussed.  Next,  a  unified  reservoir  model  is  used  to  predict  the  long-term  well  performance  of 
+hydraulically  fractured  wells  under  different  reservoir  in-situ  conditions.  Then,  the  simulation  results  are  analyzed  and 
+compared  to  examine  what  factors  mostly  control  shale  gas  production  and  decline  trend.  Finally,  conclusion  remarks  and 
+discussions are presented. The proposed mathematical framework for unified shale gas reservoir modeling, which incorporates 
+real gas transport, nano-flow mechanisms and geomechanics into fractured shale system, is presented in Appendix. 
+
+Shale Gas Production and Physical Mechanisms  
+In  this  section,  some  important  mechanisms  that  may  control  shale  gas  production  and  decline  trend  are  presented  and 
+discussed, those factors and their coupled effects on the overall horizontal gas well performance will be examined extensively 
+throughout this article. 
+
+Adsorption Gas  
+
+In shale gas reservoirs, gas can be stored as compressed fluid inside the pores or it can be adsorbed by the solid matrix. The 
+gas adsorption in  shale-gas system is primarily controlled by the presence of organic  matter and the gas adsorption capacity 
+depends on TOC (Total Organic Carbon), organic matter type, thermal maturity and clay minerals. Generally, the higher the 
+TOC content, the greater the gas adsorption capacity. In addition, a large number of nanopores lead to significant nanoporosity 
+in  shale  formations,  which  increases  the  gas  adsorption  surface  area  substantially  (Javadpour  et  al.  2007).  The  amount  of 
+adsorbed  gas  varies  from  35-58%  (Barnett  Shale,  USA)  up  to  60-85%  (Lewis  Shale,  USA)  of  total  gas  initial  in-place 
+
+(Darishchev  et  al.  2013).  Fig.  2  shows  laboratory  measurement  of  gas  adsorption  capacity  from  a  shale  sample  at  different 
+temperatures.  It  can  be  observed  that  the  reservoir  pressure  must  be  sufficiently  low  to  liberate  the  adsorbed  gas.  For 
+organically rich shales, the ultimately recoverable amount of gas is largely a function of the adsorbed gas that can be released 
+(desorbed). Because most adsorbed gas can only be released at low reservoir pressure, due to the extremely low permeability 
+of  shale  matrix,  even  with  hydraulic  fracturing,  there  is  still  significant  amount  of  residual  absorption  gas  that  cannot  be 
+produced, unless additional stimulation methods are used, such as thermal stimulation (Wang et al. 2014; Wang et al. 2015a; 
+Yue et al. 2015). Understanding the effects that initial adsorption, and moreover, desorption has on gas production and decline 
+trend will increase the effectiveness of reservoir management and economic evaluations.  
+
+ 
+)
+g
+/
+g
+m
+
+ 
+
+(
+ 
+y
+t
+i
+c
+a
+p
+a
+C
+n
+o
+i
+t
+p
+r
+o
+s
+d
+A
+ 
+s
+a
+G
+
+1.4
+
+1.2
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+Experiments at 45 °C
+Experiments at 65 °C
+Experiments at 85 °C
+Experiments at 105 °C
+
+0
+
+5000
+
+10000 15000 20000 25000 30000 35000
+
+Pressure (KPa)  
+
+ 
+
+Fig. 2  Gas adsorption capacity from Jiashiba Shale sample at different temperatures (Yue et al. 2015) 
+
+Matrix Apparent Permeability and Its Evolution 
+
+ 
+
+Darcy’s  equation,  which  models  pressure-driven  viscous  flow,  works  properly  for  reservoirs  where  continuum  theory  holds 
+and fluid velocity can be assumed to be zero at the pore wall (Sherman 1969). However, in shale reservoirs which have pore 
+throat  radii  in  the  range  of  nanometers,  fluid  continuum  theory  breaks  down  and  gas  molecules  follow  a  somewhat  random 
+path while still maintaining a general flow direction governed by the pressure gradient. Molecules strike against the pore walls 
+and tend to slip at pore walls instead of having zero velocity. In order to propose corrections for non-Darcy flow over different 
+flow regions in nanopore space, numerous authors (Civan 2010; Darabi et al. 2012; Fathi et al. 2012; Sakhaee-Pour and Bryant 
+2012;  Singh  et  al.  2014)  have  quantified  these  effects  by  modifying  the  slippage  factor   or  determining  the  apparent 
+permeability as a function of Knudsen number.  
+
+Even  though  numerous  theoretical  and  empirical  models  have  been  developed  for  apparent  permeability  enhancement  in 
+nanopore  structures,  to  account  for  the  effects  of  non-Darcy  flow/gas-slippage  behavior,  they  ignore  the  changes  in  pore 
+structure geometry induced by stress variations and the release of the adsorption gas layer during production. The assumption 
+of constant pore radius is valid under steady-state flow, however, within these ranges of ultralow permeability, transient and 
+pseudo-steady-state flow dominate the entire production life of shale formations. With constant decreasing pore pressure and 
+increasing  effective  stress,  the  formation  microstructure  will  be  affected.  Wang  and  Marongiu-Porcu  (2015)  presented  a 
+comprehensive  literature  review  on  the  evolution  of  matrix  permeability  during  pressure  depletion  and  proposed  a  unified 
+matrix permeability model which incorporates the mechanisms of non-Darcy flow/Gas-Slippage, the release of the adsorption 
+gas layer and geomechanical effects into a coherent global model, as shown in Fig.  3. Their works indicate that despite rock 
+compaction, the apparent permeability in shale matrix increases  during production due to the combined effects of  non-Darcy 
+flow/gas-slippage  and  release  of  the  adsorption  gas  layer.  The  evolution  of  matrix  permeability  as  reservoir  pore  pressure 
+declines can also make a difference in determining gas production rate. In this article, a more general formula for global shale 
+matrix permeability evolution is implemented in the model and will be presented in Appendix. 
+
+Fig. 3  Mechanisms that alter shale matrix apparent permeability during production (Wang and Marongiu-Porcu 2015) 
+
+Fracture Networks and Pressure/Stress-Dependent Conductivity 
+
+Many  field  experiments  demonstrated  that  a  propagating  hydraulic  fracture  encountering  natural  fractures  may  lead  to  the 
+
+ 
+
+arrest  of  fracture  propagation,  fluid  flow  into  natural  fracture,  the  creation  of  multiple  fractures  and  fracture  offsets.  Under 
+some specific stress conditions and the perturbations of hydraulic fracturing, the natural fractures may coalesce to form very 
+conductive, larger scale channels and completely change the formation rock flow properties. Now it is a well-known fact that 
+most  brittle  shale  formations  have  massive  pre-existing  natural  fracture  networks  that  are  generally  sealed  by  precipitated 
+materials  weakly  bonded  with  mineralization.  Such  poorly  sealed  natural  fractures  can  interact  heavily  with  the  hydraulic 
+fractures during the injection treatments, serving as preferential paths for the growth of complex fracture network (Cipolla et 
+al. 2011; Zakhour et al. 2015). However, the permeability/conductivity of the fracture networks (include both propped and un-
+propped  fractures)  is  a  function  of  confining  stress,  fluid  and  proppant  type  for  a  specific  reservoir  (Fredd  et  al.  2000; 
+Ghassemi  and  Suarez-Rivera  2012).  Laboratory  experiment  can  be  used  to  determine  the  expected  reduction  in  fracture 
+conductivity  caused  by  the  increasing  effective  stress  by  using  correlations  (Cho  et  al.  2013).  The  reduction  of  fracture 
+conductivity due to proppant/asperities crash or embedment, when fluid pressure declines in the fracture system, can strongly 
+influence the efficiency of the fracture networks and gas production rate.  
+
+Non-Stimulated Reservoir Volume  
+
+The interaction between pre-existing natural fractures and the advancing hydraulic fracture is a key issue leading to complex 
+fracture  patterns.  Large  populations  of  natural  fractures  are  sealed  by  precipitated  cement  which  is  weakly  bonded  with 
+mineralization  that  even  if  there  is  no  porosity  in  the  sealed  fractures,  they  may  still  serve  as  weak  paths  for  the  growing 
+hydraulic  fractures.  Even  if  the  proppant  material  cannot  reach  a  certain  branch  of  the  network,  or  even  if  the  branch  is  not 
+connected  to  the  perforations,  the  slippage  caused  residual  opening  or  some  other  type  of  “rock  failure”  provides  increased 
+flow capacity within its vicinity. The observations of fracture complexity have led to the introduction of Stimulated Reservoir 
+Volume  (SRV),  which  is  used  to  describe  the  shape  and  size  of  a  fracture  network  created  by  hydraulic  fracturing  in  low-
+permeability  reservoirs.  SRV  is  considered  as  an  important  parameter  for  well  performance  in  low  permeability  reservoirs 
+because  their  productivity  depends  primarily  on  enhanced  permeability  of  the  SRV  and  the  reservoir  area  contacted  by  the 
+SRV (Jackson et al. 2013; Palmer et al. 2014; Suliman et al. 2013). 
+
+When  the  fracture  spacing  design  is  not  optimized  (e.g.,  a  large  number  of  tightly  spaced  perforation  clusters  are 
+simultaneously  propagating  fractures),  the  stress  interference  may  prohibit  some  fractures  from  growing  (Shin  and  Sharma 
+2014). Field study (Minner et al. 2003) also indicates that 80% fracture volume created at the heel and toe of a horizontal well 
+and  only  20%  fracture  volume  created  at  the  mid-lateral,  due  to  poor  stimulation  design.  If  rock  property  is  heterogeneous 
+along the horizontal wellbore, fractures may only grow in brittle sections and leave the ductile sections unstimulated, because 
+lower pressure is needed to initiate and propagate in brittle rocks (Wang 2015; Wang 2016b; Wang et al. 2016). Sub-optimal 
+hydraulic fracture design and reservoir heterogeneity may lead to large reservoir volume unstimulated. The reservoir volumes, 
+that are not overlapped by SRV and remain its original flow capacity,  will be classified and investigated as Non-SRV in the 
+following sections. 
+
+Numerical Modeling and Base Case Simulation  
+
+In  order  to  investigate  the  impact  of  various  mechanisms  on  shale  gas  production  process,  a  unified  shale  gas  reservoir 
+simulator is developed. The fully coupled physical process implemented involves fluid flow within the formation matrix and 
+fractures,  shale  gas  adsorption  and  desorption,  real  gas  properties  and  in-situ  stress  that  changes  dynamically  during 
+production. This state of the art simulator enables us to investigate what factors have the most influential impact on the global 
+well  performance  and  ultimate  recovery  in  shale  gas  formations,  by  combining  real-gas  nano-flow  mechanisms  and 
+geomechanical  effects  in  fracture  systems.  For  easy  interpretation  and  generality  of  analysis,  wellbore  clean-up  process  will 
+not be modeled and discussed in this study.  
+
+Even  though  it  is  possible  to  simulate  a  complete  section  of  a  horizontal  well  with  multiple  transverse  fractures,  it  is  more 
+efficient to simulate a unit stimulated reservoir volume (SRV) and apply symmetric boundary conditions along the boundaries, 
+and then the total gas production from a horizontal well can be determined by adding the contributions from each SRV unit.  
+Fig. 4 shows the plane view of SRV unit with a hydraulic fracture that penetrates into the formation  from the horizontal well 
+bore  and  intercepts  by  abundant  natural  fractures  (the  red  line  depicts  horizontal  wellbore,  the  blue  line  and  the  randomly 
+distributed line segments represent the hydraulic fracture and natural fractures respectively).  Constant production pressure is 
+applied at the wellbore and no-flux conditions are applied at SRV boundaries. 
+
+Fig. 4  A plane view of SRV containing hydraulic fracture and natural fractures 
+
+ 
+
+ 
+
+In practice, the primary hydraulic fracture and secondary fracture networks within each SRV  unit, can be created statistically 
+by using seismic, well and core data (Ahmed et al. 2013; Cornette et al. 2012 ) and by matching hydraulic fracture propagation 
+models. Hydraulic fracture models that commonly used in industry relies on linear elastic fracture  mechanics (LEFM) (Johri 
+and Zoback  2013; Weng  2014), but it is only valid for brittle rocks (Wang et al. 2016), recent studies demonstrate that using 
+energy  based  cohesive  zone  model  can  resolve  the  issue  of  singularity  at  the  fracture  tip  and  these  cohesive  zone  based 
+hydraulic  fracture  models  not only can be used in both brittle and ductile  formations, but also can capture complex fracture 
+evolution, such as natural fracture interactions (Guo et al. 2015), fracture reorientation from different perforation angles (Wang 
+2015),  producing  well  interference  (Wang  2016a),  the  effects  of  fracturing  spacing  and  sequencing  on  fracture 
+interaction/coalescence  from  single  and  multiple  horizontal  wells  (Wang  2016b)  and  integrate  microseismic  data  with  non-
+planar  fracture  modeling  (Haddad  et  al.  2016).  Combine  hydraulic  fracture  modeling  and  microseismic  data,  the  spatial 
+distribution of fracture networks can be estimated or calibrated by various methods (Aimene and Ouenes, 2015; Huang et al. 
+2014;  Johri  and  Zoback  2013;  Yu  et  al.  2014).  And  the  properties  of  the  propped  fracture  and  un-propped  fracture  can  be 
+determined through conductivity test under various pressures and confining stresses (Fredd et al. 2000; Ghassemi and Suarez-
+Rivera  2012),  so  that  the  parameters  define  transport  capacity  of  fractures  can  be  determined  (e.g.,  fitting  Eq.A.8  with 
+laboratory data). With all these information, the spatial and intrinsic properties of DFNs can be estimated. How to map fracture 
+networks across different fracturing stages based on microseismic data/hydraulic  fracture modeling and fully characterize the 
+entire horizontal completion is beyond the  scope of this  article. Because  natural  fractures are formed  within  geological time 
+scale and the formation itself may have gone through multiple tectonic  events, the distribution and orientation of the natural 
+fractures  do  not  necessarily  relate  to  the  current  in-situ  stresses.  The  distribution  and  orientation  of  natural  fractures  are 
+randomly placed inside SRV in this study. We first specify the density of DFNs (how many DFNs we need in our given SRV), 
+then the center points of each DFN is arbitrarily generated in the SRV, and a random DFN orientation and DFN length (within 
+predefine  range)  are  assigned  to  each  center  point  to  generate  two  end  points  of  DFN,  connect  these  two  points  and  all  the 
+DFNs are created in the simulation domain. The final distribution of natural fractures is pictured in Fig. 4.  
+
+Table  1  shows  all  the  input  parameters  used  for  the  base  case  simulation,  which  includes  reservoir  conditions,  drainage 
+geometry, fracture conductivity, real gas properties, and gas adsorption parameters. All these input parameters are reasonably 
+designed to reflect a typical shale reservoir formation, where around 60% of initial gas-in-place comes from adsorbed gas, this 
+can be the case in many organic-rich shale formations (Darishchev et al., 2013). The impact adsorption gas on total material 
+balance  and  gas  production  will  be  examined  later.  For  the  base  case  simulation,  the  evolutions  of  matrix  and  fracture 
+permeability are disabled (matrix and fracture permeability maintain constant during production) and their effects on gas well 
+performance will be investigated separately the following sections.  
+ 
+
+Table 1      Input Parameters for Base Case Simulation 
+
+Input Parameters 
+
+Value 
+
+Initial reservoir pressure, 𝑝𝑖 
+Wellbore pressure, 𝑝𝑤𝑓 
+Initial matrix permeability, 𝑘𝑚0 
+Initial hydraulic fracture permeability, 𝑘𝑓0 
+Initial natural fracture permeability, 𝑘𝑛𝑓0 
+Initial matrix porosity, 𝜙𝑚0 
+Initial average pore throat radius, 𝑟0 
+Material constant for porosity change, C∅ 
+Hydraulic fracture porosity, 𝜙𝑓 
+Natural fracture porosity, 𝜙𝑛𝑓 
+Hydraulic fracture width, df 
+Natural fracture width, dnf 
+Fracturing spacing, Ye 
+Reservoir thickness, H 
+Drainage length parallel to the hydraulic fracture, 𝑋𝑒 
+Half fracture length, 𝑥𝑓 
+Total number of drainage units, 𝑛 
+Reservoir temperature, T 
+Density of formation rock, 𝜌𝑚 
+Langmuir volume constant, 𝑉𝐿 
+Langmuir pressure constant, 𝑃𝐿  
+Diameter of adsorption gas molecules, 𝑑𝑚 
+Average molecular weight, M 
+Critical temperature of mix gas,  𝑇𝑐 
+Critical pressure of mix gas, 𝑃𝑐 
+Horizontal minimum stress, 𝑆ℎ 
+Horizontal  maximum stress,  𝑆𝐻 
+
+35[MPa] 
+5[MPa] 
+100[nd] 
+104[md] 
+200[md] 
+0.01 
+5[nm] 
+0.035 
+0.5 
+0.01 
+0.01[m] 
+0.0001[m] 
+60[m] 
+20[m] 
+140[m] 
+80[m] 
+20 
+350[K] 
+2600 [kg /𝑚3] 
+0.0017[m3/kg] 
+10[MPa] 
+0.414[nm] 
+16.04[g/mol] 
+191 [K] 
+4.64[MPa] 
+40[MPa] 
+45[MPa] 
+
+Overburden stress, 𝑆𝑣 
+Biot’s constant, 𝛼 
+Young's modulus, E 
+Poisson's ratio, 𝜈 
+
+50[MPa] 
+1 
+25[GPa] 
+0.25 
+
+ 
+Fig. 5 shows the pressure distribution in the simulated SRV unit after 1 and 12 months of production. It can be observed that 
+the pressure  transient behavior has reached the boundary after  one  month of production,  owing to the existence of abundant 
+and  well-connected  conductive  fracture  networks,  and  pseudo-steady-state  flow  has  already  ensued  from  the  initial  transient 
+flow,  to  dominate  the  rest  of  the  production  history.  After  12  months  of  production,  most  of  the  area  that  penetrated  by  the 
+main hydraulic fracture has been well depleted due to the well-connected fracture system and effective linear flow from matrix 
+to fracture, but the area in front the main hydraulic fracture tip still remain largely untapped. 
+ 
+
+Fig. 5 Pressure distribution in the SRV after 1 and 12 months of production 
+
+ 
+
+ 
+Fig.  6  shows  the  gas  viscosity,  gas  density,  fraction  of  adsorption  gas  produced  and  mean  effective  stress  profiles  in  the 
+simulated  SRV  after  1  month  of  production,  all  of  which  are  time-space  dependent  as  pore  pressure  declines.  It  can  be 
+observed that gas viscosity and gas density are lower in the region that adjacent to the hydraulic fracture, where pore pressure 
+is also lower. And the highest mean effects stress also concentrates around the low-pressure zone. The lower the pore pressure, 
+the  higher  the  effective  stress.  It  can  be  further  noticed  that,  at  most,  around  53%  of  adsorption  gas  can  be  produced  in  the 
+region that close to hydraulic fracture surface with current operation conditions (i.e., 5 MPa wellbore pressure) and adsorption 
+gas  properties  (  determined  by  Langmuir  volume  and  pressure  constant).  This  implies  that  there  are  still  a  large  amount  of 
+residual  adsorption  gas  cannot  be  ever  recovered  no  matter  how  long  it  takes,  unless  lower  bottom-hole  pressure  or  other 
+stimulation methods are applied.   
+ 
+
+ 
+
+ 
+Fig. 6 The distribution of gas viscosity, gas density, fraction of adsorption gas produced and mean effective stress in the 
+
+SRV after 1 month of production  
+
+ 
+
+Fig.  7 shows pressure profile along the  hydraulic  fracture  after 1 and 12  months of production. The  hydraulic  fracture  half-
+length is 80  meters (on the  horizontal  axis, 0 and 80 represent the  wellbore and fracture tip, respectively). It is obvious that 
+pressure  drop  does  exist  along  the  fracture  length,  but  the  magnitude  of  pressure  loss  is  insignificant,  and  becomes  even 
+smaller as time goes on. This is due to the fact that the matrix permeability is extremely small and turbulence flow is unlikely 
+
+to  happen  under  such  low  level  of  flow  rate,  and  the  permeability  of  the  fracture  is  large  enough.  In  late  times,  when  the 
+pressure drop is even smaller along the fracture path, the hydraulic fracture can be viewed as infinite conductivity.  
+ 
+
+Fig. 7 Fluid pressure distribution along hydraulic fracture length 
+
+ 
+
+ 
+
+Fig. 8 shows the cumulative production and average monthly production rate. It clearly demonstrates that the  production rate 
+declines  dramatically  in  the  first  two  years,  and  becomes  more  stable  in  later  times.  Fig.  9  shows  the  monthly  production 
+decline rate and normalized production rate (monthly production rate divided by production rate for the first month). It can be 
+observed that the gas production rate declines at 20%-40% per month in the first a few months and the decline rate stabilizes 
+around 5% per month after 20 months of production. It can be also noticed that the monthly production rate declines 90% at 
+the end of the second year of production, which is a very typical scenario for unconventional reservoirs. 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+45%
+
+40%
+
+35%
+
+30%
+
+25%
+
+20%
+
+15%
+
+10%
+
+5%
+
+0%
+
+ 
+ 
+
+e
+t
+a
+R
+e
+n
+
+ 
+
+ 
+
+i
+l
+c
+e
+D
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+y
+l
+h
+t
+n
+o
+M
+
+ 
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+ 
+Cumulative Production
+
+Production Rate
+
+1.6
+
+1.4
+
+1.2
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 8 cumulative production and production rate 
+
+ 
+)
+h
+t
+n
+o
+m
+ 
+/
+3
+m
+n
+o
+
+ 
+
+i
+l
+l
+i
+
+m
+
+ 
+
+(
+ 
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+
+ 
+
+ 
+
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+0
+
+10
+
+20
+
+30
+
+40
+
+0
+
+10
+
+20
+
+30
+
+Production Time (month) 
+
+Production Time (month) 
+
+Fig. 9 Monthly production decline rate and normalized production rate 
+
+40
+
+ 
+
+Impact of Adsorption Gas 
+
+ 
+
+In  the  above  base  case  simulation,  around  60%  gas  initially  in  place  is  adsorption  gas.  In  the  section,  we  remove  all  the 
+adsorbed gas and leave only free gas in the porous medium, to examine its impact on gas production and decline trend. Fig. 10 
+shows the pressure distribution in the simulated SRV unit after 1 and 12 months of production. Compared with Fig. 5, where 
+adsorption gas is included, the results indicate that pressure declines more rapidly and a larger area in the simulated SRV can 
+
+be depleted with the same production time.  
+ 
+
+Fig. 10 Pressure distribution in the SRV after 1 and 12 months of production, without adsorption gas 
+
+ 
+
+ 
+Fig. 11 demonstrates that more gas can be produced when adsorption gas is included in the model, because there is much less 
+total initial gas in place if only consider free gas alone. Fig.  12  indicates that the existence of adsorption gas indeed reduces 
+production decline rate, especially in the early stages. This can be explained by the fact that the release of adsorption gas can 
+compensate pressure loss in the SRV to some degree, so more gas can be produced at the same pressure level. However, in the 
+later  stage,  the  impact  of  adsorption  gas  on  pressure  declines  becomes  less  obvious,  this  is  because  most  of  the  recoverable 
+adsorption gas have been produced as the overall pressure declines in the SRV, and the remaining adsorption gas contribute 
+much less portion of total gas produced, as the pressure declines further. It is contrary to the common belief that adsorption gas 
+becomes  important  only  when  the  average  pressure  in  the  reservoir  drops  to  a  certain  level  during  the  state  of  pseudo-state 
+flow.  In  fact,  adsorption  gas  has  more  impact  in  early  transient  flow  stages  when  the  desorbed  gas  continues  compensating 
+pressure  loss  inside  the  matrix  that  is  depleting  by  the  adjacent  low-pressure  sinks  (i.e.,  well-connected  fracture  networks). 
+Combine Fig.11 and Fig.12, we can conclude that adsorption gas has more impact on cumulative production (as governed by 
+Eq.A.2 and A3, from a material balance perspective) than it has on long-term production decline trend. 
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+With Adsorption Gas
+
+Without Adsorption Gas
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 12 Normalized production rate with and without adsorption gas 
+
+ 
+
+Impact of Matrix Permeability  
+
+Next, the impact of matrix permeability and its evolution during production are investigated.  First, the matrix permeability is 
+
+Fig. 11 Cumulative production with and without adsorption gas 
+
+ 
+
+With Adsorption Gas
+
+Without Adsorption Gas
+
+100%
+
+ 
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+
+ 
+ 
+
+d
+e
+z
+i
+l
+
+a
+m
+r
+o
+N
+
+90%
+
+80%
+
+70%
+
+60%
+
+50%
+
+40%
+
+30%
+
+20%
+
+10%
+
+0%
+
+0
+
+20
+
+40
+Production Time (month) 
+
+60
+
+80
+
+100
+
+120
+
+ 
+
+ 
+
+modified to be 10 nd and 500  nd from the base case simulation (matrix permeability is  100 nd).  Fig.  13  shows the pressure 
+profiles in the SRV after 1 month of production with different matrix permeability. It can be clearly noticed that when matri x 
+permeability is only 10 nd, pressure depletion is constrained to the close vicinity of fracture networks that  well-connected the 
+hydraulic  fracture.  However,  when  the  matrix  permeability  increases  to  500  nd,  the  hydraulic  fracture  becomes  the  main 
+pressure sink source and the role of natural fractures become less significant. 
+ 
+
+Fig. 13 Pressure distribution in the SRV after 1 month of production with different matrix permeability 
+
+ 
+
+ 
+As mentioned in the previous section, the apparent permeability in the matrix of shale gas formations can be altered by non-
+Darcy  flow,  gas  slippage,  the  release  of  adsorption  layer  and  rock  compaction  during  production.  A  unified  shale  matrix 
+permeability  model  (Eq.A.27)  that  encompasses  all  these  mechanisms  is  implemented  in  the  simulator.  When  the  matrix 
+permeability is allowed to evolve as pore pressure declines, the in-situ matrix permeability will be space and time dependent, 
+as opposed to maintaining its initial matrix permeability.  Fig.  14 shows the values of Knudsen Number and matrix apparent 
+permeability in the SRV after 1 month of production. The Knudsen number is a dimensionless parameter that can be used to 
+differentiate ﬂow regimes in conduits at micro and nanoscale, and Darcy’s law is only valid when Knudsen number is less than 
+10−3 (Knudsen 1909). The simulation results indicate that Knudsen Number increases as pore pressure declines, and the value 
+of Knudsen Number reveals that slip and transition flow regimes are most likely to be encountered. It can be also observed that 
+the matrix apparent permeability is the highest (around 227 nd) in the low-pressure zone region, while remaining the same as 
+initial matrix permeability (100 nd) in the region that has not been tapped by pressure depletion. The local matrix permeability 
+will evolve as pressure transient front edge continues to propagate: starting from areas that are close to pressure sink to the rest 
+of the SRV.  
+ 
+
+Fig. 14 Knudsen Number and matrix apparent permeability profiles in the SRV after 1 month of production, Km=100 nd 
+
+ 
+
+Fig.  15  shows  the  cumulative  production  of  different  matrix  permeability.  The  results  demonstrate  that  more  gas  can  be 
+produced  with  higher  matrix  permeability,  and  the  evolution  of  matrix  permeability  during  production  can  indeed  make  a 
+difference in gas production, due to the enhanced local matrix apparent permeability. Fig. 16 shows the normalized production 
+with different permeability. It indicates that, even though, higher matrix permeability contributes to higher production rate, it 
+also increases production decline rate. 
+
+ 
+
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+Matrix Permeability Km=10 nd
+Matrix Permeability Km=100 nd
+Matrix Permeability Km=100 nd with evolution
+Matrix Permeability Km=500 nd
+
+40
+Production Time (month) 
+
+60
+
+80
+
+100
+
+120
+
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+t
+i
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+100%
+
+90%
+
+80%
+
+70%
+
+60%
+
+50%
+
+40%
+
+30%
+
+20%
+
+10%
+
+0%
+
+ 
+
+Matrix Permeability Km=10 nd
+Matrix Permeability Km=100 nd
+Matrix Permeability Km=100 nd with evolution
+Matrix Permeability Km=500 nd
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+ 
+
+ 
+
+Fig. 15 Cumulative production with different matrix permeability 
+
+Fig. 16 Normalized production rate with different matrix permeability 
+
+ 
+
+It  seems  the  impact  of  matrix  permeability  evolution  during  production  has  limited  impact  on  overall  gas  production.  It  is 
+possible  that  with  abundant,  conductive  fracture  networks,  the  general  the  role  of  matrix  permeability  itself  is  diminished. 
+Next, all the natural fractures are removed from the simulation domain and the hydraulic fracture serves as the only conductive 
+path for gas flow. Fig. 17 and Fig. 18 show the cumulative production and normalized production rate with and without matrix 
+permeability  evolution.  The  results  demonstrate  that  matrix  permeability  evolution  has  a  more  pronounced  impact  on 
+cumulative production if fracture networks are not included, but it has a negligible impact on production decline trend.   
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+Hydraulic Fracture Only, Km=100 nd
+Hydraulic Fracture Only, Km=100 nd with evolution
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+ 
+
+Fig. 17 Cumulative production with and without matrix permeability evolution 
+
+ 
+
+*:1) This is uncorrected proof 
+   2) Citation Export: Wang, H. 2017. What Factors Control Shale Gas Production and Production Decline Trend in Fractured Systems: A 
+
+Comprehensive Analysis and Investigation. SPE Journal, Vol 22(02): 562-581. http://dx.doi.org/10.2118/179967-PA 
+
+ 
+
+100%
+
+Hydraulic Fracture Only, Km=100 nd
+Hydraulic Fracture Only, Km=100 nd with evolution
+
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+90%
+
+80%
+
+70%
+
+60%
+
+50%
+
+40%
+
+30%
+
+20%
+
+10%
+
+0%
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 18 Normalized production rate with and without matrix permeability evolution
+
+ 
+
+Impact of Non-SRV 
+
+As discussed earlier, sub-optimal completion design (stress interference) and reservoir heterogeneity (brittle and ductile rocks) 
+can  lead  to  unevenly  stimulated  reservoir  volume  along  the  horizontal  wellbore.  In  order  to  investigate  the  impact  of  Non-
+SRV,  where  the  pre-existing  natural  fractures  have  not  been  activated  by  the  stimulation  job,  the  simulation  domain  is 
+extended beyond the SRV regime, as shown in Fig. 19.  All the input parameters and boundary conditions remain the same as 
+the base case. 
+ 
+
+Fig. 19  A plane view of multiple transverse fractures and simulation domain that contain Non-SRV 
+
+ 
+
+ 
+
+Fig. 20 shows the pressure profiles in the simulated domain after 1 and 12 months of production. It can be observed that after 1 
+month  of  production,  the  front  edge  of  transient  flow  regime  has  reached  the  boundary  of  SRV,  and  after  12  months  of 
+production, most area within the SRV, that penetrated by the hydraulic fracture, has been well depleted. But the pressure in the 
+Non-SRV regime still remains relatively high. 
+ 
+
+ 
+Fig. 20 Pressure distribution in the simulation domain after 1 and 12 months of production with dense fracture networks 
+
+inside the SRV 
+
+ 
+Fig.  21  shows the impact of Non-SRV on cumulative production with different matrix permeability. The results  indicate the 
+
+matrix  permeability have a vital role in  determining the influence of Non-SRV. When  matrix permeability is high (e.g., 100 
+nd),  less  time  is  needed  to  observe  the  effects  of  Non-SRV  and  much  more  gas  can  be  produced  from  Non-SRV.  On  the 
+contrary, when matrix permeability is small (e.g., 10 nd), the effects of Non-SRV on gas production is restricted. The smaller 
+the matrix permeability, the lesser impact that Non-SRV has on production. The results also demonstrate the existence of Non-
+SRV amplifies the effects on matrix evolution. It should be mentioned that accumulative production assumed the same number 
+of unit production pattern. If the length of a horizontal well is fixed, larger fracture spacing, with the inclusion of Non-SRV, 
+shall have less production, due to less number of unit production pattern. 
+ 
+
+Matrix Permeability Km=10 nd
+Matrix Permeability Km=100 nd with evolution
+Matrix Permeability Km=100 nd, Non-SRV Included
+
+Matrix Permeability Km=100 nd
+Matrix Permeability Km=10 nd, Non-SRV Included
+Matrix Permeability Km=100 nd with evolution, Non-SRV Included
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+50
+
+45
+
+40
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 21 Cumulative production with and without Non-SRV under different matrix permeability 
+
+ 
+
+ 
+
+Fig.  22 shows the impact of Non-SRV on production decline with different matrix permeability. The results indicate that the 
+gas  production  decline  rate  can  be  mitigated  if  Non-SRV  exists.  And  the  matrix  permeability  plays  a  different  role  in 
+production decline trend, compared with the case where only SRV is considered: The higher the matrix permeability, the lower 
+the  decline  rate,  because  pressure  loss  in  the  SRV  can  be  compensated  more  quickly  by  the  surrounding  Non-SRV.  This  is 
+contradictory to the effect of matrix permeability on decline trend that is shown in Fig. 16, where only SRV is included. 
+ 
+ 
+
+Matrix Permeability Km=10 nd
+Matrix Permeability Km=100 nd with evolution
+Matrix Permeability Km=100 nd, Non-SRV Included
+
+Matrix Permeability Km=100 nd
+Matrix Permeability Km=10 nd, Non-SRV Included
+Matrix Permeability Km=100 nd with evolution, Non-SRV Included
+
+100%
+
+ 
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+90%
+
+80%
+
+70%
+
+60%
+
+50%
+
+40%
+
+30%
+
+20%
+
+10%
+
+0%
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 22 Normalized production rate with and without Non-SRV under different matrix permeability   
+
+ 
+
+ 
+Next, we investigate effects of the density of conductive natural fractures inside the SRV, by reducing the number of  natural 
+fractures from previous simulation case. Fig. 23 shows the pressure profiles in the simulated domain after 1 and 12 months of 
+production when the fracture network in the SRV is sparse.  Compared with Fig. 20, where the density of natural fractures is 
+much higher, fewer reservoir volumes are depleted during the same production period. 
+
+ 
+ 
+
+ 
+Fig. 23 Pressure distribution in the simulation domain after 1 and 12 months of production with sparse fracture networks 
+
+inside the SRV 
+
+ 
+
+Fig. 24 and Fig. 25 demonstrate the impact of fracture network density in the SRV on cumulative production and production 
+decline trend. No surprising that dense fracture networks lead to higher production rate and higher cumulative production, but 
+it also results in more rapid production decline rate.   
+ 
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+Dense Fracture Networks, Non-SRV Included
+Sparse Fracture Networks, Non-SRV Included
+
+0
+
+20
+
+40
+80
+Production Time (month) 
+
+60
+
+100
+
+120
+
+ 
+ 
+
+100%
+
+Dense Fracture Networks, Non-SRV Included
+Sparse Fracture Networks, Non-SRV Included
+
+90%
+
+80%
+
+70%
+
+60%
+
+50%
+
+40%
+
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+30%
+
+20%
+
+10%
+
+0%
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 25 Normalized production rate with Non-SRV under different density of natural fractures
+
+Fig. 24 Cumulative production with Non-SRV under different density of natural fractures 
+
+ 
+
+ 
+
+Impact of Fracture Networks  
+
+In this section, the role of natural fractures, their distribution and pressure/stress dependent conductivity on gas production and 
+production  decline  trend  will  be  extensively  examined.  Fig.  26  shows  the  relationships  between  fluid  pressure  and  fracture 
+permeability that will be implemented as pressure-dependent-permeability for fractures in the following simulation. As can be 
+seen, when the fluid pressure declines from initial pore pressure (35 MPa) to bottom-hole pressure (5MPa), the permeability of 
+hydraulic fracture reduced to 78% of its initial  value, while the permeability of natural fractures reduced to 10% of its  initial 
+value.  Ideally,  laboratory  experiment  should  be  used  to  determine  the  propped  and  un-propped  fracture  conductivity  as  a 
+function of effective stress (Fredd et al. 2000; Ghassemi  and Suarez-Rivera  2012), and in the reservoir, local effective stress 
+increases  as  pore  pressure  decreases  during  depletion.  For  the  purpose  of  simplicity  and  easy  interpret  results,  the  local 
+relationship between fracture conductivity and pore pressure is represented by the  relationship between fracture permeability 
+and pore pressure, by assuming the fracture width remains the same. Because fracture conductivity is the product of fracture 
+permeability  and  fracture  width,  shift  fracture  permeability  has  the  same  effect  as  shift  fracture  conductivity  on  simulation 
+results. In addition, the fracture storage effects have negligible impact on gas production, because the driving forces of primary 
+shale  gas  recovery  come  from  the  gas  volume  expansion  and  gas  desorption  with  declining  pressure.  The  conception  of 
+pressure-dependent-permeability  for  fractures,  can  sometimes  be  referred  to  as  pressure-dependent-conductivity,  stress-
+dependent-permeability  or  stress-dependent-conductivity  in  literature.  For  consistency,  the  term  “pressure-dependent-
+permeability (PDP)”, will be used throughout  this article, to represent the changes in  fracture conductivity as  local effective 
+stress increases and fluid pressure declines. 
+ 
+
+Hydraulic Fracture Permeability
+
+Natrual Fracture Permeability
+
+ 
+)
+d
+m
+
+(
+ 
+y
+t
+i
+l
+i
+
+ 
+
+b
+a
+e
+m
+r
+e
+P
+e
+r
+u
+t
+c
+a
+r
+F
+ 
+c
+i
+l
+
+u
+a
+r
+d
+y
+H
+
+10500
+
+10000
+
+9500
+
+9000
+
+8500
+
+8000
+
+7500
+
+7000
+
+0
+
+10
+
+20
+
+Fluid Pressure (MPa) 
+
+30
+
+250
+
+200
+
+150
+
+100
+
+50
+
+ 
+)
+d
+m
+
+(
+ 
+y
+t
+i
+l
+i
+
+ 
+
+b
+a
+e
+m
+r
+e
+P
+e
+r
+u
+t
+c
+a
+r
+F
+ 
+l
+
+a
+r
+u
+t
+a
+N
+
+0
+
+40
+
+Fig. 26 Pressure dependent fracture permeability 
+
+ 
+
+ 
+
+Fig.  27 shows the cumulative production under different scenarios. In order to have a  more comprehensive comparison, the 
+cases of a vertical well and no fracture networks are included. The “Dense Fracture Networks” represents the fracture network 
+topology  in  the  base  case  simulation  (as  shown  in  Fig.  5), while  the  “Sparse  Fracture  Networks”  represent  much  less  dense 
+fracture networks in the SRV (as shown in Fig. 23). The results indicate that the denser the fracture networks, the larger the 
+fracture  surface  area,  the  higher  the  gas  production.  The  pressure  dependent  fracture  permeability  indeed  reduced  the 
+production by impairing the efficiency of fracture conductivity on fluid transport. Fig. 28 shows the corresponding production 
+decline  trend.  Combined  with  Fig.  27,  it  can  be  concluded  that  even  though,  dense  fracture  networks  with  large  fracture 
+surface  area  lead  to  higher  absolute  production  rate  and  cumulative  production,  but  they  also  result  in  higher  production 
+decline rate. 
+ 
+
+*:1) This is uncorrected proof 
+   2) Citation Export: Wang, H. 2017. What Factors Control Shale Gas Production and Production Decline Trend in Fractured Systems: A 
+
+Comprehensive Analysis and Investigation. SPE Journal, Vol 22(02): 562-581. http://dx.doi.org/10.2118/179967-PA 
+
+ 
+
+Dense Fracture Networks
+Hydraulic Fracture Only
+
+Dense Fracture Networks with PDP
+Vertical Well
+
+Sparse Fracture Networks
+
+30
+
+25
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Fig. 27 Cumulative production under different scenarios, Km=100 nd 
+
+Production Time (month) 
+
+ 
+
+Dense Fracture Networks
+Hydraulic Fracture Only
+
+Dense Fracture Networks with PDP
+Vertical Well
+
+Sparse Fracture Networks
+
+ 
+
+120%
+
+100%
+
+ 
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+80%
+
+60%
+
+40%
+
+20%
+
+0%
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Fig. 28 Normalized production rate under different scenarios, Km=100 nd 
+
+Production Time (month) 
+
+ 
+
+ 
+
+Next,  the  matrix  permeability  is  reduced  to  10  nd,  Fig.  29  and  Fig.  30  shows  the  impact  of  matrix  permeability  on  gas 
+production and its decline trend in different scenarios. Compared with previous results, it can be observed that the existence of 
+fracture networks has more impact on gas production when matrix permeability is lower (i.e., the cumulative production in the 
+case of dense fracture networks is more than 2 times of that with sparse fracture networks when matrix permeability is 10 nd, 
+while the cumulative production in the case of dense fracture networks is only around a quarter more than that sparse fracture 
+networks  when  matrix  permeability  is  100  nd).  It  can be  also  noticed  that  regardless  of  matrix  permeability,  denser  fracture 
+networks and larger fracture surface area inside SRV always lead to higher production and higher decline rate over time.  
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+Dense Fracture Networks
+Hydraulic Fracture Only
+
+Dense Fracture Networks with PDP
+Vertical Well
+
+Sparse Fracture Networks
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Fig. 29 Cumulative production under different scenarios, Km=10 nd 
+
+Production Time (month) 
+
+ 
+
+Dense Fracture Networks
+Hydraulic Fracture Only
+
+Dense Fracture Networks with PDP
+Vertical Well
+
+Sparse Fracture Networks
+
+120%
+
+100%
+
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+80%
+
+60%
+
+40%
+
+20%
+
+0%
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Fig. 30 Normalized production rate under different scenarios, Km=10 nd 
+
+Production Time (month) 
+
+ 
+
+ 
+
+ 
+
+Previous study (Baihly et al. 2010) claims that the production decline trend in Barnett Shales is more gradual than other shale 
+plays, mainly because  the natural fracture set in Barnett Shales are more abundant, better connected and the conductivity is 
+less pressure dependent. However, our above analysis leads to opposite conclusions.  More adsorption gas and the inclusion of 
+Non-SRV  can  reduce  the  production  decline  rate,  but  a  higher  density  of  natural  fracture  networks  with  better  conductivity 
+always lead to steeper production decline trend. This can be explained by simple reasoning: with more natural fractures that 
+connected  to  the  hydraulic  fracture,  more  gas  can  be  produced  initially  due  to  more  reservoir  contact  area.  But  as  the  shale 
+matrix that  close to the  fracture surface depleted, it is  more difficult  to deplete the gas inside shale  matrix that at a distance 
+away  from  the  fracture  surface,  so  the  relative  production  rate  declines  more  rapidly  with  larger  fracture  surface  area  with 
+higher initial production rate. At the same time, higher production rate lead to sooner termination of transient flow inside SRV 
+and the ensued steady-steady, boundary dominated flow makes the production rate declines further. 
+
+It  is  intuitive  to  think  that  fracture  dependent  permeability/conductivity  reduce  overall  production  and  increase  production 
+decline rate.  Baihly et al. (2010) also reported that the Haynesville and Eagle Ford Shales have steeper decline rates because 
+of  the  degradation  of  fracture  network  conductivity  during  production.    However,  the  results  from  our  above  study  indicate 
+that  pressure  dependent  fracture  permeability  does  impair  the  overall  production,  but  it  actually  reduces  production  decline 
+rate,  regardless  of  matrix  permeability.  If  we  re-examine  Fig.  7,  it  can  be  noticed  that  the  pressure  drop  along  the  path  of 
+fracture is small and if the all the conductive fractures are well connected initially, once a low-pressure sink is imposed at the 
+wellbore or perforation tunnel, the pressure transient behavior can dissipate very quickly and the fluid pressure inside all the 
+well-connected  fracture  networks  drops  to  the  level  of  wellbore  pressure.  This  means  the  reduction  of  fracture  conductivity 
+(due  to  increased  effective  stress)  happens  once  production  starts,  instead  of  occurring  gradually  as  reservoir  pore  pressure 
+declines.  Fig. 31 shows the impact of pressure dependent fracture permeability on gas production in the first month, it is clear 
+that the reduction of fracture permeability reduces initial production rate. Even tough pressure dependent fracture permeability 
+
+reduces  production  decline  rate,  it  also  reduces  absolute  production  rate  at  the  very  beginning,  and  that  it  why  it  harms  the 
+overall cumulative production. 
+ 
+
+ 
+
+h
+t
+n
+o
+M
+
+ 
+r
+e
+P
+
+ 
+ 
+3
+
+m
+
+ 
+ 
+
+n
+o
+
+i
+l
+l
+i
+
+M
+
+1.6
+
+1.4
+
+1.2
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+Constant Fracture
+
+Pressure Dependent Fracture
+
+Constant Fracture
+
+Pressure Dependent Fracture
+
+Permeability, Km=100 nd
+
+Permeability, Km=100 nd
+
+Permeability, Km=10 nd
+
+Permeability, Km=10 nd
+
+Fig. 31 The impact of fracture PDP on the first-month production rate with dense fracture networks 
+
+ 
+
+ 
+
+It  seems  that  effects  of  fracture  PDP  on  production  decline  trend  contradict  common  beliefs  at  this  point.  Next,  the  natural 
+fractures in the SRV are re-organized, such that they are poorly connected and do not intercept by hydraulic fracture. Then the 
+low-pressure  sink  along  the  hydraulic  fracture  will  not  impact  the  conductivity  of  natural  fractures  at  the  beginning  of 
+production.  Fig.  32  shows  the  pressure  distribution  inside  SRV  after  1  and  12  months  of  production  with  poorly  connected 
+natural fractures. Compared with Fig. 5, where the fracture networks are well connected, the role of hydraulic fracture is more 
+dominant in the depletion process. 
+ 
+
+Fig. 32 Pressure distribution in the SRV after 1 and 12 months of production with poorly connected fracture networks 
+
+ 
+
+ 
+
+Fig. 33 and Fig. 34 show the impact of fracture connectivity and pressure dependent fracture permeability on gas production 
+and production decline. The results pressure dependent fracture permeability does impact gas production and  its decline trend 
+if the fracture networks are well connected, as analyzed above. However, if the fractures are sparsely distributed in the SRV 
+and not hydraulic coroneted to each other, it has negligible influence on well performance, if it has any at all. That’s why the 
+density of micro-seismic events generally do not correlate to production, because it does not reflect the connectivity of fracture 
+networks and only these stimulated fractures that well connected to the main fracture can enhance the overall flow capacity in 
+the SRV.   
+
+ 
+
+Fig. 33 Cumulative production with different fracture connectivity 
+
+ 
+
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+Well Connected  Fracture Networks
+Well Connected Fracture Networks with PDP
+Poorly Connected  Fracture Networks
+Poorly Connected  Fracture Networks with PDP
+
+40
+Production Time (month) 
+
+80
+
+60
+
+100
+
+120
+
+120%
+
+100%
+
+ 
+
+ 
+
+Well Connected Fracture Networks
+Well Connected Fracture Networks with PDP
+Poorly Connected Fracture Networks
+Poorly Connected Fracture Networks with PDP
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+80%
+
+60%
+
+40%
+
+20%
+
+0%
+
+0
+
+20
+
+40
+Production Time (month) 
+
+80
+
+60
+
+100
+
+120
+
+Fig. 34 Normalized production rate with different fracture connectivity 
+
+ 
+Here,  it  can  be  concluded  that  the  sharp  production  decline  trend  in  some  shale  plays  cannot  be  caused  purely  by  pressure 
+dependent  fracture  permeability/conductivity.  However,  it  is  possible  that  rock  creep  or  visco-elasto-plastic  behaviors  can 
+reduce  propped  or  un-propped  fracture  conductivity  over  time,  which  can  cause  steeper  decline  of  production  rate.  Even 
+though there are abundant literature on the changes of fracture permeability/conductivity as a function of pressure or confining 
+stress, the time-dependent reduction in fracture permeability/conductivity is still limited, hence, will not be discussed further in 
+this article. 
+ 
+Finally, the impact of initial reservoir pressure on the effects of  pressure-dependent permeability is investigated.  Fig.  35  and 
+Fig. 36 show the impact of initial reservoir pressure. The results demonstrate that lower initial reservoir pressure leads to lower 
+production and lower production decline rate. This is due to the fact that lower reservoir pressure result in less pressure drive 
+for gas  flow (under the same  bottom-hole pressure) and less initial gas in place (less gas exists in the  form of adsorption or 
+compressed  in  pore  space).  In  addition,  the  comparative  reduction  in  fracture  permeability  is  less  when  initial  reservoir 
+pressure  is  low  (i.e.,  percentage  of  reduction  in  fracture  permeability  is  lower  if  pressure  declines  from  20  MPa  to  5  M 
+Pa, instead of dropping from 35 MPa to 5 MPa, as reflected in Fig.26).  
+ 
+
+*:1) This is uncorrected proof 
+   2) Citation Export: Wang, H. 2017. What Factors Control Shale Gas Production and Production Decline Trend in Fractured Systems: A 
+
+Comprehensive Analysis and Investigation. SPE Journal, Vol 22(02): 562-581. http://dx.doi.org/10.2118/179967-PA 
+
+ 
+
+Fig. 35 Cumulative production with different initial reservoir pressure 
+
+ 
+
+ 
+
+ 
+)
+3
+
+ 
+
+m
+n
+o
+
+i
+l
+l
+i
+
+m
+
+(
+ 
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+e
+v
+i
+t
+a
+u
+m
+u
+C
+
+l
+
+ 
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+0
+
+20
+
+Fracture Networks with PDP, Pi=35 MPa
+Fracture Networks with PDP, Pi=20 MPa
+
+40
+
+60
+
+Production Time (month) 
+
+80
+
+100
+
+120
+
+ 
+
+ Fracture Networks with PDP, Pi=35 MPa
+ Fracture Networks with PDP, Pi=20 MPa
+
+120%
+
+100%
+
+ 
+
+ 
+
+e
+t
+a
+R
+n
+o
+i
+t
+c
+u
+d
+o
+r
+P
+d
+e
+z
+i
+l
+
+ 
+
+a
+m
+r
+o
+N
+
+80%
+
+60%
+
+40%
+
+20%
+
+0%
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Production Time (month) 
+
+Fig. 36 Normalized production rate with different initial reservoir pressure 
+
+ 
+Field Data Interpretation 
+
+Valkó and Lee (2010) compiled monthly incremental production from selected Barnett Shale well groups, as shown in Fig. 37. 
+The beginning of production from each  well group starts from July of 2004, 2005 and 2006, respectively. From the graph, it 
+can be observed that  wells that  are completed later, have  higher  initial production rate, but the  production rate also declines 
+faster. This can be explained by the fact that the improvement in technology and field operations makes well stimulation more 
+efficient over time. With  more hydraulic fracturing stages  and better hydraulic fracture design, denser fracture networks and 
+larger  fracture  surface  area  can  be  created,  thus  both  initial  production  and  production  decline  rate  increase,  which  concurs 
+well with above modeling results and analysis. Even though better stimulation design and larger effective fracture surface area 
+lead to steeper production decline trend, they do enhance long-term recovery because of much higher production rate for both 
+initial and later production stages. 
+ 
+
+ 
+
+Fig. 37 Average monthly production increment from Barnet Shale wells (modified from Valkó and Lee 2010)  
+
+ 
+
+*:1) This is uncorrected proof 
+   2) Citation Export: Wang, H. 2017. What Factors Control Shale Gas Production and Production Decline Trend in Fractured Systems: A 
+
+Comprehensive Analysis and Investigation. SPE Journal, Vol 22(02): 562-581. http://dx.doi.org/10.2118/179967-PA 
+
+ 
+
+ 
+Conclusions and Discussions 
+Predict  post-fracture  production  rate  and  its  decline  trend  in  shale  reservoirs  with  enough  certainty  is  crucial  for  ultimate 
+recovery  estimation  and  economic  decisions.  Decline  curve  analysis  is  commonly  used  to  determine  EUR  and  in-place 
+reserves are based on conventional reservoir performance assumptions. In unconventional reservoirs, these assumptions may 
+not be valid, or they may be valid only so late in the reservoir life as to be little useful. Depending on the size of SRV, matrix 
+permeability and the density, connectivity, conductivity of fracture networks, boundary dominated flow may not be apparent in 
+the  first  a  few  years,  making  traditional  decline  curve  analysis  ineffective.  In  addition,  empirical  models  for  decline  curve 
+analysis cannot be used to analyze what factors influence the production  and decline trend, which makes it difficult to guide 
+completion designs or optimize field development. 
+
+In this article, we first presented some possible mechanisms that may impact shale gas production and its decline trend. Then, 
+a proposed unified shale gas reservoir model, which is capable of modeling real gas transport and nano-flow mechanisms in 
+fractured  shale  systems,  is  used  to  investigate  what  factors  influence  gas  production  and  decline  trend  under  coupled, 
+multiphysics effects. The results of this study provide us a comprehensive understanding of the correlations between  various 
+factors and production in fractured shale gas wells. More in-depth knowledge regarding the effects of factors controlling the 
+behavior of gas  flow in  stimulated  wells can  help  us develop more reliable  models to  forecast shale  gas production, decline 
+trend and ultimate recovery. Conclusions reached from the analysis presented in this paper include 
+
+ 
+
+1.  The  existence  of  adsorption  gas  increases  overall  production  and  decreases  the  production  decline  rate.  However,  
+contrary to the common belief that adsorption gas becomes important only when the average pressure in the reservoir 
+drops  to  a  certain  level  during  boundary  dominated  flow,  the  adsorption  gas  plays  a  more  important  role  in  early 
+transient flow stages when the desorbed gas continues compensating pressure loss. And in the late time of pseudo-state 
+flow, the further release of residual adsorption gas has much less influence on gas production. 
+
+2.  Even  though  higher  matrix  permeability  contributes  to  higher  production  rate,  it  also  leads  to  steeper  production 
+decline trend in bounded SRV. And matrix permeability becomes less influential on gas production in the presence of 
+abundant, conductive fracture networks.  
+
+3.  The evolution of shale matrix apparent permeability during production can increase overall production, but has limited 
+impact  on  production  decline  trend.  If  dense,  well-connected  fracture  networks  dominate  the  overall  reservoir  flow 
+capacity, then the changes in matrix apparent permeability in nano-pores have a negligible impact on production and 
+decline trend. 
+
+4.  When SRV is surrounded by Non-SRV, production rate declines more gradually. The higher the matrix permeability, 
+the  lower  the  decline  rate,  because  pressure  loss  in  the  SRV  can  be  compensated  more  quickly  by  the  surrounding 
+Non-SRV 
+
+5.  The  density,  conductivity  and  connectivity  of  fracture  networks  have  dominant  impacts  on  gas  production  and  its 
+decline trend, especially when matrix permeability is low. Fracture networks with dense, highly conductive and well-
+connected fractures, always lead to higher production rate and more rapid production decline.  
+
+6. 
+
+It is a common misconception to think that the pressure (stress) dependent fracture permeability /conductivity reduce 
+overall  production  and  increase  production  decline  rate.  However,  this  study  reveals  that  the  pressure  dependent 
+fracture permeability does impair the overall production, but it actually reduce production decline rate, regardless of 
+matrix permeability. This is due to the  fact that the reduction of fracture conductivity  happens  soon after  production 
+start, instead of occurring gradually as reservoir pore pressure declines. 
+
+7. 
+
+If  the  fractures  are  sparsely  distributed  in  the  SRV  and  not  hydraulically  well  connected,  then  these  fractures  have 
+negligible influence on well performance, if it has any at all. So does their conductivity evolutions. 
+
+8.  The reason for much higher production decline rate in unconventional reservoirs than that in conventional reservoirs is 
+due  to  the  fact  that  more  reservoir  contact  area  that  contributes  to  production  in  unconventional  reservoirs.  If  gas  is 
+produced  from  a  single  vertical  well,  then  the  production  decline  trend  is  stable  and  gradual,  regardless  whether  the 
+reservoir  itself  is  unconventional  or  not.  So  to  maintain  the  overall  production  output  in  unconventional  reservoir 
+fields, new wells have to be drilled and completed at a much faster pace to compensate high production decline rate. 
+
+In  general,  more  adsorption  gas  and  the  existence  of  Non-SRV  can  reduce  the  production  decline  rate,  and  denser,  more 
+conductive, better-connected fracture networks, with larger effective fracture surface areas in the SRV, always lead to higher 
+production  rate  and  steeper  production  decline  trend.  Once  the  drawdown  begins,  the  increase  of  effective  stress  around 
+conductive  fractures  result  in  degradation  of  fracture  (propped  and  un-propped)  conductivity,  which  decreases  initial 
+production  rate,  but  also  reduces  production  decline  rate.  So  the  reason  for  the  cases  of  steep  production  decline  in  some 
+ductile  formations,  such  as  Haynesville  and  Eagle  Ford  Shale,  cannot  be  explained  by  lower  matrix  permeability,  less 
+abundant natural fractures or pressure (stress) dependent fracture permeability/conductivity. The possible mechanism of rapid 
+production  decline  trend  in  ductile  shale  plays  may  result  from  rock  creep  and  visco-elasto-plastic  behaviors  that  reduce 
+fracture  conductivity  over  time  (e.g.,  gradual  embedment  of  proppant),  instead  of  response  to  the  increase  of  effects  stress 
+
+promptly. Quantitative characterization of the visco-elasto-plastic and ductility of tight shale reservoirs using indicators, such 
+as rock mechanic properties, clay content/ maturation and organic content, is important to evaluate long-term production. Even 
+though  numerous  literature  have  discussed  the  pressure  (stress)  dependent  fracture  permeability/conductivity,  our 
+understanding of the coupled physical process in  time-dependent rock deformation and its effects on fracture conductivity is 
+still limited, and more research efforts in this area are certainly needed.  
+
+ 
+
+Acknowledgement 
+The author likes to express his sincere gratitude to Dr. Michael J. Economides, for his generous support and valuable guidance 
+during the early stage of  model development.  Also thanks to the  editors and several anonymous reviewers,  whose  insightful 
+comments and suggestions significantly improved the quality and readability of this article. 
+
+ 
+
+Appendix 
+Formulations of Real Gas Transport and Nano-Flow Mechanisms in Fractured Shales 
+In  this  section,  the  mathematical  formulas  that  implemented  in  our  unified  shale  gas  reservoir  simulator  for  modeling  and 
+simulating  gas  production  in  fractured  shale  systems  are  presented  and  discussed.  The  fully  coupled  process  in  shale  gas 
+reservoirs  involves  fluid  flow  within  the  formation  matrix  and  fractures,  shale  gas  adsorption  and  desorption,  real  gas 
+properties  and  in-situ  stress  that  affected  by  local  pressure.  The  mathematical  framework  for  developing  shale  gas  reservoir 
+models presented here enables us to investigate the interactions among multi-physics phenomena in shale gas formations and 
+examine their implications  for flow in  nano-porous medium, global  well performance, production decline trend and  ultimate 
+recovery.  All  the  equations  presented  in  this  section  do  not  have  any  unit  conversion  parameters,  any  unit  system  can  be 
+applied (e.g., SI unit or Oil Field unit) as long as they are consistent. 
+ 
+Fluid Flow and Material Balance in Shale Matrix and Fractures 
+
+Darcy’s law with apparent permeability correction is used to model the gas flow rate within the shale matrix: 
+ 
+
+𝒒𝑔 = −
+
+𝐤a
+𝜇𝑔
+
+∙ ∇𝑃                                                                                           (A. 1) 
+
+ 
+where 𝒒𝑔 is the gas velocity vector, 𝜇𝑔 is the gas viscosity, 𝑃 is reservoir pressure and 𝒌𝑎 is the matrix apparent permeability 
+vector,  which is pressure and temperature dependent. For isotropic and homogenous formations, 𝒌𝑎 can be treated as  scalar. 
+The continuity equation within shale gas formation can be written as: 
+ 
+
+𝜕𝑚
+𝜕𝑡
+
++ ∇ ∙ (𝜌𝑔𝒒𝑔) = 𝑄𝑚                                                                                 (A. 2) 
+
+ 
+where 𝑚 is the gas mass content per unit volume, 𝜌𝑔 is gas density, 𝑄𝑚 is the source term and 𝑡 is the generic time. The gas 
+mass content 𝑚 is obtained from two contributions: 
+
+𝑚 = 𝜌𝑔𝜙𝑚 + 𝑚𝑎                                                                                        (A. 3) 
+
+ 
+𝜙𝑚 is  matrix  porosity  and 𝜌𝑔𝜙𝑚 is  the  free  gas  mass  in  the  shale  pore  space  per  unit  volume  of  formation,  while 𝑚𝑎 is  the 
+adsorbed gas mass per unit volume of formation, which can be determined from the Langmuir isotherm (Langmuir, 1916): 
+ 
+
+𝑚𝑎 = 𝜌𝑚𝜌𝑔𝑠𝑡𝑉𝐿
+
+𝑃
+
+𝑃 + 𝑃𝐿
+
+                                                                                 (A. 4) 
+
+ 
+where 𝜌𝑚 is  the  shale  matrix  density, 𝜌𝑔𝑠𝑡  is  the  gas  density  at  standard  conditions, 𝑉𝐿  is  the  Langmuir  volume  and 𝑃𝐿  is 
+Langmuir pressure.  Combine Eq.(A.3) and Eq.(A.4), we can estimate the percentage of initial adsorption gas in-place: 
+  
+
+Percentage of initial adsorption gas in place =
+
+𝜌𝑚𝜌𝑔𝑠𝑡𝑉𝐿𝑃𝑖
+
+𝜌𝑔0𝜙𝑚0(𝑃𝑖 + 𝑃𝐿) + 𝜌𝑚𝜌𝑔𝑠𝑡𝑉𝐿𝑃𝑖
+
+× 100%                          (A. 5) 
+
+ 
+where 𝑃𝑖 is initial reservoir pressure, 𝜌𝑔0 and 𝜙𝑚0 are gas density and matrix porosity at initial reservoir conditions.  From Eq. 
+(A.4), we can also estimate how much adsorption gas has been produced locally as pressure declines: 
+ 
+
+Percentage of initial adsorption gas produced =
+
+𝑃𝑖
+
+𝑃𝑖 + 𝑃𝐿
+
+−
+
+𝑃
+
+𝑃 + 𝑃𝐿
+
+𝑃𝑖
+
+𝑃𝑖 + 𝑃𝐿
+
+× 100%                                     (A. 6) 
+
+ 
+Discrete  Fracture  Network  (DFN)  with  tangential  derivatives  can  be  used  to  define  the  flow  along  the  interior  boundary 
+representing fractures within the porous medium. Flow behavior inside fracture is governed by: 
+ 
+
+𝒒𝑓 = −
+
+𝒌𝑓
+𝜇𝑔
+
+∙ 𝑑𝑓∇𝑇𝑃                                                                                        (A. 7) 
+
+ 
+where 𝐪𝐟 is  the  gas  volumetric  flow  rate  vector  per  unit  length  in  the  fracture, 𝐤𝐟 is  the  fracture  permeability  tensor, 𝑑𝑓 is 
+fracture width and ∇TP is the pressure gradient tangent to the fracture surface. The expected reduction in fracture permeability 
+caused by  the  increasing effective  stress during production is can be described by power law relationship (Cho et al.  2013), 
+here, we can use the following correlation: 
+ 
+
+𝑘𝑓 = 𝑘𝑓,𝑖𝑒−B𝜎𝑚                                                                                      (A. 8) 
+
+ 
+where 𝑘𝑓 is the fracture permeability, 𝑘𝑓,𝑖 is the fracture permeability at initial reservoir conditions, B is a fracture compaction 
+parameter that can be determined from  experimental data, and 𝜎𝑚 is the mean effective stress, which is the mean total stress 
+minus pore pressure. In our presented cases, the relationship between fracture permeability and local pore pressure is reflected 
+in Fig.26. It assumes the fact that the conductivity of natural fracture is much smaller than that of hydraulic fracture and it is 
+more sensitive to pressure/stress changes. 
+ 
+The continuity equation along the fracture reflects the generic material balance within the fracture: 
+ 
+
+𝑑𝑓
+
+𝜕𝜙𝑓𝜌𝑔
+
+𝜕𝑡
+
++ ∇𝑇 ∙ (𝜌𝑔𝒒𝑓) = 𝑑𝑓𝑄𝑓                                                                             (A. 9) 
+
+ 
+where 𝜙f is the fracture porosity, and Qf is the mass source term, which can be calculated by adding the mass flow rate per unit 
+volume from two fracture walls (left and right): 
+ 
+
+𝑓
+
+𝑓 + 𝑄𝑟𝑖𝑔ℎ𝑡
+𝑄𝑓 = 𝑄𝑙𝑒𝑓𝑡
+𝒌𝑎
+𝑓 = −
+𝜇𝑔
+𝒌𝑎
+𝜇𝑔
+
+𝜕𝑃𝑙𝑒𝑓𝑡
+𝜕𝒏𝒍𝑒𝑓𝑡
+𝜕𝑃𝑟𝑖𝑔ℎ𝑡
+𝜕𝒏𝒓𝒊𝒈𝒉𝒕
+
+= −
+
+𝑄𝑙𝑒𝑓𝑡
+
+𝑓
+
+𝑄𝑟𝑖𝑔ℎ𝑡
+
+                                                                            (A. 10 − 𝑎) 
+
+                                                                                (A. 10 − 𝑏) 
+
+                                                                              (A. 10 − 𝑐) 
+
+ 
+where 𝒏 is the vector perpendicular to fracture surface.  
+ 
+Real Gas Properties and Rock-Fluid Coupling 
+
+The in-situ gas density is calculated according to the real gas law: 
+ 
+
+𝜌𝑔 =
+
+𝑃𝑀
+𝑍𝑅𝑇
+
+                                                                                              (A. 11) 
+
+ 
+T is the reservoir temperature, M is the gas average molecular weight and R is the universal gas constant. The Z-factor can be 
+estimated by solving Equation of State (EOS) or using correlations for the gas mixtures. In this study, the Z-factor is calculated 
+using an explicit correlation (Mahmoud, 2013) based on the pseudo-reduced pressure (ppr) and pseudo-reduced temperature 
+(Tpr): 
+ 
+
+𝑍 = (0.702𝑒−2.5𝑇𝑝𝑟)(𝑝𝑝𝑟
+
+2) − (5.524𝑒−2.5𝑇𝑝𝑟)(𝑃𝑝𝑟) + (0.044𝑇𝑝𝑟
+
+2 − 0.164𝑇𝑝𝑟 + 1.15)                    (A. 12) 
+
+ 
+The  advantage  of  using  explicit  correlation  is  to  avoid  solving  higher  order  equations  respect  to  Z-factor,  which  leads  to 
+multiple solutions and increases computation efforts. 
+ 
+Gas  viscosity  is  an  intrinsic  property  of  gas  itself,  which  can  be  determined  based  on  its  compositions,  pressure  and 
+temperature. Lee et al. Correlation (1966) is used to estimate the gas viscosity:  
+ 
+
+𝜇𝑔 = 10−4𝐾𝑒 𝑋𝜌𝑔
+
+𝑌
+
+                                                                                  (A. 13 − a) 
+
+ 
+and 
+
+𝐾 =
+
+                                                                   (A. 13 − b) 
+
+(9.379 + 0.01607𝑀)𝑇1.5
+
+209.2 + 19.26𝑀 + 𝑇
+
+986.4
+
+𝑇
+
+𝑋 = 3.448 + (
+
+) + 0.01009𝑀                                                           (A. 13 − c) 
+
+𝑌 = 2.447 − 0.2224𝑋                                                                                   (A. 13 − d) 
+
+ 
+The porous medium is assumed to be perfectly elastic so that no plastic deformation occurs. The constitutive equation can be 
+expressed in terms of effective stress ( 𝜎𝑖𝑗, ), strain ( 𝜀𝑖𝑗 ), and pore pressure (P): 
+ 
+
+𝜎𝑖𝑗 = 2G𝜀𝑖𝑗 +
+
+2G𝜈
+
+1 − 2𝜈
+
+𝜀𝑘𝑘𝛿𝑖,𝑗 − 𝛼𝑃𝛿𝑖,𝑗                                                                     (A. 14) 
+
+ 
+where G is the shear modulus, 𝜈 is the Poisson’s ratio, 𝜀𝑘𝑘 represents the volumetric strain, 𝛿𝑖,𝑗 is the Kronecker delta defined 
+as 1 for 𝑖 = 𝑗 and 0 for 𝑖 ≠ 𝑗, and 𝛼  is the Biot’s effective stress coefficient. The strain-displacement relationship and equation 
+of equilibrium are defined as: 
+ 
+
+1
+
+𝜀𝑖𝑗 =
+(𝑢𝑖,𝑗 + 𝑢𝑗,𝑖)                                                                                      (A. 15)  
+𝜎𝑖𝑗,𝑗 + 𝐹𝑖 = 0                                                                                               (A. 16) 
+
+2
+
+ 
+where 𝑢𝑖 and 𝐹𝑖 are the components of displacement and net body force in the  i-direction. Combining Eq. (A.14)–(A.16), we 
+have a modified Navier equation in terms of displacement under a combination of applied stress and pore pressure variations: 
+
+𝐺∇𝑢𝑖 +
+
+𝐺
+
+1 − 2𝜈
+
+𝑢𝑗,𝑖𝑖 − 𝛼𝑃𝛿𝑖,𝑗 + 𝐹𝑖 = 0                                                                   (A. 17) 
+
+ 
+Shale Gas Apparent Permeability Correction 
+
+Darcy’s  law  cannot  describe  the  actual  gas  behavior  and  transport  phenomena  in  nano-porous  media.  In  such  nano-pore 
+structure, fluid flow departs from the well-understood continuum regime, in favor of other mechanisms such as slip, transition, 
+and  free  molecular  conditions.  The  Knudsen  number  (Knudsen,  1909)  is  a  dimensionless  parameter  that  can  be  used  to 
+differentiate ﬂow regimes in conduits at micro and nanoscale, for conduit with radius r, it can be estimated by 
+ 
+
+𝐾𝑛 =
+
+𝜇𝑔𝑍
+𝑃𝑟
+
+√
+
+𝜋𝑅𝑇
+2𝑀
+
+                                                                                           (A. 18)  
+
+ 
+Table 1 shows how these different flow regimes, which correspond to specific flow mechanisms, can be classified by different 
+ranges of 𝐾𝑛.  
+ 
+
+𝐾𝑛 
+
+0 − 10−3 
+Flow Regime  Continuum 
+
+10−3 − 10−1 
+
+Slip 
+
+10−1 − 101 
+Transition 
+
+> 101 
+
+Free Molecular 
+
+ 
+
+                                    Table 1. Fluid Flow Regimes Defined by Ranges of 𝑲𝒏 (Roy et al. 2003) 
+ 
+The apparent permeability of shale matrix can be represented by the following general form: 
+ 
+
+𝑘𝑎 = 𝑘∞ 𝑓(𝐾𝑛)                                                                                                  (A. 19) 
+
+ 
+where 𝑘∞ is the intrinsic permeability of the porous medium, which is defined as the permeability for  a viscous, non-reacting 
+ideal liquid, and it is determined by the nano-pore structure of porous medium itself. 𝑓(𝐾𝑛) is the correlation term that relates 
+the matrix apparent permeability and intrinsic permeability. Sakhaee-Pour and Bryant (2012) developed correlations which are 
+based  lab  experiments.  They  proposed  a  first-order  permeability  model  in  the  slip  regime  and  a  polynomial  form  for  the 
+permeability enhancement in the transition regime using regression method: 
+ 
+
+𝑓(𝐾𝑛) = {
+
+   1 + 𝛼1𝐾𝑛                                                       Slip Regime 
+
+0.8453 + 5.4576𝐾𝑛 + 0.1633𝐾𝑛
+
+2         Transition Regime  0.1  <   𝐾𝑛   <  0.8
+
+           (A. 20) 
+
+ 
+
+where 𝛼1 is  permeability  enhancement  coefficient  in  slip  regime.  To  ensure  the  approximation  of  continuity  of 𝑓(𝐾𝑛) at  the 
+boundary region of slip and transition regime, where no existing model available, 𝛼1 is set to be 4.  Intuitively, Eqs. (A.18) and 
+(A.20) predict net increases of 𝐾𝑛 and 𝑓(𝐾𝑛) with decreasing pore pressure, respectively. However, decreasing pore pressure 
+can also lead to reduction in pore radii and, in turn, reduce the intrinsic permeability 𝑘∞. It can be seen from Eq. (A.19) that 
+
+the  evolution  of  matrix  apparent  permeability 𝑘𝑎 is  determined  by  two  combined  mechanisms  (i.e.,  the  variations  in 𝑘∞ and 
+𝑓(𝐾𝑛) during production).  
+ 
+Even  though  numerous  studies  (Lunati  and  Lee  2014;  Sigal  and  Qin  2008;  Shabro  et  al.  2012)  have  developed  various 
+theoretical  models  to  account  for  the  effects  of  gas  diffusion  in  kerogen  in  permeability  enhancement,  but  how  to  quantify 
+these effects in complex, heterogeneous shale systems are still not well understood within scientific and industry community. 
+In  addition,  all  these  proposed  models  do  not  account  for  the  dynamic  changes  of  stress  and  adsorption  layer  as  pressure 
+declines (as reflected in Fig.3) in a fractured system, which can significantly overestimate the effects of molecule diffusion on 
+gas  production.  Recent  study  (Wang  et  al  2015b)  also  reveals  that  under  most  real  shale-gas-reservoir  conditions,  gas 
+adsorption and the non-Darcy flow are dominant mechanisms in affecting apparent permeability, while the effects of surface 
+diffusion caused by adsorbed gas can be largely overlooked. So in this article, molecule diffusion will not be discussed in the 
+following derivations for matrix apparent permeability. 
+ 
+Wang and Marongiu-Porcu (2015) conducted a comprehensive literature review on gas flow behavior in shale nano-pore space 
+and proposed a unified matrix apparent permeability model, which bridges the effects of geomechanics, non-Darcy flow and 
+gas  adsorption  layer  into  a  single  mode,  by  considering  the  microstructure  changes  in  nano-pore  space.  In  a  general  porous 
+media, the loss in cross-section area is equivalent to the loss of porosity,  
+ 
+
+𝜙
+
+𝜙0
+
+=
+
+𝑟2
+2                                                                                                    (A. 21) 
+𝑟0
+
+ 
+where variables with a subscript 0 correspond to their value at the reference state, which can be laboratory or initial reservoir 
+conditions. Laboratory measurements by Dong  et al. (2010) show that the relationship between porosity and stress follows a 
+power  law  relationship,  and  can  be  expressed  using  the  concept  of  mean  effective  stress 𝜎𝑚 (Wang  and  Marongiu-Porcu 
+2015): 
+ 
+
+𝜙 = 𝜙0 (
+
+𝜎𝑚
+𝜎𝑚0
+
+−𝐶∅
+)
+
+                                                                                         (A. 22) 
+
+ 
+𝐶∅ is a dimensionless material-specific constant that can be determined by lab experiments. For silty-shale samples, the values 
+of 𝐶∅ range from 0.014 to 0.056 (Dong et al., 2010). Combining Eq. (A. 21) and Eq. (A. 22) leads to the relationship between 
+pore radius and local stress 
+ 
+
+r = 𝑟0 (
+
+𝜎𝑚
+𝜎𝑚0
+
+−0.5𝐶∅
+)
+
+                                                                                    (A. 23) 
+
+ 
+When the adsorption layer is considered, the thickness of the gas adsorption layer, δ , can be interpolated based on a Langmuir 
+type functional relationship: 
+ 
+
+δ = 𝑑𝑚
+
+𝑃/𝑃𝐿
+
+1 + 𝑃/𝑃𝐿
+
+                                                                                           (A. 24) 
+
+ 
+where 𝑑𝑚 is the average diameter of gas molecules residing on the pore surface. And the effective pore radius (A. 23) can be 
+modified as: 
+ 
+
+r = 𝑟0 (
+
+𝜎𝑚
+𝜎𝑚0
+
+−0.5𝐶∅
+)
+
+− 𝑑𝑚
+
+𝑃/𝑃𝐿
+
+1 + 𝑃/𝑃𝐿
+
+                                                                               (A. 25) 
+
+ 
+The relationship between intrinsic permeability and pore radius can have the following relationship 
+ 
+
+𝑘∞
+𝑘∞0
+
+= (
+
+𝑟
+𝑟0
+
+)𝛽                                                                                               (A. 26) 
+
+ 
+where 𝛽 is the coefficient that define the sensitivity of permeability to the changes of pore radius. Different shale formations 
+may have different nano-pore structure typology, which leads to different values of 𝛽. In this study,  𝛽 equals 2 by assuming 
+the overall all intrinsic permeability resembles fluid flow in a capillary tube (Beskok and Karniadakis 1999).  Combining Eq. 
+(A. 25), Eq. (A. 26) and Eq. (A. 19), we have the final expression of matrix apparent permeability: 
+ 
+
+𝑘𝑎 = 𝑘∞0
+
+−0.5𝐶∅
+
+(𝑟0 (
+
+𝜎𝑚
+𝜎𝑚0
+
+)
+
+− 𝑑𝑚
+
+𝑃/𝑃𝐿
+
+1 + 𝑃/𝑃𝐿
+
+)𝛽
+
+𝛽
+𝑟0
+
+ 𝑓(𝐾𝑛)                                                      (A. 27) 
+
+ 
+Compared  with  the  apparent  matrix  permeability  model  proposed  by  Wang  and  Marongiu-Porcu  (2015),  Eq.  (A.27)  is  a 
+general formula for shale matrix apparent permeability, with additional parameter 𝛃 to relate the changes in pore radius to the 
+alterations in intrinsic permeability.  
+Based on the formulations introduced above, a unified shale gas reservoir simulator was constructed, with embedded discrete 
+fracture networks and unstructured meshes. Newton-Raphson method (Ypma, 1995) and finite element analysis (Zienkiewicz 
+and  Taylor,  2005)  are  used  to  solve  all  the  coupled  equations  numerically.  The  overall  flow  capacity  inside  the  stimulated 
+reservoir volume is controlled by both matrix apparent permeability and the properties (density, connectivity and conductivity) 
+of discrete fracture network. 
+
+ 
+
+Nomenclature 
+𝐵
+ 
+𝐶∅ 
+𝑑𝑓 
+𝑑𝑚 
+𝐸
+ 
+𝑓(𝐾𝑛)  
+𝐹𝑖 
+ 
+𝐺
+ 
+𝑘𝑎 
+𝒌𝒂 
+𝑘𝑓 
+𝒌𝒇 
+𝑘𝑓,𝑖 
+ 
+𝑘∞ 
+ 
+𝑘∞0 
+ 
+𝐾𝑛 
+𝑚
+ 
+𝑚𝑎𝑑  
+𝑀
+ 
+𝒏
+ 
+𝑃
+ 
+𝑃𝐿 
+𝑃𝑝𝑟 
+𝒒𝒇 
+𝒒𝒈 
+𝑄𝑓 
+𝑄𝑚 
+𝑟
+ 
+𝑟0 
+𝑅
+ 
+𝑇
+ 
+𝑇𝑝𝑟 
+𝑢𝑖,𝑗  
+𝑉𝐿 
+𝑍
+ 
+𝛼  
+ 
+𝛼1  
+𝛽  
+ 
+𝛿
+ 
+𝛿𝑖,𝑗 
+𝜀𝑖𝑗 
+𝜀𝑘𝑘 
+𝜇𝑔 
+𝜈
+ 
+𝜌𝑔 
+
+= Parameter for fracture pressure dependent permeability, L𝑡2/ m, 1/𝑃𝑎 
+= Material constant for pressure dependent porosity 
+= Fracture width, L, 𝑚 
+= Diameter of absorbed gas molecules, L, 𝑚 
+= Young’s modulus, m/L𝑡2,  𝑃𝑎 
+= Non-Darcy flow correction term 
+= Net body force along i direction, m/L𝑡2, 𝑃𝑎 
+= Shear modulus, m/L𝑡2,  𝑃𝑎 
+= Apparent gas permeability, 𝐿2, 𝑚2 
+= Gas apparent permeability tensor, 𝐿2, 𝑚2 
+= Fracture permeability, 𝐿2, 𝑚2 
+= Fracture permeability tensor, 𝐿2, 𝑚2 
+= Fracture permeability at initial reservoir conditions, 𝐿2, 𝑚2 
+= Matrix intrinsic permeability, 𝐿2, 𝑚2 
+= Matrix intrinsic permeability at reference conditions, 𝐿2, 𝑚2 
+= Knudsen number 
+= Total gas content, m/𝐿3, 𝑘𝑔/𝑚3 
+= Gas adsorption mass per unit volume, m/𝐿3, 𝑘𝑔/𝑚3 
+= Molecular weight, m/n, 𝑘𝑔/mol 
+= Normal vector to fracture surface 
+= Reservoir pressure, m/L𝑡2, 𝑃𝑎 
+= Langmuir pressure, m/L𝑡2, 𝑃𝑎 
+= Pseudo-reduced pressure 
+= Flow rate vector in the fracture per unit length, 𝐿2/t, 𝑚3/𝑠/𝑚 
+= Velocity vector of gas phase, L/t, 𝑚/s 
+= Mass source term in fracture, m/𝐿3/𝑡, 𝑘𝑔/𝑚3/𝑠 
+= Mass source term in matrix, m/𝐿3/𝑡, 𝑘𝑔/𝑚3/𝑠 
+= Effective pore radius, L, 𝑚 
+= Effective pore radius at reference conditions, L, 𝑚 
+= Universal gas constant, m𝐿2/𝑡2/𝑛/𝑇,  8.3145 𝐽/𝑚𝑜𝑙/𝐾 
+= Reservoir temperature, T, 𝐾 
+= Pseudo-reduced temperature 
+= Component of displacement, L, m 
+= Langmuir volume, 𝐿3/m, 𝑚3/𝑘𝑔  
+= Gas deviation factor 
+= Biot’s coefficient 
+= permeability enhancement coefficient 
+= Coefficient for pore radius dependent intrinsic permeability 
+= Thickness of gas adsorption layer, L, 𝑚 
+= Kronecker delta 
+= Elastic strain 
+= Volumetric strain 
+= Gas viscosity, m/Lt, Pa·s 
+= Poisson’s ratio 
+= Gas density, m/𝐿3, 𝑘𝑔/𝑚3 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+= Gas density at standard condition, m/𝐿3, 𝑘𝑔/𝑚3 
+= Matrix density, m/𝐿3, 𝑘𝑔/𝑚3 
+= Effective stress, m/L𝑡2,  𝑃𝑎 
+= Mean effective stress, m/L𝑡2,  𝑃𝑎 
+= Mean effective stress at reference conditions, m/L𝑡2,  𝑃𝑎 
+= Fracture porosity 
+= Matrix in situ porosity 
+= Matrix porosity at reference conditions 
+
+𝜌𝑔𝑠𝑡 
+𝜌𝑚 
+𝜎𝑖𝑗 
+𝜎𝑚 
+𝜎𝑚0 
+𝜙𝑓 
+𝜙𝑚 
+𝜙𝑚0 
+ 
+ 
+References  
+Ahmed Elfeel, M., Jamal, S., Enemanna, C., Arnold, D., and Geiger, S. 2013. Effect of DFN Upscaling on History Matching 
+and  Prediction  of  Naturally  Fractured  Reservoirs.  SPE  Paper  164838  presented  at  the  EAGE  Annual  Conference  & 
+Exhibition , held in London, UK , 10-13 June. http://dx.doi.org/10.2118/164838-MS 
+
+Aimene,  Y  and  Ouenes,  A.  2015.  Geomechanical  modeling  of  hydraulic  fractures  interacting  with  natural  fractures  — 
+Validation  with  microseismic  and  tracer  data  from  the  Marcellus  and  Eagle  Ford.  Interpretation, 3(3):  SU71-SU88. 
+http://dx.doi.org/ 10.1190/INT-2014-0274.1 
+
+Arps, J.J. 1945.  Analysis of Decline Curves. Trans., AIME: 160, 228-247. http://dx.doi.org/10.2118/945228-G 
+
+Baihly, J. D., Altman, R. M., Malpani, R., and Luo, F. 2010. Shale Gas Production Decline Trend Comparison over Time and 
+Basins.  SPE  Paper  13555 presented  at  the  SPE  Annual  Technical  Conference  and  Exhibition,  held  in  Florence,  Italy,  19-22 
+September. http://dx.doi.org/10.2118/135555-MS 
+
+Barree, R. D., Cox, S. A., Miskimins, J. L., Gilbert, J. V., and Conway, M. W. 2015. Economic Optimization of Horizontal-
+Well  Completions 
+30(04):293-311. 
+http://dx.doi.org/10.2118/168612-PA 
+
+in  Unconventional  Reservoirs. 
+
+SPE 
+
+Production  &  Operations, 
+
+Beskok,  A.,  and  Karniadakis,  G.E.  1999.  A  Model  for  Flows  in  Channels,  Pipes,  and  Ducts  at  Micro  and  Nano  Scales, 
+Microscale Thermophysical. Eng. 3(1), 43–77. http://dx.doi.org/10.1080/108939599199864 
+
+Cho, Y., Ozkan, E., and  Apaydin, O.  G. 2013. Pressure-Dependent Natural-Fracture Permeability in Shale and Its Effect on 
+Shale-Gas Well Production. SPE Reservoir Evaluation & Engineering, 16(02), 216–228. http://dx.doi.org/10.2118/159801-PA 
+
+Cho, Y., Ozkan, E., and  Apaydin, O.  G. 2013. Pressure-Dependent Natural-Fracture Permeability in Shale and  Its Effect on 
+Shale-Gas Well Production. SPE Reservoir Evaluation & Engineering, 16(02), 216–228. http://dx.doi.org/10.2118/159801-PA 
+
+Cipolla,  C.  L.,  Mack,  M.  G.,  Maxwell,  S.  C.,  and  Downie,  R.  C.  2011.  A  Practical  Guide  to  Interpreting  Microseismic 
+Measurements.  Paper  SPE  144067  presented  at  the  North  American  Unconventional  Gas  Conference  and  Exhibition,  The 
+Woodlands, Texas 14–16 June. http://dx.doi.org/10.2118/144067-MS 
+
+Civan, F. 2010. Effective Correlation of Apparent Gas Permeability in Tight Porous Media. Transport in Porous Media, 82(2), 
+375–384. http://dx.doi.org/10.1007/s11242-009-9432-z 
+
+Clark,  A.J.,  Lake,  L.W.,  and  Patzek,  T.W.  2011.  Production  Forecasting  with  Logistic  Growth  Models.  SPE  Paper  144790 
+presented  at  the  SPE  Annual  Technical  Conference  and  Exhibition,  Denver,  Colorado,  USA,  30  October-2  November. 
+http://dx.doi.org/10.2118/144790-MS 
+
+Cornette,  B.  M.,  Telker,  C.,  and  De  La  Pena,  A.  2012.  Refining  Discrete  Fracture  Networks  With  Surface  Microseismic 
+Mechanism Inversion and Mechanism-Driven Event Location. SPE Paper 151964 presented at the  SPE Hydraulic Fracturing 
+Technology Conference, held in The Woodlands, Texas, USA, 6-8 February. http://dx.doi.org/10.2118/151964-MS  
+
+Darabi,  H.,  Ettehad,  A.,  Javadpour,  F  and  Sepehrnoori,  K.,  2012,  Gas  flow  in  ultra-tight  shale  strata,  Journal  of  Fluid 
+Mechanics, v. 710, p. 641-658. http://dx.doi.org/10.1017/jfm.2012.424 
+
+Darishchev,  A.,  Rouvroy,  P.  and  Lemouzy,  P.  2013.  On  Simulation  of  Flow  in  Tight  and  Shale  Gas  Reservoirs.  SPE  Paper 
+163990  presented  at  the  SPE  Unconventional  Gas  Conference  and  Exhibition,  held  in  Muscat,  Oman,  28-30January. 
+http://dx.doi.org/10.2118/163990-MS 
+
+Dong, J.J., Hsu, J.Y., and Wu, W.J. 2010. Stress-Dependence of the Permeability and Porosity of Sandstone and Shale from 
+TCDP  Hole-A.  International  Journal  of  Rock  Mechanics  and  Mining  Sciences  47  (7):1141–1157.  http://dx.doi.org/ 
+10.1016/j.ijrmms.2010.06.019 
+
+Duong, A.N. 2011. Rate-Decline Analysis for Fracture-Dominated Shale Reservoirs. SPE Reservoir Evaluation & Engineering 
+14(3): 377-387. http://dx.doi.org/10.2118/137748-PA 
+
+Energy 
+http://www.eia.gov/forecasts/aeo/pdf/0383(2015).pdf 
+
+Information  Administration.  2015.  The  Annual  Energy  Outlook  2015  with  Projections 
+
+to  2040. 
+
+Fathi, E., Tinni, A., and Akkutlu I.Y. 2012. Shale Gas Correction to Klinkenberg Slip Theory. Paper SPE 154977 presented at 
+the 
+June. 
+http://dx.doi.org/10.2118/154977-MS 
+
+SPE  Americas  Unconventional  Resources  Conferences 
+
+Pennsylvania 
+
+Pittsburgh, 
+
+5–7 
+
+at 
+
+Fredd,  C.  N.,  McConnell,  S.  B.,  Boney,  C.  L.,  &  England,  K.  W.  2000.  Experimental  Study  of  Hydraulic  Fracture 
+Conductivity  Demonstrates 
+the  
+SPE  Rocky  Mountain  Regional/Low-Permeability  Reservoirs  Symposium  and  Exhibition,  Denver,  Colorado,  12-15  March.  
+http://dx.doi.org/10.2118/60326-MS 
+
+of  Using  Proppants.  Paper  SPE 
+
+the  Benefits 
+
+presented 
+
+60326 
+
+at 
+
+Ghassemi, A., and Suarez-Rivera, R. 2012. Sustaining Fracture Area and Conductivity of Gas Shale Reservoirs for Enhancing 
+Long-Term Production and Recovery. RPSEA Report.  http://www.rpsea.org/projects/08122-48 
+
+Guo,  J.C.,  Zhao,  X.,  Zhu,  H.Y.,  Zhang,  X.D.,  Pan,  R.,  2015.  Numerical  simulation  of  interaction  of  hydraulic  fracture  and 
+natural fracture based on the cohesive zone finite element method. Journal of Natural Gas Science and Engineering. 25, 180-
+188. http://dx.doi.org/ 10.1016/j.jngse.2015.05.008 
+
+Haddad,  M.,  Du,  J.,  and  Vidal-Gilbert,  S.  2016.  Integration  of  Dynamic  Microseismic  Data  with  a  True  3D  Modeling  of 
+Hydraulic  Fracture  Propagation  in  Vaca  Muerta  Shale.  Paper  SPE  179164  presented  at  the  SPE  Hydraulic  Fracturing 
+Technology Conference, The Woodlands, Texas, 9-11 February. http://dx.doi.org/10.2118/179164-MS 
+
+Huang, J., Safari, R., Lakshminarayanan, S., Mutlu, U., and McClure, M. 2014. Impact of Discrete Fracture Network (DFN) 
+Reactivation on Productive Stimulated Rock Volume: Microseismic, Geomechanics and Reservoir Coupling. Paper presented 
+at the 48th U.S. Rock Mechanics/Geomechanics Symposium, Minneapolis, Minnesota, 1-4 June 
+
+Ilk,  D.,  Rushing,  J.A.,  and  Perego,  A.D.  2008.  Exponential  vs.  Hyperbolic  Decline  in  Tight  Gas  Sands:  Understanding  the 
+Origin and Implications for Reserve Estimates Using Arps' Decline Curves. Paper SPE 116731 presented at the SPE Annual 
+Technical Conference and Exhibition held in Denver, Colorado, USA, 21-24 September. http://dx.doi.org/10.2118/116731-MS 
+
+Jackson,  G.  T.,  Sahai,  V.,  Lalehrokh,  F.,  and  Rai,  R.  2013.  Impact  of  Staggered  Fracture  Placement  on  Field  Development 
+Planning of Unconventional Reservoirs: a Critical Evaluation of Overlapping SRVs. SPE Paper 165347 presented at the SPE 
+Western  Regional  &  AAPG  Pacific  Section  Meeting ,  held 
+in  Monterey,  California,  USA,  19-25  April. 
+http://dx.doi.org/10.2118/165347-MS 
+
+Javadpour,  F.,  Fisher,  D.  and  Unsworth,  M.  2007.  Nanoscale  Gas  Flow  in  Shale  Gas  Sediments.  Journal  of  Canadian 
+Petroleum Technology, 46 (10), 55-61. http://dx.doi.org/10.2118/07-10-06 
+
+Johri, M., and Zoback, M. D. 2013. The Evolution of Stimulated Reservoir Volume during Hydraulic Stimulation of Shale Gas 
+Formations.  Paper  SPE  presented  at  the  Unconventional  Resources  Technology  Conference,  Denver,  Colorado,  USA,  12-14 
+August. http://dx.doi.org/10.1190/URTEC2013-170 
+
+Johri, M., and Zoback, M. D. 2013. The Evolution of Stimulated Reservoir Volume during Hydraulic Stimulation of Shale Gas 
+Formations. Paper SPE 168701 presented at the Unconventional Resources Technology Conference, Denver, Colorado, 12-14 
+August, http://dx.doi.org/10.1190/URTEC2013-170 
+
+King,  G.E.  2010.  Thirty  Years  of  Gas-Shale  Fracturing:  What  Have  We  Learned.  Paper  SPE  133456  presented  at  the  SPE 
+Annual Technical Conference and Exhibition, Florence, Italy, 19–22 September . http://dx.doi.org/10.2118/133456-MS 
+
+Knudsen,  M.  1909.  Die  Gesetze  der  Molekularstro¨mung  und  der  inneren  Reibungsstro¨mung  der  Gase  durch  Ro¨hren  (The 
+laws  of  molecular  and  viscous  ﬂow  of  gases 
+tubes).  Ann.  Phys.  333(1):  75–130.  http://dx.doi.org/ 
+10.1002/andp.19093330106 
+
+through 
+
+Langmuir,  I.  1916.  The  Constitution  and  Fundamental  Properties  of  Solids  and  Liquids.  Journal  of  the  American  Chemical 
+Society, 38(11):2221–2295. http://dx.doi.org/ 10.1021/ja02268a002 
+
+Lee,  A.L.,  Gonzalez,  M.H.,  and  Eakin,  B.E.  1966.  The  Viscosity  of  Natural  Gases.  JPT  997;  Trans.,  AIME,  237. 
+http://dx.doi.org/10.2118/1340-PA 
+
+Lunatia,I and Lee. S.H. 2014. A dual-tube model for gas dynamics in fractured nanoporous shale formations. Journal of Fluid 
+Mechanics. Vol (757): 943-971. http://dx.doi.org/10.1017/jfm.2014.519 
+
+Mahmoud,  M.A.  2013.  Development  of  a  New  Correlation  of  Gas  Compressibility  Factor  (Z-Factor)  for  High  Pressure  Gas 
+Reservoirs. Journal of Energy Resources and Technology, JERT-13-1048.  http://dx.doi.org/10.1115/1.4025019 
+
+Minner,  W.  A.,  Du,  J.,  Ganong,  B.  L.,  Lackey,  C.  B.,  Demetrius,  S.  L.,  and  Wright,  C.  A.  2003.  Rose  Field:  Surface  Tilt 
+Mapping Shows Complex Fracture Growth in 2500' Laterals Completed with Uncemented Liners. SPE Paper 83503 presented 
+at  the  PE  Western  Regional/AAPG  Pacific  Section  Joint  Meeting,  held  in  Long  Beach,  California,  USA,  19-24  May.  
+http://dx.doi.org/10.2118/83503-MS 
+
+Newell, R. 2011, Shale Gas and the Outlook for U.S. Natural Gas Markets and Global Gas Resources. Report of  U,S. Energy 
+Information  Administration. 
+http://photos.state.gov/libraries/usoecd/19452/pdfs/DrNewell-EIA-Administrator-Shale-Gas-
+Presentation-June212011.pdf 
+
+Palmer,  I.  D.,  Moschovidis,  Z.  A.,  Schaefer,  A.,  and  Mcketta,  S.  2014.  Case  Histories  From  Fayetteville  Shale:  SRV  Sizes, 
+Fracture  Networks,  Spacing,  Aperture  Widths,  and  Implications  for  Proppant.  SPE  Paper  169015  presented  at  the  SPE 
+Unconventional Resources Conference, held in Woodlands, Texas, USA, 1-3 April http://dx.doi.org/10.2118/169015-MS  
+
+Raghavan, R., and Chin, L. Y. 2004. Productivity Changes in Reservoirs with Stress-Dependent Permeability. SPE Reservoir 
+Evaluation & Engineering, 7(04), 1–11. http://dx.doi.org/10.2118/88870-PA 
+
+Roy,  S.,  Raju,  R.,  Chuang,  H.F.,  Cruden,  B.,  and  Meyyappan,  M.  2003.  Modeling  gas  ﬂow  through  microchannels  and 
+nanopores. J. Appl. Phys. 93 (8): 4870–4879.  http://dx.doi.org/10.1063/1.1559936 
+
+Sakhaee-Pour, A., and Bryant, S. L. 2012. Gas Permeability of Shale. Paper SPE 146944-PA, SPE Reservoir Evaluation and 
+Engineering, 15(04):401–409. http://dx.doi.org/10.2118/146944-PA 
+
+Shabro,  V.,  Torres-Verdin,  C.  and  Sepehrnoori,  K.  2012.  Forecasting  Gas  Production  in  Organic  Shale  with  the  Combined 
+Numerical  Simulation  of  Gas  Diffusion  in  Kerogen,  Langmuir  Desorption  from  Kerogen  Surfaces,  and  Advection  in 
+Nanopores.  Paper  SPE  159250  presented  at  the  SPE  Annual  Technical  Conference  and  Exhibition,  held  in  San  Antonio, 
+Texas, USA, 8-10 October. http://dx.doi.org/10.2118/159250-MS 
+
+Sherman, F. 1969. The Transition From Continuum to Molecular Flow. Annual Review of Fluid Mechanics. Vol (1):317-340. 
+http://dx.doi.org/10.1146/annurev.fl.01.010169.001533 
+
+Shin, D. H., and Sharma, M. M. 2014. Factors Controlling the Simultaneous Propagation of Multiple Competing Fractures in a 
+Horizontal Well. Paper SPE 168599 presented at the SPE Hydraulic Fracturing Technology Conference, held in   Woodlands, 
+Texas, USA, 4-6 February. http://dx.doi.org/10.2118/168599-MS 
+
+Sigal,  R.  F.,  and  Qin,  B.  2008.  Examination  of  the  Importance  of  Self  Diffusion  In  the  Transportation  of  Gas  In  Shale  Gas 
+Reservoirs. Society of Petrophysicists and Well-Log Analysts. Petrophysics, 49(03):301-305.  
+
+Singh,  H.,  Javadpour,  F.,  Ettehad,  A.  and  Darabi,  H.  2014.  Non-empirical  apparent  permeability  of  shale:  SPE  Reservoir 
+Evaluation & Engineering-Reservoir Engineering. v. 17, issue 3, p. 414-424. http://dx.doi.org/10.2118/170243-PA 
+
+Suliman, B., Meek, R., Hull, R., Bello, H., Portis, D., and Richmond, P. 2013. Variable Stimulated Reservoir Volume (SRV) 
+Simulation: Eagle Ford Shale Case Study. Paper SPE 168832 presented at Unconventional Resources Technology Conference, 
+held in Denver, Colorado, USA, 12-14 Augusthttp://dx.doi.org/ 10.1190/URTEC2013-057 
+
+Valko, P. P., and Lee, W. J. 2010. A Better Way To Forecast Production From Unconventional Gas Wells. Paper SPE-134231 
+Presented  at 
+Italy,  19-22  September. 
+http://dx.doi.org/10.2118/134231-MS 
+
+the  SPE  Annual  Technical  Conference  and  Exhibition,  Florence, 
+
+Wang, H. 2015. Numerical Modeling of Non-Planar Hydraulic Fracture Propagation in Brittle and Ductile Rocks using XFEM 
+with  Cohesive  Zone  Method. 
+(135):127-140. 
+http://dx.doi.org/10.1016/j.petrol.2015.08.010 
+
+and  Engineering,  Vol 
+
+Journal 
+
+of  Petroleum  Science 
+
+Wang,  H.  2016a.  Poro-Elasto-Plastic  Modeling  of  Complex  Hydraulic  Fracture  Propagation:  Simultaneous  Multi-Fracturing 
+and Producing Well Interference. Acta Mechanica, 227(2):507-525. http://dx.doi.org/ 10.1007/s00707-015-1455-7 
+
+Wang,  H.  2016b.  Numerical  Investigation  of  Fracture  Spacing  and  Sequencing  Effects  on  Multiple  Hydraulic  Fracture 
+Interference  and  Coalescence  in  Brittle  and  Ductile  Reservoir  Rocks.  Engineering  Fracture  Mechanics,  Vol  (157):  107-124. 
+http://dx.doi.org/10.1016/j.engfracmech.2016.02.025 
+
+Wang,  H.  and  Marongiu-Porcu,  M.  2015.  Impact  of  Shale  Gas  Apparent  Permeability  on  Production:  Combined  Effects  of 
+Non-Darcy  Flow/Gas-Slippage,  Desorption  and  Geomechanics.  SPE-173196-PA.  SPE  Reservoir  Evaluation  &  Engineering, 
+18 (04): 495-507. http://dx.doi.org/10.2118/173196-PA 
+
+Wang, H., Ajao, O., and Economides, M. J. 2014. Conceptual Study of Thermal Stimulation in Shale Gas Formations. Journal 
+of Natural Gas Science and Engineering, Vol (21): 874-885.  http://dx.doi.org/ 10.1016/j.jngse.2014.10.015 
+
+Wang,  H.,  Marongiu-Porcu,  M.,  and  Economides,  M.  J.  2016.  SPE-168600-PA.  Poroelastic  and  Poroplastic  Modeling  of 
+Hydraulic  Fracturing  in  Brittle  and  Ductile  Formations,  Journal  of  SPE  Production  &  Operations,  31(01):  47–59. 
+http://dx.doi.org/10.2118/168600-PA 
+
+Wang, H., Merry, H., Amorer, G. and Kong, B. 2015a. Enhance Hydraulic Fractured Coalbed Methane Recovery by Thermal 
+Stimulation.  Paper  SPE  175927  presented  at  the  SPE  Unconventional  Resources  Conference  to  be  held  in  Calgary,  Alberta, 
+Canada 20–22 Oct. http://dx.doi.org/10.2118/175927-MS 
+
+Wang,  J.,  Liu,H.,  Wang,  L.,  Zhang,H.,  Luo,H  and  Gao,  Y.  2015b.  Apparent  permeability  for  gas  transport  in  nanopores  of 
+organic  shale 
+including  multiple  effects.  International  Journal  of  Coal  Geology,  Vol(152):  50-62. 
+http://dx.doi.org/10.1016/j.coal.2015.10.004 
+
+reservoirs 
+
+Weng, X. 2014. Modeling of Complex Hydraulic Fractures in Naturally Fractured Formation. Journal of Unconventional Oil 
+and Gas Resources, Vol. 9, pp. 114-135. http://dx.doi.org/ 10.1016/j.juogr.2014.07.001 
+
+Ypma,  T.J.  1995  Historical  development  of 
+http://dx.doi.org/10.1137/1037125 
+
+the  Newton-Raphson  method, SIAM  Review, 
+
+ 37(4),  531–551.  
+
+Yu, X., Rutledge, J., Leaney, S., and Maxwell, S. 2014. Discrete Fracture Network Generation from Microseismic Data using 
+Moment-Tensor  Constrained  Hough  Transforms.  Paper  SPE  168582  presented  at  the  SPE  Hydraulic  Fracturing  Technology 
+Conference, The Woodlands, Texas, 4-6 February. http://dx.doi.org/10.2118/168582-MS 
+
+Yue, L., Wang, H., Suai, H., and Nikolaou, M. 2015. Increasing Shale Gas Recovery through Thermal Stimulation: Analysis 
+and  an  Experimental  Study.  Paper  SPE  175070  presented  at  the  SPE  Annual  Technical  Conference  and  Exhibition  held  in 
+Houston, Texas, USA, 28-30 Sep. http://dx.doi.org/10.2118/175070-MS 
+
+Zakhour,  N.,  Sunwall,  M.,  Benavidez,  R.,  Hogarth,  L.,  and  Xu,  J.  2015.  Real-Time  Use  of  Microseismic  Monitoring  for 
+Horizontal Completion Optimization Across a Major Fault in the Eagle Ford Formation. Paper 173353 presented at the SPE 
+Hydraulic Fracturing Technology Conference, The Woodlands, Texas 3–5 February. http://dx.doi.org/10.2118/173353-MS 
+
+Zienkiewicz, O.C., and Taylor, R.L. 2005. The Finite Element Method, 5th edition, London: Elsevier Pte Ltd 
+
+ 
+
+

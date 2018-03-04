@@ -1,0 +1,1837 @@
+Modeling of the Stability of Highly 
+Inclined Boreholes in Anisotropic 
+Rock Formations 
+
+Bernt S. Aadnoy, SPE,  Rogaland  U. 
+
+Summary. Simulators  have  been  developed  to  study  the  fracture  and  collapse  behavior of boreholes.  To  take  into  account  the 
+directional  properties  of real  rocks,  an  anisotropic  stress  model  is  used.  The  model  takes  into  account  anisotropic  elastic  properties, 
+directional  shear,  and  directional  tensile  strengths.  The  orientation  of the  borehole,  the  in-situ  stresses,  and  the  bedding  plane  can 
+all  be  arbitrarily  related  to  each  other to  model  actual  field  situations.  This  paper presents  some  of the  results  of the  model.  It  is 
+shown  that  neglecting  the  anisotropic  effects  introduces  an  error.  Also,  studying  the  anisotropic  model  yields  further  insight  into 
+the  behavior of the  borehole. 
+
+Introduction 
+The integrity of the borehole plays an important role in many well 
+operations.  During drilling, lost circulation and borehole collapse 
+cause economic losses, and in production operations, controlled frac(cid:173)
+turing and sand control are of utmost importance for the economy 
+of an oil field.  Therefore, a better understanding of the rock mechan(cid:173)
+ics  is  necessary  to  improve  the  economy  of the  well  operations. 
+In the past, accurate methods to predict critical fracturing or col(cid:173)
+lapse pressures have been unavailable.  Simple isotropic stress equa(cid:173)
+tions  have  been  used  to  some  extent,  but  these  fail  to  take  into 
+account real rock ~roperties that are clearly anisotropic.  Sedimentary 
+rocks have a laminated structure, with directional elastic properties 
+as  well  as  directional  shear  and  tensile  strengths.  To  understand 
+field situations better, a complete mathematical model was developed 
+that  takes  into  account  all  directional  properties. 
+
+Fig.  1 gives an overview of typical borehole problems.  Shown 
+are the only two cases covered in this paper-Le., borehole collapse 
+at low borehole pressures and fractures initiating along the borehole 
+axis at high pressures.  Our analysis is limited to  wells  > 2,000 ft 
+[>6lO m]  deep. I  The model is based on linear elasticity, and ne(cid:173)
+glects plastic or time-dependent effects. Fig.  1 shows the versatility 
+of the simulators. The borehole, the in-situ stresses, and the rock(cid:173)
+property reference frame may assume any orientation.  This gives 
+us  a  tool  to  model  any  field  situation. 
+
+Mathematical Model 
+The core of the simulators is  the mathematical model for  stresses 
+around boreholes in anisotropic materials. The complicated model 
+is  derived  in  detail  by  Aadnoy2  and  is  based  on  a  generalized 
+plane-strain concept and linear elasticity. It results in two coupled 
+partial-differential equations to determine the parameters of the stress 
+functions.  Aadnoy2  applies the model with a transversely  isotropic 
+type of anisotropy.  This is a good description for sedimentary rocks; 
+all parameters of elasticity are equal in a horizontal plane, but differ 
+vertically.  The appendix briefly outlines the model.  Table 1 is taken 
+from  Chenevert's3  work and  gives  a  summary  of the  elastic pa(cid:173)
+rameters as applied to different rock types.  It is  observed that the 
+degree of anisotropy, Kani ,  is lithology-dependent.  Therefore, the 
+sandstone can be classified as very anisotropic, the shales as moder(cid:173)
+ately anisotropic, and the limestone as  isotropic for this particular 
+data  set. 
+
+The two simulators, ANISFRAC for borehole fracture analysis and 
+ANISCOLL for  collapse analysis,  also perform all transformations 
+necessary to implement randomly oriented boreholes, in-situ stress(cid:173)
+es, and bedding planes, and thus are able to model any field situation. 
+The introduction of anisotropy vastly complicates the mathematics 
+involved, but it is believed that it describes real field behavior better. 
+From Chenevert's3  work,  a set of directional tensile-strength data 
+
+Copyright  1988 SOCiety  of Petroleum Engineers 
+
+SPE  Drilling  Engineering,  September  1988 
+
+for common sedimentary rocks is also obtained. Table 2 summarizes 
+these data. It is observed that the tensile strength is 20 to 35 % low(cid:173)
+er parallel to the bedding  plane than  perpendicular to  it.  This,  of 
+course, will affect the behavior of inclined boreholes.  Finally, the 
+simulators use shear data also obtained by  Chenevert3 for the same 
+rock types.  An extended Mohr-Coulomb criterion with a plane of 
+weakness  is  introduced,  allowing  both the cohesive  strength  and 
+the angle of internal friction  to  vary.  The results are summarized 
+in  Table  3.  Note that the  limestone is  isotropic in  both its  elastic 
+properties  (Table  1)  and  its  shear properties  (Table  3).  Some  of 
+the resultant shear envelopes are plotted in Fig. 2. For {3= 15°  [0.26 
+rad], the material is weakest because it fails along the bedding plane. 
+At 0  or 90°  [0  or  1.6  rad],  it  fails  across  the  bedding plane  and 
+is  therefore  strongest  for  these  directions. 
+
+Applications in Borehole Fracturing 
+The  simulator  ANISFRAC  will be used  to  study a  few  field  cases. 
+The failure criteria applied are that when the least effective principal 
+stress exceeds the  strength of the rock in tension,  a tensile failure 
+occurs. Two different tensile strengths will be used.  One is the meas(cid:173)
+ured values given in Table 2 and the other is zero tensile strength, 
+assuming that the rock contains cracks that are merely reopened. 1,6 
+One shale and one sandstone are studied.  The shales are generally 
+almost nonpermeable but porous and contain pore fluid at a given 
+pressure.  Therefore,  these  will  be modeled  with  a pore pressure 
+inside the porous rock with an instantaneous rise (a step function) 
+to  the  borehole  pressure  outside  the  borehole  wall. 
+
+The shales can also be abnormally pressurized. 4  Thus, the pore 
+pressure is  also a very important parameter in  shales because the 
+fracture gradient is  strongly sensitive to the magnitude of the pore 
+pressure. The sandstone is  somewhat different from the shales be(cid:173)
+cause it is permeable.  Two different situations will be  studied.  In 
+the first one, a perfect mudcake is assumed, and we have an analo(cid:173)
+gous  situation  for  the  shales.  Inside  the  borehole  is  the  borehole 
+pressure, and immediately inside the rock wall is the pore pressure, 
+the transition being a step function.  The second situation assumes 
+no mudcake; therefore, fluid communications between the formation 
+and  the borehole  are allowed.  This  means  that during  fracturing 
+operations, the pore pressure immediately inside the porous rock 
+wall is equal to the borehole pressure. Stress contributions caused 
+by  the  flowing  fluid  are  neglected. 
+
+The results  of the calculations for the Permian shale are shown 
+in Fig.  3.  The parameters used are typical for an intermediate deep 
+well and are given in the figure.  The bedding plane and the in-situ 
+stresses are assumed to lie in the horizontal plane.  The numerical 
+values used in the following simulations are not chosen to simulate 
+actual  oil  fields,  but  to  study  different  parameters. 
+
+The hatched band defines the two limits of tensile strength.  The 
+upper curve uses data from Table 2, while the bottom curve assumes 
+
+259 
+
+Horizontal 
+Stress 
+
+-1 
+
+o 
+
+a  =13 
+
+1 
+
+2 
+
+3 
+
+Normal Stress x 10", psi 
+
+Fig.  1-Definition of the model. 
+
+Fig.  2-Mohr's envelope for Green  River shale  and  failure 
+plane vs.  bedding plane. 
+
+A 
+
+B 
+
+c 
+
+o 
+
+Low Tan <p  High Tan <p 
+
+Intermediate Tan <p 
+
+TABLE  1-SUMMARY OF  ELASTIC  PARAMETERS 
+
+Rock 
+Leuders  limestone 
+Arkansas  sandstone 
+Green  River shale 
+Permian  shale 
+
+E·10- 6 
+
+3.5 
+2.8 
+4.3 
+3.5 
+
+L 
+0.22 
+0.20 
+0.20 
+0.24 
+
+Kanl 
+0.97 
+0.61 
+0.84 
+0.73 
+
+TABLE 2-TENSILE  STRENGTHS  DETERMINED  BY 
+
+THE  DIAMETRAL-COMPRESSION  METHOD 
+
+Rock 
+Arkansas  sandstone 
+Green  River shale 
+Permian  shale 
+
+Tensile  Strength 
+Perpendicular to 
+
+Bedding 
+
+(psi) 
+1,698 
+3,136 
+2,500 
+
+Tensile  Strength 
+
+Parallel  to 
+Bedding 
+
+(psi) 
+1,387 
+1,971 
+1,661 
+
+TABLE 3-EXPERIMENTALLY DETERMINED  SHEAR  DATA 
+
+Rock 
+- -
+Leuders  limestone 
+Arkansas  sandstone 
+
+Green  River  shale 
+
+To 
+(psi) 
+2,500 
+5,000 
+5,000 
+4,200 
+7,250 
+6,000 
+8,250 
+7,500 
+7,500 
+7,800 
+7,250 
+
+cp 
+
+(degrees) 
+
+35 
+57.5 
+57.5 
+50 
+41 
+32 
+30 
+33.4 
+35 
+36.5 
+43 
+
+{3 
+
+(degrees) 
+
+All  {3 
+
+0<{3<15 
+35<{3<90 
+15<{3 <35 
+
+0 
+15 
+30 
+45 
+60 
+75 
+90 
+
+---Kani =  1, p.  =  0.2 
+
+-
+
+-
+
+-Kani= 0.73, p. = 0.2 
+
+-:::; 
+
+1/1 
+Co 
+
+2.5 
+
+2.0 
+
+1.5 
+
+1.0 
+
+0.5 
+
+0° 
+
+15° 
+
+o +----r--~----~--~--~--~ 
+90° 
+
+60° 
+Borehole Inclination, Y 
+ox.o = 0'.0 = 0.8 psi/ft, oz.o = 1 psi/ft 
+9fp = 0.465  psi/ft, Well Depth=5,000 ft,  S' = 10 
+
+30° 
+
+45° 
+
+75° 
+
+Fig.  3-Fracture gradients vs.  borehole  angle  for Permian 
+shale. 
+
+260 
+
+SPE  Drilling  Engineering.  September  1988 
+
+2.5,......--------------., 
+
+_---Kani= 1, I-' = 0.2 
+
+-Kani= 0.61, I-' = 0.2 
+
+-
+
+-
+
+2.0 
+
+0.5 
+
+O+---------------------~ 
+90° 
+
+45° 
+
+60° 
+
+75° 
+
+300 
+
+Borehole Inclination, y 
+
+0'.0 = 0y.o = 0.8 psi/ft, 0,.0 = 1 psi/ft 
+gfp = 0.465 psi/ft, Well Depth=5J)OO  ft,  S' = 10 
+Fig. 4-Fracture gradients vs. borehole angle for Arkansas 
+sandstone. 
+
+zero tensile strength. The difference in fracturing gradient between 
+these two limits is large,  about 30%  for a vertical borehole.  This 
+spread is less for a horizop,tal borehole because the tensile strength 
+decreases with increased borehole angle.  The solid lines give the 
+isotropic solution, and we see that the error is only 2 %.  It is evident 
+that for this rock,  the tensile  strength is  by  far the governing pa(cid:173)
+rameter,  and  the  effect  of elastic  anisotropy  is  negligible. 
+
+Fig.  4  gives  the  results  of the  computations  for  a  similar well 
+in It sandstone formation.  First, let us study the upper band, which 
+corresponds  to  the  previous  case.  Here  a  perfect  mudcake  is 
+assumed, which means that no pressure from the borehole is trans(cid:173)
+mitted into the porous rock.  The bandwidth is  now about 20 % at 
+most,  a  result of low tensile  strength.  The broken lines show the 
+isotropic solution, the error now being 3 % if elastic anisotropy is 
+neglected. 
+
+The bottom band of Fig. 4 shows a very interesting effect.  Here 
+it is assumed that the borehole pressure can transmit into the porous 
+rock-Le., no mudcake exists.  The fracture gradient is  now low(cid:173)
+ered by  more than  30 %.  This is explained by  the increased pres(cid:173)
+sure of the fluids inside the pores, aiding in fracturing the borehole 
+wall. However, the bandwidth is now smaller than for the case with 
+mudcake.  The  effects  of the  elastic  anisotropy  are  again  over(cid:173)
+shadowed by the possible variation in tensile strength and account 
+for only a few percent deviation from the isotropic behavior.  Also, 
+for such permeable rocks as Arkansas sandstone, the total fractur(cid:173)
+ing pressure band may cover all cases shown in Fig. 4, depending 
+on the quality of the mudcake. For this case, the variations in frac(cid:173)
+ture gradients may  therefore be more than 43 %.  This figure  also 
+explains why  shales typically have higher fracture  gradients than 
+sandstones.  The shale is essentially impenneaple, while the sand(cid:173)
+stone may transmit pressure from the borehole into the porous rock, 
+thereby  effectively  lowering  the  fracture  pressure. 
+
+Conclusions of the Fracturing Study. The detailed  conclusions 
+from  this  analysis 2  show  that  the  effects  of anisotropic  elasticity 
+parameters on tjle  fracturing  pressure are  small.  Therefore,  with 
+all  possible sources of error involved  in  the  interpretation of the 
+
+SPE  Drilling  Engineering,  SepteqJber  1988 
+
+x 
+
+z. 
+
+----(I'"'''' 
+
+,  ..•...........•..•.•.. ' 
+
+..... 
+
+y.  Y. 
+
+~" 
+
+Case A:  Failure at: e =  o· 
+Fig.  5-Adaptatlon of core-plug  data to a real  borehole. 
+
+Case B:  Failure at: e =  90· 
+
+fracturing pressure, the anisotropy may be neglected. The anisotropy 
+has a definite effect, however, on the position of the fracture around 
+the  hole  wall. 
+
+During back-calculation of directions and magnitudes of the in-situ 
+stresses from borehole measurements,  the  anisotropic  solution  is 
+required.  The  principal  strains  and  stresses  generally  will  have 
+different directions  in the anisotropic  solution.  Therefore,  use of 
+a simpler isotropic model may give erroneous results for the in-situ 
+stresses  and  their directions. 
+
+Permeability is an important parameter. Such impermeable rocks 
+as  shales  have high  fracture  pressures.  For permeable  rocks,  the 
+wellbore pressure may be transmitted into the porous rock, thereby 
+lowering the fracture pressure. This explanation matches observed 
+behavior  in  the  field  and  also  shows  the  importance  of a  good 
+mudcake. 
+
+The tensile strength of the rock is an important parameter in the 
+
+fracturing situation. Because real rocks often contain cracks or frac(cid:173)
+tures,  the tensile  strength may  show  considerable  variation  from 
+one location to another.  Therefore, it is convenient to use two values 
+for  the fracture  pressure,  one  with the tensile  strength of a good 
+rock sample (which has directional variations)  and  the other with 
+zero tensile strength. The band between these two points represents 
+the uncertainty associated with the fracture pressure.  Note that the 
+tensile strength is an absolute value, regardless of the general stress 
+state. Because the general stress level increases as we drill deeper, 
+the fracture band will decrease. Therefore, there is less uncertainty 
+in estimating the fracture pressure for deeper wells than for  shal(cid:173)
+lower wells. The most important single factor in the fracturing anal(cid:173)
+ysis  is  probably  the  magnitude  of the  in-situ  stress  field. 
+
+Appllcat.ons to Borehole·Collapse Problems 
+It is difficul. to estimate the collapse pressure of an inclined borehole 
+with accuracy.  If the borehole has collapsed, however, and we meas(cid:173)
+ure the position of the failure, then we have a measure for the direc(cid:173)
+tion  of the  least  normal  stress  on the  borehole wall. 2 
+
+Chenevert3  provides a number of shear measurements on core 
+plugs as a function of the bedding-plane orientation. These are sum(cid:173)
+marized in Table 3.  For these data to be used constructively, they 
+must be put into proper context.  Fig.  5 illustrates a borehole in a 
+laminated  rock formation,  with  a  borehole  inclination,  1',  in  the 
+x-z plane.  Two infinitesimally small pieces of rocks are shown on 
+the borehole wall.  The Mohr-Coulomb failure criterion takes into 
+account only the major and minor principal stresses and  neglects 
+the  intermediate principal  stress. 
+
+The  borehole  typically  will  fail  at  0 0  [0  rad]  (Case  A)  or 90 0 
+[1.6 rad] (Case B), as in Fig. 5. If the applied stress in thex-direction 
+is  the  smallest,  the borehole  will  fail  as  in Case  A,  and  if the y(cid:173)
+direction has the  least  applied  stress,  the borehole  will  fail  as  in 
+Case B.  For a  typical  collapse,  the  radial  stress  is  smallest,  fol(cid:173)
+lowed by the a)!,ial stress, and the tangential stress is largest. There(cid:173)
+fore,  in adapting our laboratory data, the axial stress is  neglected, 
+because  the  Mohr-Coulomb  failure  criterion  neglects 
+the 
+intermediate principal stress.  The radial  stress is  the  minor prin(cid:173)
+cipal stress,  and the tangential  (or hoop)  stress  is  the  major prin(cid:173)
+cipal stress. The radial stress is always in a principal direction. The 
+tangential stress is not exactly in a principal direction because some 
+
+261 
+
+0. 
+
+--~ 
+i Q) :c ca .. (!) 
+
+~ 
+:I 
+I/) 
+I/) 
+
+~ a. 
+
+Q) 
+I/) 
+0. 
+.!! 
+'0 
+() 
+
+0.5 
+
+0.4 
+
+0.3 
+
+0.2 
+
+0.1 
+
+Pore Pressure: 0.435 psi/ft 
+
+-
+
+-Kan;= 0.84, I-' = 0.2 
+
+-
+---Kan;= 1,1-'=0.2 
+
+Case B 
+
+~ a. 
+
+Q) 
+I/) 
+0. 
+.!! 
+'0 
+() 
+
+0.5 
+
+0.4 
+
+0. 
+
+~ I/) 
+i Q) :c 
+
+l! 
+(!) 
+~ 
+:I 
+I/) 
+I/) 
+
+0.3 
+
+0.2 
+
+0.1 
+
+Pore Pressure: 0.435 psi/ft 
+
+Case B 
+
+-Kan;= 0.61,  I-' = 0.2 
+
+-
+-Kan;= 1, I-'  =  0.2 
+
+..... 
+
+Case A 
+
+O~--~--~---r--~------~ 
+
+0° 
+
+Borehole Inclination, y 
+
+Case A:  0,.0 = 0.9 psi/ft, 0y.o = 1,1  psi/ft 
+Case S:  0,.0;::: 1.1  psi/ft, 0y.o = 0.9 psilft 
+Well Depth: 10000 ft,  0,.0 = 1.0 psi/ft,  S' = 10 
+
+O+---~--~---+---+--~--~ 
+90° 
+
+15° 
+
+75° 
+
+30° 
+
+45° 
+
+60° 
+
+0° 
+
+Borehole Inclination, y 
+
+Case A:  0,,0 = 0.8 psi/ft, 0y,O = 1.0 psilft 
+Case S:  0x.o = 1.0 psi/ft, 0Y.o = 0.8 psi/ft 
+Well Depth: 20000 ft,  O~O = 1.0 psi/ft, S' = 10 
+
+Fig. 6-Collapse gradients vs. borehole angle for Green River 
+shale. 
+
+Fig.  7-Collapse gradients vs.  borehole angle for Arkansas 
+sandstone. 
+
+shear-stress components change the direction slightly.  For simplic(cid:173)
+ity,  we  will  neglect this  small deviation from  the  principal direc(cid:173)
+tion and assume that the major principal-stress direction coincides 
+with  the  tangential  stress  direction. 
+
+The equivalent core plugs are shown in Fig.  5.  For Case A, the 
+tangential stress acts parallel to the bedding plane; therefore, /3 =0° 
+[0 rad] for this case, regardless of the inclination between the bore(cid:173)
+hole and the bedding plane.  It is  seen that for Case A,  one set of 
+shear data applies for all borehole angles. In Case B, the tangential 
+stress applies  at  an  angle  with  respect to the bedding  plane,  and 
+the value is now /3=,,(.  For this case, the directional characteristics 
+as a function of borehole angle with respect to the bedding planes 
+apply.  The  borehole  has  at any  point a  stress  state  consisting  of 
+three different principal stresses. The core plug assumes two equal 
+principal stresses (the confining pressure) and one larger stress (the 
+axial  load).  These two  stress  states  are  clearly  different,  but  the 
+accuracy of applying core-plug data to real boreholes is not known. 
+The  following  field  cases  will  illustrate  the  concept further. 
+
+Fig. 6 gives the results of a borehole simulation located in a Green 
+River  shale.  Case  A  corresponds  to  Case  A  of Fig.  5-Le., the 
+smallest in-situ stress is along the x axis at 0.9 psilft [20.4 kPa/m], 
+while  the  stress  is  1.1  psi/ft  [24.9  kPa/m]  along  the y  axis.  For 
+this  case,  only  the  shear measurement  at  /3=0°  [0  rad]  applies, 
+regardless of the borehole inclination, "(.  In Case A of Fig.  6,  the 
+resultant curve is  shown.  There is  a large difference between the 
+pore-pressure line and the borehole-collapse line.  This makes the 
+borehole very stable because the minimum pressure seen in a real 
+borehole is  usually not much lower than the pore pressure.  Also, 
+this  difference  is  nearly constant with borehole angle,  which im(cid:173)
+plies that for this loading situation the borehole is very stable and 
+is  not  sensitive  to  the  borehole angle. 
+
+Next,  Case B of Fig.  5 is evaluated.  The in-situ stresses along 
+the x andy axes are now interchanged, with 1.1 psi/ft [24.9 kPalm] 
+along the x axis and 0.9 psi/ft [20.4 kPa/m] along the y axis.  Now 
+the directional  shear properties come into account.  This is shown 
+in  Case B of Fig.  6.  Note that the borehole for  this  case is  more 
+stable than for  Case A,  except for the region  10° <,,«25° [0.17 
+
+262 
+
+rad < "y < 0.44 rad].  In this region,  the  stability decreases signifi(cid:173)
+cantly,  with  a  peak at "(=15°  [0.26  rad].  The  isotropic  solution 
+is shown in solid lines, while the broken lines show the anisotropic 
+solution. We observe that for this weakly anisotropic rock, the error 
+introduced with the isotropic solution is  < 10%. This error is over(cid:173)
+shadowed, however, by the effect of the directional shear strength. 
+A similar analysis is conducted with the Arkansas sandstone data. 
+The results  are  shown  in Fig.  7.  For this  very  anisotropic  rock, 
+the  effect  of the  plane  of weakness  is  even  more  pronounced. 
+Although the error introduced with the isotropic elastic solution is 
+at most 25 %,  this is overshadowed by the effect of the directional 
+shear strength. When the borehole pressure is lower than the pore 
+pressure, there will be a flow of fluids into the borehole. A mudcake 
+cannot be  formed  under  this  condition. 
+
+Conclusions of the Collapse Analysis. If the least normal stress 
+at the borehole wall is in the same plane as  the borehole axis and 
+the normal axis to the bedding plane, one Mohr-Coulomb envelope 
+applies for all borehole angles.  This is the least serious and the pre(cid:173)
+ferred case. On the other hand,  if the least in-situ stress is normal 
+to the plane of the borehole axis and the axis is normal to the bed(cid:173)
+ding plane, the directional-shear-strength properties come into ac(cid:173)
+count.  Now the borehole has a potential collapse problem in the 
+inclination range 15° <"«  35° [0.26 rad<,,«0.6I rad]. This ap(cid:173)
+plies  only to  sedimentary  rocks  with a plane  of weakness.  For a 
+tectonically relaxed basin with equal horizontal in-situ stresses, this 
+l\lways  applies. 
+
+It is found that use of isotropic instead of anisotropic elastic prop(cid:173)
+erties introduced an error of only  a few  percent for  such  weakly 
+anisotropic  rocks  as  chalks.  For  such  strongly  anisotropic  rocks 
+as  sandstones,  however,  the error was larger.  Also,  it was  found 
+that pore pressure is an important parameter. Generally, the higher 
+the pore pressure, the more sensitive the borehole is toward collapse. 
+For such impermeable rocks as  shales,  the pore pressure may be 
+considered  constant,  regardless  of the  loading. 
+
+Also,  simulations  on  weak  rocks-e.g.,  Leuders  limestone(cid:173)
+
+showed a  high  sensitivity  toward  borehole  collapse.  Simulations 
+
+SPE  Drilling  Engineering,  September  1988 
+
+Case A: 
+
+0'0 =  1 psilft 
+
+Horizontal Bedding Plane 
+
+0.5 
+
+0:'-
+W 
+C 
+'(6 ... 
+Ci)  0.4 
+.!!! 
+"E 
+e 
+~ 
+is  0.3 
+
+(Maximum Hole Diameter) 
+60 0 
+240 0 
+
+150 0 
+3300 
+(Minimum Hole Diameter) 
+
+-
+
+-
+
+- Case A 
+0.2  - - CaseB 
+
+y 
+
+Case B: 
+
+0,,0 = 1 psi/ft 
+
+Inclined Bedding Plane 
+
+0.1 
+
+-+---+---':-'Y--x 
+
+O-l-----..-------r-----..----I 
+360 0 
+Angular Borehole Position, e 
+
+1800 
+
+270 0 
+
+Inclined z·Axis Normal to 
+Bedding Plane 
+
+Fig.  8-Cases for studies of borehole deformation. 
+
+on a sandstone showed that it had a pronounced plane of weakness 
+and became very sensitive toward collapse for given inclinations. 
+Finally, simulations showed that collapse would occur at a slightly 
+different  position  around  the  borehole  wall  for  anisotropic  vs. 
+isotropic rocks.  This is  important when the principal in-situ stress 
+directions  from  collapsed  holes  are  interpreted. 
+Deformation of the Borehole 
+In this section, we present the way borehole strain acts on changing 
+borehole  pressure  to  see  whether  it  behaves  differently  under 
+anisotropic  conditions.  Two  different  field  cases  are  considered. 
+Both assume a vertical hole. The two horizontal in-situ stresses are 
+different, 70 and 90%  of the overburden stress, respectively.  For 
+simplicity, the rock is assumed to be nonporous and elasticity data 
+for Arkansas sandstone from Table 1 are used as input parameters. 
+The two cases  discussed are shown  in Fig.  8.  Case A assumes a 
+transversely  isotropic  rock with horizontal bedding planes,  while 
+Case B assumes the  same  rock type,  but  now  the axis  normal  to 
+the bedding plane is oriented 30 0  [0.52 rad]  from  vertical and the 
+azimuth angle of this axis is set at 60 0  [1.05 rad].  The only differ(cid:173)
+ence between these two cases is the orientation of the bedding plane. 
+The borehole is assumed to be drilled with a borehole pressure 
+of 50% ofthe overburden stress.  During this process, the unequal 
+in-situ stresses may distort the shape of the borehole, but we assume 
+that the  drill  bit  acts  as  a  reamer  and  leaves  a  circular borehole 
+behind, where the stress field around the hole is in equilibrium with 
+the  in-situ  stresses.  At this  stage,  we have eliminated the  effects 
+of the  in-situ  stresses  because of the  reaming  process.  After  the 
+hole is drilled, it is assumed to be pressurized toward the overburden 
+stress state,  and the deformation around the borehole wall caused 
+by  this  pressure  increase  is  computed.  The  results  are  shown  in 
+Fig.  9. 
+
+Fig.  9-Differential strain  around the borehole. 
+
+Case A with a horizontal bedding plane acts like an isotropic ma(cid:173)
+
+terial because of complete symmetry . We see that the deformation 
+is  constant  around the borehole wall.  This  is  interesting  because 
+even  if the  in-situ  stresses are different,  the  strain  is  constant  in 
+any direction around the wall,  and the hole remains circular.  The 
+strain is  seen to depend  on the  inside  boundary  condition,  which 
+for our case is a hydrostatic pressure. This is expected because the 
+effects of the in-situ  stresses  were eliminated during the reaming 
+process. 
+
+Case B with  inclined bedding plane shows  strain,  which varies 
+around the borehole. Note that the deformation in this case is larger, 
+even with the same loading conditions. The difference between the 
+maximum and minimum differential strains is about  12 %, a signifi(cid:173)
+cant value. Fig. 9 shows that the borehole has a maximum diameter 
+across the 8=60 and 240 0  [1.05- and 4. 19-rad] positions and a mini(cid:173)
+mum diameter  across  the 8=150 and  330 0  [2.62- and  5.76-rad] 
+positions around the borehole wall.  Numerical simulations showed 
+that the maximum deformation  occurred at  a position that corre(cid:173)
+sponds  to the  azimuth  of the  axis  normal  to  the bedding  plane(cid:173)
+i.e.,  the  deformation  was  completely  independent  of the  relative 
+values of the in-situ stresses, and the positions of its maximum and 
+minimum values were only a function of the orientation of the bed(cid:173)
+ding plane relative to the borehole. This was also expected because 
+the only change has been to increase the hydrostatic borehole pres(cid:173)
+sure. The preceding analysis gives some very interesting observa(cid:173)
+tions.  A new technique of determining the maximum and minimum 
+in-situ stresses has been developed.  An oriented core is recovered 
+from a deep borehole; as soon as it reaches surface,  strain gauges 
+are installed to determine changes as a function of time. The relative 
+deformation is then used to calculate the in-situ stresses by assuming 
+that the principal strain directions  coincide with the directions  of 
+the  principal  stresses. 
+
+Although this method reportedly measures anelastic deformation, 
+the insight provided in Fig.  9 may  be used to  argue that possibly 
+the  anisotropic elasticity effects also  are measured.  At this time, 
+the core-recovery process is not fully understood; therefore, rather 
+than drawing  any final  conclu~ions, the point here  is  to bring the 
+element of anisotropy into the picture of this complex issue.  Another 
+factor that is not understood is how the reaming or grinding of the 
+core bit affects the release of the in-situ stresses during the coring 
+process. 
+
+SPE Drilling  Engineering,  September  1988 
+
+263 
+
+- - - - Kani = 0.97, p. = 0.22 
+Kani= 0.61, p. = 0.20 
+
+-
+
+-
+
+-
+
+~----------------------~=-~ 
+
+a) 
+
+en 
+en 
+
+! ---CI)~ 
+
+0.8 
+
+'ijCL 
+CL 
+·u  'E 
+~ 
+.~ ~ 
+a..~ 
+... 
+411 
+• ~ CJ 
+j 
+iii  ---
+0.4 
+
+0.6 
+
+_15° 
+
+0°  15°  30°  45°  60°  75°  goo 
+
+Borehole Angle, e 
+
+Least  Effective Principal 
+Stress  Gradient, psi/ft 
+
+b) 
+
+\ 
+
+\ 
+
+, 
+
+\ 
+
+\ 
+
+, 
+, 
+, 
+"- " 
+
+-10° 
+
+0.002 
+
+0.001 
+
+/ 
+
+I 
+
+I 
+
+I 
+./ 
+
+./ 
+
+./ 
+
+_5° 
+
+0° 
+
+5° 
+
+10° 
+
+Fig. 10-Effective principal stresses around the borehole dur(cid:173)
+ing fracturing. 
+
+Direction of the Fracture on the Hole Wall 
+In petroleum engineering,  borehole fracturing  operations are fre(cid:173)
+quently carried out. Offshore, where most wells are inclined at high 
+angles, fracturing is not performed as often as onshore. One argu(cid:173)
+ment is that the fracture direction is not known offshore. If the frac(cid:173)
+ture cuts across the borehole, only a small additional fluid flow path 
+is created.  On the other hand,  a fracture extending parallel to the 
+hole axis  will give a  significant flow  path.  The myth of fractures 
+cutting across the borehole generally is  not true;  it will be shown 
+why  fractures  in  inclined boreholes  >2,000 ft  [>610 m]  deepl 
+are initiated parallel to the borehole axis, regardless of the inclination 
+of the borehole. If a fracture cutting across the borehole should be 
+observed, it is probably the result of faulting or some other geologic 
+phenomenon. A numerical example will be used to show the fracture 
+direction. A borehole inclination of -y=60° [1.05 rad] is arbitrarily 
+chosen.  The fracture gradient is  1.09 psi/ft [24.7 kPa/m]  for both 
+the isotropic Leuders limestone and the anisotropic Arkansas sand(cid:173)
+stone used in the analysis. The pore-pressure gradient is 0.4 psi/ft 
+[9.0 kPa/m].  Overburden stress is  set at  1.0 psilft [22.6 kPa/mJ, 
+and the  horizontal  in-situ  stresses are both equal  to  80%  of this. 
+The tensile strength is set to zero. For this case, the three principal 
+stresses are plotted as a function of the angle around the borehole, 
+as  seen  in  Fig.  lOa.  The  maximum  principal  stress  is  the  radial 
+stress, the intermediate is the axial stress, and the minimum principal 
+stress is the tangential stress at 8=0 0  [0 rad]. The largest effective 
+principal stress is constant and equal to the borehole pressure, while 
+the smallest principal stress shows quite a variation.  Because there 
+is symmetry around the borehole, only 90 0  [1.6 rad]  is shown. For 
+the isotropic case, the smallest effective principal stress is zero only 
+at 8=0 0  [0  rad]  (and 8= 180 0  [3.14 rad]).  Outside this  region,  it 
+goes into a compressive state.  For the anisotropic Arkansas sand(cid:173)
+stone,  this  minimum is at 8= -50 [-0.09 rad].  It is  observed in 
+Fig.  lOa  that the  principal  stresses are only  slightly  different  for 
+
+264 
+
+a) 
+
+b) 
+
+c) 
+
+Fig.  11-Fracture pattern. 
+
+the anisotropic and isotropic cases, but not significantly. In Fig.  lOb, 
+an expanded scale is used near the minimum points.  It is observed 
+that  the  only  significant  difference  between  the  anisotropic  and 
+isotropic cases is that the minimum point is shifted by 50  [0.09 rad] 
+around the borehole wall.  During the computations, it was observed 
+that the direction of the least principal stress does not always cor(cid:173)
+respond to the normal to the borehole axis.  In fact,  for  horizontal 
+or vertical boreholes, the fracture would always extend along the 
+borehole axis, while for inclined boreholes, a small deviation from 
+the borehole axis sometimes was seen.  Inspection of Fig.  lOa,  how(cid:173)
+ever, reveals that even if the fracture starts out at an angle, it may 
+not extend  a long distance because the  least principal stress goes 
+compressive by moving only a small angle 8 around the borehole 
+wall.  Thus,  it  may  be  concluded  that the  fracture  is  confined  to 
+a narrow  region and  possibly  extends  in  a zigzag form  along the 
+borehole axis, as indicated in Fig.  lIb. A similar conclusion is given 
+SPE  Drilling  Engineering,  September  1988 
+
+by Fairhurst. 5  Possible fracture  patterns  are  seen  in  Fig.  II.  In 
+Fig.  Ila, a  fracture  extending along the borehole axis  is  shown, 
+as  expected,  in  vertical  or horizontal  boreholes.  Fig.  lib shows 
+the expected fracture for an inclined borehole and Fig.  Ilc shows 
+still  another possible  fracture  type.  Referring  again  to  Fig.  lib, 
+we see that a potential shear action apparently connects each locus. 
+These loci can be very short, thus giving the appearance of a contin(cid:173)
+uous, but rough, surface. Therefore, contrary to earlier belief, the 
+anisotropic rock model does not predict fractures cutting the hole 
+at an angle.  Fig.  11  shows the fracture  direction  at  the borehole 
+wall only. The fracture will orient itself normal to the least in-situ 
+stress  as  it  propagates  away  from  the  borehole. 
+
+Heterogeneous and Discontinuous Rock 
+The mathematical  solution used  in this  paper is  strictly  not  valid 
+for this case, but it will be used intuitively. Consider the same case 
+as before, with the following modifications.  The rock has a finite 
+tensile strength and contains an existing crack along the borehole 
+axis located at 0 =  - 10 ° [ - O. 17 rad].  The least effective stress at 
+failure is shown in Fig.  12. When the borehole-pressure is increased, 
+the stress  curves  will  shift downward until the tensile  strength is 
+exceeded or a weakness (a crack) reaches a critical stress state.  In 
+Fig.  12, we see that the existing crack will open up at Point A when 
+the least effective stress approaches the tensile strength.  Observe 
+that the point of fracture no longer corresponds to the position of 
+the least effective stress  and  note also  that  for  this  case,  the  two 
+rocks will fracture at different stress levels, which means that they 
+will fracture at different borehole pressures. From this discussion, 
+the following can be deduced. Rock heterogeneity and discontinuity 
+may determine the position of fracture initiation as well as the stress 
+level at which fracture occurs. The stress level might be influenced 
+by the degree of anisotropy of the rock.  Heterogeneities and dis(cid:173)
+continuities generally reduce the accuracy of fracture-pressure and 
+fracture-position  predictions. 
+
+Application for the Petroleum Industry 
+In the foregoing,  some results of simulations of a complex mathe(cid:173)
+matical  model  are shown.  It is believed that this  model more ac(cid:173)
+curately describes  real sedimentary rocks,  which typically have a 
+laminated structure. The model shows very interesting results, but 
+how can these be applied?  A  few  ideas  regarding application  are 
+presented  next. 
+
+Drilling Operations. There is a clear connection between degree 
+of anisotropy and lithology,  which implies that borehole stability 
+is  lithology-dependent.  Typically,  this factor has previously been 
+neglected in the petroleum industry. During drilling, lost circulation 
+usually occurs unexpectedly, and one explanation relates to lithol(cid:173)
+ogy.  Leak -off pressures are typically taken in competent shale sec(cid:173)
+tions,  while  lost  circulation often occurs  in  sandstones. 8 
+
+Also during drilling,  a criterion for avoiding collapse (plane of 
+
+weakness)  is given.  If a  hole has serious collapse problems,  side(cid:173)
+tracking 90° [1.6 rad] to this hole direction can reduce the problems. 
+Experiences  from  the  North  Sea  support this  theory. 
+
+Production Operations. The model shows that during fracturing 
+operations, the fracture will extend along the hole axis for deeper 
+wells, regardless of the inclination of the borehole. This argument 
+may be used to stimulate the application of hydraulic fracturing in 
+offshore  wells.  In  the  past,  this  type  of well  stimulation  has  not 
+been used because the direction of the fracture, across or along the 
+hole, is not known. This analysis may help eliminate such arguments 
+against  choosing  this  stimulation  method. 
+
+Sand production has a  connection not only  to  shear strength of 
+the rock, but also to the total stress field around the hole. A possible 
+extension of the "plane-of-weakness" concept is to apply it to sand 
+production. At this point, this is only speculation, but it seems log(cid:173)
+ical to assume that sand production and borehole collapse are re(cid:173)
+lated  phenomena. 
+
+In Norway, borehole stability has become an important research 
+area. The task is to be able not only to predict fracturing or collapse 
+pressures, but to model the whole field with its stress state. There-
+
+---Kan;= 0.97, p.  =  0.22 
+__ - Kan;  = 0.61,  p. = 0.20 
+
+0.002 
+
+\ 
+
+Point A, 
+
+\  Existing Crack 
+
+0.001 
+
+\~) 
+
+/ 
+
+/ 
+
+/ 
+
+Borehole Angle, e 
+
+/ 
+
+/ 
+
+/ 
+
+;' 
+
+-0.001 
+
+Tensile St~engt~ of R~~ . _ 
+
+. _ 
+
+. _ 
+
+. _ 
+
+-0.002 
+
+Fig.  12-Fracturlng of  rock containing a crack. 
+
+fore,  this analysis points the way to a  more  rigorous approach in 
+solving borehole problems than has been used in the past. The reader 
+is also referred to Refs.  1,6, 7, and 8, which give a good overview 
+of borehole  stability  problems. 
+
+Conclusions 
+A mathematical model has been developed to take into account real 
+rock properties,  which  are  typically  anisotropic. 
+
+First, fracturing of the borehole at high pressures was investigated. 
+The result was that assuming  isotropic  rock properties instead of 
+the real anisotropic elastic constants introduced only a small error 
+in  the fracture-pressure  prediction.  More important is  the tensile 
+strength of the rock. Using measured tensile strengths and zero ten(cid:173)
+sile  strength (as  assumed in the field  with  cracks  present)  as  ex(cid:173)
+treme limits, the fracture pressure was given in a range with maybe 
+more than 50% variation between the upper and lower limits.  The 
+real tensile strength is an important parameter in fracturing-pressure 
+predictions.  Because the tensile strength is an absolute value,  it is 
+found that the above-measured range decreases with increased well 
+depth.  Therefore, there is less uncertainty associated with estimating 
+fracture pressure for deeper wells if all in-situ parameters are known. 
+The  position  of fracture  initiation  is  erroneous  if the  simplified 
+isotropic equations are used for anisotropic rocks. Also, imperme(cid:173)
+able rocks (e.g., shales) were distinguished from permeable rocks 
+(e.g., sandstones). If the borehole pressure could not be transmitted 
+through the mudcake or into an impermeable rock, a higher fracture 
+pressure  was observed. 
+
+Borehole  collapse  was  investigated  with  an  extended  Mohr(cid:173)
+Coulomb criterion. It was found that the higher the pore pressure, 
+the  more  sensitive  the borehole became to collapse.  For relaxed 
+depositional basins with equal horizontal in-situ stresses, the bore(cid:173)
+hole is sensitive to collapse for inclination between 10 and 35° [0.17 
+and 0.61  rad].  This applies only  to laminated  rocks  with  a  plane 
+of weakness. If the horizontal in-situ stresses are different, a bore(cid:173)
+hole very stable against collapse can be drilled by inclining the hole 
+in  the  direction  of the  least  in-situ  stress.  The  collapse  analysis 
+showed that with the simplified isotropic stress equations, a signif(cid:173)
+icant error is introduced for such highly anisotropic rocks as sand(cid:173)
+stones.  Also,  it  was  found  that  the  least  in-situ  stress  was  not 
+perfectly aligned with the direction of collapse for general anisotrop(cid:173)
+ic  cases. 
+
+SPE  Drilling  Engineering,  September  1988 
+
+265 
+
+The deformation pattern of the borehole was  investigated when 
+the borehole pressure is  increased. If initially circular, the hole will 
+deform in a circular manner if the hole  is  perfectly  normal  to the 
+bedding plane (perfect symmetry).  If the angle between the bedding 
+plane and the  borehole is  different from  90°  [1.6 rad],  however, 
+the hole will deform elliptically. The maximum diameter of the hole 
+thus obtained corresponds to the orientation of the borehole relative 
+to the bedding plane. In other words, the geometry and the material 
+properties, rather than the in-situ stresses, may determine the defor(cid:173)
+mation pattern. These observations are valid for a time-independent 
+material only and are introduced to show that anisotropy may have 
+a significant effect.  For time-dependent materials, the conclusions 
+may  no  longer  be  valid. 
+
+Simulations also show that the plane-strain anisotropic model pre(cid:173)
+dicts only fractures extending parallel to the borehole axis for bore(cid:173)
+holes  >2,000 ft [>610 m]  deep. 1  Fractures cutting across or at 
+an angle were never predicted.  For an anisotropic rock, however, 
+the fracture would initiate at a different location around the borehole 
+waIl compared with an isotropic rock.  Therefore, an isotropic model 
+to calculate the direction of the in-situ stresses generally gives er(cid:173)
+roneous  results.  Finally,  it was  deduced  that heterogeneities and 
+discontinuities in the rock might be the  most important factors  in 
+a  field  situation,  reducing  the  accuracy  of the  predictions. 
+
+Knowledge of the actual in-situ stress state is probably the most 
+
+important  element  in  all  rock-mechanics-related  work. 
+
+Nomenclature 
+
+a  =  constant 
+
+aU  =  elements  of matrix of compliance 
+[As]  =  matrix  of compliance  for  interpore  material 
+
+B'  =  E;lE 
+E  =  elastic  modulus  of porous  material 
+Ei  =  elastic  modulus  of interpore  material 
+F  =  stress  function 
+
+gfp  =  formation  pressure gradient 
+[I]  =  identity  matrix 
+
+Kani  =  anisotropy  coefficient;  horizontal/vertical 
+
+elasticity  ratio 
+
+[L]  =  matrix of elastic  constants  for  porous  material 
+
+in  rock 
+
+x,y,z  =  reference  frame  for  borehole 
+
+xo,yo,zo  =  reference  frame  for  virgin  in-situ  stresses 
+
+References 
+I.  Aadnoy, B.S. and Chenevert, M.E.:  "Stability of Higher Inclined Bore(cid:173)
+
+holes,"  SPEDE (Dec.  1987)  364-74. 
+
+2.  Aadnoy, B.S.: "Continuum Mechanics Analysis of the Stability ofIn(cid:173)
+clined Boreholes in  Anisotropic Rock Formations,"  PhD thesis,  Nor(cid:173)
+wegian  Inst.  of Technology,  U.  of Trondheim,  Norway  (1987). 
+
+3.  Chenevert,  M.E.:  "The Deformation-Failure Characteristics of Lami(cid:173)
+
+nated  Sedimentary  Rocks,"  PhD  dissertation,  U.  of Texas,  Austin 
+(1964). 
+
+4.  Potter, P.E., Maynard, J.B., and Pryor, W.A.: Sedimentology o/Shale, 
+
+Springer  Verlag  New  York  Inc.,  New  York  City  (1984). 
+
+5.  Fairhurst, C.:  "In-Situ Stress Determination-An Appraisal oflts Sig(cid:173)
+
+nificance in Rock Mechanics," Proc., IntI.  Symposium on Rock Stress 
+and  Rock  Stress  Measurements,  Stockholm  (Sept.  1-3,  1986)  3-17. 
+6.  Bradley, W .B.:  "Failure of Inclined Boreholes,"  J.  Energy Resources 
+
+Technology  (Dec.  1979)  232-39;  Trans.,  ASME,  101. 
+
+7.  Cheatham,  J.B.  Jr.:  "Wellbore Stability," JPT(June  1984)  889-66. 
+8.  Aadnoy, B.S. and Larsen, K.:  "Method for Fracture Gradient Prediction 
+for Vertical and  Inclined Boreholes,"  paper SPE  16695  presented at 
+the  1987  SPE  Annual  Technical  Conference  and  Exhibition,  Dallas, 
+Sept.  27-30. 
+
+9.  Amadei,  B.:  "Rock Anisotropy  and  the  Theory  of Stress  Measure(cid:173)
+
+ments," Lecture Notes in Engineering,  C.A. Brebbia and S.A.  Orzag 
+(eds.),  Springer  Verlag  New  York  Inc.,  New  York  City  (1983). 
+
+10.  van  Cauvelaert,  F.:  "Coefficients of Deformation  of an  Anisotropic 
+Body," J.  Engr.  Mech.  Div., Proc., ASCE (Oct.  1977) 103, No.  EMS, 
+825-35. 
+
+Appendix-Mathematical Model 
+Ref.  I defines the stresses around the borehole, the transformation 
+equations,  the  principal  stresses,  and  the  effective  stresses  for 
+isotropic materials.  In the following,  we will look at a few  param(cid:173)
+eters  that  are  different  for  anisotropic  materials. 
+
+The  strain  components  are  related  to  the  stress  components 
+through the constitutive relations of the anisotropic body as follows: 
+
+EX 
+
+Ey 
+
+Ez 
+
+'YyZ 
+
+'Y xz 
+
+'Yxy 
+
+all  a12  a13  a14  a15  a16 
+
+a21  a22  a23  a24  a25  a26 
+
+a31  a32  a33  a34  a35  a36 
+
+a41  a42  a43  a44  a45  a46 
+
+a51  a52  a53  a54  a55  a56 
+
+a61  a62  a63  a64  a65  a66 
+
+Ux 
+Uy 
+
+Uz 
+TyZ 
+
+Txz 
+
+Txy 
+
+a  =  angle  between  applied  force  and  failure  plane 
+
+during  triaxial  core  testing,  degrees  [rad] 
+
+f3  =  angle  between  applied  force  and  bedding  plane 
+
+during  triaxial  core  testing,  degrees  [rad] 
+
+'Y  =  borehole  inclination  from  vertical 
+
+................................... (A-I) 
+
+Introducing the generalized plane-strain concept,  €z  =0, the axial 
+stress  component  can  be  expressed as 
+
+'Y xy , 'Y xz ' 'Y yz  =  shear strains 
+
+E r  =  borehole  strain  in  the  radial  direction 
+
+Ex,Ey,Ez  =  normal  strains 
+
+()  =  angle  around  borehole  from  x  axis, 
+
+degrees  [rad] 
+p.  =  Poisson's  ratio 
+u  =  normal  stress 
+
+ux,uy'UZ  =  normal  stresses  in x,  y,  z  directions 
+ux,o,uy,o' 
+
+uZ,o  =  virgin  in-situ  stress  field 
+
+iT 1 ,iT 2,iT 3  =  principal  effective  stresses 
+
+T  =  shear  stress 
+
+Txy,Txz,Tyz  =  shear  stresses  in x,  y,  z coordinate  system 
+
+TO  =  cohesive  strength of rock 
+q,  =  angle  of internal  friction  in  Mohr-Coulomb 
+
+envelope,  degrees  [rad] 
+
+'It  =  stress  function 
+
+Subscripts 
+
+i,j =  1,2,3 
+
+266 
+
+Uz =  --(a31 Ux +a32 Uy  +a34 TyZ +a35Txz +a36Txy)'  ... (A-2) 
+
+I 
+
+a33 
+
+Please  observe  that  the  three  material  constants-a34'  a35,  and 
+a36-may obtain  nonzero values  for  anisotropic  materials,  there(cid:173)
+by coupling the normal and shear stresses.  For isotropic materials, 
+this  coupling  does  not  exist. 
+
+By introducing the following stress functions and strain compati(cid:173)
+
+bility  conditions,  a  system  of differential  equations  results: 
+
+a2F 
+ay2 
+
+ux= - ,  .................................... (A-3a) 
+
+u y = - ,  .................................... (A-3b) 
+
+a2F 
+ax2 
+
+Txy=--'  ................................... (A-3c) 
+
+a2F 
+axay 
+
+SPE  Drilling  Engineering,  September  1988 
+
+..................................... (A-3d) 
+
+parameter concept of van Cauvelaert lO  is adopted, however, which 
+yields for a laminated rock with the laminae oriented in the x-y plane: 
+
+and 
+
+iN 
+Tyz = - - '  ax 
+
+This  yields 
+
+................................... (A-3e) 
+
+Ex 
+
+Ey 
+
+Ez 
+
+l'yz 
+
+I'xz 
+
+I'xy 
+
+Kani 
+
+E 
+
+L4F+L 31/;=0  .................................. (A-4a) 
+
+and 
+
+L3F+L 21/;=0,  ................................. (A-4b) 
+
+x 
+
+where 
+
+-I' 
+I 
+
+-I' 
+-I'  -I' 
+0 
+0 
+0 
+
+0 
+0 
+0 
+
+-I' 
+-I' 
+
+IIKani 
+
+0 
+0 
+0 
+
+0 
+0 
+0 
+
+[I1Kani +(I +21')] 
+
+0 
+0 
+
+0 
+0 
+0 
+0 
+
+[IIKani +(1 +21')] 
+
+0 
+0 
+0 
+0 
+0 
+
+0 
+
+2(1+1') 
+
+x 
+
+7 yz 
+
+7xZ 
+
+. .  . . . . . . . . . .  . 
+
+.................. (A-6) 
+
+The constitutive relations are defined in Eq.  A-6.  The three con(cid:173)
+stants  are  defined  in  Table  1.  For fracturing  analysis,  a  strength 
+criterion was defined  assuming either that  failure  occurred when 
+the least principal stress exceeded the tensile  strength of the  rock 
+or that the tensile strength was zero because of existing cracks. The 
+data from  Table 2 were used  in  the  fracturing  analysis  and  were 
+interpolated  for  intermediate  orientations.  For borehole-collapse 
+analysis, a failure envelope was needed because collapse is defined 
+as  a  shear  failure.  The  variable  cohesive  strength/variable angle 
+of the internal friction Mohr-Coulomb criterion was used.  It is based 
+on the plane-of-weakness theory  that says that the  rock would be 
+weaker  when  it  fails  along  the  bedding  plane. 
+
+The  Mohr-Coulomb  failure  model  is  presented  as 
+
+T=TO+a tan  <p. 
+
+. ............................... (A-7) 
+
+The data from Table 3 were used in Eq.  A-7 for the collapse anal(cid:173)
+ysis.  Now  some of the  most  important parameters have been de(cid:173)
+fined briefly.  Because we are dealing with porous rocks containing 
+fluids under pressure, an effective-stress concept must be defined. 
+For  anisotropic  rocks,  the  following  effective-stress  concept  is 
+applied. 
+
+,  ....... (A-8) 
+
+o 
+o 
+o 
+
+where 
+
+gfp  =  pore  pressure, 
+[As]  =  matrix  of compliance  for  interpore material, 
+[L]  =  matrix  of elastic  constants  for  porous  material  in 
+
+rock,  and 
+
+[J]  =  identity  matrix. 
+
+The anisotropy may be either structural (anisotropic pore geometry) 
+or intrinsic (anisotropic  solid  material)  or both.  For an  isotropic 
+material,  the  product  [LHAs] =[/]. 
+
+and 
+
+It is readily observed that the solution depends on the elements of 
+the constitutive relation matrix of Eq.  A-I.  Solved in  terms of F, 
+we  are  left  with  a  sixth-order differential  equation: 
+
+(L 4L2 -Lf)F=O. 
+
+. .............................. (A-5) 
+
+Inspection of Eq.  A -4 can give us some insight into the properties 
+of the  solution.  If L3 =0,  the  two  stress functions,  F and  it, are 
+no  longer coupled,  and  we  have  a  reduced case that  is  similar to 
+an isotropic solution.  Amadei 9  defines the following conditions of 
+anisotropy that correspond to the condition L3 =0: (1)  orthotropic 
+material  with one plane of elastic symmetry  perpendicular to  the 
+hole axis and two other planes parallel to the hole axis,  (2) trans(cid:173)
+versal isotropy in a plane striking parallel to the hole axis,  (3)  trans(cid:173)
+versal  isotropy  in  a  plane  perpendicular  to  the  hole  axis,  and 
+(4)  isotropy. 
+
+From  these  equations,  it  is  deduced  that  L3 =0  only  for  a 
+horizontal or vertical  hole  in  a horizontally oriented  transversely 
+isotropic  rock.  For all  cases  in  between,  L3  will  not  vanish. 
+
+Inspection  of Eq.  A-4  reveals  that  the  anisotropic  stress equa(cid:173)
+
+tions are very complicated. Indeed, the solution to Eq. A-5 always 
+gives complex or imaginary  roots.  The  resultant  stress  equations 
+are  rather  lengthy;  Aadnoy2  provides  complete  expressions. 
+
+The  model assumes that  a general  stress field  at  infinite  radius 
+is  the  outer boundary  condition  and  the  borehole  pressure  is  the 
+inner  boundary  condition.  Five  independent  material  constants 
+generally  are  necessary  to  use  such a  model.  A simplified three-
+
+SPE  Drilling  Engineering,  September  1988 
+
+267 
+
+Numerical Simulators 
+The mathematical models described in this paper were implemented 
+in two numerical simulators, one for borehole fracturing,  and one 
+for borehole collapse. In addition to the anisotropic stress equations, 
+transformation equations were included to take into account various 
+boreholes, the bedding plane,  and  in-situ  stress orientations.  The 
+complete simulators have been evaluated with respect to possible 
+simplifications of the equations involved.  It was found t\1at for the 
+general case,  the  full  solution must be used.  Such simplifications 
+as decoupling of the two differential equations in Eq. A-4 introduce 
+an  error. 
+
+SI ..,etrlc Conver.lon Factors 
+
+degrees  x  1.745329 
+
+ft  x  3.048* 
+
+psi  x  6.894 757 
+psi/ft  x  2.262059 
+
+E-02 
+E-Ol 
+E+OO 
+E+Ol 
+
+rad 
+m 
+kPa 
+kPa/m 
+
+• Conversion  factor is exact. 
+
+SPEDE 
+
+Original SPE manuscript received for review Sept. 8, 1987: Paper accepted for publication 
+Jan. 13, 1988. Revi$9d manuscript received April 18, 1988. Paper (SPE 16526) first present(cid:173)
+ed  at the 1987 SPE Offshore Europe Conference held  in  Aberdeen,  Sept.  8-11. 
+
+268 
+
+SPE  Drilling  Engineering,  September  1988 
+
+Discussion of Modeling of the Stability of Highly 
+Inclined Boreholes in Anisotropic Rock Formations 
+S.A.B. da Fontoura, SPE,  Catholic  U.  of Rio  de Janeiro,  and  H.M.R. dos Santos, SPE,  Petrobras 
+Research  Center-CENPES 
+
+Introduction 
+Aadnoy  (Sept.  1988 SPEDE,  Pages 259-68) should be congratu(cid:173)
+lated for his continuous effort toward the better understanding of 
+deep-wellbore  stability.  We also  would like to contribute to this 
+subject by commenting on some of Aadnoy's conclusions. This dis(cid:173)
+cussion will provide independent data and information that may in(cid:173)
+dicate that (1) the reported results from borehole fracturing are not 
+sufficient to justify the conclusion that  "  ... in  the  interpretation 
+of the fracturing pressure, the anisotropy may be neglected";  (2) 
+the reasoning on the direction of the  fracture on the hole wall is 
+not sufficient to justify the conclusion that "  ... fractures ... are in(cid:173)
+itiated parallel to  the borehole axis,  regardless  of the  inclination 
+of the  borehole";  and  (3)  the  use  of the  Mohr-Coulomb  failure 
+criterion to evaluate the collapse gradient in the case of shale for(cid:173)
+mation is not appropriate. These conclusions should be tested further 
+before they  are accepted by the drilling engineering community. 
+
+Fracturing Studle. 
+To  evaluate  the  influence  of  rock  formation  anisotropy  upon 
+wellbore fracturing pressure, Aadnoy selected two case studies that 
+cannot be considered representative of the possible spectrum of prac(cid:173)
+tical situations because the chosen Kani  values are too high and be(cid:173)
+cause the  in-situ  effective horizontal  stresses  are hydrostatic. 
+
+The Kani  values of 0.73  and 0.61, chosen to model the degree 
+of rock anisotropy, may not be representative of highly anisotropic 
+rocks.  Barla 1  reported  results  of Kani  as  low  as  0.2  for  some 
+schists. Because few data are available for sedimentary rocks, more 
+effort must be made to obtain the appropriate range of Kani  for oil(cid:173)
+bearing sedimentary rock formations.  Before this range can be ac(cid:173)
+curately determined, however, Kani  values smaller than those used 
+by  Aadnoy  should  be  considered  to  study  the  effects  of  rock 
+anisotropy. Also, in light of previous experience, it is not surprising 
+that  Kani  values  of 0.61  indicated  only  a  negligible  influence of 
+rock anisotropy  upon  stress distribution around a  wellbore in an 
+elastic medium.  Hoek2  suggested that for Kani  values greater than 
+0.33, the stress distribution is not significantly different from the 
+one  obtained  for  the  isotropic  elastic  medium  (Kani = 1.0). 
+
+The chosen in-situ state of stress is not representative of possible 
+situations in the field because the horizontal stresses are hydrostatic. 
+In this choice, the direction of the wellbore was made irrelevant. 
+Previous experience has shown,  however,  that for  isotropic rock 
+formations,  both  in-situ  stress  ratio  and  wellbore  direction  with 
+respect to in-situ  stresses  may greatly  influence the  stress  distri(cid:173)
+bution  around  the  wellbore  and,  consequently,  the  fracturing 
+pressure. Recent papers3,4  clearly show this influence. The direc(cid:173)
+tional  tensile strength of an anisotropic material may  add  to  this 
+influence. 
+
+Direction of the Fracture on the Hole Wall 
+Aadnoy concluded that "  ... fractures ... are initiated parallel to the 
+borehole axis,  regardless of the  inclination of the borehole," but 
+we  think the example on which the author based this  conclusion 
+
+is too particular.  This example actually represents a situation that 
+can be analyzed by an isotropic model because Kani  is too high and 
+because the tensile strength is zero. Aadnoy also considered a hydro(cid:173)
+static condition for the in-situ effective horizontal principal stresses, 
+which  added  to  the limitations  of the example. 
+
+Aadnoy's  conclusion  is  not  in  agreement  with  the  results  of 
+Daneshy5. and  of Roegiers  and  Detoumay. 4  Both  investigations 
+showed that the fracture can be inclined with respect to the borehole 
+axis, depending upon the geometric combination (Le., borehole in(cid:173)
+clination and direction). Again, we would expect to observe an in(cid:173)
+fluence  of the  rock anisotropy on the direction of the fracture on 
+the borehole wall if the proper variation of the tensile strength with 
+direction  is  considered. 
+Borehole Collap.e Problem. 
+To evaluate failure condition around a wellbore properly, a three(cid:173)
+dimensional failure criterion for the rock mass should be considered. 
+For the case of anisotropic rocks,  Amadei6  presented a compre-_ 
+hensive criterion to consider the effect of all principal stresses upon 
+the  slip condition along  the  plane of anisotropy.  It is  necessary, 
+however, to calculate the direction of principal stresses around the 
+wellbore.  Unfortunately,  Aadnoy  neglected  the  possible rotation 
+of principal stresses in planes tangent to the wellbore,  which can 
+be quite considerable. 4,5 
+
+To apply the Mohr-Coulomb failure criterion, the stresses must 
+be compressive.  It is  not valid to extend the  straight line  for  the 
+region of tension because this may overestimate the strength of the 
+material. In ~adnoy's example for impermeable shale, the drilling 
+was done under highly underbalanced conditions-i.e., the internal 
+mud pressure was much smaller than the pore fluid pressure, gener(cid:173)
+ating a tensile radial stress.  Therefore,  for  this  case,  the stresses 
+leading to failure  (tangential and radial),  as analyzed by Aadnoy, 
+would lead to  an underestimation  of the  collapse  gradient. 
+Reference. 
+1.  Hoek, E.:  "Rankine Lecture: Strength of Rock Masses," Geotechnique 
+
+(1983)  33,  No.3,  187-223. 
+
+2.  Barla, G.  "Rock Anisotropy-Theory and Laboratory Testing," Rock 
+Mechanics,  L.  Muller (ed.), Springer-Verlag, Udine (1974)  No.  165, 
+131-65. 
+
+3.  da Fontoura, S.A.B. and dos Santos, H.M.R.: "In-Situ Stresses, Mud 
+Weight and Modes of Failure Around Oil Wells,"  Proc.,  15th Cdn. 
+Rock  Mechanics  Symposium  (1988)  230-40. 
+
+4.  Roegiers,  J.C.  and Detoumay,  E.:  "Considerations on Failure Initi(cid:173)
+ation in Inclined Wellbores," Proc., 29th U.S. Rock Mechanics Sym(cid:173)
+posium,  P.A.  Cundall,  R.L.  Sterling,  and  A.M.  Starfield (eds.),  U. 
+of Minnesota  (1988)  461-69. 
+
+5.  Daneshy,  A.A.:  "A Study  of Inclined  Hydraulic  Fractures,"  SPEI 
+
+(April  1971)  61-68. 
+
+6.  Amadei,  B.:  "Strength of a Regularly Jointed Rock  Mass  Under Bi(cid:173)
+axial and Axisymmetric Loading Conditions, "  Inti.  J.  Rock Mech.  Min. 
+Sci.  Geomech.  Abstr.  (1988)  25,  No.  I,  3-13. 
+
+(SPE  19213) 
+
+SPEDE 
+
+SPE Drilling Engineering,  June  1989 
+
+187 
+
+Author's Reply to Discussion of Modeling 
+of the Stability of Highly Inclined Boreholes 
+in Anisotropic Rock Formations 
+B.S. Aadnoy, SPE,  Rogaland  U. 
+
+I thank da Fontoura and dos Santos for their interest in my paper 
+and for their discussion.  I certainly agree that more effort must be 
+spent  in  obtaining  data for  oil-bearing  sedimentary  rocks. 
+
+Their discussion correctly points out that the degree of anisotropy 
+shown in my  examples is  not extreme.  I showed that the error is 
+small when anisotropy is neglected compared to uncertainties as(cid:173)
+sociated with other factors,  such as  mudcake quality  and  tensile 
+strength of the  rock.  With use of very low Kani  values,  my  con(cid:173)
+clusion is still the same.  My data were chosen for commonly en(cid:173)
+countered oilfield rocks. I also agree that the chosen in-situ stress 
+states may not represent the • 'possible spectrum of practical situ(cid:173)
+ations. "  I never intended my cases to cover all possible field situ(cid:173)
+ations specifically. The cases were chosen to represent a common 
+oil field,  mainly to study the effect of rock anisotropy.  Other sets 
+of data  would,  of course,  result in different fracture  or collapse 
+pressures, but I still believe that the same general trends would be 
+present.  The hydrostatic in-situ  stress  state is chosen mainly  be(cid:173)
+cause the principal in-situ stresses are not known.  A recently pub(cid:173)
+lished  paper, 1  however,  gives  a  method  to  estimate  the 
+nonhydrostatic  in-situ  stress  field  from leakoff data,  providing  a 
+major improvement  in  the  modeling  of inclined  boreholes. 
+
+In my  discussion  on  fracture  initiation,  I  pointed  out that  the 
+fracture  may  initiate  at an angle to the  borehole axis,  but that  it 
+is  confmed  to  extend  axially  within  a  narrow  band.  The  model 
+therefore predicts a fracture that may be irregular but that will in(cid:173)
+itiate along the axis of the hole as illustrated in Fig.  lib of my paper. 
+Daneshy's2 experimental work seems to be in agreement with my 
+model.  He,  however,  observed some deviations  at the endpoints 
+of the fractures.  This observation could, in my opinion, result from 
+end effects in the experimental setup.  Roegiers and Detoumay's3 
+paper is a well-written discussion about fracture initiation. Again, 
+I see no direct disagreement because my model predicts fractures 
+that initiate at an angle to the borehole axis but that extend along 
+the  hole  axis  within a  confined band.  The tangential  stress typi(cid:173)
+cally  goes  tensile  only  at  narrow  regions  of the  borehole during 
+fracturing, explaining the confmement within the band. As da Fon(cid:173)
+toura and dos Santos correctly point out, the particular fracture shape 
+(see Fig.  lIb of my paper) depends on the geometric combination 
+and loading  situation. 
+
+It is further suggested that a three-dimensional failure  criterion 
+must be considered for borehole-collapse analysis. I agree that this 
+would provide an interesting extension of my work.  da Fontoura 
+and  dos  Santos  suggest a  criterion suitable for jointed rocks  that 
+
+seems promising. I point out, however, that there is apparently no 
+consistent view on the effect of the intermediate principal stress. 
+I therefore find the Mohr-Coulomb failure criterion acceptable along 
+with  other  criteria.  I  agree  that  the  maximum-principal-stress 
+direction deviates  somewhat from  the direction of the  tangential 
+stress component. For the examples shown in the paper, this devi(cid:173)
+ation was small. One of the main points was to show the effect of 
+the  plane  of weakness along  the  bedding plane. 
+
+I  also agree that extrapolating the Mohr-Coulomb envelope to 
+negative stresses may introduce errors. The core plugs used to obtain 
+rock strength data are typically tested without a pore pressure or 
+at specific pore-pressure levels.  When these data are applied in a 
+simulator, the effective stress concept is used to model the borehole 
+response at any pore pressures. There is, of course, a possible source 
+of error here. The validity of the effective stress principle may be 
+questioned, particularly for impermeable shales. In addition, cores 
+are usually not tested under in-situ temperatures.  Also,  it is often 
+difficult to find  agreement between laboratory-obtained data and 
+borehole response data from the field.  Here, I believe, it is not only 
+a matter of accurately determining the rock properties. The deter(cid:173)
+mination of the  in-situ  stress  field 1  is  more  important.  Borehole 
+collapse is  much more difficult to model than fracturing,  and my 
+paper  is  one step toward  full  understanding  of this  problem. 
+
+In conclusion, I think da Fontoura and dos Santos correctly em(cid:173)
+
+phasized the complexity of borehole mechanics with its variety of 
+rock types and loading conditions.  Also, they point out that there 
+are failure models other than the ones I have chosen.  Future work 
+will show how these compare. Within the conditions and limitations 
+given,  I still think my conclusions hold.  As  da Fontoura and dos 
+Santos imply, however, borehole mechanics is an area where a lot 
+of analytical  and experimental  work remains  to  be done. 
+
+References 
+1.  Aadnoy, B.S.:  "Inversion Technique to Detennine the In-Situ Stresses 
+from Fracturing Data," paper SPE 18023 presented at the  1988 SPE 
+Annual  Technical  Conference and  Exhibition,  Houston,  Oct.  2-5. 
+
+2.  Daneshy,  A.A.:  "A Study  of Inclined  Hydraulic  Fractures,"  SPEl 
+
+(April  1973)  61-68. 
+
+3.  Roegiers,  J.C.  and Detoumay,  E.:  "Considerations on Failure Initi(cid:173)
+ation in Inclined Wellbores," Proc., 29th U.S. Rock Mechanics Sym(cid:173)
+posium,  P.A.  Cundall,  R.L.  Sterling,  and  A.M.  Stlirfieid  (eds.),  U. 
+of Minnesota,  Minneapolis  (1988)  461-69. 
+
+(SPE  19886) 
+
+SPEDE 
+
+188 
+
+SPE Drilling  Engineering,  June  1989 
+
+

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Ageomechanics%26id_list%3D%26start%3D0%26max_results%3D20" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:geomechanics&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <id>http://arxiv.org/api/bLfaOj55q+FYvI5nA/8vLwY4zWc</id>
+  <updated>2018-03-02T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">36</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">20</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.00579v1</id>
+    <updated>2016-09-02T12:46:20Z</updated>
+    <published>2016-09-02T12:46:20Z</published>
+    <title>Modelling Geomechanical Impact of CO2 Injection Using Precomputed
+  Response Functions</title>
+    <summary>  When injecting CO2 or other fluids into a geological formation, pressure
+plays an important role both as a driver of flow and as a risk factor for
+mechanical integrity.
+  The full effect of geomechanics on aquifer flow can only be captured using a
+coupled flow-geomechanics model. In order to solve this computationally
+expensive system, various strategies have been put forwards over the years,
+with some of the best current methods based on sequential splitting.
+  In the present work, we seek to approximate the full geomechanical effect on
+flow without the need of coupling with a geomechanics solver during simulation,
+and at a computational cost comparable to that of an uncoupled model. We do
+this by means of precomputed pressure response functions. At grid model
+generation time, a geomechanics solver is used to compute the mechanical
+response of the aquifer for a set of pressure fields. The relevant information
+from these responses is then stored in a compact form and embedded with the
+grid model.
+  We test the accuracy and computational performance of our approach on a
+simple 2D and a more complex 3D model, and compare the results with those
+produced by a fully coupled approach as well as from a simple decoupled method
+based on Geertsma's uniaxial expansion coefficient.
+</summary>
+    <author>
+      <name>Odd Andersen</name>
+    </author>
+    <author>
+      <name>Halvor M. Nilsen</name>
+    </author>
+    <author>
+      <name>Sarah E. Gasda</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Preprint, ECMOR XV</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.00579v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.00579v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="J.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.11464v1</id>
+    <updated>2017-10-26T16:47:20Z</updated>
+    <published>2017-10-26T16:47:20Z</published>
+    <title>What Factors Control Shale Gas Production and Production Decline Trend
+  in Fractured Systems: A Comprehensive Analysis and Investigation</title>
+    <summary>  A multi-physics model for shale gas production in fractured system, that
+couples real gas property, nano-flow mechanism and geomechanics
+</summary>
+    <author>
+      <name>HanYi Wang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.11464v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.11464v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.04581v2</id>
+    <updated>2017-08-18T07:15:39Z</updated>
+    <published>2015-12-15T07:07:25Z</published>
+    <title>Testing a coupled hydro-thermo-chemo-geomechanical model for gas hydrate
+  bearing sediments using triaxial compression lab experiments</title>
+    <summary>  Natural gas hydrates are considered a potential resource for gas production
+on industrial scales. Gas hydrates contribute to the strength and stiffness of
+the hydrate-bearing sediments. During gas production, the geomechanical
+stability of the sediment is compromised. Due to the potential geotechnical
+risks and process management issues, the mechanical behavior of the gas
+hydrate-bearing sediments needs to be carefully considered. In this study, we
+describe a coupling concept that simplifies the mathematical description of the
+complex interactions occuring during gas production by isolating the effects of
+sediment deformation and hydrate phase changes. Central to this coupling
+concept is the assumption that the soil grains form the load-bearing solid
+skeleton, while the gas hydrate enhances the mechanical properties of this
+skeleton. We focus on testing this coupling concept in capturing the overall
+impact of geomechanics on gas production behavior though numerical simulation
+of a high-pressure isotropic compression experiment combined with methane
+hydrate formation and dissociation. We consider a linear-elastic stress-strain
+relationship because it is uniquely defined and easy to calibrate. Since, in
+reality, the geomechanical response of the hydrate bearing sediment is
+typically inelastic and is characterized by a significant shear-volumetric
+coupling, we control the experiment very carefully in order to keep the sample
+deformations small and well within the assumptions of poro-elasticity. The
+closely co-ordinated experimental and numerical procedures enable us to
+validate the proposed simplified geomechanics-to-flow coupling, and set an
+important precursor towards enhancing our coupled hydro-geomechanical hydrate
+reservoir simulator with more suitable elasto-plastic constitutive models.
+</summary>
+    <author>
+      <name>Shubhangi Gupta</name>
+    </author>
+    <author>
+      <name>Christian Deusner</name>
+    </author>
+    <author>
+      <name>Matthias Haeckel</name>
+    </author>
+    <author>
+      <name>Rainer Helmig</name>
+    </author>
+    <author>
+      <name>Barbara Wohlmuth</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1002/2017GC006901</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1002/2017GC006901" rel="related"/>
+    <link href="http://arxiv.org/abs/1512.04581v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.04581v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01064v1</id>
+    <updated>2017-03-27T13:26:05Z</updated>
+    <published>2017-03-27T13:26:05Z</published>
+    <title>Direct observation of coupled geochemical and geomechanical impacts on
+  chalk microstructural evolution under elevated CO2 pressure. Part I</title>
+    <summary>  The dissolution of porous media in a geologic formation induced by the
+injection of massive amounts of CO2 can undermine the mechanical stability of
+the formation structure before carbon mineralization takes place. The
+geomechanical impact of geologic carbon storage is therefore closely related to
+the structural sustainability of the chosen reservoir as well as the
+probability of buoyancy driven CO2 leakage through caprocks. Here we show, with
+a combination of ex situ nanotomography and in situ microtomography, that the
+presence of dissolved CO2 in water produces a homogeneous dissolution pattern
+in natural chalk microstructure. This pattern stems from a greater apparent
+solubility of chalk and therefore a greater reactive subvolume in a sample.
+When a porous medium dissolves homogeneously in an imposed flow field, three
+geomechanical effects were observed: material compaction, fracturing and grain
+relocation. These phenomena demonstrated distinct feedbacks to the migration of
+the dissolution front and severely complicated the infiltration instability
+problem. We conclude that the presence of dissolved CO2 makes the dissolution
+front less susceptible to spatial and temporal perturbations in the strongly
+coupled geochemical and geomechanical processes.
+</summary>
+    <author>
+      <name>Y. Yang</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. S. Hakim</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Bruns</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Rogowska</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Boehnert</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. U. Hammel</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Helmholtz-Zentrum Geesthacht, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. L. S. Stipp</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. O. Sørensen</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Nano-Science Center, Department of Chemistry, University of Copenhagen</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages, 16 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1704.01064v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.01064v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.4895v1</id>
+    <updated>2013-04-17T17:26:51Z</updated>
+    <published>2013-04-17T17:26:51Z</published>
+    <title>Pore-scale modeling of fluid-particles interaction and emerging
+  poromechanical effects</title>
+    <summary>  A micro-hydromechanical model for granular materials is presented. It
+combines the discrete element method (DEM) for the modeling of the solid phase
+and a pore-scale finite volume (PFV) formulation for the flow of an
+incompressible pore fluid. The coupling equations are derived and contrasted
+against the equations of conventional poroelasticity. An analogy is found
+between the DEM-PFV coupling and Biot's theory in the limit case of
+incompressible phases. The simulation of an oedometer test validates the
+coupling scheme and demonstrates the ability of the model to capture strong
+poromechanical effects. A detailed analysis of microscale strain and stress
+confirms the analogy with poroelasticity. An immersed deposition problem is
+finally simulated and shows the potential of the method to handle phase
+transitions.
+</summary>
+    <author>
+      <name>Emanuele Catalano</name>
+    </author>
+    <author>
+      <name>Bruno Chareyre</name>
+    </author>
+    <author>
+      <name>Eric Barthélémy</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1002/nag.2198</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1002/nag.2198" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">accepted in Int. Journal for Numerical and Analytical Methods in
+  Geomechanics</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Int. J. for Numerical and Analytical Methods in Geomechanics.
+  38(1), 2014, p. 51-71</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1304.4895v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.4895v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.00466v2</id>
+    <updated>2016-03-01T11:11:53Z</updated>
+    <published>2015-11-02T12:19:19Z</published>
+    <title>Multi-rate time stepping schemes for hydro-geomechanical model for
+  subsurface methane hydrate reservoirs</title>
+    <summary>  We present an extrapolation-based semi-implicit multirate time stepping (MRT)
+scheme and a compound-fast MRT scheme for a naturally partitioned,
+multi-time-scale hydro-geomechanical hydrate reservoir model. We evaluate the
+performance of the two MRT methods compared to an iteratively coupled solution
+scheme and discuss their advantages and disadvantages. The performance of the
+two MRT methods is evaluated in terms of speed-up and accuracy by comparison to
+an iteratively coupled solution scheme. We observe that the extrapolation-based
+semi-implicit method gives a higher speed-up but is strongly dependent on the
+relative time scales of the latent (slow) and active (fast) components. On the
+other hand, the compound-fast method is more robust and less sensitive to the
+relative time scales, but gives lower speed up as compared to the semi-implicit
+method, especially when the relative time scales of the active and latent
+components are comparable.
+</summary>
+    <author>
+      <name>Shubhangi Gupta</name>
+    </author>
+    <author>
+      <name>Barbara I. Wohlmuth</name>
+    </author>
+    <author>
+      <name>Rainer Helmig</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.advwatres.2016.02.013</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.advwatres.2016.02.013" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Advances in Water Resources</arxiv:comment>
+    <link href="http://arxiv.org/abs/1511.00466v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.00466v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.09508v2</id>
+    <updated>2017-02-08T09:06:28Z</updated>
+    <published>2016-06-30T14:30:02Z</published>
+    <title>Virtual Element Method for geomechanics on reservoir grids</title>
+    <summary>  In this paper we study the use of Virtual Element method for geomechanics.
+Our emphasis is on applications to reservoir simulations. The physical
+processes that form the reservoirs, such as sedimentation, erosion and
+faulting, lead to complex geometrical structures. A minimal representation,
+with respect to the physical parameters of the system, then naturally leads to
+general polyhedral grids. Numerical methods which can directly handle this
+representation will be highly favorable, in particular in the setting of
+advanced work-flows. The Virtual Element method is a promising candidate to
+solve the linear elasticity equations on such models. In this paper, we
+investigate some of the limits of the VEM method when used on reservoir models.
+First, we demonstrate that care must be taken to make the method robust for
+highly elongated cells, which is common in these applications, and show the
+importance of calculating forces in terms of traction on the boundary of the
+elements for elongated distorted cells. Second, we study the effect of
+triangulations on the surfaces of curved faces, which also naturally occur in
+subsurface models. We also demonstrate how a more stable regularization term
+for reservoir application can be derived.
+</summary>
+    <author>
+      <name>Odd Andersen</name>
+    </author>
+    <author>
+      <name>Halvor M. Nilsen</name>
+    </author>
+    <author>
+      <name>Xavier Raynaud</name>
+    </author>
+    <link href="http://arxiv.org/abs/1606.09508v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.09508v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.07120v1</id>
+    <updated>2016-10-23T03:38:02Z</updated>
+    <published>2016-10-23T03:38:02Z</published>
+    <title>Iterative coupling of flow, geomechanics and adaptive phase-field
+  fracture including level-set crack width approaches</title>
+    <summary>  In this work, we present numerical studies of fixed-stress iterative coupling
+for solving flow and geomechanics with propagating fractures in a porous
+medium. Specifically, fracture propagations are described by employing a
+phase-field approach. The extension to fixed-stress splitting to propagating
+phase-field fractures and systematic investigation of its properties are
+important enhancements to existing studies. Moreover, we provide an accurate
+computation of the fracture opening using level-set approaches and a subsequent
+finite element interpolation of the width. The latter enters as fracture
+permeability into the pressure diffraction problem which is crucial for fluid
+filled fractures. Our developments are substantiated with several numerical
+tests that include comparisons of computational cost for iterative coupling and
+nonlinear and linear iterations as well as convergence studies in space and
+time.
+</summary>
+    <author>
+      <name>Sanghyun Lee</name>
+    </author>
+    <author>
+      <name>Thomas Wick</name>
+    </author>
+    <author>
+      <name>Mary F. Wheeler</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.cam.2016.10.022</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.cam.2016.10.022" rel="related"/>
+    <link href="http://arxiv.org/abs/1610.07120v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.07120v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.5304v1</id>
+    <updated>2013-03-21T15:41:46Z</updated>
+    <published>2013-03-21T15:41:46Z</published>
+    <title>A laboratory investigation of thermally induced pore pressures in the
+  Callovo-Oxfordian Claystone</title>
+    <summary>  In the framework of research into radioactive waste disposal, it was decided
+to investigate the thermally induce pore pressure occurring in the
+Callovo-Oxfordian claystone, a possible host rock in which the ANDRA
+underground laboratory of Bure (East of France) has been excavated. Thermal
+pore pressures appear in low permeability soils and rocks because the thermal
+expansion coefficient of water is significantly higher than that of the solid
+grains (Campanella and Mitchell; 1968 [1], Ghabezloo and Sulem; 2009 [2]). This
+phenomenon has clearly been observed in various in-situ heating tests conducted
+in Opalinus claystone in the Mont-Terri Underground Research Laboratory (URL)
+in Switzerland (HE-D test) and in Callovo-Oxfordian (COx) claystone in the Bure
+URL in France (TER test, Wileveau and Su; 2007 [3]) The processes of coring,
+transportation, storage and specimen trimming induce some desaturation in the
+sample. Due to the very low permeability (10-20 m2) of the COx claystone, a
+long period of time is necessary to properly resaturate the sample, a mandatory
+condition to satisfactorily investigate thermal pressurisation. Particular
+emphasis was hence put on the previous saturation procedure that was carried
+out under in-situ effective stress condition. Thermal pressurization has been
+investigated by performing undrained heating tests while measuring pore
+pressures changes in a specially adapted thermal isotropic compression cell.
+Special care was devoted to calibration procedures to account for the effects
+of the system on the pore pressure measurements. The thermal pressurization
+coefficient measured appeared to change with temperature, mainly because of the
+changes with temperature of both the water thermal expansion coefficient of
+water and the drained compression coefficient of the claystone.
+</summary>
+    <author>
+      <name>Mehrdokht Mohajerani</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ANDRA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pierre Delage</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ANDRA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean Sulem</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ANDRA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohammad Monfared</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ANDRA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anh-Minh Tang</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ANDRA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Behrouz Gatmiri</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ANDRA</arxiv:affiliation>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">International Journal of Rock Mechanics and Mining Science \&amp;
+  Geomechanics Abstracts / International Journal of Rock Mechanics and Mining
+  Sciences \&amp; Geomechanics Abstracts; International Journal of Rock Mechanics
+  and Mining Sciences and Geomechanics Abstra 52 (2012) 112-121</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1303.5304v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.5304v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.1309v1</id>
+    <updated>2009-02-08T13:31:29Z</updated>
+    <published>2009-02-08T13:31:29Z</published>
+    <title>Numerical Simulation of Gas Storage Caverns in Qom Region</title>
+    <summary>  The rock mechanical design of gas storage cavern in salt requires the
+analysis of the stability and the usability of the cavern over the planned
+operating time period. The design includes the build up of a rock mass model
+and a numerical model taking into account the geological situation, load
+condition, geometrical condition, and material parameters. In this paper
+multiple caverns in salt formation with geological and geomechanical situation
+in Qom (central part of Iran) was investigated a using creep model. Minimum
+safe center to center distances (CTCD) of multiple horizontal caverns also were
+studied. CTCD of caverns interact at less than two times of cavern diameter.
+With increasing the CTCD to 2.5 times cavern diameters, diminish most
+interaction.
+</summary>
+    <author>
+      <name>Mostafa Sharifzadeh</name>
+    </author>
+    <author>
+      <name>Ali Moradi Ghasr</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">ARMS Conferences (2006)</arxiv:comment>
+    <link href="http://arxiv.org/abs/0902.1309v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0902.1309v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6711v1</id>
+    <updated>2012-05-29T12:27:37Z</updated>
+    <published>2012-05-29T12:27:37Z</published>
+    <title>L'approche energetique en mecanique des materiaux granulaires</title>
+    <summary>  This communication establishes first, that basis of discontinuous granular
+materials mechanics, are the explicit result of a new approach of the physics
+of energy dissipation by friction, and second, that these mechanics of
+discontinua, transposed to the equivalent continuous media, as used in
+geomechanics, is directly responsible for a large set of practical properties
+of these materials, part of the fundamentals of Soil Mechanics. These physics
+of energy dissipation are developped on the original concept of energy rate
+tensor of internal actions.
+</summary>
+    <author>
+      <name>E. Frossard</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">57 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Poudres &amp; Grains NS2, 1-56, (2001), ISSN 1257-3957</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1206.6711v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1206.6711v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.0645v2</id>
+    <updated>2014-09-29T05:15:48Z</updated>
+    <published>2014-08-04T11:20:38Z</published>
+    <title>Robust joint full-waveform inversion of time-lapse seismic data sets
+  with total-variation regularization</title>
+    <summary>  We present a technique for reconstructing subsurface velocity model changes
+from time-lapse seismic survey data using full-waveform inversion (FWI). The
+technique is based on simultaneously inverting multiple survey vintages, with
+model difference regularization using the total variation (TV) seminorm. We
+compare the new TV-regularized time-lapse FWI with the $L_2$-regularized joint
+inversion proposed in our earlier work, using synthetic data sets that exhibit
+survey repeatability issues. The results demonstrate clear advantages of the
+proposed TV-regularized joint inversion over alternatives methods for
+recovering production-induced model changes that are due to both fluid
+substitution and geomechanical effects.
+</summary>
+    <author>
+      <name>Musa Maharramov</name>
+    </author>
+    <author>
+      <name>Biondo Biondi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.0645v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.0645v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65Z05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.05694v1</id>
+    <updated>2015-05-21T12:19:20Z</updated>
+    <published>2015-05-21T12:19:20Z</published>
+    <title>Total-variation minimization with bound constraints</title>
+    <summary>  We present a powerful and easy-to-implement algorithm for solving constrained
+optimization problems that involve $L_1$/total-variation regularization terms,
+and both equality and inequality constraints. We discuss the relationship of
+our method to earlier works of Goldstein and Osher (2009) and Chartrand and
+Wohlberg (2010), and demonstrate that our approach is a combination of the
+augmented Lagrangian method with splitting and model projection. We test the
+method on a geomechanical problem and invert highly compartmentalized pressure
+change from noisy surface uplift observations. We conclude the paper with a
+discussion of possible extension to a wide class of regularized optimization
+problems with bound and equality constraints.
+</summary>
+    <author>
+      <name>Musa Maharramov</name>
+    </author>
+    <author>
+      <name>Stewart A. Levin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1505.05694v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1505.05694v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="80M50" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="G.1.6; J.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.02579v1</id>
+    <updated>2017-11-02T17:58:16Z</updated>
+    <published>2017-11-02T17:58:16Z</published>
+    <title>A Numerical Study of Thermal-Hydraulic-Mechanical (THM) Simulation with
+  the Application of Thermal Recovery in Fractured Shale Gas Reservoirs</title>
+    <summary>  We presented a general multi-physics model for shale gas flow in fractured
+systems, first the first time, with fully coupled thermal-hydraulic-mechanical
+(THM) properties. The impact of gas adsorption, real gas properties, gas flow
+in nano-scale pore space and geomechanics effects on total gas flow capacity
+are investigated. We also showed that by elevating shale rock temperature, the
+characteristic of gas adsorption behavior can be substantially altered.
+</summary>
+    <author>
+      <name>HanYi Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: text overlap with arXiv:1710.11464</arxiv:comment>
+    <link href="http://arxiv.org/abs/1711.02579v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.02579v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00949v1</id>
+    <updated>2018-02-03T10:17:06Z</updated>
+    <published>2018-02-03T10:17:06Z</published>
+    <title>A parallel-in-time fixed-stress splitting method for Biot's
+  consolidation model</title>
+    <summary>  In this work, we study the parallel-in-time iterative solution of coupled
+flow and geomechanics in porous media, modelled by a two-field formulation of
+the Biot's equations. In particular, we propose a new version of the fixed
+stress splitting method, which has been widely used as solution method of these
+problems. This new approach forgets about the sequential nature of the temporal
+variable and considers the time direction as a further direction for
+parallelization. We present a rigorous convergence analysis of the method and a
+numerical experiment to demonstrate the robust behaviour of the algorithm.
+</summary>
+    <author>
+      <name>Manuel Borregales</name>
+    </author>
+    <author>
+      <name>Kundan Kumar</name>
+    </author>
+    <author>
+      <name>Florin Adrian Radu</name>
+    </author>
+    <author>
+      <name>Carmen Rodrigo</name>
+    </author>
+    <author>
+      <name>Francisco José Gaspar</name>
+    </author>
+    <link href="http://arxiv.org/abs/1802.00949v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.00949v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04256v1</id>
+    <updated>2018-02-11T15:59:52Z</updated>
+    <published>2018-02-11T15:59:52Z</published>
+    <title>GeoMFree3D: An Under-Development Meshfree Software Package for
+  Geomechanics</title>
+    <summary>  This paper briefly reports the GeoMFree3D, a meshfree / meshless software
+package designed for analyzing the problems of large deformations and crack
+propagations of rock and soil masses in geotechnics. The GeoMFree3D is
+developed based on the meshfree RPIM, and accelerated by exploiting the
+parallel computing on multi-core CPU and many-core GPU. The GeoMFree3D is
+currently being under intensive developments. To demonstrate the correctness
+and effectiveness of the GeoMFree3D, several simple verification examples are
+presented in this paper. Moreover, future work on the development of the
+GeoMFree3D is introduced.
+</summary>
+    <author>
+      <name>Gang Mei</name>
+    </author>
+    <author>
+      <name>Nengxiong Xu</name>
+    </author>
+    <author>
+      <name>Liangliang Xu</name>
+    </author>
+    <author>
+      <name>Yazhe Li</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.04256v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.04256v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.01421v1</id>
+    <updated>2015-08-06T14:39:00Z</updated>
+    <published>2015-08-06T14:39:00Z</published>
+    <title>Non-Isothermal, Multi-phase, Multi-component Flows through Deformable
+  Methane Hydrate Reservoirs</title>
+    <summary>  We present a hydro-geomechanical model for subsurface methane hydrate
+systems. Our model considers kinetic hydrate phase change and non-isothermal,
+multi-phase, multi-component flow in elastically deforming soils. The model
+accounts for the effects of hydrate phase change and pore pressure changes on
+the mechanical properties of the soil, and also for the effect of soil
+deformation on the fluid-solid interaction properties relevant to reaction and
+transport processes (e.g., permeability, capillary pressure, reaction surface
+area). We discuss a 'cause-effect' based decoupling strategy for the model and
+present our numerical discretization and solution scheme. We then identify the
+important model components and couplings which are most vital for a
+hydro-geomechanical hydrate simulator, namely, 1) dissociation kinetics, 2)
+hydrate phase change coupled with non-isothermal two phase two component flow,
+3) two phase flow coupled with linear elasticity (poroelasticity coupling), and
+finally 4) hydrate phase change coupled with poroelasticity
+(kinetics-poroelasticity coupling) and present numerical examples where, for
+each example, one of the aforementioned model components/couplings is isolated.
+A special emphasis is laid on the kinetics-poroelasticity coupling. We also
+present a more complex 3D example based on a subsurface hydrate reservoir which
+is destabilized through depressurization using a low pressure gas well. In this
+example, we simulate the melting of hydrate, methane gas generation, and the
+resulting ground subsidence and stress build-up in the vicinity of the well.
+</summary>
+    <author>
+      <name>Shubhangi Gupta</name>
+    </author>
+    <author>
+      <name>Rainer Helmig</name>
+    </author>
+    <author>
+      <name>Barbara Wohlmuth</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10596-015-9520-9</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10596-015-9520-9" rel="related"/>
+    <link href="http://arxiv.org/abs/1508.01421v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.01421v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="74F10, 74F25, 76S05, 76V05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0510066v3</id>
+    <updated>2006-03-14T15:08:43Z</updated>
+    <published>2005-10-04T08:55:20Z</published>
+    <title>Modeling 1-D elastic P-waves in a fractured rock with hyperbolic jump
+  conditions</title>
+    <summary>  The propagation of elastic waves in a fractured rock is investigated, both
+theoretically and numerically. Outside the fractures, the propagation of
+compressional waves is described in the simple framework of one-dimensional
+linear elastodynamics. The focus here is on the interactions between the waves
+and fractures: for this purpose, the mechanical behavior of the fractures is
+modeled using nonlinear jump conditions deduced from the Bandis-Barton model
+classicaly used in geomechanics. Well-posedness of the initial-boundary value
+problem thus obtained is proved. Numerical modeling is performed by coupling a
+time-domain finite-difference scheme with an interface method accounting for
+the jump conditions. The numerical experiments show the effects of contact
+nonlinearities. The harmonics generated may provide a non-destructive means of
+evaluating the mechanical properties of fractures.
+</summary>
+    <author>
+      <name>Bruno Lombard</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joël Piraux</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMA</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">accepted and to be published in the Journal of Computational and
+  Applied Mathematics</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Computational and applied mathematics 204, 2 (2007)
+  292-305</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0510066v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0510066v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="02.60.Cb, 02.70.Bf, 43.25.+y, 46.50.+a" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.2009v1</id>
+    <updated>2008-08-14T15:29:35Z</updated>
+    <published>2008-08-14T15:29:35Z</published>
+    <title>Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to
+  Rapid Fault Shearing</title>
+    <summary>  In this paper, the mechanism of fault pressurization in rapid slip events is
+analyzed on the basis of a complete characterization of the
+thermo-poro-mechanical behavior of a clayey gouge extracted at 760m depth in
+Aigion fault in the active seismic zone of the Gulf of Corinth, Greece. It is
+shown that the thermally collapsible character of this clayey gouge can be
+responsible for a dramatic reduction of effective stress and a full
+fluidization of the material. The thickness of the 'ultra localized' zone of
+highly strained material is a key parameter that controls the competing
+phenomena of pore pressure increase leading to fluidization of the fault gouge
+and temperature increase leading to pore fluid vaporization.
+</summary>
+    <author>
+      <name>Jean Sulem</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ENPC-Cermes</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Lazar</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ENPC-Cermes</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ioannis Vardoulakis</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1002/nag.584</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1002/nag.584" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">International Journal for Numerical and Analytical Methods in
+  Geomechanics 31, 3 (2007) 523-540</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0808.2009v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0808.2009v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.3439v4</id>
+    <updated>2011-08-23T23:22:55Z</updated>
+    <published>2010-05-19T13:38:15Z</published>
+    <title>Small World Property of a Rock Joint(Complexity of Frictional
+  Interfaces: A Complex Network Perspective)</title>
+    <summary>  The shear strength and stick-slip behavior of a rough rock joint are analyzed
+using the complex network approach. We develop a network approach on
+correlation patterns of void spaces of an evolvable rough fracture (crack type
+II). Correlation among networks properties with the hydro -mechanical
+attributes (obtained from experimental tests) of fracture before and after slip
+is the direct result of the revealed non-contacts networks. Joint distribution
+of locally and globally filtered correlation gives a close relation to the
+contact zones attachment-detachment sequences through the evolution of shear
+strength of the rock joint. Especially spread of node's degree rate to spread
+of clustering coefficient rate yielded possible stick and slip sequences during
+the displacements. Our method can be developed to investigate the complexity of
+stick-slip behavior of faults as well as energy /stress localization on
+crumpled shells/sheets in which ridge networks are controlling the energy
+distribution.
+</summary>
+    <author>
+      <name>Hamed O. Ghaffari</name>
+    </author>
+    <author>
+      <name>M. Sharifzadeh</name>
+    </author>
+    <author>
+      <name>E. Evgin</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1080/17486025.2012.727036</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1080/17486025.2012.727036" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Geomechanics and Geoengineering: An International Journal,2012</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1005.3439v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1005.3439v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
