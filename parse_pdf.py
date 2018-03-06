@@ -34,6 +34,7 @@ def convert_pdf_to_txt(path):
     retstr.close()
     return text
 
+
 if __name__ == '__main__':
     print("parse_df started")
     idir = r"data/pdf/"

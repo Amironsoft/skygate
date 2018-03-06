@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "name": "Aaaaa",
+      "label": "Person",
+      "id": 1
+    },
+    {
+      "name": "BBBBB",
+      "label": "Person",
+      "id": 2
+    },
+    {
+      "name": "Neo4j",
+      "label": "Database",
+      "id": 3
+    },
+    {
+      "name": "Graph Database",
+      "label": "Database",
+      "id": 4
+    },
+    {
+      "name": "Pdsfdseter",
+      "label": "Person",
+      "id": 5
+    },
+    {
+      "name": "Michasdfsel",
+      "label": "Person",
+      "id": 6
+    },
+    {
+      "name": "Nesdfdso4j",
+      "label": "Database",
+      "id": 7
+    },
+    {
+      "name": "aaaaGraph Database",
+      "label": "Database",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "KNOWS",
+      "since": 2010
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "FOUNDED"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "WORKS_ON"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "type": "IS_A"
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "type": "IS_A"
+    },
+    {
+      "source": 7,
+      "target": 7,
+      "type": "IS_A"
+    }
+  ]
+}
