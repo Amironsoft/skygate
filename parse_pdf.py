@@ -28,21 +28,29 @@ def convert_pdf_to_txt(path):
         interpreter.process_page(page)
 
     text = retstr.getvalue()
-
     fp.close()
     device.close()
     retstr.close()
     return text
 
 
+def convert_pdf_dir(idir, odir):
+    os.makedirs(odir, exist_ok=True)
+    for file in fnmatch.filter(os.listdir(idir), "*.pdf"):
+        print(file)
+        try:
+            text = convert_pdf_to_txt(idir + file)
+            print(text[:200])
+            ofile = odir + file.replace(".pdf", ".txt")
+            open(ofile, 'w', encoding='utf-8').write(text)
+        except:
+            print("\tconvert error!!!")
+        print("_" * 30)
+
+
 if __name__ == '__main__':
     print("parse_df started")
-    idir = r"data/pdf/"
-    odir = r"data/txt/"
+    idir = r"data/pdf/my/"
+    odir = r"data/txt/my/"
+    convert_pdf_dir(idir, odir)
 
-    for file in fnmatch.filter(os.listdir(idir), "*.pdf"):
-        text = convert_pdf_to_txt(idir+file)
-        print(text[:200])
-        ofile = odir + file.replace(".pdf", ".txt")
-        open(ofile, 'w').write(text)
-        print("_"*30)

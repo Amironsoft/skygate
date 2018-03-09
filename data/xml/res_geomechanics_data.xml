@@ -3,7 +3,7 @@
   <link href="http://arxiv.org/api/query?search_query%3Dall%3Ageomechanics%26id_list%3D%26start%3D0%26max_results%3D2000" rel="self" type="application/atom+xml"/>
   <title type="html">ArXiv Query: search_query=all:geomechanics&amp;id_list=&amp;start=0&amp;max_results=2000</title>
   <id>http://arxiv.org/api/NYC+7REqL3t/F4FIY9073h6jNEc</id>
-  <updated>2018-03-06T00:00:00-05:00</updated>
+  <updated>2018-03-07T00:00:00-05:00</updated>
   <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">36</opensearch:totalResults>
   <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
   <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">2000</opensearch:itemsPerPage>
@@ -423,36 +423,6 @@ tensor of internal actions.
     <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1408.0645v2</id>
-    <updated>2014-09-29T05:15:48Z</updated>
-    <published>2014-08-04T11:20:38Z</published>
-    <title>Robust joint full-waveform inversion of time-lapse seismic data sets
-  with total-variation regularization</title>
-    <summary>  We present a technique for reconstructing subsurface velocity model changes
-from time-lapse seismic survey data using full-waveform inversion (FWI). The
-technique is based on simultaneously inverting multiple survey vintages, with
-model difference regularization using the total variation (TV) seminorm. We
-compare the new TV-regularized time-lapse FWI with the $L_2$-regularized joint
-inversion proposed in our earlier work, using synthetic data sets that exhibit
-survey repeatability issues. The results demonstrate clear advantages of the
-proposed TV-regularized joint inversion over alternatives methods for
-recovering production-induced model changes that are due to both fluid
-substitution and geomechanical effects.
-</summary>
-    <author>
-      <name>Musa Maharramov</name>
-    </author>
-    <author>
-      <name>Biondo Biondi</name>
-    </author>
-    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 6 figures</arxiv:comment>
-    <link href="http://arxiv.org/abs/1408.0645v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1408.0645v2" rel="related" type="application/pdf"/>
-    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="65Z05" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
     <id>http://arxiv.org/abs/0902.1309v1</id>
     <updated>2009-02-08T13:31:29Z</updated>
     <published>2009-02-08T13:31:29Z</published>
@@ -510,6 +480,36 @@ problems with bound and equality constraints.
     <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
     <category term="80M50" scheme="http://arxiv.org/schemas/atom"/>
     <category term="G.1.6; J.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.0645v2</id>
+    <updated>2014-09-29T05:15:48Z</updated>
+    <published>2014-08-04T11:20:38Z</published>
+    <title>Robust joint full-waveform inversion of time-lapse seismic data sets
+  with total-variation regularization</title>
+    <summary>  We present a technique for reconstructing subsurface velocity model changes
+from time-lapse seismic survey data using full-waveform inversion (FWI). The
+technique is based on simultaneously inverting multiple survey vintages, with
+model difference regularization using the total variation (TV) seminorm. We
+compare the new TV-regularized time-lapse FWI with the $L_2$-regularized joint
+inversion proposed in our earlier work, using synthetic data sets that exhibit
+survey repeatability issues. The results demonstrate clear advantages of the
+proposed TV-regularized joint inversion over alternatives methods for
+recovering production-induced model changes that are due to both fluid
+substitution and geomechanical effects.
+</summary>
+    <author>
+      <name>Musa Maharramov</name>
+    </author>
+    <author>
+      <name>Biondo Biondi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.0645v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.0645v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65Z05" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
     <id>http://arxiv.org/abs/1711.02579v1</id>

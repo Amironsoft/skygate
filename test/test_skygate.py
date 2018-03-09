@@ -1,7 +1,7 @@
 from parse_pdf import convert_pdf_to_txt
 
 
-def test_pdf():
+def test_pdf_convert():
     pdf_file = '../data/pdf/wang_fractured_systems.pdf'
     text = convert_pdf_to_txt(pdf_file)
     print(text[:200])

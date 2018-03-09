@@ -6,6 +6,7 @@ import shutil
 
 from Article import Article
 from config import odir
+from parse_pdf import convert_pdf_dir
 
 
 def download_data_xml(term):
@@ -36,6 +37,7 @@ def savefile_stream(link, ofile):
 
 
 def parse_data_xml(ifile, term):
+    articles = []
     tree = ElementTree.parse(ifile)
     for i, doc in enumerate(tree.findall(Article.ename("entry"))):
         article = Article(term)
@@ -44,17 +46,20 @@ def parse_data_xml(ifile, term):
         article.pdf_file_name = pdf_file_name
         # savefile_stream(article.link, pdf_file_name)
         article.print_meta()
+        articles.append(article)
 
 
 if __name__ == '__main__':
     print("skygate started")
-    # terms = ["geomechanics", "rock mechanics", "mechanical failure"]
-    terms = ["neural networks"]
+    terms = ["geomechanics", "rock mechanics", "mechanical failure"]
+    # terms = ["neural networks"]
+
     for term in terms:
         print(term)
-        if not os.path.exists(odir + "pdf/" + term):
-            os.mkdir(odir + "pdf/" + term)
-
+        pdf_term_odir = odir + "pdf/" + term + "/"
+        txt_term_odir = odir + "txt/" + term + "/"
+        os.makedirs(pdf_term_odir, exist_ok=True)
         download_data_xml(term)
         ifile = r"{}/xml/res_{}_data.xml".format(odir, term)
-        parse_data_xml(ifile, term)
+        # parse_data_xml(ifile, term)
+        convert_pdf_dir(pdf_term_odir, txt_term_odir)
