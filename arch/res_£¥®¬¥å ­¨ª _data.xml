@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3A%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0%26id_list%3D%26start%3D0%26max_results%3D2000" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:геомеханика&amp;id_list=&amp;start=0&amp;max_results=2000</title>
+  <id>http://arxiv.org/api/mfN2ypoF6+oUj7gaohpz8kgRBrQ</id>
+  <updated>2018-03-02T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">2000</opensearch:itemsPerPage>
+</feed>

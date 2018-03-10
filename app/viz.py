@@ -3,6 +3,8 @@ from plotly.graph_objs import *
 import igraph as ig
 import json
 import requests
+import os
+import fnmatch
 
 
 def create_graph_html(data, ofile):
@@ -98,11 +100,21 @@ if __name__ == '__main__':
     main_title = "left_title"
     title = "title"
     axis_title = ''
-    link = "https://raw.githubusercontent.com/plotly/datasets/master/miserables.json"
+    idir = r'/home/o/PycharmProjects/skygate/app/static/json/'
+    odir = './'
 
-    response = requests.get(link)
-    data = response.json()
-    print(["{}: {}".format(k, len(v)) for k, v in data.items()])
-    ofile = 'example.html'
-    create_graph_html(data, ofile)
+    for file_name in fnmatch.filter(os.listdir(idir), 'G*.json'):
+        ifile = idir + file_name
+        print(ifile)
 
+        data = json.load(open(ifile))
+        print(["{}: {}".format(k, len(v)) for k, v in data.items()])
+        ofile = odir + file_name.replace('.json', '.html')
+        try:
+            if not os.path.exists(ofile):
+                create_graph_html(data, ofile)
+            else:
+                print("\tfile already exists")
+
+        except Exception as ex:
+            print(ex)

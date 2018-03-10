@@ -44,15 +44,16 @@ def parse_data_xml(ifile, term):
         article.parse_arxiv(doc)
         pdf_file_name = odir + "pdf/" + term + "/" + article.cur_id + ".pdf"
         article.pdf_file_name = pdf_file_name
-        # savefile_stream(article.link, pdf_file_name)
+        savefile_stream(article.link, pdf_file_name)
         article.print_meta()
         articles.append(article)
 
 
 if __name__ == '__main__':
     print("skygate started")
-    terms = ["geomechanics", "rock mechanics", "mechanical failure"]
+    # terms = ["geomechanics", "rock mechanics", "mechanical failure"]
     # terms = ["neural networks"]
+    terms = ["rock media", "petroleum rock"]
 
     for term in terms:
         print(term)
@@ -61,5 +62,5 @@ if __name__ == '__main__':
         os.makedirs(pdf_term_odir, exist_ok=True)
         download_data_xml(term)
         ifile = r"{}/xml/res_{}_data.xml".format(odir, term)
-        # parse_data_xml(ifile, term)
+        parse_data_xml(ifile, term)
         convert_pdf_dir(pdf_term_odir, txt_term_odir)
