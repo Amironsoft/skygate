@@ -1,0 +1,37 @@
+li.bot {
+    text-align: left;
+}
+
+li.human {
+    text-align: right;
+}
+
+.humanmsg {
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botmsg {
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*background-color: red;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mainbox {
+    width: 70%;
+    margin: auto;
+}
+
+
+li {
+    list-style-type: none;
+}
+

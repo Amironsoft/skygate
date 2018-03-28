@@ -1,2 +1,0 @@
-odir = r"data/"
-
