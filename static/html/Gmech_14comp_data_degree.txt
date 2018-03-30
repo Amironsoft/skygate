@@ -1,0 +1,879 @@
+	name	degree
+287	schlumberger	124
+588	halliburton	56
+21	the university of texas at austin	42
+0		36
+200	university of alberta	34
+665	university of calgary	32
+556	university of oklahoma	32
+421	baker hughes	30
+595	saudi aramco	24
+302	colorado school of mines	22
+640	china university of petroleum	22
+41	kuwait oil company	22
+454	weatherford	20
+154	massachusetts institute of technology	18
+48	the pennsylvania state university	18
+864	shell international exploration and production inc.	16
+645	lawrence berkeley national laboratory	16
+839	bp	14
+613	baker hughes inc.	14
+721	sintef petroleum research	14
+204	swisstopo	14
+553	adco	12
+211	petroamazonas ep	12
+562	aix-marseille university	12
+304	university of waterloo	12
+227	petrochina research institute of petroleum exploration & development	12
+367	texas tech university	12
+865	csiro	12
+549	amirkabir university of technology	10
+328	environ italy	10
+798	kyoto university	10
+758	university of pittsburgh	10
+745	sandridge	10
+131	amec foster and wheeler	10
+135	university of california san diego	10
+309	university of california riverside	10
+308	gsi environmental inc.	10
+676	eth zurich	10
+292	texas a&m university	10
+832	lawrence livermore national laboratory	10
+429	china university of mining & technology	10
+450	sm energy	10
+175	university of arizona	10
+264	curtin university	10
+481	petronas carigali sdn bhd	10
+580	university of texas austin	10
+243	southwest jiaotong university	10
+535	university of texas	10
+565	university of minnesota	10
+831	university of tehran	10
+337	harvard university	10
+868	california state polytechnic university	10
+856	pacific gas and electric company	10
+20	politecnico di torino	10
+836	petrochina	10
+589	pogc co.	8
+445	shell exploration & production company	8
+722	exxonmobil production co.	8
+724	schlumberger; lawrence livermore national laboratory	8
+452	shell china p&t	8
+742	irsn/prp-dge/srtg	8
+34	exxonmobil international ltd.	8
+744	exxonmobil upstream research co. (emurc)	8
+372	south oil company iraq	8
+835	rds baker hughes	8
+463	rumaila operating organization	8
+3	university of sao paulo	8
+713	fracgeo	8
+120	mapsa co.	8
+770	state key laboratory of petroleum resources and prospecting china university of petroleum beijing	8
+699	exxonmobil development co.	8
+168	ibm research	8
+129	aim geoanalytics	8
+165	geomechanica inc.	8
+404	_	8
+405	university of north dakota	8
+42	queen’s university	8
+653	bp exploration (alaska) inc.	8
+158	los alamos national laboratory	8
+654	eth	8
+656	total s.a,	8
+657	repsol ctr	8
+208	etseccpb (school of civil engineering); upc (technical university of catalonia),	8
+869	university of california irvine	8
+539	university of tehran; mapsa co.	8
+857	british petroleum	8
+225	china university of petroleum beijing	8
+343	core specialist services	8
+59	emurc	8
+552	university of louisiana at lafayette	8
+785	bp america	8
+781	sugar land	8
+324	epslog	8
+469	university of houston	8
+561	repsol technology hub	8
+518	baker hughes inc	8
+332	schlumberger doll research	8
+862	exxonmobil development company	8
+477	sonatrach	8
+437	petroleum development oman	6
+248	china univerisity of petroleum	6
+631	mit	6
+632	department of petroleum engineering china university of petroleum	6
+633	research institute of drilling engineering and technology cnpc xibu drilling engineering company limited	6
+174	encana services company and degolyer and macnaughton canada	6
+564	northeastern university	6
+35	shell brasil exploration and production	6
+495	rn-yuganskneftegaz	6
+229	eni s.p.a	6
+643	state key laboratory of petroleum resources and prospecting in cupb	6
+484	ideal oil & gas connections inc.	6
+246	pluspetrol peru corporation s.a	6
+845	research institue of exploration & development of changqing oilfiled company petrochina	6
+646	university of british columbia	6
+244	ntnu	6
+157	sandia national laboratories	6
+513	university of petroleum & energy studies	6
+423	aera energy	6
+490	bashkir state university	6
+618	computer modelling group	6
+442	rosneft oil company	6
+621	santos	6
+567	halliburton–landmark	6
+571	shell international exploration & production inc.	6
+572	shell global solutions international b.v.	6
+476	eni algeria	6
+557	ept international	6
+575	tarbiat modares university	6
+456	pluspetrol norte s.a	6
+576	fugro geoconsulting limited	6
+848	norwegian university of science and technology (ntnu)	6
+662	china university of mining and technology	6
+195	china university of petroleum (east china)	6
+585	gray geophysical limited	6
+586	consultant	6
+52	petronas carigali sdn bhd.	6
+855	university of london	6
+846	abu dhabi marine operating co.	6
+187	shell global solutions (us) inc.	6
+602	aramco research center––houston	6
+610	devon energy	6
+33	ypf s.a.	6
+23	repsol	6
+181	ministry of education key laboratory of petroleum engineering in cupb	6
+444	ypf tecnologia sa	6
+843	pennstate university	6
+499	university of cergy-pontoise	6
+6	university of utah	6
+728	petrochina great wall drilling company	6
+67	bp international limited	6
+386	islamic azad university	6
+771	omv	6
+381	schlumberger - doll research	6
+720	rockfield software ltd.	6
+837	omv new zealand	6
+725	louisiana tech university	6
+726	uc-berkeley	6
+7	cnooc energy technology & services ltd.	6
+106	rn-ufanipineft	6
+380	bauer maschinen gmbh	6
+802	montana emergent technologies	6
+732	china petroleum technology & development corporation	6
+733	schlumberger carbon services	6
+146	carbo ceramics	6
+735	khalifa university	6
+378	encana services company and penn west petroleum	6
+357	southern company	6
+4	pinnacle–a halliburton service	6
+80	shandong energy longkou mining groop co. ltd,	6
+370	king fahd university of petroleum & minerals	6
+86	petrobras	6
+296	ypf s.a	6
+383	abu dhabi national oil co.	6
+345	petronas	6
+687	turkish petroleum corp.	6
+501	universite de cergy-pontoise	6
+413	louisiana state university	6
+408	montana state university	6
+49	purdue university	6
+672	the university of queensland	6
+285	geosciences rennes	6
+876	cgg	6
+820	university of western australia	6
+684	nexen energy ulc	6
+686	encana services company	6
+315	university of nevada	6
+701	bg group	6
+819	swiss federal institute of technology	6
+872	consorcio shushufindi - schlumberger	6
+809	petroamazonas	6
+807	japan oil development co. ltd.	6
+125	state key laboratory of petroleum resources and prospecting in china university of petroleum beijing (cupb)	6
+57	saint petersburg polytechnic university	6
+351	hess corporation	4
+359	petro-geotech inc.	4
+366	exxonmobil	4
+497	school of chemical engineering oklahoma state university	4
+472	universite paris-est	4
+364	chevron energy technology company	4
+349	schmidt institute of the physics of the earth ras	4
+356	petronas carigali	4
+358	3 phase terra consulting ltd.	4
+858	suncor energy inc.	4
+355	japan oil gas and metals national corporation	4
+338	albert innovates – technology futures	4
+344	universidad tecnologica nacional	4
+496	the university of new south wales	4
+354	canadian discovery ltd.	4
+479	independent researcher	4
+419	investgeoservice	4
+466	csiro energy flagship	4
+368	puc-rio/dec	4
+422	simon fraser university	4
+407	bblink&modecom- genesis institute	4
+427	beijing no.4 high school	4
+428	shandong energy longkou mining groop co. ltd.	4
+406	smith bits a schlumberger company	4
+871	isochron consulting	4
+402	total s.a.	4
+431	university of texas at arlington	4
+400	taurus reservoir solutions ltd.	4
+435	northeast petroleum university	4
+395	southwestern energy woodland usa	4
+392	novatek	4
+390	energy & geoscience institute	4
+438	kbb underground technologies gmbh	4
+388	shanghai jiao tong university	4
+384	sinopec research institute of petroleum engineering	4
+867	idaho national laboratory	4
+453	higgs-palmer technologies	4
+866	university of hong kong	4
+863	barrick gold corporation	4
+455	university of stavanger	4
+377	ccmeo	4
+373	tecgraf/puc-rio	4
+875	lomonosov moscow state university of fine chemical technologies	4
+457	cnooc ltd.	4
+371	shell aret-adams	4
+464	ifpen	4
+833	schlumberger saudi arabia	4
+587	itasca microseismic and geomechanical evaluation	4
+505	statoil asa	4
+717	exxonmobil upstream research company	4
+754	bg/qgc	4
+751	total e&p	4
+748	university of toronto	4
+743	tarim oil field company	4
+741	yokohama national university	4
+734	aramco services company	4
+731	a.p. van den berg ingenieursburo bv	4
+727	institute of computational technologies sbras	4
+719	innovative engineering systems global	4
+712	dalhousie university	4
+690	karamay oil company	4
+710	federal institute for geosciences and natural resources (bgr),	4
+709	korea institute of civil engineering and building technology	4
+705	university of oxford	4
+704	conterra ab	4
+702	fluminense federal university (uff)	4
+697	geosyntec consultants	4
+695	suez oil company	4
+694	inst. fisica de liquidos y sist. biologicos	4
+838	reservoirfocus	4
+755	kansai university	4
+760	inpex corporation	4
+761	tno/geological survey of the netherlands	4
+766	soyuzneftegaz service	4
+826	exxonmobil upstream	4
+823	exxon neftegas ltd.	4
+816	tno petroleum geosciences; baker hughes	4
+813	"ojsc ""novatek"""	4
+806	frackoptima inc. riverside california usa	4
+805	riped-langfang	4
+799	apache corporation	4
+834	cgg geoconsulting	4
+797	university of illinois at chicago	4
+796	roman capital plc	4
+795	colorado school of mines; khalifa university	4
+791	shell kuwait exploration and production b.v.	4
+787	petroxin	4
+786	csiro/arrc	4
+779	shell international exploration and production inc	4
+774	xto energy	4
+773	university of bremen	4
+768	fukada geological institute	4
+767	rig operations llc	4
+691	nexencnooc ltd.	4
+682	lawrence berkeley national laboratory; university of nice sophia-antipolis	4
+509	fracture systems ltd.	4
+555	bp-phpc	4
+583	baker hughes incorporated	4
+849	albert innovates – technology futures; university of alberta	4
+574	southeast university	4
+573	applied numerics	4
+850	norwegian geotechnical institute	4
+851	aramco	4
+852	rgl reservoir management inc.	4
+563	west virginia university	4
+853	exxonmobil exploration company	4
+551	zadco drilling	4
+677	schlumberger dhahran carbonate research	4
+547	pdo	4
+546	university of adelaide	4
+545	alberta innovates—technology futures and university of alberta	4
+542	igbc	4
+541	nagoya institute of technology	4
+538	hcmut	4
+523	adana science and technology university	4
+519	national cooperative for the disposal of radioactive waste (nagra)	4
+511	noetic engineering 2008 inc.	4
+584	centrica energy	4
+847	sripe	4
+598	stanford university (now at shell e&p)	4
+606	kajima corporation	4
+842	university of leeds	4
+671	essar oil ltd	4
+667	graham davies geological consultants ltd.	4
+666	baycroft consulting services	4
+664	university of oslo	4
+661	sintef petroleum research; norwegian university of science and technology	4
+660	tno sustainable geo-energy	4
+658	lkab kiruna mine	4
+844	ansys	4
+655	missouri university of science and technology	4
+644	kumamoto university	4
+641	pvep	4
+334	offshore engineering technology center cnpc international	4
+628	barrick gold corporation; university of nevada	4
+627	petrochina changqing oilfield co.	4
+624	"""schlumberger"""	4
+617	lawrence berkeley national laboratory; usaswiss seismological service	4
+616	politecnico di torino and tno/geological survey of the netherlands	4
+609	taqa	4
+638	"cjsc ""investgeoservice"""	4
+439	vermilion energy	4
+877	deep exploration technologies cooperative research centre and curtin university	4
+270	oilfield geomechanics llc	4
+114	scgc	4
+112	itasca consulting group incorporation	4
+104	tongji university	4
+103	e.on e&p uk	4
+258	schlumberger oil field services	4
+259	halliburton; colorado school of mines	4
+196	colorado school of mines; los alamos national laboratory	4
+260	petrobras/cenpes	4
+99	norwegian university of science and technology	4
+93	chinese academy of sciences	4
+91	schlumberger oilfield eastern lt	4
+90	esg canada inc	4
+89	aecom	4
+87	chevron argentina	4
+250	isfahan university of technology	4
+84	sinopec research institute of petroleum engineering china	4
+82	heriot-watt university	4
+81	research institute of petroleum exploration and development petrochina	4
+275	state supervision of mines	4
+276	uttranchal university	4
+76	ehime university	4
+75	school of chemical engineering oklahoma state university stillwater ok 74078	4
+73	chonbuk national university	4
+71	georgia institute of technology	4
+66	ntnu; sintef petroleum research	4
+64	china coal technology & engineering group corp.	4
+63	applied reservoir enterprises ltd.	4
+284	norwegian university of science and technology; sintef petroleum research	4
+115	sigma	4
+249	schlumberger-doll research	4
+56	big guns energy services inc.	4
+228	hanyang university	4
+198	delft university of technology	4
+199	zadco field development	4
+206	gfz german research center for geosciences (now at university of wisconsin-madison)	4
+209	tno	4
+184	phpc	4
+213	consorcio shushufindi-schlumberger	4
+177	exxonmobil upstream research	4
+176	geo-research institute	4
+220	alis - solu&#231;oes em engenharia e sistemas	4
+173	pvep poc/hcmut	4
+172	baker hughes ltd	4
+171	ojsc	4
+226	higgs-palmer technologies (ret.)	4
+230	anadarko petroleum corporation	4
+132	ict	4
+166	qinghai oilfield of petrochina	4
+152	nitec	4
+145	japan atomic energy agency	4
+144	orlen upstream	4
+142	beijing institute of technology	4
+141	core laboratories lp	4
+236	beicip-franlab	4
+140	alberta innovates—technology futures	4
+139	itasca consultants ab	4
+238	taisei corporation	4
+136	state key laboratory of petroleum resources and prospecting china university of petroleum	4
+240	sarvagya parashar	4
+242	shell international e&p	4
+290	well integrity consultant	4
+194	qatar university	4
+30	altarock energy inc.	4
+10	statoil canada ltd.	4
+295	petroleo brasileiro s.a.,	4
+322	itasca consulting group inc.	4
+313	cairo university	4
+36	cjsc	4
+330	tno petroleum geosciences	4
+312	teesside university	4
+298	pemex	4
+53	aer	4
+299	new mexico institute of mining and technology	4
+300	total e&p angola	4
+14	shell china e&p co.	4
+51	taiyuan university of technology	4
+17	university of neuchatel	4
+303	stanford university	4
+38	curistec	4
+46	leibniz university hannover; igth-iub	4
+307	golder associates inc.	4
+320	sintef materials & chemistry	4
+297	schlumberger limited	4
+25	amec.	4
+314	taurus reservoir solutions	4
+316	petrochina jidong oilfield company	4
+2	peking university	4
+5	chevron houston	4
+8	imperial college london	4
+294	repsol usa	4
+652	sm energy billings mt	2
+156	callon petroleum company	2
+155	rosetta resources inc.	2
+29	cermes; ifsttar	2
+149	the university of tulsa	2
+651	shell global solution (us) inc.	2
+19	ingrain inc houston tx	2
+151	petramazonas ep	2
+659	yazd university	2
+685	bazan consulting inc.	2
+137	lukoil	2
+683	tu bergakademie freiberg iec	2
+150	schlumberger nigeria	2
+673	samsung heavy industries co. ltd.	2
+663	cnpc drilling research institute	2
+681	lewis energy group	2
+148	universita degli studi di milano	2
+674	chevron etc	2
+679	nostrum oil and gas	2
+678	korea national oil corporation	2
+147	the university of western australia	2
+28	university of calgary and taqa north ltd.	2
+22	hecla mining company	2
+26	qatargas	2
+675	ukhta state technical u hse department	2
+648	schlumberger research center	2
+854	ben gurion university of the negev	2
+669	adma-opco	2
+24	callon petroleum	2
+650	abu dhabi company for onshore petroleum operations ltd	2
+58	conocophillips	2
+160	shell exploration and production company	2
+612	north africa (bg egypt and tunisia) global technical authority of lwd/wl acoustic tools	2
+183	formerly weatherford	2
+9	university of california at davis	2
+608	oregon state university	2
+605	mdeng	2
+604	institut national de l'environnement industriel et des risques; ineris	2
+603	china university of petroleum at beijing china	2
+186	southwest research institute	2
+601	university college dublin	2
+874	langan engineering	2
+600	university of calgary and suncor energy	2
+188	west virginia university and university of texas at austin	2
+189	heriot watt university	2
+594	andes petroleum ecuador ltd.	2
+592	cornell university	2
+590	university of north florida	2
+190	state key laboratory of oil and gas reservoir geology and exploitation southwest petroleum university china	2
+192	cenpes/petrobras	2
+611	abu dhabi company for onshore petroleum operations ltd (adco)	2
+615	university of wyoming	2
+161	imageo hortus chile ltda	2
+179	ankor energy	2
+164	texas a&m university at qatar	2
+18	druk green power corporation	2
+859	sakhalin energy	2
+167	mwh	2
+860	wintershall middle east gmbh	2
+134	gtep puc-rio rio de janeiro	2
+635	university of louisiana	2
+169	universite paris-est institut francais des sciences et technologies des transports	2
+170	queiroz galvao exploracao e producao	2
+630	catholic university of pernambuco	2
+15	school of mechanical and mining engineering the university of queensland	2
+626	wenzhou university	2
+13	university of queensland	2
+625	schlumberger oilfield services	2
+11	zhejiang oilfield company petrochina	2
+623	prosernat	2
+619	san francisco state university	2
+861	drilling and production technology research institute qinghai oil field petrochina	2
+126	univ. of houston	2
+688	prometeo-senescyt	2
+827	amec foster wheeler	2
+788	down hole company cnpc chuanqing drilling company	2
+829	petrobras rio de janeiro	2
+784	zhejiang university	2
+782	itasca consulting canada inc.	2
+830	severneftegazprom	2
+780	sngs	2
+776	ministry of land infrastructure and transport government complex sejong	2
+79	tarim oilfield company	2
+769	illinois institute of technology	2
+764	"llc ""gazpromneft science and technology centre"""	2
+763	nederlandse aardolie maatschappij b.v.	2
+762	china coal research institute (ccri); state key laboratory of coal mining and clean utilization	2
+88	kailuan group (limited) ltd-yuzhou coal mining company	2
+50	rashid petroleum company	2
+759	origin energy ltd	2
+756	eastern research group inc.	2
+47	llc	2
+789	universiti teknologi petronas	2
+792	china university of geosciences (beijing)	2
+753	talisman energy ltd.	2
+793	weatherford llc	2
+815	tno – geological survey of the netherlands	2
+821	university of colorado	2
+814	eskisehir osmangazi university	2
+61	national institute for occupational safety and health spokane	2
+810	rosneft upstream peer review and technical development center	2
+62	chevron overseas services company argentina	2
+822	eni.	2
+55	sahara oil and gas	2
+825	university of new mexico	2
+65	pertamina hulu energy	2
+804	hohai university	2
+803	tsinghua university	2
+54	engineering seismology group (esg) canada inc.	2
+801	petrochina zhejiang oilfield company	2
+800	sanjel	2
+68	state key laboratory of oil and gas reservoir geology and exploitation southwest petroleum university	2
+70	abu dhabi company for onshore petroleum operations (adco)	2
+92	chesapeake	2
+749	cidna-espol	2
+133	statoil gulf services houston texas usa	2
+110	adnoc enp	2
+715	institut fur gebirgsmechanik (ifg)	2
+714	national chung-hsing university	2
+711	universite de sherbrooke	2
+119	university of alaska	2
+708	degolyer and macnaughton	2
+707	korea advanced institute of science and technology	2
+706	universita degli studi di torino	2
+121	optim sds	2
+122	ypf sa neuquen argentina	2
+700	tno diana bv	2
+818	seplat petroleum development company	2
+698	aramco research center-houston	2
+127	federal university of pernambuco	2
+696	deloitte touche tohmatsu	2
+693	clausthal university of technology	2
+32	chesapeake energy	2
+31	school of urban rail transportation	2
+716	o.b lulu briggs chair in petroleum geoscience centre for petroleum geoscience institute of petroleum studies university of port harcourt nigeria	2
+109	gazprom neft orenburg cjsc	2
+94	adana science and technology university; the university of queensiand	2
+108	school of civil and environmental engineering georgia institute of technology	2
+95	ep energy corporation	2
+96	pla university of science and technology	2
+97	amec fosterwheeler	2
+44	ypf sa	2
+43	coral hill energy ltd.	2
+740	wintershall	2
+40	bilecik seyh edebali university	2
+738	statoil gulf services	2
+737	dalian university of technology	2
+736	southwest petroleum university	2
+840	u.s. geological survey	2
+100	metarock laboratories	2
+102	princeton university	2
+841	m-i swaco a schlumberger company	2
+729	bapetco-shell	2
+105	repsol sinopec brasil	2
+107	codelco-chile el teniente mine	2
+739	baker hughes rds	2
+335	eti soda	2
+185	deparment of geology university of port harcourt nigeria	2
+486	operaciones rio napo cem	2
+403	nord-west ltd.	2
+494	maxwell dynamics	2
+493	llc scientific research institute of natural gases and gas technologies – gazprom- vniigaz	2
+289	university of new south wales australia	2
+288	ecopetrol s.a.	2
+488	national institute of rock mechanics	2
+487	gtep/puc-rio	2
+283	national university of defense technology	2
+247	bp american inc	2
+483	baker hughes international	2
+409	country chengdu engineering corporation limited	2
+410	tohoku university	2
+251	schlumberger del ecuador s.a.	2
+411	bg egypt	2
+412	cnooc research institute	2
+415	shell global solutions international b. v	2
+401	shell nigeria exploration and production company	2
+498	golder associates pty ltd.	2
+233	ansys inc.	2
+393	china university of mining and technology (beijing)	2
+520	riped petrochina	2
+382	origin energy	2
+385	technology and research center japan oil gas and metals national corporation	2
+235	bg group plc.	2
+387	lightstream resources	2
+517	universidade federal de vi&#231;osa	2
+391	warwick energy group	2
+394	rfd	2
+399	oil & gas technology research institution of changqing oilfield company	2
+508	texas a&m u	2
+507	china oilfield services limited	2
+293	yale university	2
+239	nexen energy	2
+504	sinopec	2
+398	consultant & professor next usa and auc	2
+500	university of texas at austin	2
+253	altamira international	2
+416	china university of petroleum-beijing	2
+254	deloitte llp	2
+277	taiwan power company	2
+424	laboratoire de geologie	2
+266	trican well service ltd.	2
+451	cnpc international research center	2
+425	the university of akron	2
+267	shell international exploration and production	2
+426	sct operations pty ltd	2
+449	kobe university	2
+430	the petroleum institute abu dhabi	2
+417	csiro minerals	2
+443	agapito associates inc.	2
+440	shell petroleum development company nigeria	2
+1	korea register of shipping	2
+272	china railway 18th bureau group co. ltd.	2
+432	southern illinois university	2
+436	the university of tennessee space institute	2
+433	bg group plc	2
+265	adnoc	2
+263	imperial college	2
+278	daewoo shipbuilding & marine engineering co. ltd.	2
+261	oklahoma state university	2
+418	bg	2
+474	university of florida	2
+473	epslog sa.	2
+471	marathon oil corporation	2
+470	university of california	2
+281	universidad industrial de santander	2
+582	computer modeling group ltd.	2
+467	national university of singapore and	2
+257	universite de liege; university of minnesota	2
+280	saipem spa	2
+465	global geophysical services inc.	2
+462	universite de toulouse; inpt; ups; imft	2
+461	chevron nigeria	2
+459	the university of oklahoma	2
+458	fluminense federal university	2
+521	unicamp	2
+510	university of cambridge	2
+321	jsc arcticgas	2
+365	aristotle university of thessaloniki; sintef petroleum research	2
+202	baker hughes palo alto innovation center	2
+363	jpt editor	2
+203	petroleum engineering program university of houston	2
+329	csiro energy	2
+205	inpex masela ltd.	2
+570	imageo srl	2
+543	qep energy company	2
+544	nanjing university of science and technology	2
+224	kangwon national university	2
+223	well engineering partners	2
+360	ior research institute	2
+569	vico indonesia	2
+548	lukoil-nizhnevolzhskneft	2
+568	daqing oilfield petrochina	2
+550	national university of singapore	2
+207	polytech'lille university lille 1 sciences and technologies	2
+219	laricina energy ltd.	2
+305	petroamazonas e.p	2
+554	pepris of sinopec	2
+327	the university of queensland brisbane	2
+353	hydro-quebec	2
+216	seismik ltd.	2
+210	(schlumberger)	2
+347	conocophillips co.	2
+214	pontifical catholic university of rio de janeiro	2
+560	three cliffs geomechanical analysis	2
+558	university of texas at austin usa	2
+537	anu	2
+540	university of wollongong	2
+374	geoscience australia	2
+310	ryder scott company	2
+525	university college london	2
+333	jogmec	2
+526	llc «gazpromneft science and technology centre»	2
+527	university of manchester	2
+528	equion energia limited.	2
+581	yacimientos petroliferos fiscales (ypf)	2
+529	shell nigeria exploration and production co	2
+331	andes petroleum ecuador ltd	2
+376	new mexico tech	2
+578	(kuwait oil company)	2
+341	chevron corporation	2
+533	lazoc corporation	2
+559	petrochina changqing	2
+311	tiandi science & technology co.,ltd.	2
+536	academy of sciences of the czech republic; charles university in prague	2
+534	university of cyprus	2
+577	sudbury integrated nickel operations a glencore company	2
+340	qingdao institute of marine geology	2
+77	pe halliburton	0
+16	central institute of mining and fuel research	0
+870	image	0
+342	jcpt staff editor	0
+78	the university of newcastle	0
+790	ocean floor geophysics inc.	0
+346	mda geospatial services inc.	0
+777	parsons brinckerhoff	0
+873	tno utrecht	0
+12	battelle memorial institute	0
+339	ruhr-university bochum	0
+775	exxonmobil upstream research co	0
+778	research institute of petroleum exploration and development (riped) petrochina	0
+279	university of ottawa	0
+274	goldcorp inc.	0
+74	german research centre for geosciences	0
+783	wartsila oil & gas systems	0
+379	university of witwatersrand	0
+348	office of mine safety and health research niosh	0
+396	mine design engineering	0
+60	lawrence berkeley national laboratory (lbnl)	0
+817	chang’an university	0
+369	reservoir development services baker hughes	0
+291	geobiz technology inc.	0
+37	china university of mining & technology; state key laboratory of coal resources and safe mining	0
+397	cnpc drilling engineering and technology research institute	0
+39	university of tulsa	0
+824	shell international exploration and production company	0
+362	compania operadora de gas del amazonas	0
+434	ecopetrol	0
+375	lakehead university	0
+306	cairn india limited	0
+828	exxonmobil research and engineering company	0
+389	orica usa inc.	0
+45	shell nigeria exploration and production company ltd. (snepco)	0
+301	tu bergakademie freiberg	0
+317	varel international	0
+812	monash university	0
+420	caltec limited	0
+323	king abdulaziz university	0
+326	hyundai heavy industries co.	0
+350	utrecht university	0
+794	ypf tecnologia	0
+325	image – itasca microseismic and geomechanical evaluation	0
+72	the university of hong kong	0
+352	new gold inc.	0
+69	marathon oil company	0
+414	exploration & production research institute sinopec	0
+811	technical university of vienna	0
+282	gesellschaft fuer anlagen- und reaktorsicherheit (grs) ggmbh	0
+319	united safety	0
+318	lawrence livermore national laboratory livermore ca usa	0
+27	ifg – institut fur gebirgsmechanik gmbh	0
+808	repsol u.s.a.	0
+286	northwestern university	0
+361	jpt special publications editor	0
+772	piteau associates ltd.	0
+197	university of campinas	0
+83	cameron process systems	0
+634	beck engineering pty ltd.	0
+637	cmec-civil and mining engineering consultants	0
+639	esg solutions	0
+231	maleki technologies inc.	0
+642	keystone mining services llc	0
+163	center for petroleum & minerals research institute king fahd university of petroleum & minerals dhahran ksa	0
+162	cotton shires and associates inc.	0
+232	petroleum engineering department and unconventional natural gas and oil institute (ungi) colorado school of mines	0
+647	school of petroleum engineering university of new south wales	0
+649	murphy oil company ltd.	0
+532	lukoil-engineering permnipineft	0
+531	australian school of petroleum the university of adelaide	0
+159	ifg – institut fur gebirgsmechanik	0
+530	yamaguchi university	0
+153	lukoil-engineering	0
+524	aramco research centers-houston	0
+522	australian school of petroleum	0
+234	shell brasil petroleo ltda	0
+143	suncor energy	0
+668	universidad nacional de colombia	0
+670	pioneer natural resources	0
+516	mewbourne school of petroleum and geological engineering university of oklahoma	0
+515	prosep	0
+514	penn state university	0
+636	ain shams university	0
+222	technical university of denmark	0
+273	national institute for occupational safety and health	0
+629	the university of adelaide	0
+193	shell nigeria exploration & production company	0
+191	chevron u.s.a. inc.	0
+579	mississippi state university	0
+591	koc	0
+593	bp exploration (caspian sea) limited	0
+201	nanoseis	0
+596	unsw australia	0
+597	laurentian university	0
+599	australian school of petroleum the university of adelaide adelaide australia	0
+566	schlumberger canada ltd.	0
+336	university of kansas	0
+607	schulich school of engineering university of calgary	0
+212	reliance industries limited (petroleum e&p)	0
+182	chevron	0
+614	tarim oilfield petrochina	0
+180	memorial university of newfoundland	0
+215	chromalox	0
+178	caltec ltd	0
+620	inpetro technologies inc.	0
+217	daewoo shipbuilding & marine engineering (dsme)	0
+622	subsea 7	0
+218	ikon science	0
+221	bhp billiton petroleum	0
+512	ypf tecnologia s.a.	0
+237	university of chile	0
+680	shell canada energy	0
+506	shandong university	0
+111	shell international e & p inc.	0
+723	katherine thomas corporate technology center fts international	0
+255	university of port harcourt	0
+256	sandia national laboratory	0
+730	shell global solutions	0
+101	ziebel as	0
+460	derk engineering & geology	0
+98	gfz german research centre for geosciences	0
+262	university of hacettepe	0
+746	soochow university	0
+747	pdvsa	0
+750	siemens as	0
+752	schlumberger-doll research center	0
+448	chevron north america e&p	0
+447	texas a&m university college station texas	0
+446	hess corporation houston texas	0
+757	korea institute of geoscience and mineral resources	0
+268	total	0
+269	china university of petroleum in beijing	0
+441	conocophillips canada	0
+271	codelco chile el teniente mine	0
+765	chinese academy of sciences beijing	0
+85	national central university	0
+475	repsol exploracion peru	0
+113	jpt technology editor	0
+718	integrated energy services inc	0
+491	t.r.e.	0
+138	midwestern state university wichita falls tx	0
+503	u.s. department of energy	0
+502	shell oil company	0
+241	petrofac international ltd	0
+689	university of nevada reno	0
+245	shell petroleum development company	0
+692	weatherford canada	0
+130	virginia tech	0
+128	korea institute of construction technology	0
+492	rockfield software limited	0
+489	sichuan university	0
+478	onesubsea®	0
+124	pdf company	0
+123	massachusetts institute of technology (mit)	0
+703	universite pau & pays adour	0
+485	bashnipineft	0
+482	omar aguirre bp america	0
+118	university of new south wales	0
+117	oilfield geomechanics	0
+116	south texas asset team pioneer natural resources	0
+480	weatherford international	0
+252	hazama ando corporation	0
+468	w.r. davis engineering ltd.	0

@@ -1,0 +1,3725 @@
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+Thermo-Poro-Mechanical Properties of Clayey Gouge and 
+Application to Rapid Fault Shearing 
+
+J. Sulem, P. Lazar 
+
+CERMES, Institut Navier, Ecole Nationale de Ponts et Chaussées / LCPC , Marne-La-Vallée, 
+France 
+
+I. Vardoulakis 
+
+Faculty of Applied Mathematics and Physics, National Technical University of Athens, Greece 
+
+Abstract 
+
+In this paper, the mechanism of fault pressurization in rapid slip events is analyzed on 
+
+the  basis  of  a  complete  characterization  of  the  thermo-poro-mechanical  behavior  of  a 
+
+clayey gouge extracted at 760m depth in Aigion fault in the active seismic zone of the 
+
+Gulf  of  Corinth,  Greece.  It  is  shown  that  the  thermally  collapsible  character  of  this 
+
+clayey gouge can be responsible for a dramatic reduction of effective stress and a full 
+
+fluidization of the material. The thickness of the ‘ultra localized’ zone of highly strained 
+
+material  is  a  key  parameter  that  controls  the  competing  phenomena  of  pore  pressure 
+
+increase  leading  to  fluidization  of  the  fault  gouge  and  temperature  increase  leading  to 
+
+pore fluid vaporization.    
+
+ 
+
+Published in: Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540 
+
+ 
+
+Key words: fault; clayey gouge; thermo-poro-mechanical couplings; seismic slip
+
+ 
+
+1 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+Introduction 
+
+The  interest  of  the  interactions  between  circulating  fluids  and  fault  mechanics  with 
+
+particular  focus  on  the  hydro-thermo-mechanical  couplings  has  been  renewed  in  the 
+
+geophysics  community  during  the  recent  years.  Active  fault  drilling  operations  of  the 
+
+Geological  Survey  of  Japan  at  Nojima  Hirabayashi  (Otsuki  et  al.,  2003)  and  of  the 
+
+Corinth  Rift  Laboratory  at  Aigion  (Cornet  et  al.,  2004a)  have  put  emphasis  on  the 
+
+collection of core samples from the fault zones in order to study the material properties 
+
+(strength,  permeability,  porosity)  of  fault  gouge  and  the  effect  of  pore  pressure  and 
+
+temperature in earthquake rupture processes. 
+
+Shear heating tends to increase pore pressure and to decrease the effective compressive 
+
+stress  and  the  shearing  resistance  of  the  fault  material  (Lachenbruch,  1980,  Mase  and 
+
+Smith,  1985,  Wibberley  and  Shimamoto,  2005,  Rice,  2005a,b).  On  the  other  hand 
+
+dilatancy tends to decrease pore pressure. Such couplings have been studied thoroughly 
+
+in a recent paper of Garagash and Rudnicki (2003). Fault zones are often characterized 
+
+by large amounts of clay minerals, which form well-defined structures and orientations 
+
+within the fault zone. These clay minerals inside the fault gouge are widely believed to 
+
+affect significantly the mechanical behaviour of faults since as is the case for normally 
+
+consolidated clays, they tend to contract when heated.  
+
+Within  the  frame  of  the  ‘CRL’  (Corinth  Rift  Laboratory)  project  centred  on  the  south 
+
+western sector of the Gulf of Corinth (http://www.corinth-rift-lab.org), fault zone cores 
+
+from the active Aigion fault have been collected continuously from depths between 708 
+
+ 
+
+2 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+m  to  782  m.  As  part  of  the  project,  our  work  was  focused  on  the  thermo-poro-
+
+mechanical characterization of fault gouge from the Aigion well.  
+
+The  Gulf  of  Corinth  is  the  most  seismically  active  zone  in  Europe  and  the  fastest 
+
+opening area of continental break-up, with up to 1.5 cm/year of north–south extension 
+
+and  more  than  1  mm/year  of  uplift  of  the  southern  shore  (Tselentis  and  Makropoulos, 
+
+1986). A detailed analysis of the geological structure of the studied area is presented in 
+
+the  recent  paper  of  Micarelli  et  al.  (2003).  During  drilling  in  the  active  Aigion  fault, 
+
+cuttings  were  collected,  and  geophysical  logs,  including  borehole  imaging  and  sonic 
+
+logs, as well as vertical seismic profiles, were completed. This has provided material for 
+
+a  detailed  lithological  and  structural  investigation  of  the  formations  intersected  by  the 
+
+well  presented  in  the  paper  of  Rettenmaier  et  al.  (2004).  The  Aigion  fault  was 
+
+intercepted at a depth of 760m, dipping at an angle of about 60°. The heart of the fault is 
+
+a zone of clay-rich material derived from radiolarites about 1m long (Fig. 1). Above and 
+
+below, brecciated limestones constitute the heavily damaged zone. The thickness of this 
+
+zone is 3 m above the Aigion fault and 9 m below (Daniel et al., 2004).  
+
+Preliminary  results  from  mechanical  laboratory  analyses  on  specimens  taken  from  the 
+
+Aigion fault core have been presented in previous papers (Sulem et al., 2004, 2005). In 
+
+this  paper,  special  attention  is  paid  to  the  transport  properties  of  the  clayey  core  and 
+
+temperature  effects.  Vardoulakis  (2002a,b)  has  demonstrated  the  importance  of 
+
+thermally collapsible and thermally softening clay on the overall dynamic thermo-poro-
+
+mechanical  behaviour  of  clay-rich  gouges.  The  sensitive  parameter  for  the  description 
+
+of  the  thermo-poro-mechanical  coupling  is  the  thermal  expansion  coefficient  of  the 
+
+material.  Possible  collapse  of  the  clay  under  thermal  loading  may  activate  fluid 
+
+pressurisation inside the fault and lead to substantial reduction of the apparent friction. 
+
+ 
+
+3 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+The experimental data from the Aigion fault core are used in an analysis of the dynamic 
+
+thermo-poro-elasto-plastic behaviour of a rapidly deforming shear band. It is shown that 
+
+shear  heating  and  fluid  pressurisation  is  a  possible  mechanism  leading  to  full 
+
+fluidization of the material inside the shear band.  
+
+Thermo-poro-mechanical characterisation of clayey gouge 
+
+As reports from the drilling site confirm, the clayey gouge which was extracted from the 
+
+Aigion  fault  is  a  remarkably  soft  material,  (see  Fig.  2).  Most  probably  this  is  because 
+
+this  material  was  continuously  loaded  and  unloaded  during  aseismic  and  seismic 
+
+movements  of  the  fault.  Thus  it  is  expected  that  the  effect  of  remoulding  due  to 
+
+sampling  is  of  lesser  importance,  as  long  as  the  density  and  the  water  contents  of  the 
+
+samples  are  preserved  for  testing.  Once  the  Aegion  fault  core  was  taken  from  the 
+
+borehole,  it  was  stored  for  few  days  on  site  and  then  it  was  transported  to  the  Soil 
+
+Mechanics Laboratory of Ecole Nationale de Ponts et Chaussées, where it was stored in 
+
+a  room  with  controlled  temperature  and  humidity.  Obviously  it  was  not  possible  to 
+
+avoid partial drying of the core during extraction, storage and transportation but then it 
+
+was regularly wetted as soon as it was stored in good conditions.  As it was not possible 
+
+to  use  in  the  experiments  the  same  saturation  fluid  as  in  situ,  we  have  used 
+
+demineralized water in which a certain amount of particles from the sample have been 
+
+placed  during  24  hours.  The  mixture  has  been  then  filtered  and  the  resulting  fluid  has 
+
+been used for the saturation of the tested samples. This technique is commonly used in 
+
+soil  testing  to  avoid  any  chemical  influence  of  the  saturation  fluid  on  the  mechanical 
+
+properties of the tested material. 
+
+ 
+
+4 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+The in situ density of the material is reasonably retrieved by applying the in situ stresses 
+
+onto the sample. As results from direct stress measurements inside the borehole are not 
+
+available  at  present,  the  in  situ  state  of  stress  has  to  be  estimated.  Assuming  that  the 
+
+density of the overburden is 2500 kg/m3, we estimate a total vertical stress of about 19 
+
+MPa  for  a  depth  of  760m,  which  in  turn  corresponds  to  an  effective  vertical  stress  of 
+
+11.4 MPa. 
+
+Oedometric test 
+
+The  oedometer  test  is  commonly  used  in  Soil  Mechanics  practice  to  measure 
+
+compressibility.  Here  for  completeness  we  outline  the  basic  concepts  of  this  test:  A 
+
+fluid-saturated  cylindrical  specimen  is  confined  latterly  by  a  stiff  metal  ring  and  the 
+
+specimen  is  stressed  along  vertical  axis.  Due  to  the  lateral  rigid  confinement  of  the 
+
+specimen  the  strains  in  horizontal  directions  are  suppressed.  Porous  stones  are 
+
+employed on the top and bottom of the specimen in order to permit the free drainage of 
+
+the pore-fluid in or out of the specimen. During the test the vertical load is applied in 
+
+small increments. For  each load increment the vertical deformation of the specimen is 
+
+monitored using displacement gauges. Assuming that the grains of the solid constituent 
+
+are incompressible all volume changes are attributed to changes in the voids ratio of the 
+
+specimen  and  are  directly  linked  with  the  extrusion  of  the  pore-fluid  from  the  pore-
+
+space.  Thus  we  relate  the  change  in  the  voids  ratio  of  the  specimen  ∆e  with  the 
+
+volumetric strain εv: 
+
+ 
+
+ 
+
+ 
+
+=ε
+v
+
+∆
+e
++
+e1
+
+0
+
+ 
+
+(1) 
+
+5 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+where e0 is the initial voids ratio. 
+
+The  commonly  observed  non-linear  stress-strain  response  of  a  soft  geomaterial  in 
+
+oedometric  compression  makes  it  more  convenient  to  plot  the  void  ratio  versus  the 
+
+effective  vertical  stress 
+
+vσ′   in  a  logarithmic  scale  because.  As  was  first  observed  by 
+
+Terzaghi  (1943),  at  large  stresses  the  corresponding  curve  becomes  a  straight  line,  so 
+
+that a unique parameter, the so-called compression index 
+
+ 
+
+ 
+
+C
+
+c
+
+−=
+
+∆
+e
+σ
+(log
+
+∆
+
+ 
+
+'
+
+v
+
+)
+
+(2) 
+
+is  sufficient  to  characterize  the  compressibility  of  the  material  over  a  wide  range  of 
+
+stresses. Similarly one is defining upon unloading the so-called swelling index Cs . 
+
+In  Fig.  2a  we  see  the  results  from  oedometric  compression  tests  performed  on  a 
+
+saturated  sample  using  a  high-pressure  oedometer  The  measured  compression  index 
+
+Cc=0.11 is typical of a sandy clay. The oedometric test allows the determination of the 
+
+isothermal compressibility coefficient. 
+
+ 
+
+ 
+
+=
+
+c
+
+1
+C
+c
+σ+
+
+e1
+
+'
+
+C,
+
+c
+
+=
+
+ 
+
+(3) 
+
+C
+
+c
+)10
+
+ln(
+
+Thus for loading at 11.4 MPa, the isothermal, compressibility coefficient is estimated as 
+
+≈
+
+.0c
+
+0039
+
+−
+1MPa
+
+. 
+
+By applying the principles of the consolidation theory commonly used in geotechnical 
+
+engineering (Terzaghi, 1943), it is possible at each stage of loading to evaluate the one-
+
+dimensional  consolidation  coefficient  cv  using  Taylor  or  Casagrande  methods.  The 
+
+ 
+
+6 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+hydraulic conductivity of the gouge is evaluated as a function of the applied oedometric 
+
+pressure (Fig. 2b) 
+
+ 
+
+ 
+
+K
+
+w
+
+=
+
+c
+
+v
+
+g
+
+ρ
+w
++
+e1
+
+ 
+
+(4) 
+
+∆
+e
+σ∆
+
+'
+
+v
+
+where e is the actual voids ratio and ∆e its increment. 
+
+Accordingly  the  consolidation  coefficient  and  the  hydraulic  conductivity  at  11.4  MPa 
+
+effective normal stress are 
+
+c
+
+≈
+
+8.2
+
+×
+
+v
+
+−
+8
+
+s/m10
+
+2
+
+ and 
+
+K
+
+w
+
+−
+12
+
+≈
+
+10
+
+s/m
+
+. The corresponding 
+
+physical  permeability  is 
+
+−
+19
+
+≈
+
+10
+
+2
+
+m
+
+k
+
+w
+
+.  In  direct  permeability  tests  performed  by 
+
+pumping  degassed-deionised  water  on  a  sample  of  the  red  clay  material  Song  et  al. 
+
+(2004) have obtained ranges of 0.9 to 2 × 10-18 m2. This result is consistent with those 
+
+published  in  the  literature.  For  example  for  the  Nojima  fault,  Lockner  et  al.  (2000) 
+
+obtain a permeability of about 10-19 m2 in the center of the shear zone; the same order of 
+
+magnitude  is  obtained  by  Wibberley  and  Shimamoto  (2003)  for  the  Median  Tectonic 
+
+Line Fault, Japan.  
+
+Strength parameters from drained triaxial compression tests 
+
+Drained triaxial compression tests have been performed at room temperature (22°C) and 
+
+at 70°C, and at 8, 16 and 18 MPa confining pressure, on samples of the clayey gouge. 
+
+The corresponding stress-strain curves are shown on Fig. 3a,b.  
+
+At  room  temperature,  for  the  test  at  8  MPa  confining  pressure,  the  loading  phase  was 
+
+interrupted at an axial strain of 7.2 % corresponding to a deviatoric stress of 9.9 MPa. 
+
+This  deviatoric  stress  is  actually  less  than  the  stress  at  which  failure  occurs.  Thus  the 
+
+same  sample  could  be  used  for  another  experiment  if  loaded  at  a  different  higher 
+
+ 
+
+7 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+pressure. For the tests at 16 MPa and 18 MPa, the material was compacting and reached 
+
+the  critical  state  (i.e.  for  zero  dilatancy)  for  a  maximum  friction  angle  of  φ=27.9°.  In 
+
+triaxial  compression  the  maximum  friction  angle  is  computed  from  the  peak  stress  of 
+
+the loading curve as (Vardoulakis & Sulem 1995) 
+
+ 
+
+ 
+
+sin
+
+=φ
+
+ψ
+
+tan3
++
+
+32
+
+tan
+
+with
+
+tan
+
+=ψ
+
+ψ
+
+σ−σ
+
+r
+z
+σ+σ
+
+r
+
+2(
+
+3/
+
+3/)
+
+z
+
+ 
+
+(5) 
+
+where σr is the radial stress (confining pressure) and σz is the maximum axial stress. 
+
+The dilatant behaviour which occurs at the end of the test at 18 MPa of confinement is 
+
+attributed to the occurrence of shear-banding in the sample. 
+
+The  frictional  resistance  at  critical  state  of  the  material  increases  slightly  with 
+
+temperature and strain rate. The triaxial experiment run at 70°C at the same strain rate 
+
+as the ones at room temperature (
+
+10
+
+−
+1
+
+−
+6 s
+
+) yielded a maximum friction angle of 29°. 
+
+As  shown  in  Fig.  4b  changes  in  the  strain  rate  during  the  test  show  also  some 
+
+rate  sensitivity  for  the  frictional  resistance,  with  deviatoric  stress  increasing  with  an 
+
+increased strain rate and decreasing with a decreased strain rate.    
+
+Drained thermal loading of the clayey gouge 
+
+In order to study the effect of temperature on the volumetric behaviour of the material, 
+
+two  heating  tests  of  drained  speciments  have  been  performed  under  isotropic  stress 
+
+conditions. For each test, the sample is first loaded isotropically to its final stress state in 
+
+drained conditions and at constant room temperature. Then, keeping the isotropic stress 
+
+constant, the sample was heated in drained conditions at a rate of 0.02°C/minute up to a 
+
+maximum of temperature change of 32°C. The experimental results are shown in Fig. 4. 
+
+ 
+
+8 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+The two tests show a good reproducibility and show also that the final state of isotropic 
+
+stress is not influencing the response.  
+
+The important result from these experiments is that the clay-rich material is contracting 
+
+when  heated.  This  phenomenon  represents  a  thermo-plastic  or  structural  collapse.  The 
+
+corresponding  elasto-plastic  contraction  coefficient  is  negative 
+
+−=α
+
+10x4.2
+
+−
+4 °
+
+C/
+
+. 
+
+During  the  cooling  phase  thermo-elastic  contraction  is  occurring  at  a  rate  of 
+
+e
+
+=α
+
+10x4.1
+
+−
+
+4
+
+°
+C/
+
+.  The  resulting  isobaric  thermo-plastic  contraction  coefficient  is 
+
+thus
+
+−=α−α=α
+
+e
+
+p
+c
+
+10x8.3
+
+−
+
+4
+
+°
+C/
+
+.  
+
+The thermal pressurisation Λ in undrained conditions is evaluated as (see appendix A) 
+
+ 
+
+ 
+
+−=Λ
+
+eα−α
+
+(
+
+)
+
+c
+
+ 
+
+(6) 
+
+The numerical estimation of  Λ is 0.1MPa/°C.  
+
+ 
+
+Application to shear heating and fluid pressurization during seismic slip 
+
+We  consider  a  rapidly  deforming  and  long  shear  band  of  thickness  dB  consisting  of 
+
+water-saturated  material  soil.  Inside  such  a  shear-band  the  pore-pressure  p(t,z),  the 
+
+temperature Τ(t,z) and the velocity v(t,z) are assumed to be functions only of time t and 
+
+of position z in the direction normal to the band (Figure 5). 
+
+ 
+
+9 
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+Governing equations 
+
+The equations that govern the problem of dynamic, thermo-poro-plastic shearing can be 
+
+derived  from  the  corresponding  balance  laws  for  mass,  momentum  and  energy  for  a 
+
+two-phase saturated porous medium.  
+
+Mass balance  
+
+Conservation of fluid mass is expressed by 
+
+ 
+
+ 
+
+ 
+
+∂
+m
+∂
+t
+
++
+
+∂
+q
+f =
+∂
+z
+
+0
+
+ 
+
+(7) 
+
+where  m  is  the  fluid  mass  per  unit  volume  of  porous  medium  (in  the  reference  state) 
+
+(
+
+m
+
+wρ=
+
+n
+
+) and qf is the flux of fluid 
+
+ 
+
+The first term of equation (7) is evaluated as (see Appendix 1) 
+
+λ−α−−αρ+
+n
+
+)n1(
+
+s
+
+(
+
+w
+
+)
+
+∂
+T
+∂
+t
+
+ 
+
+w
+
+(8) 
+
+β+βρ=
+
+n
+
+w
+
+n
+
+(
+
+)
+
+∂
+p
+∂
+t
+
+w
+
+ 
+
+ 
+
+∂
+m
+∂
+t
+
+ 
+
+where  
+
+−  ρw is the is the density of water,  
+−  n is the volume of free water per unit volume of porous medium (in the 
+
+reference state) (pore fluid volume fraction),  
+
+−  βw and λw are respectively the compressibility and the thermal expansion 
+
+coefficient of the pore water (free water)  
+
+−  βn  and λn  are  respectively  the  pore  volume  compressibility  and  thermal 
+
+expansion coefficient of the pore volume.  
+
+ 
+
+10
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+−  α  is  the  drained  thermal  expansion  coefficient  of  the  saturated  soil  and 
+
+ασ is the thermal expansion coefficient of the solid fraction.  
+
+The second term of equation (7) is evaluated assuming Darcy’s law 
+
+ 
+
+ 
+
+q
+
+f
+
+−=
+
+ρ
+η
+
+w
+
+w
+
+k
+
+w
+
+∂
+p
+∂
+z
+
+ 
+
+(9) 
+
+In equation (9) kw is the permeability and ηw is the fluid viscosity. 
+
+Substituting (8) and (9) into (7) gives the fluid mass conservation equation 
+
+ 
+
+ 
+
+where 
+
+ 
+
+ 
+
+∂
+p
+∂
+t
+
+Λ=
+
+∂
+T
+∂
+t
+
++
+
+n
+
+1
+
+(
+
+β+βρ
+
+w
+
+n
+
+∂
+∂
+z
+
+
+
+
+
+)
+
+w
+
+ρ
+
+w
+
+k
+η
+
+w
+
+w
+
+∂
+p
+∂
+z
+
+
+
+
+
+ 
+
+n
+
+=Λ
+
+w
+
+α−−α−λ
+
+(
+(
+β+β
+
+)n1(
+)n
+
+w
+
+n
+
+)
+
+s
+
+ 
+
+Energy balance equation 
+
+In a similar manner conservation of energy is expressed as 
+
+ρ
+C
+
+∂
+T
+∂
+t
+
++
+
+∂
+q
+h
+∂
+z
+
+=Ψ−
+
+p
+
+0
+
+ 
+
+ 
+
+ 
+
+ 
+
+(10) 
+
+(11) 
+
+(12) 
+
+11
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+where ρC is the specific heat per unit volume of the fault gouge in its reference state, qh 
+
+is  the  heat  flux  and  Ψp  is  the  rate  of  mechanical  energy  dissipation  due  to  inelastic 
+
+deformation.  
+
+The heat flux is related to the temperature gradient by Fourier’s law 
+
+ 
+
+ 
+
+q
+
+h
+
+−=
+
+k
+
+T
+
+∂
+T
+∂
+z
+
+ 
+
+  (13) 
+
+where  kT  is  the  thermal  conductivity  of  the  saturated  material.  In  equation  (12)  it  is 
+
+assumed that all heat flux is due to heat conduction neglecting heat convection by the 
+
+moving hot fluid. This assumption is justified by the low pore volume fraction and the 
+
+low permeability of fault gouge. 
+
+If  we  neglect  all  dissipation  in  the  fluid  the  rate  of  mechanical  energy  dissipation  is 
+
+written as  
+
+ 
+
+ 
+
+τ=Ψ
+
+p
+
+∂
+v
+∂
+z
+
+ 
+
+  (14) 
+
+where v is the local fault parallel velocity and τ is the shear stress. In equation (8) the 
+
+work  done  by  the  normal  stress σn is  considered  as  negligible  as  compared  to the one 
+
+done by τ at the large shear considered. 
+
+Substituting (13) and (14) into (12) gives the energy conservation equation 
+
+ 
+
+ 
+
+∂
+T
+∂
+t
+
+=
+
+∂
+1
+∂
+ρ
+zC
+
+
+
+
+
+k
+
+T
+
+∂
+T
+∂
+z
+
+
++
+
+
+1
+ρ
+C
+
+τ
+
+∂
+v
+∂
+z
+
+ 
+
+  (15) 
+
+12
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+Momentum balance equation 
+
+The  momentum  balance  equation  is  restricted  in  this  study  to  the  one-dimensional 
+
+formulation  in  the  z-direction  as  the  length  scales  in  the  direction  parallel  to  the  fault 
+
+over which the mechanical fields vary are much larger than in the direction normal to it. 
+
+The 1D-momentum balance equation reads as 
+
+τ∂
+∂
+z
+
+ρ=
+
+∂
+v
+∂
+t
+
+ 
+
+(16) 
+
+ 
+
+As discussed by Rice (2006), the effect of even large accelerations like several times the 
+
+acceleration  of  the  gravity  g  is  insignificant  over  the  small  length  scales  in  the  z-
+
+direction normal to the fault where the heat and fluid diffusion process are taking place 
+
+during  rapid  slip  and  very  high  values  of  pressure  and  temperature  gradients.  For 
+
+example, assuming an acceleration of 10g and a specific mass of the material of 2500 
+
+kg/m3 would result in a change of 2.5×10-2 MPa/m for τ. The relevant length scale in z-
+
+direction is only few mm and thus the variation for τ can be neglected and mechanical 
+
+equilibrium can be assumed. 
+
+ 
+
+ 
+
+τ∂
+∂
+z
+
+=
+
+0
+
+ 
+
+(17) 
+
+Consequently, as the shear stress is constant in space, the Coulomb friction law cannot 
+
+be assumed to be met in all deforming regions unless the pore-pressure is also constant 
+
+in space as it is the case in the undrained adiabatic limit. 
+
+ 
+
+13
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+It  is  thus  assumed  that  the  frictional  resistance  is  proportional  to  the  mean  effective 
+
+stress inside the band 
+
+ 
+
+ 
+
+τ
+)t(
+
+−σ=
+
+f
+
+n
+
+
+
+
+
+1
+
+h
+
+∫−
+
+2/h
+
+2/h
+
+ξ
+d)t,(p
+
+ξ
+
+
+
+
+
+ 
+
+(18) 
+
+where f is the friction coefficient of the gouge and h is the width of the shear band.  
+
+The undrained adiabatic limit 
+
+A  significant  simplification  of  the  mathematical  model  arises  if  one  neglects  the 
+
+diffusion  of  heat  in  the  surroundings  of  the  rapidly  deforming  shear-band.  This  case 
+
+corresponds to the so-called adiabatic limit. The model may be simplified further if one 
+
+neglects pore-pressure diffusion as well, which corresponds to the 'undrained' limit. The 
+
+undrained adiabatic limit is applicable as soon as the slip event is sufficiently  rapid and 
+
+the  shear  zone  broad  enough  to  effectively  preclude  heat  or  fluid  transfer.  Another 
+
+idealized  situation  is  met  if  one  assumes  that  the  shear  zone  is  infinitely  small.  This 
+
+situation corresponds to the model of slip on a plane for which an analytical solution has 
+
+been  proposed  by  Rice  (2005,  2006).  These  two  extreme  cases  provide  good  first 
+
+approximations of the phenomenon. However, as shown by Rice (2006), the solution of 
+
+slip on a plane overestimates the temperature field, and on the other hand, the adiabatic 
+
+and undrained solution appears to be unstable for localization.  
+
+ 
+
+The  set  of  coupled  governing  equations  for  adiabatic,  undrained  shear  for  0 ≤  z ≤  h/2 
+
+and t >0 reads as follows 
+
+ 
+
+ 
+
+14
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ mass
+
+balance
+
+  :
+
+energy 
+
+balance
+
+∂
+p
+∂
+t
+∂
+T
+∂
+t
+
+ :
+
+∂
+T
+∂
+t
+τ
+ρ
+C
+
+(19) 
+
+∂
+v
+∂
+z
+
+=
+
+)
+fp
+
+(
+−σ
+v
+ρ
+C
+
+∂
+v
+∂
+z
+
+ 
+
+Λ=
+ 
+
+=
+
+ 
+
+where σv is the geostatic pressure 
+
+In the undrained adiabatic limit, p is independent of z (i.e. 
+
+∂
+p =
+∂
+z
+
+0
+
+). From the equation 
+
+of  momentum  balance  we  obtain  a  linear  distribution  for  the  velocity  field 
+
+corresponding to homogeneous straining: 
+
+ 
+
+v
+
+=
+
+v
+
+slip
+
+z
+
+2/h
+
+ 
+
+ 
+
+(20) 
+
+ 
+
+The solution is designed for constant velocity. An analytic solution can then be obtained 
+
+under the following form: 
+
+ 
+
+ 
+
+p
+
+=
+
+p
+
+0
+
+(
+
+−σ+
+
+v
+
+=
+
+TT
+0
+
++
+
+(
+−σ
+Λ
+
+v
+
+
+)
+
+
+)
+
+p
+
+0
+
+p
+
+0
+
+−
+
+1
+
+exp(
+
+β−
+
+u
+
+2/h
+
+)
+
+
+
+
+
+−
+
+1
+
+exp(
+
+β−
+
+u
+
+2/h
+
+
+
+
+
+)
+
+ 
+
+
+
+
+
+(21) 
+
+where p0 is the initial hydrostatic pore pressure, u is the accumulated slip displacement 
+
+(
+
+u
+
+∫=
+
+v
+
+slip
+
+dt
+
+) and 
+
+=β
+
+Λ
+Cρ
+
+f
+
+. 
+
+This  means  that  the  pore-pressure  increases  towards  its  geostatic  limit  σv  which 
+
+corresponds to full fluidization exponentially with the slip displacement. In due course 
+
+of the shear heating and fluid pressurization process, the shear strength τ is thus reduced 
+
+towards  zero.  The  governing  physical  factor  is  the  coefficient  β,  which  combines  the 
+
+ 
+
+15
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+effects  of  friction  and  temperature-pressure  coupling  and  depends  also  on  the  specific 
+
+heat  of  the  mixture.  For  the  considered  gouge  ρC≈2.7  MPa/°C,  f=0.5  and  Λ=0.1 
+
+MPa/°C  which  gives 
+
+.0=β
+
+0185
+
+.  The  temperature  rise  and  the  pore  pressure  rise  are 
+
+simply linked by the thermal pressurization coefficient Λ 
+
+ 
+
+ 
+
+−
+
+TT
+0
+
+=
+
+(
+p
+
+−
+
+p
+
+)0
+
+ 
+
+1
+Λ
+
+(22) 
+
+The results of the evolution of the temperature and of the effective stress are shown on 
+
+Fig. 6 as a function of the normalized displacement u/(h/2) for a slip velocity of 1m/s. 
+
+Assuming that the density of the overburden is 2500 kg/m3, we estimate a total vertical 
+
+stress of about 19 MPa for a depth of 760m, which in turn corresponds to an effective 
+
+vertical stress of 11.4 MPa. 
+
+A key parameter is the actual shear-band thickness. It appears that in the clayey core of 
+
+the  fault  zone,  an  ‘ultra-localized’  zone  of  highly  strained  material  is  formed.  The 
+
+thickness of this zone is of the order of tenths of a millimetre despite a much wider fault 
+
+zone  (Cocco  and  Rice,  2002).  Thus  slip  at  a  centimetre  scale  can  actually  induce 
+
+fluidization of the material inside the shear-band. 
+
+Effect of fluid and heat diffusion 
+
+Rice  (2005)  has  shown  that  the  above  homogeneous  undrained  adiabatic  solution  is 
+
+actually  unstable  in  the  sense  that  small  spatial  non-uniformities  with  wave  lengths 
+
+greater than a critical value grow exponentially with time. For the typical values of the  
+
+thermo-poro-mechanical parameters of the considered gouge, it can be shown that this 
+
+critical  wave  length  is  of  the  order  of  few  tens  of  mm  which  is  comparable  to  the 
+
+ 
+
+16
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+observed thickness of shear zones where individual slip events actually localize. After 
+
+localization, heat and fluid transfer cannot be neglected.  
+
+The coupled diffusion equations which can be summarized as: 
+
+ 
+
+ 
+
+∂
+p
+∂
+t
+∂
+T
+∂
+t
+
+Λ=
+
+∂
+T
+∂
+t
+
++
+
+n
+
+(
+β+β
+
+∂
+∂
+z
+
+)
+
+w
+
+k
+η
+
+w
+
+w
+
+∂
+p
+∂
+z
+
+=
+
+∂
+1
+∂
+ρ
+zC
+
+
+
+
+
+k
+
+T
+
+
++
+
+
+1
+ρ
+C
+
+−σ
+
+n
+
+1
+
+n
+∂
+T
+∂
+z
+
+
+
+
+
+
+
+
+f
+
+
+
+
+1
+
+h
+
+(23) 
+
+ 
+
+ξ
+
+
+
+
+
+∂
+v
+∂
+z
+
+h
+d)t,(p
+0
+
+ξ
+
+∫
+
+The source term for the temperature field decreases with increasing pore pressure. This 
+
+system  shows  the  competing  effect  of  pore  fluid  pressurization  and  temperature 
+
+increase.  In  the  following  we  will  examine  some  numerical  examples  for  which 
+
+fluidization the clayey gouge or vaporization of the pore fluid may occur. 
+
+This  system  is  solved  numerically  using  an  explicit  2nd  order  Runge-Kutta  finite 
+
+difference scheme.  
+
+c
+
+th
+
+=
+
+k
+T
+ρ
+C
+
+ is the thermal diffusivity of the saturated soil which value is 0.2mm2/s for the 
+
+considered  material  and 
+
+c
+
+hy
+
+=
+
+n
+
+k
+
+w
+
+(
+)
+ηβ+β
+
+w
+
+n
+
+=
+
+w
+
+k
+
+w
+
+nc(
+
+ηβ+
+
+)
+
+w
+
+≈
+
+k
+w
+η
+c
+
+w
+
+w
+
+  is  the  hydraulic 
+
+diffusivity  which  value  is  chy=0.026mm2/s  at  20°C  and  at  atmospheric  pressure. 
+
+However, we have to account for the temperature dependency of the viscosity of water 
+
+and the hydraulic diffusivity is approximated with the following function: 
+
+(in 
+
+.9)s/mm
+
+=
+
+2
+
+4661
+
+×
+
+10
+
+−
+
+4
+
+°
+C)
+ in(T
+
++
+
+1.2589
+
+−
+3
+
+×
+
+10
+
+ 
+
+(24) 
+
+c
+
+hy
+
+ 
+
+The thermal collapse of the clayey gouge occurs only inside the shear band. Outside the 
+
+band the material is unloaded elastically: 
+
+ 
+
+17
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+for 
+ 
+
+z
+
+≤
+
+ h/2,
+
+≈Λ
+
+n
+
+for 
+ 
+
+z
+
+>
+
+ h/2,
+
+≈Λ
+
+0
+
+(
+α−α−α−λ
+
+(
+
+w
+
+s
+
+)
+c
+
+)
+
+s
+
+≈
+
+(
+α−α−
+
+)
+
+s
+
+c
+
+≈
+
+1.0
+
+/MPa
+
+(25) 
+
+ 
+
+Note  that  for  a  rock  in  the  elastic  range,  the  pressurization  coefficient  is  given  by 
+
+equation  (A16)  in  Appendix  1.  With  typical  values  of  compressibility  and  thermal 
+
+expansion  coefficient  of  rock  and  water  at  great  depth,  it  is  obtained  that  the  ‘elastic’ 
+
+pressurization  coefficient  is  not  negligible  and  has  values  between  0.3  and  1  (Rice 
+
+2006). For a clayey gouge at relatively low depth (760m), thermal collapse is the only 
+
+mechanism of fluid pressurization. 
+
+Far  field  boundary  conditions  correspond  to  the  initial  temperature  of  28°C  and  total 
+
+stress of 19 MPa. 
+
+The  numerical  results  are  shown  on  Fig.  7  assuming  a  shear  band  thickness  2h=1mm. 
+
+The  liquefaction  limit  (
+
+)t,0(p
+
+σ=
+
+v
+
+,  i.e.  full  fluidization  of  the  gouge),  is  reached  after 
+
+0.13s  of  shearing.  We  observe  that,  as  expected,  the  increase  of  temperature  is  more 
+
+important than in case of undrained adiabatic shearing.  
+
+If we assume a shear band thickness which is twice smaller (h=0.5mm), then computed 
+
+results show that vaporization of the pore fluid occurs (Fig. 8). This state is reached at 
+
+t=1.4s for which p=17MPa and T=356°C. Note that fluid vaporization is possible only if 
+
+it is assumed that the soil is not fully saturated. 
+
+We  would  like  to  emphasize  here  that  in  these  computations  the  coefficient  of 
+
+pressurization Λ was assumed to be constant. We have no experimental data about the 
+
+thermal  collapse  of  clayey  soils  at  high  temperatures.  We  might  expect  that  the 
+
+pressurization  coefficient  will  decrease  with  increasing  temperature  due  to  the  limited 
+
+amount of structural water that can be released when heated. 
+
+ 
+
+18
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+Conclusion 
+
+In  rapid  fault  shearing  of  clay-rich  faults  the  effects  of  pore-water  heating  and 
+
+consequent  pore-pressure  rise  cannot  be  disregarded.  The  Aigion  fault  gouge,  where 
+
+extracted  from  the  Aigion  fault  at  a  depth  of  760  m,  is  a  clay-rock  mixture.  The 
+
+experimental characterization program performed on cores of this material demonstrates 
+
+that  although  the  clay  fraction  is  relatively  small,  it  has  a  significant  influence  on  the 
+
+thermo-mechanical  properties  of  the  material.  The  clayey  core  of  the  fault  has  a  very 
+
+low fluid permeability and exhibits contractant volumetric behaviour when heated. The 
+
+sensitive  parameter  for  the  description  of  the  thermo-poro-mechanical  coupling  is  the 
+
+thermal  pressurisation  coefficient  of  the  material.  It  was  found  that  at  a  nominal 
+
+effective  stress  corresponding  to  760  m  deep  conditions,  this  coefficient  is  about  0.1 
+
+MPa/°C. An analysis of undrained and adiabatic shearing of a thin layer of this clayey 
+
+gouge  has  shown  that  shear  heating  and  fluid  pressurization  is  a  possible  mechanism 
+
+leading  to  full  fluidization  of  the  material  inside  the  shear  band.  A  numerical  solution 
+
+including  heat  and  fluid  diffusion  has  also  been  proposed.  It  has  been  shown  that  the 
+
+thickness of the shear band is a key parameter for the competing effects of fluidization 
+
+of the gouge or vaporization of the pore fluid. 
+
+We  emphasize  the  fact  that  the  parameters  used  in  the  analysis  are  the ones  of  a  fault 
+
+gouge at 760 m depth. The actual nature and rheology of materials at seismogenic depth 
+
+is a challenging question that can only be answered in the future by ultra-deep drilling.   
+
+Acknowledgements 
+
+The  authors  wish  to  acknowledge  the  EU  projects  DG-Lab  Corinth  (EVR1-CT-2000-
+40005) and Fault, Fractures and Fluids: Golf of Corinth, in the framework of program 
+Energy (ENK6-2000-0056) and the ‘Groupement de Recherche Corinthe’ (GDR 2343), 
+INSU-CNRS for supporting this research. The authors wish to thank James Rice for the 
+
+ 
+
+19
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+discussions held during the trimester on granular materials at Institut Poincaré in Paris, 
+2005.  They  wish  also  to  thank  François  Martineau  (LCPC)  for  his  assistance  in  the 
+experimental work. 
+
+References 
+
+Baldi, G., Hueckel, T., and Pellegrini, R. (1988). Thermal volume changes of the mineral–water 
+
+system in low-porosity clay soils. Canadian Geotechnical Journal, 25: 807–825. 
+
+Cocco M, Rice JR (2002) Pore pressure and poroelasticity effects in Coulomb stress analysis of 
+
+earthquake interactions, Journal of Geophysical Research, 107(B2), 1-17 
+
+Cornet  F,  Bernard  P,  Moretti  I  (2004a)  The  Corinth  Rift  Laboratory,  Comptes  Rendus 
+
+Geosciences, 336, 4-5, 235-242 
+
+Cornet  F,  Doan  ML,  Moretti  I,  Borm  G  (2004b)  Drilling  through  the  active  Aigion  Fault:  the 
+
+AIG10 well observatory, Comptes Rendus Geosciences, 336, 4-5, 395-406. 
+
+Coussy O, (2004) Poromechanics, J. Wiley & Sons. 
+Daniel  JM,  Moretti  I,  Micarelli  L,  Essautier  Chuyne  S,  Delle  Piane  C  (2004)  Macroscopic 
+structural analysis of AG10 well (Gulf of Corinth, Greece), Comptes Rendus Geosciences, 
+336, 4-5, 435-444 
+
+Garagash  DI,  Rudnicki  JW  (2003)  Shear  heating  of  a  fluid-saturated  slip-weakening  dilatant 
+
+fault zone 1. Limiting regimes, Journal of Geophysical Research, 108, B2, 2121 
+
+Hueckel  T.,  Baldi  G.,  (1990)  Thermoplasticity  of  saturated  clays:  experimental  constitutive 
+
+study, J. Geotech. Eng. 116 (12) 1778–1796. 
+
+Hueckel T, Pellegrini R (1991) Thermoplastic modelling of undrained failure of saturated clay 
+
+due to heating. Soils and Foundations, 31, 3, 1-16 
+
+Lachenbruch AH (1980) Frictional heating, fluid pressure and the resistance to fault motion. J.  
+
+Geophys. Res., 85, 6097-6112 
+
+Lockner, D.,  Naka, H., Tanaka, H., Ito, H., and Ikeda, R. (2000) Permeability and strength of 
+core  samples  from  the  Nojima  fault  of  the  1995  Kobe  earthquake”,  USGS  Open  File  Rpt. 
+00-129, 147-152. 
+
+McTigue,  D.  F.  (1986),  Thermoelastic  response  of  fluid-saturated  porous  rock,  Journal  of 
+
+Geophysical Research, 91(B9), 9533—9542. 
+
+Mase  CW,  Smith  L  (1985)  Pore-fluid  pressures  and  frictional  heating  on  a  fault  surface. 
+
+Pageoph. 122, 583-607 
+
+Micarelli L, Moretti I, Daniel JM (2003) Structural properties of rift-related normal faults: the 
+
+case study of the Gulf of Corinth, Greece, Journal of Geodynamics 36, 275–303 
+
+Moretti  I,  Sakellariou  D,  Likoussis  V,  Micarelli  L  (2003)  The  Gulf  of  Corinth:  an  active 
+
+graben?, Journal of Geodynamics 36, 323–340. 
+
+Otsuki  K  Monzawa,  N,  and  Nagase  T  (2003)  Fluidization  and  melting  of  fault  gouge  during 
+seismic  slip:  Identification  in  the  Nojima  fault  zone  and  implications  for  focal  earthquake 
+mechanisms. Journal of Geophysical Research, 108, no. b4, 2192 
+
+Rettenmaier  D,  Giurgea  V,  Hötzl  H,  Förster  A    (2004)  The  AIG10  drilling  project  (Aigion, 
+Greece):  interpretation  of  the  litho-log  in  the  context  of  regional  geology  and  tectonics, 
+Comptes Rendus Geosciences, 336, 4-5, 415-424 
+
+Rice  JR  (2005)  Large  scale  localization:  Thermal  weakening  of  faults  during  seismic  slip, 
+Thematic  meeting  on  Instabilities,  Bifurcations,  Localization,  24-25  February,  Institut 
+Poincaré, Paris, France 
+
+Rice JR (2006) Heating and weakening of faults during earthquake slip, Journal of Geophysical 
+
+Research, Vol. 111, B05311.  
+
+Song  I,  Elphick  SC,  Odling  N,  Main  IG,  Ngwenya  BT  (2004)  Hydromechanical  behaviour  of 
+fine-grained  calcilutite  and  fault  gouge  from  the  Aigion  Fault  Zone,  Greece,  ),  Comptes 
+Rendus Geosciences, 336, 4-5, 445-454 
+
+ 
+
+20
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+Sulem J, Vardoulakis I, Ouffroukh H, Boulon M, Hans J (2004) Experimental characterization 
+of  the  thermo-poro-mechanical  properties  of  the  Aegion  fault  gouge,  Comptes  Rendus 
+Geosciences, 336, 4-5, 455-466 
+
+Sulem J, Vardoulakis I, Ouffroukh H, Perdikatsis V (2005) Thermo-poro-mechanical properties 
+of  the  Aigion  fault  clayey  gouge  -  Application  to  the  analysis  of  shear  heating  and  fluid 
+pressurization. Soils and Foundations, 45 (2), 97-108 
+
+Sultan N., Delage P. and Cui Y.J. (2002). Temperature effects on the volume change behaviour 
+
+of Boom clay. Engineering Geology (64) 2-3, 135-145.  
+
+Terzaghi K., (1943) Theoretical Soil Mechanics, Wiley, New York. 
+Tselentis  GA,  Makropoulos  K  (1986)  Rates  of  crustal  deformation  in  the  Gulf  of  Corinth 
+
+(central Greece) as determined from seismicity. Tectonophysics 24, 55–61 
+
+Vardoulakis I (2000) Catastrophic landslides due to frictional heating of the failure plane. Mech. 
+
+Coh. Frict. Mat., 5, 443-467 
+
+Vardoulakis  I  (2002a)  Dynamic  thermo-poro-mechanical  analysis  of  catastrophic  landslides, 
+
+Geotechnique, 52 (3), 157-171 
+
+ Vardoulakis  I  (2002b)  Steady  shear  and  thermal  run-away  in  clayey  gouges.  Int.  J.  Solids 
+
+Structures, 39, 3831-3844 
+
+Vardoulakis I., Sulem J. (1995) Bifurcation Analysis in Geomechanics, Chapman & Hall. 
+Wibberley C, Shimamoto T (2003) Internal structure and permeability of major strike-slip fault 
+zones: the Median Tectonic Line in Mie Prefecture, Southwest Japan, J. Structural Geology 
+25, 59-78 
+
+Wibberley  C,  Shimamoto,  T  (2005)  Earthquake  slip  weakening  and  asperities  explained  by 
+
+thermal pressurization, Nature 426,4, 689-692 
+
+ 
+
+ 
+
+21
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+Appendix 1 
+
+Thermal volume changes of saturated clay soils 
+
+ 
+
+When  temperature  is  increased  in  drained  conditions,  a  normally  consolidated  clayey 
+
+soil  exhibits  an  irreversible  contraction.  This  thermal  contraction  is  related  to 
+
+physicochemical clay-water interactions based on the change in thickness of the double 
+
+layer with an increase in temperature promoting eventually a breakdown of the adsorbed 
+
+water. In undrained conditions the pore pressure  may develop as the result of heating. 
+
+Experimental results reported by Hueckel and Pellegrini, 1991, have shown the failure 
+
+of  samples  heated  from  70  to  90°C  under  undrained  conditions  with  a  constant  stress 
+
+deviator.   
+
+On the phenomenological level the thermal strain of normally consolidated clays can be 
+
+considered  with  the  frame  of  thermoplastic  hardening  theory  (e.g.  Baldi  et  al.  1988, 
+
+Hueckel and Baldi, 1990, Sultan et al. 2002.) 
+
+The  deformation  of  the  clay  skeleton  can  be  described  using  a  thermoelastic  law.  The 
+
+collapse of  adsorbed water results in the rearrangement of  the internal structure of the 
+
+soil  skeleton  which  causes  an  irreversible  volume  reduction  which  can  describe  using 
+
+thermoplasticity.     
+
+ The porous space of a clay can be seen as a double porosity network. The fluid mass m 
+
+per unit volume of porous medium (in the reference state) can be written as the sum of 
+
+the mass of the free water mf and the mass of the ‘structural’ water ma. The structural 
+
+water  is  bonded  to  the solid  mineral  surfaces  by  physico-chemical  forces.  The  density 
+
+and the thermal expansion of the structural water are different from that of bulk water. 
+
+ 
+
+ 
+
+22
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+f mmm
+
+ 
+
+a
+
++
+
+=
+
+m
+
+f
+
+ρ=
+
+n
+
+ 
+
+w
+
+ 
+
+(A1) 
+
+(A2) 
+
+where ρw is the is the density of water and n is the volume of free water per unit volume 
+
+of porous medium (in the reference state) (pore fluid volume fraction). 
+
+ 
+
+ 
+
+ 
+
+n =
+
+V
+
+pore
+
+V
+
+tot
+
+0,
+
+ 
+
+(A3) 
+
+n  is  essentially  the  porosity  φ=Vpore  /Vtot  if  Vtot  is  nearly  equal  to  its  reference-state 
+
+value Vtot,0. n is also called the Lagrangian porosity as opposed to the Eulerian porosity 
+
+φ (Coussy, 2004).  
+
+The structural water occupies a volume Va and the structural water volume fraction na is  
+
+ 
+
+ 
+
+ 
+
+n =
+
+V
+a
+a V
+
+tot
+
+0,
+
+ 
+
+(A4) 
+
+The increment of pore fluid volume fraction dn is decomposed into a reversible part dne 
+
+which  is  expressed  in  terms  of  increments  dp  of  pore  pressure  and  dT  of  temperature 
+
+and an irreversible part dnp describing the thermal collapse of clay  
+
+ 
+
+ 
+
+ 
+
+dT
+
+ 
+
+(A5) 
+
+dn
+w
+λρ−
+ww
++
+
+dT
+
+n
+
+dp
+λ+
+n
+
+dn
+
+ρ+ρ
+
+=
+
+f
+
+nd
+
+dm
+βρ=ρ
+d
+ww
+
+w
+
+w
+β=
+n
+
+dn
+
+dp
+
+n
+
+p
+
+23
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+where  βw  and  λw are  respectively  the  compressibility  and  the  thermal  expansion 
+
+coefficient  of  the  pore  water  (free  water)  and  βn  and  λn  are  respectively  the  (elastic) 
+
+pore volume compressibility and thermal expansion coefficient of the pore volume.  
+
+ 
+
+dm
+
+ρ=
+n
+
+(
+(
+β+β
+
+n
+
+w
+
+)
+dp
+
+(
+λ−λ+
+
+n
+
+w
+
+)
+dT
+
+)
+
+ρ+
+
+w
+
+w
+
+p
+
+dn
+
++
+
+dm
+
+ 
+
+a
+
+(A6) 
+
+ 
+
+The  variation  of  the  mass  of  the  structural  water  dma  corresponds  to  the  quantity  of 
+
+structural water transformed into free water during the heating process (dma ≤ 0). 
+
+In a drained heating test of a saturated sample under constant isotropic total stress, one 
+
+can measure independently the incremental volumetric strain of the sample dεv and the 
+
+incremental volume of water expelled from the saturated sample during drained heating 
+
+dVdr. 
+
+The change of the mass of fluid per unit volume (in the reference state) in a drained test 
+
+is obtained from equation (A5) with dp = 0  
+
+ 
+
+dm
+
+ 
+
+λ−λρ=
+
+n
+
+(
+
+w
+
+n
+
+)
+dT
+
+w
+
+ρ+
+
+w
+
+p
+
+dn
+
++
+
+dm
+
+a
+
+ 
+
+(A7) 
+
+This  incremental  mass  is  equal  (with  opposite  sign)  to  the  incremental  mass  of  the 
+
+drained fluid dmdr 
+
+ 
+
+ 
+
+ 
+
+ 
+
+dm
+
+−=
+
+dm
+
+ρ−=
+
+w
+
+dr
+
+dV
+
+dr
+
+V
+
+tot
+
+0,
+
+ 
+
+(A8) 
+
+24
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+The  incremental  volume  of  drained  water  is  the  difference  between  the  water  volume 
+
+change and the volume change of the total porous space. 
+
+ 
+
+ 
+
+ 
+
+dV
+
+dr
+
+=
+
+dV
+w
+
+−
+
+dV
+
+pore
+
+−
+
+dV
+a
+
+ 
+
+(A9) 
+
+The water volume change corresponds to the thermal expansion of the free water.  
+
+ 
+
+ 
+
+dV
+w
+
+=
+
+V
+
+λ
+ww
+
+dT
+
+ 
+
+(A10) 
+
+The volume change of the total porous space 
+
+ 
+
+dV
+
+pore
+
++
+
+dV
+a
+
+V
+
+tot
+0,
+α=ε
+d
+v
+
+dT
+
+=
+
+dV
+
+tot
+
+V
+
+tot
+
+0,
+
+−
+
+dV
+s
+
+V
+
+tot
+
+0,
+
+α−−ε=
+
+)n1(
+
+d
+
+v
+
+(A11) 
+
+dT
+
+s
+
+ 
+
+ 
+
+In  equation  (A11)  α  is  the  drained  thermal  expansion  coefficient  of  the  saturated  soil 
+
+and αs is the thermal expansion coefficient of the solid fraction. This coefficient can be 
+
+positive or negative depending on the over-consolidation ratio of the clayey soil. 
+
+From equations (A8-A10) we deduce 
+
+ 
+
+ 
+
+ 
+
+dV
+
+dr
+
+V
+
+tot
+
+0,
+
+λ=
+n
+
+dT
+
+w
+
+(
+α−−α−
+
+)n1(
+
+)dT
+
+ 
+
+s
+
+(A12) 
+
+Consequently using equations (A7) and (A8) we obtain the following expression of the 
+
+incremental change of mass of the structural water 
+
+ 
+
+25
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+dm
+
+a
+
+ 
+
+λ−α−−αρ=
+n
+
+)n1(
+
+s
+
+(
+
+w
+
+)
+dT
+
+n
+
+ρ−
+
+w
+
+dn
+
+p
+
+ 
+
+(A13) 
+
+In an undrained heating test the pore fluid pressurization can be deduced from equations 
+
+(A7) and (A13) (with dm = 0) assuming that the mass of structural water released in the 
+
+heating process is not affected by the drainage conditions. This assumption is consistent 
+
+with the experimental observation that the volumetric strain during heating of normally 
+
+consolidated clay is not affected by the stress level. 
+
+ 
+
+ 
+
+ 
+
+dp
+
+Λ=
+
+dT
+
+with 
+
+=Λ
+
+n
+
+)
+
+ 
+
+s
+
+(A14) 
+
+w
+
+α−−α−λ
+
+(
+(
+β+β
+
+)n1(
+)n
+
+w
+
+n
+
+In case of purely thermo-poro-elastic material  
+
+ 
+
+ 
+
+ 
+
+e α=α=α
+
+ 
+
+s
+
+(A15) 
+
+The  expression  of  the  elastic  pressurization  coefficient  given  by  Rice  (2006)  is  thus 
+
+retrieved 
+
+ 
+
+ 
+
+=Λ
+
+ 
+
+ 
+
+ 
+
+w
+
+λ−λ
+β+β
+
+w
+
+ 
+
+n
+
+n
+
+(A16) 
+
+26
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+The  elastic  pore  volume  compressibility 
+
+nβ   can  be  expressed  in  terms  of  the 
+
+compressibility of the material c and of the solid grains cs using the equations of linear 
+
+thermo-poro-elasticity (Mc Tigue, 1986, Rice, 2006) 
+
+ 
+
+ 
+
+ 
+
+e
+
+dn
+
+=
+
+c(
+
+−
+
+
+
+)c
+
+
+s
+
+σ
+d
+kk
+3
+
++
+
+dp
+
+
+−
+
+
+nc
+
+s
+
+dp
+
+α+
+
+n
+
+dT
+
+ 
+
+s
+
+(A17) 
+
+Under constant total stress (dσkk = 0) comparing equations (17) and (5) identifies 
+
+ 
+
+ 
+
+ 
+
+(
+=β
+c
+n
+α=λ
+
+n
+
++−
+
+n/c)n1(
+
+)
+
+s
+
+ 
+
+(A18) 
+
+s
+
+For  a  clayey  gouge  at  relatively  low  depth  cs<<c  and  consequently  βn ≈ c/n>>βw. 
+
+Consequently the pressurization coefficient is expressed as 
+
+ 
+
+ 
+
+n
+
+≈Λ
+ 
+
+(
+α−α−α−λ
+
+(
+
+w
+
+s
+
+)
+c
+
+)
+
+s
+
+≈
+
+(
+α−α−
+
+)
+
+s
+
+c
+
+ 
+
+(A19) 
+
+ 
+
+27
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+FIGURE CAPTIONS 
+
+ 
+
+Fig. 1. : Box 49 containing the core at depth 759.70 m, characterized as “Aigion fault” 
+core 
+
+Fig.  2.  :  Oedometric  compression  tests:  (a)  Oedometric  curve;  (b)  Porosity  and 
+permeability evolution 
+
+Fig. 3. Drained triaxial tests : (a) at room temperature (22°C), (b) at 70°C 
+
+Fig. 4. Drained heating tests under isotropic state of stress 
+
+Fig. 5. The deforming shear-band with heat and fluid fluxes 
+
+Fig. 6. Undrained adiabatic shear-heating and fluid pressurization  
+
+Fig.  7  (a)  Temperature  and  pore  pressure  vs  time  at  the  center  of  the  band;  (b) 
+Temperature  and  pore  pressure  field  at 
+  (Shear  band 
+thickness=1mm – slip velocity=1m/s) 
+
+t=0.13  (liquefaction) 
+
+Fig. 8. Temperature and pore pressure vs time at the center of the band. Vaporization of 
+the pore fluid is reached at 1.4s (Shear band thickness=0.5mm – slip velocity=1m/s) 
+
+ 
+
+28
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+ 
+ 
+ 
+ 
+
+Fig. 1. : Box 49 containing the core at depth 759.70 m, characterized as “Aigion fault” 
+core 
+
+ 
+
+ 
+
+29
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+ 
+
+void ratio
+
+0.3
+
+0.2
+
+0.1
+
+Compression index Cc=0.11
+
+Swelling index Cs=0.023
+
+Cc
+
+(a) 
+
+σ'vp
+
+Cs
+
+logσ'v
+
+0.001
+
+0.01
+
+0.1
+
+1
+
+10
+
+100
+
+Normal stress (MPa)
+
+ 
+
+porosity
+
+permeability (m2)
+
+1E-017
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+porosity (red clay)
+permeability (red clay)
+
+1E-018
+
+1E-019
+
+(b) 
+
+ 
+
+0
+
+2.5
+
+5
+
+7.5
+
+10
+
+12.5
+
+Normal stress (MPa)
+
+Fig.  2.  :  Oedometric  compression  tests:  (a)  Oedometric  curve;  (b)  Porosity  and 
+permeability evolution 
+
+ 
+
+30
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+confining pressure
+
+ σc=8MPa
+
+confining pressure
+
+ σc=16MPa
+
+confining pressure
+
+ σc=18MPa
+
+(a) 
+
+0
+
+4
+
+8
+
+12
+
+16
+
+20
+
+axial strain (%)
+
+)
+a
+P
+M
+
+(
+ 
+
+r
+
+z
+
+σ
+−
+σ
+ 
+s
+s
+e
+r
+t
+s
+ 
+c
+i
+r
+o
+t
+a
+i
+v
+e
+d
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+0
+
+)
+
+%
+
+(
+ 
+
+-1
+
+i
+
+n
+a
+r
+t
+s
+ 
+c
+i
+r
+t
+
+-2
+
+e
+m
+u
+o
+v
+
+l
+
+-3
+
+ 
+
+-4
+
+    
+
+constant strain rate
+
+V=10-6s-1
+
+constant strain rate
+
+V=5*10-7s-1
+
+constant strain rate
+
+V=4*10-6s-1
+
+constant stress rate : 3KPa/s
+
+equivalent strain rateV≅3.5*10-5s-1
+
+constant strain rate
+
+V=10-6s-1
+
+constant strain rate
+
+V=10-6s-1
+
+confining pressure
+
+ σ3=16MPa
+
+confining pressure
+
+σ3=18 MPa
+
+(b) 
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+axial strain (%)
+
+35
+
+30
+
+25
+
+r
+
+z
+
+20
+
+)
+a
+P
+M
+
+(
+σ
+−
+σ
+ 
+s
+s
+e
+r
+t
+s
+ 
+c
+i
+r
+o
+t
+a
+i
+v
+e
+d
+
+15
+
+10
+
+5
+
+0
+0
+
+)
+
+%
+
+i
+
+(
+ 
+n
+a
+r
+t
+s
+ 
+-1
+c
+i
+r
+t
+e
+m
+u
+o
+v
+
+l
+
+-2
+
+ 
+
+Fig. 3. Drained triaxial tests : (a) at room temperature (22°C), (b) at 70°C 
+
+ 
+
+31
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+)
+
+%
+
+i
+
+(
+ 
+n
+a
+r
+t
+s
+ 
+c
+i
+r
+t
+e
+m
+u
+o
+v
+
+l
+
+0
+
+0
+
+-0.2
+
+-0.4
+
+-0.6
+
+-0.8
+
+-1
+
+10
+
+∆T (°C)
+
+20
+
+30
+
+40
+
+Test 1 : confining pressure = 16 MPa
+Test 2 :  confining presssure = 12 MPa
+slope for heating (test 1) : 2.45E-4/°C
+slope for heating (test 2):  2.39E-4 /°C
+slope for cooling (test 2): 1.4E-4/°C
+
+ 
+
+Fig. 4. Drained heating tests under isotropic state of stress 
+
+ 
+
+32
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+Fig. 5. The deforming shear-band with heat and fluid fluxes 
+
+ 
+
+ 
+
+33
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+T-T0 (°C)
+120
+
+80
+
+40
+
+0
+
+0
+
+shear resistance (MPa)
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+50
+
+100
+2u/h
+
+150
+
+200
+
+ 
+
+Fig. 6. Undrained adiabatic shear-heating and fluid pressurization  
+
+ 
+
+34
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+Temperature (°C)
+
+Pore pressure (MPa)
+
+liquefaction limit
+
+f=0.5; h/2=0.5 mm
+
+σv
+
+20
+
+16
+
+12
+
+8
+
+4
+
+0.04
+
+0.08
+
+time (s)
+
+0.12
+
+0.16
+
+ 
+
+Temperature (°C)
+
+0
+
+40
+
+80
+
+120
+
+160
+
+Temperature
+
+Pore pressure
+
+f=0.5; h/2=0.5 mm
+
+(a) 
+
+(b) 
+
+160
+
+120
+
+80
+
+40
+
+0
+
+0
+
+)
+
+m
+m
+
+(
+ 
+z
+
+3
+
+2
+
+1
+
+0
+
+4
+
+8
+pore pressure (MPa)
+
+12
+
+16
+
+20
+
+   
+
+Fig.  7  (a)  Temperature  and  pore  pressure  vs  time  at  the  center  of  the  band;  (b) 
+Temperature  and  pore  pressure  field  at 
+  (Shear  band 
+thickness=1mm – slip velocity=1m/s) 
+
+t=0.13  (liquefaction) 
+
+ 
+
+ 
+
+35
+
+J. Sulem, P. Lazar, I. Vardoulakis (2007): Thermo-Poro-Mechanical Properties of Clayey Gouge and Application to 
+Rapid Fault Shearing, Int. J. Numer. Anal. Meth. Geomech., 2007; 31:523–540. 
+
+ 
+
+Temperature (°C)
+
+pore pressure (MPa)
+
+400
+
+300
+
+200
+
+100
+
+0
+
+vaporization
+
+f=0.5
+h/2=0.25 mm
+
+20
+
+16
+
+12
+
+8
+
+4
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+time (s)
+
+1
+
+1.2
+
+1.4
+
+ 
+
+Fig. 8. Temperature and pore pressure vs time at the center of the band. Vaporization of 
+the pore fluid is reached at 1.4s (Shear band thickness=0.5mm – slip velocity=1m/s) 
+
+ 
+
+36
+
+

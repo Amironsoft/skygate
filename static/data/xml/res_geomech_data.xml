@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Ageomech%26id_list%3D%26start%3D0%26max_results%3D2000" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:geomech&amp;id_list=&amp;start=0&amp;max_results=2000</title>
+  <id>http://arxiv.org/api/qEcPIqMnhxTIwQhU9Ae1b8CsrSk</id>
+  <updated>2018-03-11T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">2000</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1608.04144v2</id>
+    <updated>2016-08-16T00:49:05Z</updated>
+    <published>2016-08-14T22:12:22Z</published>
+    <title>A multiscale framework for the simulation of the anisotropic mechanical
+  behavior of shale</title>
+    <summary>  Shale, like many other sedimentary rocks, is typically heterogeneous,
+anisotropic, and is characterized by partial alignment of anisotropic clay
+minerals and naturally formed bedding planes. In this study, a micromechanical
+framework based on the Lattice Discrete Particle Model (LDPM) is formulated to
+capture these features. Material anisotropy is introduced through an
+approximated geometric description of shale internal structure, which includes
+representation of material property variation with orientation and explicit
+modeling of parallel lamination. The model is calibrated by carrying out
+numerical simulations to match various experimental data, including the ones
+relevant to elastic properties, Brazilian tensile strength, and unconfined
+compressive strength. Furthermore, parametric study is performed to investigate
+the relationship between the mesoscale parameters and the macroscopic
+properties. It is shown that the dependence of the elastic stiffness, strength,
+and failure mode on loading orientation can be captured successfully. Finally,
+a homogenization approach based on the asymptotic expansion of field variables
+is applied to upscale the proposed micromechanical model, and the properties of
+the homogenized model are analyzed.
+</summary>
+    <author>
+      <name>Weixin Li</name>
+    </author>
+    <author>
+      <name>Roozbeh Rezakhani</name>
+    </author>
+    <author>
+      <name>Congrui Jin</name>
+    </author>
+    <author>
+      <name>Xinwei Zhou</name>
+    </author>
+    <author>
+      <name>Gianluca Cusatis</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1002/nag.2684</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1002/nag.2684" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">submitted to International Journal for Numerical and Analytical
+  Methods in Geomechanics</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Int. J. Numer. Anal. Meth. Geomech. 41(2017) 1494-1522</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1608.04144v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.04144v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

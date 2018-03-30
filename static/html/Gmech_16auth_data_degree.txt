@@ -1,0 +1,3287 @@
+	name	degree
+1240	rutqvist j.	80
+1402	zoback m. d.	74
+2879	morris j. p.	74
+1438	sone h.	72
+1549	johnson p. a.	72
+1034	haimson b. c.	70
+1582	morales adrian	68
+2754	wang h. f.	68
+643	doe t. w.	68
+104	birkholzer j. t.	66
+1188	nakagawa s.	66
+995	huang h.	64
+2532	oldenburg c. m.	64
+2984	dobson p. f.	64
+2413	zhou j.	64
+785	heise j.	62
+3040	daley t. m.	62
+1457	coblentz d. d.	62
+950	white j. a.	62
+373	roggenthen w. m.	62
+199	cook p. j.	62
+1003	ingraham m.	62
+2711	vigilante p.	62
+2784	siler d. l.	62
+1843	ajo-franklin j.	62
+3128	johnson t. j.	62
+80	guglielmi y.	62
+828	ulrich c.	62
+1416	lord n. e.	62
+3093	mattson e. d.	62
+1023	wu y.	62
+2403	kneafsey t. j.	62
+123	lee m. y.	62
+3221	thomas mandy	58
+1490	costello ian	58
+2817	magbagbeola oluwaseun	54
+2213	yates malcolm	54
+508	anifowoshe olatunbosun	54
+495	wilson thomas	52
+1575	carney bj	52
+2365	crandall dustin	52
+1982	macphail keith	52
+2259	hewitt jay	52
+28	amini shohreh	52
+843	kavousi payam	52
+2859	hammack richard	50
+2392	zorn erich v.	50
+2041	kumar abhash	50
+1594	naseem kashif	48
+477	hogarth leah	48
+281	carr timothy r.	48
+966	uschner natalie	48
+597	jordon emily	48
+1479	sharma shikha	48
+5	johansen asbjoern	48
+574	vagnetti robert	48
+1825	akin josiah	48
+1428	zhang guangqing	46
+2056	yang xiangtong	46
+2466	li gensheng	44
+1458	wang lizhi	44
+1872	deng jingen	42
+668	mao sheng	42
+2420	sepehrnoori kamy	42
+1225	sharma mukul m.	40
+303	yu wei	38
+250	tang meirong	38
+3079	chen t.	36
+2924	han y.	34
+3032	zhang yang	34
+2444	white d. j.	34
+2645	desroches j.	34
+2667	fan wentong	34
+2100	paryani m.	32
+3275	jin yan	32
+2092	huang yongjie	32
+254	jin y.	30
+357	alboueshi alaa eldine	30
+2414	al othman mohamed	30
+1298	nilotpaul neoq	30
+1889	ejofodomi efe	30
+101	fidan erkan	30
+2177	al-dousari mohammed abdullah	30
+2206	eid walid	30
+1602	al-matrouk yousef	30
+2892	sierra leopoldo	30
+2390	allam ahmed	30
+674	buhamad ali	30
+1002	elmofti mohamed	30
+3270	chen zhangxin	30
+1239	al-zaidani ibrahim	30
+630	sadeddin salma	30
+3259	ahmed abdul-samad mohammed	30
+603	ashkanani meshari	30
+3087	teng qi	30
+958	ahmed zamzam	30
+428	wang tao	28
+1769	zhou dawei	28
+1102	foote alexander	28
+687	shouceng tian	28
+165	morrell austin	28
+308	mainali pukar	28
+3229	gensheng li	28
+2094	rylance m.	28
+2309	rowe harry	28
+2769	liu hai	28
+2725	pan yuanwei	28
+772	narasimhan santhosh	28
+561	stead d.	28
+2411	qiu kaibin	28
+2580	casero a.	26
+3141	yang c. h.	26
+744	lebedev maxim	26
+48	hou b.	26
+2876	du xianfei	26
+426	white d.	26
+2058	liu w.	26
+1933	chen mian	26
+124	dawson w.	26
+1134	li j. l.	26
+3175	shi x. l.	26
+1006	li y. p.	26
+2504	pourpak h.	26
+1801	randolph m. f.	26
+1486	wu kan	26
+3135	de gennaro s.	26
+765	al manji a.	26
+348	savinov roman	24
+441	west c.	24
+2592	tyan oleg	24
+389	moncada k.	24
+445	lebedeva irina	24
+2128	elkatatny s. m.	24
+2604	bochkarev vladimir	24
+3169	hareland g.	24
+1734	zhan jie	24
+2683	mikhailitsyn egor	24
+3153	surmin vladimir	24
+709	alexeyev alan	24
+202	deslandes p.	24
+395	theuveny b.	24
+1965	wilson n.	24
+2130	leontyev dmitry	24
+1819	soliman m. y.	24
+2717	ostadhassan mehdi	24
+162	fogwill allan	24
+1938	conort g.	24
+1157	potapenko d. i.	24
+3015	shakirova anastasia	24
+1414	jia bao	24
+1173	belhouchet mohamed	24
+1464	enkababian p.	24
+2473	nikifirova olga	24
+1158	kim vitaly	24
+83	valshin oleg	24
+1378	kasumov ruslan	24
+2410	settgast r. r.	24
+1517	abdessalem abba	24
+1544	mahmoud m. a.	24
+125	kumar s.	24
+126	temizel cenk	24
+537	song xianzhi	24
+1550	gerlach r.	24
+323	xian chenggang	24
+2151	han yanhui	24
+1341	mikovich m.	24
+193	jin guodong	24
+893	willberg d. m.	24
+2366	fj<u+00e6>r e.	24
+1565	xu shengfan	24
+860	gao jian	24
+2997	neaton r.	24
+2894	williams r. d.	24
+1358	mazaev konstantin	24
+1959	neyra o.	22
+3168	bojarah khaled hussain	22
+377	deplaude o.	22
+2650	al hajeri mishari	22
+2143	ramaswamy sunil,	22
+2639	villar v.	22
+2276	oni olugbenga,	22
+2500	huang zhongwei	22
+2148	al safar waleed	22
+205	gupta pravind k.	22
+1995	qingling liu	22
+838	osauzo sam,	22
+655	rojas f.	22
+19	jiang tongwen	22
+21	xue j.	22
+2198	soto b.	22
+2164	clukey e. c.	22
+2176	shan dan	22
+1272	arasi quadri,	22
+2873	naik vinay	22
+1559	basu subhayu,	22
+1667	liu wei	22
+1009	osinga s.	22
+1639	bransby m. f.	22
+1021	campero manuel flores,	22
+3094	al zankawi omran	22
+2871	zakeri a.	22
+3142	garcia s.	22
+607	odumboni idowu,	22
+131	otevwemerhuere joseph,	22
+1499	rojas c.	22
+2847	kallel narjes,	22
+499	gupta ishank	22
+1474	heiland juliane,	22
+2937	vera c.	22
+2940	lu y.	22
+1217	al aryan ali mansour	22
+3022	wang yuanyuan	22
+1241	xiao j.	22
+2988	chemmarikattil rohan,	22
+2992	borges s.	22
+2850	ouenes a.	22
+1828	al ghareeb aisha yousef	22
+3106	ghassemi ahmad	22
+1698	ganser nathan	22
+2736	contreras j. r.	22
+409	cortes i.	22
+421	shastri mukesh	22
+1307	de gennaro vincenzo,	22
+2701	caro j. c.	22
+1792	sarmadivaleh m.	22
+1883	amann f.	22
+185	raturi sushil k.	22
+1694	malpani raj	22
+817	guo y. t.	20
+2348	solovyev t.	20
+1861	toribio t.	20
+1852	zaki karim	20
+1186	naymushin a.	20
+782	wilson collin	20
+2102	baig muhammad zeeshan	20
+1451	ma h. l.	20
+275	xiaojiang li	20
+777	carr timothy	20
+933	barros p. m.	20
+2384	povstyanova magdalena	20
+567	abdrakhimov a.	20
+1446	martini a. f.	20
+1866	ali humair	20
+376	chen j.	20
+288	laer pierre van	20
+2264	leontev i.	20
+2284	fonseca j. s.	20
+608	onaisi a.	20
+438	gonzalez m.	20
+1662	bunger a. p.	20
+331	liang xing	20
+1647	marzooqi hassan al	20
+1752	dasgupta suvodip	20
+320	ali syed shujath	20
+2045	silva l. m.	20
+922	yang xiao	20
+583	liu zhibin	20
+1098	fei zhao	20
+1554	queiroz l. e.	20
+1539	suwaidi salama jumaa al	20
+2252	yamamoto t.	20
+1144	naumov y.	20
+904	korovaychuk y.	20
+2272	dusseault m. b.	20
+1941	shi xian	20
+718	maul a.	20
+2900	soliman mohamed	20
+2647	subbiah surej kumar	20
+3165	vishnivetskiy a.	20
+67	martynov d.	20
+3076	benson andy	20
+3126	zhang n.	20
+24	wang t. t.	20
+228	mello ashish d’	20
+2968	casson neil	20
+3036	kiselev v.	20
+3152	meneguim t.	20
+3057	nie yuanxun	20
+2503	bezikov a.	20
+2878	khaksar abbas	20
+2875	gobatto f.	20
+3272	yang liu	20
+2678	frolov a.	20
+3278	raina ishan	20
+118	dunn-norman shari	18
+1585	jung hyunyoung	18
+108	liu xiaoli	18
+2395	xiaojie yu	18
+509	de vries robin	18
+105	park s.	18
+2945	abdulraheem a.	18
+1440	mahamat habib abdelkerim doutoum	18
+1432	wang weikan	18
+1427	masoumi h.	18
+1424	orlic b.	18
+97	elmo d.	18
+1403	bauer a.	18
+2973	ryerson f. j.	18
+1395	castillo e.	18
+2862	gosavi shekhar v.	18
+2842	negara ardiansyah	18
+1650	nam y. j.	18
+2690	lukin s. v.	18
+1921	zhang x.	18
+1911	lemanczyk r.	18
+1902	cheramie jami	18
+2679	kumar sandeep	18
+2684	min k.-b.	18
+1887	chebyshev i. s.	18
+393	navas luis eduardo	18
+394	obeysekara a.	18
+2688	kapoor saurabh	18
+1878	kalinin o. yu.	18
+1838	wang lipeng	18
+456	chunliang gao	18
+175	el hassan azza	18
+1774	evans b.	18
+2774	sidelnik a. v.	18
+161	hao geng	18
+1722	qi yue	18
+1720	gu xiao	18
+1708	stephansson o.	18
+1696	imtiaz saad	18
+1355	tengze ge	18
+453	johnstone k.	18
+1370	de perriere matthieu deville	18
+1255	cousson heather	18
+89	ramdeen rayaz evans	18
+3185	chuanqing liu	18
+1004	niu li	18
+3122	bonin aurelie	18
+992	zhang chen	18
+991	abdelrahman alyazia	18
+982	hatchell paul	18
+929	zhao meng	18
+3170	xiang j.	18
+3172	li wei	18
+912	jung s. g.	18
+857	mawira a.	18
+88	ouenes ahmed	18
+3216	abbott william e.	18
+3222	dhafra al	18
+834	hejazi hossein	18
+831	lopez jorge	18
+3243	parsons adrian	18
+11	spencer s.	18
+3251	bermudez romulo francisco	18
+781	xu jianhua	18
+763	seales sheldon	18
+3110	martemyanov a. n.	18
+1030	rubyanto d.	18
+1033	shan feng	18
+613	shebl hesham t.	18
+546	zhuang l.	18
+1314	pallapothu surya	18
+3009	jeffrey r. g.	18
+1279	zimmermann g.	18
+559	he ruijian	18
+1233	lei q.	18
+3034	prioul r.	18
+1212	ovcharenko yu. v.	18
+1200	wang changhao	18
+1198	yoon j. s.	18
+1191	salinas p.	18
+1165	alchibaev d. v.	18
+1150	perumalla satya	18
+1114	mulders f.	18
+3064	al-ali abdulla ali	18
+1091	yubao shi	18
+1090	dunn shaun	18
+3075	jeong jaehoon	18
+610	holt r. m.	18
+2649	al katheeri yousif saleh	18
+3285	street nick	18
+2089	pavlidis d.	18
+2360	zhigulskiy s. v.	18
+2335	yang baibing	18
+2462	jin hui	18
+2215	wang chen	18
+2095	dubinya n.	18
+358	nugraha khadafi a.	18
+2611	ming li	18
+2441	gee vicki	18
+2195	zang a.	18
+211	bazyrov i. sh.	18
+207	jun zeng	18
+2632	d'ambra s.	18
+2083	mcdonald a.	18
+2122	fischer eric	18
+2588	li deqing	18
+1989	arson c.	18
+2511	glazyrina a. ye.	18
+2636	jain bipin	18
+2621	simiao sheng	18
+2640	kim k. y.	18
+2541	sorrentino y.	18
+198	liu yuan	18
+1981	kang jeonggil	18
+2521	rafiee mehdi	18
+2543	samuel robello	18
+2584	fan m.	16
+2127	lin b.	16
+2456	piane claudio delle	16
+903	espinoza d. n.	16
+2890	tan qiang	16
+2964	han ke	16
+128	wassing b. b. t.	16
+337	du xuan	16
+988	alimahomed farhan	16
+989	noufal a.	16
+2605	kruijs e.	16
+1564	zinovyev aleksey	16
+2097	oglesby j.	16
+1461	roy a.	16
+330	attia b.	16
+2311	jia y.	16
+2320	jin congsheng	16
+119	liem sarah	16
+923	stephenson b. j.	16
+2293	al-ramadhani asila	16
+1506	zhenxiang zhang	16
+1503	bruseth e.	16
+2896	salas-porras r.	16
+1501	devegowda deepak	16
+25	dai f.	16
+2911	nieto michael	16
+1491	yu baohua	16
+945	lushev mikhail	16
+2926	huckabee p. t.	16
+1407	churakov artem	16
+374	ateeq b.	16
+2288	grillo john	16
+1398	serdyuk andrey	16
+1251	romanovskiy rostislav	16
+3017	srivastava r. m.	16
+1076	mao d.	16
+2241	lee roger	16
+3029	ben clennell m.	16
+1199	sypchenko stella	16
+2513	charsky alyssa	16
+2544	fava l.	16
+1190	cassel lauren	16
+3039	dudley j. w.	16
+3074	xuan fu	16
+309	tryasin evgeny	16
+2200	junkin w.	16
+64	chen wenyi	16
+1111	lu yunhu	16
+1124	al hammadi h.	16
+1123	poludasu s.	16
+2160	ishteiwy o. a.	16
+1055	zheng l.	16
+1267	ren guoqing	16
+1345	bukharov dinar	16
+2140	falcao flavia	16
+42	rittenhouse sarah	16
+2572	thomas m. a.	16
+2996	lati shrutesh	16
+2266	li yamin	16
+2498	guo xiaoliang	16
+538	ranjith p. g.	16
+3095	li chunxiao	16
+85	majidi reza	16
+3089	pritchard jess	16
+543	akhtarmanesh s.	16
+1316	jain v.	16
+2563	vargas-silva s.	16
+2150	arias henry	16
+3001	yudin alexey	16
+1040	li l.	16
+1350	baum valentina	16
+596	hamdi p.	16
+141	wang x.	16
+2867	yasuhara h.	16
+2699	masoud rashad	16
+2375	korelskiy evgeny	16
+171	raimon john	16
+1817	al shueili a.	16
+1809	garza jarred	16
+1780	faizullin ildar	16
+2033	cai m.	16
+793	munier r.	16
+798	cdn kiewiet melissa	16
+824	sykes e.	16
+2807	wu b.	16
+2812	al sinawi younis	16
+2826	woldeamanuel m.	16
+1724	kreknin sergey	16
+679	el gohary m.	16
+2631	fritz joanna	16
+1713	al ammari k.	16
+2628	smaoui r.	16
+2027	esteban lionel	16
+2422	liu hailong	16
+178	mohanty ajay	16
+1845	cao wenke	16
+731	mohamed i. m.	16
+195	dwi kurniadi s.	16
+1940	bois a.	16
+701	sondergeld carl	16
+382	giwelli ausama	16
+741	ahmed i.	16
+1899	alshaqsi khalfan	16
+2634	rai chandra	16
+770	hughston-kennedy kate	16
+1881	price graham	16
+693	scholten s. o.	16
+3267	xu n. w.	16
+1876	algharibi bader	16
+182	de joussineau g.	16
+3256	wang y.	16
+2698	nance seay	16
+1846	chen yingqiao	16
+1702	oza s.	16
+423	grachev oleg	16
+2079	almaktoumi fahad	16
+3213	kurniadi s. d.	16
+2863	chebykin nikolay	16
+1680	zhang yayun	16
+1677	maximov danil	16
+868	zhonghou shen	16
+1669	umholtz n.	16
+1622	janeczek d.	16
+1685	bastola s.	16
+837	sitinjak eri sarmantua	16
+2856	alsabari hilal	16
+859	mooney tom	16
+1641	gromovenko alexander	16
+466	strakhov sergey	16
+1664	lemiale vincent	16
+2861	ishteiwy o.	16
+1690	richert volker	16
+2065	pavlov valeriy	16
+890	hudyma n.	16
+3228	turk g.	16
+2622	al-shueili a.	16
+1082	williams wade	14
+1077	hu zhengkai	14
+1079	yi peng	14
+921	harris t.	14
+776	dong jingnan	14
+2231	su yuliang	14
+2205	benygzer mhammed	14
+917	kirane kedar	14
+978	shen zejun	14
+3183	fantin manuel	14
+768	chen zhiming	14
+2389	ge hongkui	14
+2338	moreno raul	14
+2401	benmamar salim	14
+734	zhongwei huang	14
+899	muqtadir arqam	14
+1093	wahedi khalid ahmed al	14
+3073	bo song	14
+870	wang yongming	14
+2210	cerkovnik m.	14
+1110	al-ajmi abdullah m.	14
+733	nygaard kris	14
+878	cunningham a.	14
+2533	usoltsev dmitriy	14
+2402	giriansyah bayu	14
+1045	alshanqaiti elham	14
+1072	zhang jingke	14
+3105	zhao lianzheng	14
+3134	wang xudong	14
+2471	ismail w rokiah	14
+3147	fu haifeng	14
+2443	torrez gerardo	14
+3238	akkutlu i. yucel	14
+3150	guo qinglin	14
+809	mehrgini b.	14
+2480	liang tiancheng	14
+955	basu pramit	14
+802	jiaqi li	14
+2486	vidal-gilbert sandrine	14
+2496	zhao bo	14
+3112	badsar a.	14
+2290	wang wendong	14
+947	crousse luisa	14
+1068	jaeck c.	14
+1014	boylan n. p.	14
+787	jackson r.	14
+2439	yun xu	14
+2342	sitorus rio	14
+2431	zhang wenping	14
+2291	doetsch j.	14
+1027	morales fidel	14
+2256	zhang kunheng	14
+2253	zhou zhiwei	14
+3088	sheng guanglong	14
+1035	carey j. w.	14
+851	liu yunzhi	14
+971	sancio r.	14
+1066	rodionov yuri	14
+914	hao y.	14
+1346	perera m. s. a.	14
+1115	ghavidel a.	14
+1627	sukapradja aldyth	14
+2846	mayo j. t.	14
+1693	daily r.	14
+1689	gundemoni b.	14
+1687	kazemi hossein	14
+1681	spangler l.	14
+2858	li h.	14
+2078	crespo pablo a.	14
+1655	fokin i.	14
+1649	taylor b.	14
+2082	xu jianfei	14
+1635	adam cepi	14
+1619	xu peng	14
+1510	jones d.	14
+1618	chen wenwu	14
+1603	han yifu	14
+2880	fu p.	14
+2893	areekat m.	14
+2895	hassanzade m.	14
+1548	rusina o.	14
+2615	bin xie	14
+2901	herdianto roni	14
+2394	qian jie	14
+1526	sherbeny wael el	14
+1524	xue jianjun	14
+2836	zhou rui	14
+2834	khodja mohammed r.	14
+2044	guo zhaoquan	14
+1738	yang p.	14
+1951	wang yanwu	14
+2653	li xiaojiang	14
+2666	garzon jorge	14
+1913	eshraghi h.	14
+1977	aubeny c. p.	14
+1978	fawaz wasim	14
+1892	fick d.	14
+1979	tikhotsky s.	14
+2685	tong zheng	14
+1998	wang bin	14
+1880	an jie	14
+2017	li ming	14
+2023	beser d.	14
+2691	bartling w.	14
+1840	dingwei weng	14
+2710	varela raul	14
+1810	pandya mehul	14
+2724	yan yuzhong	14
+2735	nair asok	14
+1761	guo zhiqian	14
+2800	gao yanfang	14
+1746	searles kevin	14
+1742	mullen kevin	14
+1520	su kai	14
+1508	weng dingwei	14
+1119	sharma p. p.	14
+3027	agawani waleed	14
+2559	bayuk i.	14
+1286	chakrabarti prajit	14
+2554	xu lili	14
+1269	ingram wesley	14
+1265	karazincir oya	14
+2155	ashari untung	14
+1252	wang haizhu	14
+3013	jalali m. r.	14
+3014	wu ruiting	14
+3025	wang jianye	14
+2161	hynes laura	14
+2163	tan xiqun	14
+2914	verma sumit	14
+1213	ali abdul wahab zaki	14
+2171	zulkifli shahrul anwar	14
+2549	tan yunhui	14
+3035	sayed mohamed i	14
+1187	kong lingyun	14
+3042	shinde ashok	14
+3045	reijenstein hernan	14
+3046	cocagne michael jason	14
+1135	pan rui	14
+3048	makarova a.	14
+1126	phillips aj.	14
+1303	xu guowei	14
+1309	arrington sean	14
+1315	li lingdong	14
+1336	sanz pablo	14
+2919	singh rudrap pratap narayan	14
+2920	roh cheol hwan	14
+2925	zehao lyu	14
+2942	abdelhamid atef	14
+2944	li yan	14
+1450	lin botao	14
+1442	watson j.	14
+2110	shahri mojtaba p.	14
+2965	sinha bikash	14
+1420	pain c. c.	14
+2971	krietsch h.	14
+2575	hou xiaodong	14
+2139	al-rushoud abdulaziz	14
+1392	toland m.	14
+2975	manchanda ripudaman	14
+1369	gischig v.	14
+1368	zhang g. q.	14
+2146	gakhar kush	14
+1349	mitra a.	14
+1347	nemcik jan	14
+2147	latham j-p.	14
+1950	sun he	14
+2571	sheikhmali r.	14
+1535	pei qiangqiang	14
+1643	haizhu wang	14
+587	el-sherif mohammed	14
+22	defeu cyrille	14
+657	bo huang	14
+536	hui nicholas foo kwang	14
+688	yang shanlong	14
+166	dai xianwei	14
+93	al-haj hussain ali	14
+575	hendrix chris	14
+401	toki takahiro	14
+639	clark jesse	14
+53	wu hegao	14
+187	rogers s.	14
+364	xiu nailing	14
+184	nelson d.	14
+471	noguera ivan lanusse	14
+12	zhang shikun	14
+388	zhang yanming	14
+547	sivil evan	14
+50	geng meng	14
+385	bonelli andres	14
+274	yao xingang	14
+380	carney b. j.	14
+276	rijken peggy	14
+642	zhenguo he	14
+174	krasnova m.	14
+115	musa m nizar	14
+47	wei ran	14
+614	wang zhen	14
+230	van bergen p.	14
+615	wang w.	14
+223	anurag atul kumar	14
+464	bevaart m.	14
+225	cheng zhen	14
+322	hussaini syed rizwanullah	14
+424	memarian h.	14
+345	beloborodov d.	14
+522	ruzhnikov alexey	14
+504	hodzic m.	14
+432	guobin jiang	14
+70	biediger erika	14
+436	hill a. j.	14
+685	saragih baginda	14
+429	barth p.	14
+3024	eddy a.	12
+1453	da costa de menezes sady junior martins	12
+1525	yuldasheva a. r.	12
+3018	anderson david	12
+3021	judd tobias	12
+510	boschi marcelo	12
+496	he manchao	12
+1454	wang gaosheng	12
+1455	overland alf m.	12
+76	griffiths c.	12
+63	cao l.	12
+1514	zhang guoqiang	12
+506	hilgedick s. a.	12
+1481	zhou lixia	12
+1482	yang guanyu	12
+1504	chen m.	12
+3033	mantica s.	12
+1660	lopez r. g.	12
+1576	angeles magdiel	12
+1542	price j. a.	12
+2962	xu zhixiong	12
+463	abousleiman younane n.	12
+1644	zhou jianliang	12
+98	serebrinsky s. a.	12
+1661	ying liu	12
+452	aziz naj	12
+1673	elkholy mohamed	12
+1684	liu cheng	12
+84	abdelwahab a. z.	12
+447	wang shanshan	12
+444	li songlin	12
+443	sanchez m.	12
+1691	nader fadi	12
+1701	zhang s.	12
+1705	nelson b.	12
+1626	nakashima s.	12
+1625	yuan junliang	12
+1621	dang son	12
+2985	kwok chun ka	12
+2986	al arfi saif	12
+1604	de lima cleverson alves	12
+1601	jones b. d.	12
+1600	abdulkareem harbi s.	12
+2990	reshetova galina	12
+1589	lisitsa vadim	12
+91	malicse a. e.	12
+1439	wang kelin	12
+2998	howard cameron b.	12
+1569	douillet-grellier t.	12
+3000	jose rohann	12
+3003	foreman c.	12
+3007	payette g. s.	12
+511	tan zhongjian	12
+60	buenrostro adrian	12
+1437	shammari nayef	12
+3146	kadkhodaei n.	12
+592	shada ismatul hani	12
+1137	ashok p.	12
+1141	he yong	12
+1142	dong haoran	12
+1152	maximov d.	12
+585	korelskiy e.	12
+1179	khalifa mohamed	12
+1120	lancellotta r.	12
+1181	inoue n.	12
+1204	brown s.	12
+3129	takach nicholas e.	12
+1207	flori ralph e.	12
+1211	rho s.	12
+1218	clemens torsten	12
+1121	thompson john m.	12
+1113	anderson mark	12
+3054	berninghaus a.	12
+1064	al-muntasheri ghaithan a.	12
+3177	qinwen wei	12
+1031	wang kongjie	12
+26	evans k. f.	12
+1044	prange michael	12
+3174	anyadike emeka	12
+1057	hu xiaodong	12
+616	morad sadoon	12
+1107	flori r. e.	12
+32	abdollahi a.	12
+1088	alferez carlos h	12
+1092	rice craig	12
+3162	mattson e.	12
+1100	ukaonu cyril	12
+600	sanderson d.	12
+1221	chakravarty aditya	12
+568	li x.	12
+1226	muradov khafiz	12
+1391	naidu r.	12
+3084	xue han	12
+1364	mohammed rehan ali	12
+3078	schutjens p.	12
+1373	wang h.	12
+57	gurevich boris	12
+1710	cherian b. v.	12
+3068	ambrus a.	12
+3124	elsworth d.	12
+1406	holman robert	12
+3060	bhoumick pritesh	12
+3059	harris a.	12
+1417	noaman yousef m.	12
+519	plevova eva	12
+1423	nguyen s. k.	12
+1323	viegas gisela	12
+1322	braga a. m. b.	12
+1320	mclennan john	12
+1288	parker s. scott	12
+3102	williams j. r.	12
+1283	haddad elia	12
+1280	joyce j.	12
+554	suarez-rivera r.	12
+3109	asalkhuzina g. f.	12
+1270	cao jili paul	12
+1259	bouchet francois	12
+3119	awad huda	12
+1245	musso g.	12
+1244	hull katherine l.	12
+3121	miska stefan z.	12
+1235	gemelli f.	12
+1232	odubanjo teleola	12
+435	taneja shantanu	12
+1755	zolfaghari n.	12
+1712	thetford t. s.	12
+2379	efremov a. n.	12
+2356	ulovich ivan	12
+2359	alvarez j. p.	12
+2362	vorobiev o. y.	12
+2367	morad daniel	12
+2700	yuan qingwang	12
+2378	lu jing	12
+179	yu mengjiao	12
+2331	yancang lv	12
+2383	atashnezhad a.	12
+2387	almohammedawi maitham m.	12
+269	kong r.	12
+2393	driweesh saad	12
+2686	kostina a.	12
+2417	salehabadi m.	12
+2339	zhou z.	12
+2326	sari mufrettin murat	12
+188	chuande zhou	12
+294	izadi ghazal	12
+2763	ramos d.	12
+302	li qingshan	12
+300	tariq zeeshan	12
+2752	albaiz a.	12
+2749	darmaki fatima al	12
+2746	prioul romain	12
+2267	al-hameedi abo taleb t.	12
+2319	sondergeld c.	12
+2743	kharchenko a.	12
+2278	khatibi seyedalireza	12
+2279	olaoye o.	12
+2738	davletbaev a. ya.	12
+2732	pain c.	12
+2308	wilkinson d.	12
+258	hryb d. e.	12
+2438	lin ying	12
+2182	bubach bailey	12
+2624	zhang jianguo	12
+2546	yin h. w.	12
+208	hogg h.	12
+2558	jun hou	12
+2560	liang tianbo	12
+2567	davison j. m.	12
+2626	strakhov s.	12
+2579	yusof m syahmi m	12
+2637	mossop k.	12
+2594	zhao chun duan	12
+2600	agharzayeva zinyat	12
+2601	fontoura s. a. b.	12
+217	phillips a. j.	12
+215	lyu zehao	12
+2613	rafieepour saeed	12
+2545	khachkova tatyana	12
+233	khazali-rosli khairul amir	12
+255	shen x.	12
+242	xing p.	12
+2445	ozbayoglu evren	12
+2448	schwartz kenneth m.	12
+247	ishkin d. z.	12
+2487	zhao j.	12
+2493	zhang xiang	12
+2495	fan meng	12
+2501	williams w. c.	12
+235	righetto g. l.	12
+2502	beisl c.	12
+2506	urbancic ted	12
+2508	li xuwei	12
+2510	palanivel maharaja	12
+236	liu huifeng	12
+2515	liancheng ren	12
+2204	mavaddat m.	12
+2169	lv yanjun	12
+1715	fekry mohamed	12
+1877	eyitayo stella i.	12
+413	carvalho l. g.	12
+2905	arathoon mark	12
+122	white adrian	12
+1856	martin lucas	12
+1869	lu zhaohui	12
+399	bailey j. r.	12
+1885	liu y.	12
+1814	narasimhan s.	12
+391	kienberger gerhard	12
+390	lavorante l. p.	12
+1896	cruz leonardo	12
+1901	mavaddat y.	12
+134	khaksar a.	12
+1925	noynaert s.	12
+1815	latham j.-p.	12
+2921	pramanik r.	12
+1943	souza a. l. s.	12
+1026	reis a. f. c.	12
+433	terziev ivaylo	12
+2947	souza b. g. jr	12
+1735	herron michael m.	12
+1739	spivey b. j.	12
+425	kesserwan hasan	12
+1748	gasparrini marta	12
+1757	alkinani husam h.	12
+1791	pan k.	12
+2938	persaud mira	12
+2932	gokaraju d.	12
+419	louis l.	12
+2927	masson l.	12
+111	celleri h. m.	12
+1789	ronald a.	12
+1935	moriss m.	12
+144	armentrout l.	12
+2779	konecny pavel	12
+2135	brignoli m.	12
+346	zinovyev a.	12
+158	lei guowen	12
+342	assis lais emily	12
+2806	arteaga edgar v.	12
+2802	callais ryckman	12
+2132	zheng rui	12
+329	behounek m.	12
+2077	nestyagin andrey	12
+2142	hai qu	12
+160	troyer e.	12
+2154	samohvalov a.	12
+2159	tariq z.	12
+2162	ovuru mathilda i.	12
+316	bliss a.	12
+2081	yegin cengiz	12
+2071	winograd e. a.	12
+1952	hunt c. h. e.	12
+1990	calvo m.	12
+1953	rasekh haleh	12
+1955	martines marco	12
+1957	bazaikin yaroslav	12
+2852	chowdhury ashabikash roy	12
+367	lima c.	12
+2848	richard rex	12
+1994	lawal kazeem a.	12
+2049	chintapalli a.	12
+2007	suri ajay	12
+2839	gonzalez daniel	12
+2014	goo jia jun	12
+2028	hilgedick steven a.	12
+354	roehl d.	12
+2829	hamid osman	12
+624	gui feng	12
+2614	kolyukhin dmitriy	12
+805	yegin yagmur	12
+722	fokker p. a.	12
+934	prasertamporn praisont	12
+861	mohamed omar	12
+932	ballmer j.	12
+683	smith lance	12
+3264	hoq a.	12
+650	seabra g. s.	12
+719	davies david	12
+926	urakov askar	12
+3274	cai hua	12
+818	feng yongcun	12
+680	pang huiwen	12
+749	khaleghparast saman	12
+651	dicarlo david a.	12
+750	rodrigue wayne	12
+3245	fedorov a. i.	12
+1001	wang k.	12
+654	abell b.	12
+876	johansen d.	12
+757	li h. r.	12
+638	baig adam	12
+937	zimmerman r. w.	12
+3182	valley b.	12
+678	ge x. b.	12
+736	a'rabi m.	12
+3194	torgashov evgeniy v.	12
+3196	shi yu	12
+3239	kolb-lugo j.	12
+974	liu shujie	12
+790	paluszny a.	12
+640	roshan h.	12
+14	ezzatty nurul nadia	12
+949	hellevang helge	12
+981	hosemann peter	12
+3197	matemilola saka	12
+984	mostafa hassan	12
+943	volonte g.	12
+829	craddock paul	12
+853	hunter c.	12
+794	baruah c.	12
+942	behbahani s. m. haeri	12
+855	sergeychev a. v.	12
+940	liu j.	12
+758	cheng shiqing	12
+3223	mirza ali	12
+1013	loan maryellen l.	12
+681	xie qingming	12
+896	yang x.	12
+895	safipour m. j.	12
+900	smithells s.	12
+1613	moore bruce	10
+2236	tan lijian	10
+1811	zhang t.	10
+2325	kear j.	10
+3258	said abdulkadir	10
+1371	zhong bing	10
+529	ding j.	10
+531	mohammed soliman	10
+948	lindsay garrett	10
+190	rezaei ali	10
+1366	bottrill andy	10
+1381	baohua yu	10
+2709	huang z. q.	10
+2341	chang chung	10
+1362	zhang h.	10
+1361	bansal prashant	10
+1360	chuprakov d.	10
+2230	gao y.	10
+412	torres marcos	10
+2226	al-wahedi k.	10
+1830	dong j. y.	10
+1379	zou chenwei	10
+1388	meredith philip	10
+2239	wang t.	10
+939	stafford t. w.	10
+2321	nygaard r.	10
+189	lynch cynthia	10
+1413	ryazanov a. a.	10
+1778	chester f. m.	10
+1779	larsen i.	10
+2254	gu chen	10
+2979	onu h.	10
+2987	dobrokhleb p.	10
+1405	kornilov a. v.	10
+1401	xu tao	10
+2675	wang suojin	10
+113	yang yunfei	10
+2982	baek seunghwan	10
+2244	zhu c.	10
+1396	karpov v. b.	10
+1610	li j. y.	10
+2243	lindgard j. e.	10
+3260	tao lei	10
+2673	bolton c.	10
+944	rodriguez-herrera adrian	10
+3070	chang z.	10
+695	katsuki daisuke	10
+1671	van den bogert p. a. j.	10
+535	alabbad abrar	10
+738	shah razza	10
+305	jiang shu	10
+786	maley iain	10
+2203	germay c.	10
+1302	chen guangqi	10
+2202	hassan mohammad omran	10
+2	rehman syed	10
+2655	malagon c.	10
+307	xu jin	10
+132	wei liu	10
+2492	dontsov e.	10
+2199	wang haiying	10
+2484	ali a. z.	10
+1623	liu k.	10
+2193	da y. p.	10
+1284	shuang ai	10
+3104	sondergeld carl h.	10
+1879	krueger ernie	10
+1882	rezaee ali	10
+962	yucai wang	10
+1276	abdel-basset m.	10
+700	huang jian	10
+1886	al-mosailkh s.	10
+1859	sinha saurabh	10
+2330	berry t. w.	10
+646	wang jinfang	10
+54	emmanuel a. k.	10
+2465	henderson steven	10
+740	yin guoqing	10
+1344	mosqueda francisco	10
+1343	chalaturnyk r. j.	10
+2904	ramm m.	10
+541	su kun	10
+1834	liang sun	10
+1836	al-enizi b.	10
+2328	zhu hai-yan	10
+2472	quinlan k.	10
+1331	lien m.	10
+1312	popov petar	10
+3090	zhao chunduan	10
+1327	krepostnov d.	10
+1326	vatshelle m.	10
+3231	shi chengfang	10
+2477	hille l. t.	10
+2329	broumand pooyan	10
+1630	barifcani ahmed	10
+544	woodman j.	10
+2482	walker kristoffer	10
+1313	madding angela m.	10
+3269	lin q.	10
+660	voitenko d.	10
+2363	bornia giorgio	10
+3031	gudmundsson agust	10
+2955	onyeji j. a.	10
+1707	siddiqui f.	10
+2954	al-mutahr ammar	10
+2694	wei pang	10
+873	iglauer stefan	10
+905	abdurrahman riefky	10
+692	koutsabeloulis nick	10
+2693	zheng y.	10
+454	tan p.	10
+75	guevara fernando	10
+2952	kasperczyk d.	10
+2737	merrifield george t.	10
+2951	rafiee m.	10
+1718	chenggang xian	10
+263	mehrer cody	10
+180	adebayo a. a.	10
+1500	homel m. a.	10
+2405	zhou h.	10
+664	tian jun	10
+1497	herbig c.	10
+2355	hohl a.	10
+71	xie jun	10
+3273	thomas s. w.	10
+1665	dai caili	10
+669	xiao xufeng	10
+879	mishin a.	10
+3208	liu c.	10
+2300	liu peiwu	10
+760	schaefer dominik	10
+2730	sarmadivaleh mohammad	10
+1558	liu xiaojing	10
+1557	szydlowska m.	10
+3006	ougier-simonin a.	10
+882	parshin n. v.	10
+285	agersborg r.	10
+1686	marone c.	10
+6	mohsin l.	10
+289	husien m.	10
+911	chester j. s.	10
+2303	you qing	10
+442	rai chandra s.	10
+1537	nwozor k. k.	10
+1536	alloush r. m.	10
+2958	chudnovsky a.	10
+2382	kozyrev a.	10
+439	yang li	10
+271	bertouche meriem	10
+2734	reckmann h.	10
+498	xing y. k.	10
+2281	liang hwa chi	10
+2305	saeed abubaker	10
+3225	wang gaocheng	10
+864	he liu	10
+3236	peralta j. d.	10
+931	song x.	10
+1449	zhao mingwei	10
+2352	pu hui	10
+283	zhang yingbin	10
+293	van eijs r. m. h. e.	10
+460	klepikova m.	10
+1595	ruzhnikov a.	10
+1441	cai chengzheng	10
+2262	riviere j.	10
+1485	gamero diaz h.	10
+95	uotinen l. k. t.	10
+2681	barlet pierre	10
+2428	hongkui ge	10
+1433	annavarapu c.	10
+2430	shaheen saud	10
+1599	yang gao	10
+1426	yang s.	10
+2257	algarhy ahmed	10
+936	han k.	10
+1773	reeves h.	10
+2994	heng wen	10
+928	sharma mukul	10
+1656	moiseenko a. a.	10
+2271	shen feng	10
+1730	pizzocolo f.	10
+2307	abdel-rahman khalid	10
+1478	wu shengyu	10
+866	shine joseph m jr	10
+3041	al-mutairi khaled	10
+3266	zhaokun li	10
+2415	stefani joe	10
+1472	xiaoqi wang	10
+2416	miao q.	10
+1468	olorode olufemi m.	10
+1467	bazargan mohsen	10
+186	herbold e. b.	10
+1581	liu qing-you	10
+1465	zhang hui	10
+473	perl yonatan sanz	10
+503	jianming li	10
+2273	moussa t. m.	10
+3203	zhang yihuai	10
+659	murphy w.	10
+3047	elsworth derek	10
+1657	chung chih-yin	10
+2187	einstein h. h.	10
+2660	jacques a.	10
+163	larue dave	10
+3125	low h. e.	10
+2830	duthie laurie	10
+159	norbert a. e.	10
+635	lin qing	10
+2865	rinne m.	10
+2835	kireev v.	10
+572	lv k.	10
+365	le nir i.	10
+3283	malhotra sahil	10
+318	zhang zike	10
+2137	lebreton r.	10
+2574	cheng niu	10
+39	shafqat ali	10
+3242	jingen deng	10
+1893	bornia g.	10
+2141	wang c.	10
+2530	san-roman-alerigi damian p.	10
+1063	periere matthieu deville de	10
+3160	saiood hussain	10
+2828	tokoz m. nafi	10
+789	al-darmaki fatima	10
+977	rui wu	10
+617	al-qenae a.	10
+3159	george c. o.	10
+3180	bari moussa	10
+2048	konicek petr	10
+1060	kuo yu-shu	10
+201	liang jenn-tai	10
+1986	dirksen ron	10
+1214	ichaoui m.	10
+812	gutierrez jose carmen	10
+3127	mantilla hernan dario	10
+1138	collins jye r.	10
+2526	hull robert	10
+220	pouya a.	10
+1193	ishaq wala bin	10
+2034	aldin m.	10
+1966	shan q.	10
+723	smith clayton	10
+1956	shreedharan s.	10
+2547	lizhi wang	10
+2857	xiaohan pei	10
+1967	torres jorge	10
+1085	jun qin	10
+218	comparon l.	10
+713	patterson r.	10
+1166	qi y.	10
+1087	sampaleanu c.	10
+229	kueck a.	10
+3163	zhen cheng	10
+1961	baihly jason	10
+2552	gani a.	10
+2587	shaowen mao	10
+2024	wang zhimin	10
+1096	al zeidi o.	10
+637	wang zhengmao	10
+2158	john m.	10
+1189	oppert shauna	10
+578	schmitt d. r.	10
+2157	riley spencer	10
+2539	prieto german a.	10
+2156	bazuhair mohammed	10
+2540	siren t.	10
+2026	gorell sheldon	10
+1153	yuan g. x.	10
+612	abdulraheem abdelwahab z. a.	10
+3247	liu yifei	10
+1971	kishida k.	10
+359	lichen zheng	10
+2153	xing liang	10
+3253	tian changbing	10
+569	jadhav prakash	10
+3191	weixu wang	10
+2811	yuan fang	10
+1242	xiaodan liu	10
+619	shi xuewen	10
+1038	tang j.	10
+2516	ostermeyer g. p.	10
+2124	fugro a. g.	10
+2003	everhard ian l.	10
+3237	rice joseph	10
+1116	salah mohamed	10
+200	donati d.	10
+3120	anderson jordan	10
+1036	tseng yu-hsiu	10
+1247	saleem e.	10
+1907	batarseh sameeh i.	10
+730	gao mingwei	10
+343	govindarajan s.	10
+2180	mclennan john d.	10
+3117	rezaei a.	10
+3176	tongyi zhang	10
+1903	lei zheng-dong	10
+222	evans brian j.	10
+808	heinze lloyd	10
+835	tutuncu azra n.	10
+1256	granville john	10
+595	walton gabriel	10
+1257	fang y.	10
+1258	bu x. q.	10
+2096	roberts jon	10
+1015	mighani saied	10
+3250	castro l.	10
+44	thomas m. e.	10
+1264	mojbel mohammed	10
+2648	addagalla ajay	10
+819	dutta pradyumna	10
+2052	achmus martin	10
+2086	herwanger jorg	10
+1991	waters g. a.	10
+2129	green sidney	10
+1128	yang ruiyue	10
+707	onaisi atef	10
+2011	trubienko olga	10
+1047	zengqiang zhai	10
+626	al-hassan a.	10
+1914	marfurt kurt j.	10
+3111	ruiz h.	10
+2098	morse s.	10
+732	liu kouqi	10
+714	harwath david	10
+1234	nasr-el-din hisham	10
+3179	kosandar balraj	10
+972	janiszewski m.	10
+1236	cai quan	10
+1108	hornby brian	10
+618	jiaqing yu	10
+3178	kasimin a.	10
+564	maclaughlin m. m.	10
+634	mishra r. k.	10
+2101	bloemenkamp r.	10
+1042	ekun o. a.	10
+2578	yanez_banda m.	10
+1260	far mehdi e.	10
+875	aidagulov g.	8
+1726	abdel-meguid ahmed	8
+869	hagan p.	8
+2019	wang yang	8
+2739	huabei zhang	8
+335	finnila a.	8
+2021	rudolph victor	8
+871	mansur k.	8
+2950	gunter b.	8
+153	shustov d. v.	8
+2123	yan fuyong	8
+3246	ferreira f. h.	8
+434	boulenouar a.	8
+1725	viswanathan h. s.	8
+2016	karam fatemah	8
+1711	bottomley w.	8
+361	khodabakhshnejad arman	8
+1723	ajisafe foluke o.	8
+2282	haimson b.	8
+2018	sen lin.	8
+874	taleghani arash dahi	8
+2020	min h.	8
+2799	porter m. l.	8
+2022	li binglin	8
+2718	qinghai m.	8
+810	alzahabi a.	8
+2108	seright r. s.	8
+1658	shilov e. d.	8
+155	neele f.	8
+2053	si guangyao	8
+2804	janiszewski mateusz	8
+2820	zvarivadza t.	8
+1654	barnett r.	8
+2819	bernabe y.	8
+2061	kabir c. s.	8
+2721	li jun	8
+459	petro m. j.	8
+769	stegent n.	8
+1700	bryant eric c.	8
+156	walle l. e.	8
+172	trimonova m.	8
+2322	walles frank	8
+2324	cook j. m.	8
+340	egeland nina	8
+2068	gokaraju d.v.	8
+2069	al-hameedi a. t.	8
+1637	podgorney r.	8
+1636	li haitao	8
+2091	wanniarachchi w. a. m.	8
+2076	abedi r.	8
+2983	nishimura t.	8
+1666	ng k. w.	8
+353	zhang jilin	8
+1668	huiwen pang	8
+2729	illidge edgar	8
+1699	volcan jose luis ortiz	8
+2957	de groot l.	8
+1695	rohleder j. m.	8
+2120	ramurthy muthukumarappan	8
+2025	riesenberg j. m.	8
+2959	gong weili	8
+663	gomes eduardo antonio	8
+2119	kamal d.	8
+2960	lutfullin azat	8
+3265	ter heege j. h.	8
+2030	brown j. p.	8
+2031	szewczyk d.	8
+2731	arefi a.	8
+2963	kyanpour mohammad	8
+448	dang s. t.	8
+2295	hagi abdirahman	8
+102	olson jon e	8
+2297	maneya g.	8
+2115	lopez alexander	8
+2114	hayatdavoudi asadollah	8
+1676	ashikhmin s. g.	8
+3219	hamasaki tomohiro	8
+2831	jaramillo martha	8
+2040	liu keru	8
+2969	tsuchida a.	8
+2948	wang kongyang	8
+369	rai c. s.	8
+1729	korost d. v.	8
+1917	holzberg b. b.	8
+2757	alshubbar g. d.	8
+847	de souza thais simoes coelho	8
+2168	lunney iain	8
+1831	mokhtari mehdi	8
+2874	roure benjamin	8
+138	su k.	8
+2170	zhang c.	8
+2125	salies j. b.	8
+2219	raza shabbar syed	8
+2760	perez-rey i.	8
+784	cao wenzhuo	8
+136	al-mayyan h.	8
+1844	mistry nirav	8
+2898	dirksen r.	8
+2908	vaculikova lenka	8
+1923	alkinani h. h.	8
+2910	stormont j. c.	8
+1820	wang xiaoxiao.	8
+832	moe soe let k. p.	8
+3257	li lifeng	8
+2165	al-showaiter a.	8
+1927	siren topias	8
+315	jung yong-bok	8
+1930	thomas peter	8
+2866	uotinen lauri	8
+850	kohno m.	8
+1932	defoort t.	8
+792	zhang lu	8
+1812	bhardwaj prateek	8
+2780	bearinger d.	8
+2235	rudolf von rohr p.	8
+304	stankus john c.	8
+1848	arzua j.	8
+2778	tan g.	8
+2201	murzyn tomasz	8
+2190	coryell t. n.	8
+788	mansour a.	8
+2181	cardiff philip	8
+396	bruland amund	8
+398	li weichang	8
+841	han de-hua	8
+1897	siddiqui fahd	8
+1875	harrison john p.	8
+2194	faulkner dakota d.	8
+311	santos juan	8
+2770	li hui	8
+1871	hu xiaohu	8
+2768	morse stephen	8
+2178	sanchez edwin	8
+2775	wolanski krzysztof	8
+1850	zenchenko p.	8
+2776	vasquez g. f.	8
+1906	reza z. a.	8
+1858	duriez alban	8
+1857	lu jun	8
+2174	durucan sevket	8
+2207	salemi h.	8
+1909	cheng yuanfang	8
+1855	wang chaoyi	8
+1854	wang d.	8
+127	irawan s.	8
+2765	torcuk mehmet a.	8
+1851	kotov sergey	8
+3214	cho sang-ho	8
+833	vardar o.	8
+1806	brian tom	8
+684	rehman s.	8
+2915	abdalla b.	8
+2791	sordo b.	8
+422	bhoendie k.	8
+2788	he zhiliang	8
+3262	ribeiro r. c. c.	8
+327	cazeneuve eduardo	8
+1754	frash l. p.	8
+1753	alejano l. r.	8
+3224	ashena r.	8
+1973	bauer s. j.	8
+2136	oparin v.	8
+2742	klever frans	8
+1983	dabrowski m.	8
+1984	fox m.	8
+292	moos daniel	8
+1985	bari m.	8
+1743	ma kevin j.	8
+2744	ikezoe y.	8
+2274	lehmann j.	8
+2741	chaparro c.	8
+2845	xiao jun	8
+2844	rezagholilou a.	8
+865	wong g. k.	8
+2794	rathnaweera t. d.	8
+2795	walters dale	8
+2002	salvati peter e	8
+1737	baohua yu.	8
+1736	vigilante p. j.	8
+2277	dunn-norman s.	8
+2004	subbiah s. k.	8
+773	wang hanyi	8
+2841	nguyen j. t.	8
+2853	cunningham c.	8
+1765	marin alexander	8
+1804	qian keran	8
+146	iglauer s.	8
+830	ghassemi m. f.	8
+416	fragachan francisco e.	8
+1800	miao q. h.	8
+2240	zimmermann udo	8
+114	kessler j. a.	8
+2750	sharifzadeh m.	8
+1939	pastor j. a. s. c.	8
+378	trindade a. a.	8
+319	spikes k. t.	8
+1946	baiburova minsariya	8
+1947	kant m. a.	8
+2249	ali syed	8
+2251	marques eduardo antonio gomes	8
+298	lammers bart	8
+147	sirevaag t.	8
+1766	esterhuizen g. s.	8
+1782	vostrikov v.	8
+856	dewers t. a.	8
+826	chen wenbin.	8
+1954	kozlowski maciej	8
+825	guo boyun	8
+1777	sinha bikash k.	8
+2255	furniss j. p.	8
+1775	kashnikov yu. a.	8
+371	ren jiali	8
+148	solovyeva irina	8
+2929	senobar ali	8
+420	lozovyi s.	8
+1768	saeidi omid	8
+2855	patzek t. w.	8
+767	millar mike	8
+1018	saydam s.	8
+956	jia yunzhong	8
+967	xianda shen	8
+196	market jennifer	8
+1238	frydman m.	8
+2518	engelman bob	8
+2517	kishida1 k.	8
+1250	chen yequan	8
+3115	bose sandip	8
+1253	soucek kamil	8
+237	asadi s.	8
+2509	tjengdrawira marius agustuhong	8
+1229	hlavacek petr	8
+1262	seibi abdennour	8
+45	wiener jack	8
+557	morgan s. p.	8
+3279	gadzhimirzaev david	8
+965	rinne mikael	8
+963	baryshnikov n.	8
+239	mohammadrezaei hossein	8
+1274	kolltveit erling	8
+1231	riyami qassim	8
+1228	zhao xianyu	8
+1385	bhoumick p.	8
+1201	al-otaibi basel	8
+1183	vasquez jose	8
+1184	aldhamen ali	8
+1185	kukhtinskii a. e.	8
+2536	kang yongfeng	8
+2534	kasling heiko	8
+1194	weijermars ruud	8
+1197	dershowitz w. s.	8
+573	graven h.	8
+1202	eckert a.	8
+1227	turuntaev s.	8
+234	konggidinata mas lwan	8
+980	iriska dian	8
+3189	quirein john	8
+1215	ramos m. j.	8
+1216	lou ye.	8
+1219	zhao john x.	8
+1222	yoshiyama tomoyuki	8
+1223	lei ting	8
+1278	sjari'at raihan intan	8
+3193	saar m. o.	8
+2654	stolyarov sergey	8
+533	ismagilova zulfiya	8
+1334	fukuda d.	8
+246	solbakk tommy	8
+2469	sanz perl y.	8
+3086	chengyun ma.	8
+534	gu g. k.	8
+1351	jensen s. s.	8
+2665	usoltseva o.	8
+1353	zhang liang	8
+532	canbulat i.	8
+241	ickes t.	8
+2459	schultz richard a.	8
+2668	rutqvist jonny	8
+1374	chandra v.	8
+2452	torres-verdin c.	8
+1377	marongiu-porcu matteo	8
+528	damani a.	8
+1380	gogri m. p.	8
+2450	cheng x. l.	8
+952	bataee m.	8
+2474	araujo m.	8
+2661	yan hong	8
+2659	campbell tammy	8
+1287	alonso e.	8
+644	lai bitao	8
+3100	hossain muhammad shazzad	8
+1290	stroisz a. m.	8
+737	oye volker	8
+1297	heidari babak	8
+1301	burrowes arden	8
+550	maxwell shawn	8
+243	madland merete. v.	8
+1305	carcione jose	8
+2657	kodama j.	8
+549	botton b.	8
+2658	haddad mahdi	8
+1311	virues c.	8
+2713	ibragimov ildar	8
+244	squires scott	8
+3092	sun j.	8
+2635	mutina albina	8
+986	stephens meagan	8
+3139	goteti r.	8
+1073	guo j. c.	8
+216	shi ji-quan	8
+710	lu g.	8
+1061	pires de lima rafael	8
+3181	ochalik slawomir	8
+2602	paidin w. r.	8
+1067	bachman nate	8
+711	fukuda daisuke	8
+1071	rong guan	8
+30	rao dhiresh govind	8
+2586	brevik n. o.	8
+2597	villarubias elsa	8
+2596	chiaramonte laura	8
+1078	kitasako k.	8
+609	chen xue-lian	8
+1080	shi h.	8
+1081	taleghani a. dahi	8
+2619	xu xiaodong	8
+1089	macias lucas	8
+1056	fuller j.	8
+2606	ge lei	8
+1053	aliev mekhrali	8
+1051	kozlova e. v.	8
+1020	tran john-bosco	8
+708	mighani s.	8
+1025	watanabe yoshiaki	8
+1017	hamdi z.	8
+1016	ivie b.	8
+1028	gei davide	8
+623	tang x. h.	8
+627	adler p. m.	8
+1032	xu yifei	8
+622	cheremisin a. n.	8
+620	boitnott g.	8
+2612	poudel r.	8
+1041	ezeakacha c.	8
+1012	ong see hong	8
+1011	kundert pat	8
+2609	figueroa german	8
+1049	fujii y.	8
+219	pachezhertsev a. a.	8
+3161	biega brandon	8
+1176	williams d. j.	8
+1151	huang b.	8
+2562	serati m.	8
+1143	al-awadh ahmed	8
+990	zenchenko e.	8
+1146	li ben	8
+35	gringarten emmanuel	8
+720	korre anna	8
+1149	al dhamen ali	8
+226	li yang	8
+2557	nikjoo ehsan	8
+2582	thakur g. c.	8
+2556	xu chuangchao.	8
+584	meng cui	8
+1167	chavez juan carlos	8
+3145	matzar luis	8
+1169	salehi s.	8
+3144	rossi d. f.	8
+37	alkouh ahmad	8
+1175	kyle w.	8
+2564	liu xiwu	8
+994	tulu i. b.	8
+588	bansah k. j.	8
+2566	huang xiaofu	8
+1000	pritchard tim	8
+2623	liang feng	8
+999	santos e. s. r.	8
+1109	beesley martin	8
+1117	tahmasebinia f.	8
+224	wang pu	8
+2570	lecuyer jean daniel	8
+3184	thuro kurosch	8
+1122	lynn t. d.	8
+3155	souza thais simoes coelho	8
+1125	agar s. m.	8
+2627	yicheng l.	8
+33	rossi e.	8
+1129	calvert stefan	8
+1131	padin anton	8
+704	zajicova vendula	8
+1133	yasidu u. m.	8
+1384	nourifard n.	8
+3008	macias francisco javier	8
+486	matsumoto k.	8
+2357	wilks matthew	8
+2423	shokri a. rangriz	8
+1573	shervais j. w.	8
+1445	sanyal arunava	8
+2373	valbuena franklin	8
+2682	liu zhengchun	8
+1496	suhadi annur	8
+1443	sitek libor	8
+2705	fairfield ryan	8
+512	pedroso c. a.	8
+1578	barroso e. v.	8
+2353	min gyeong-jo	8
+3052	tehrani s. t.	8
+181	ricardo a. m.	8
+90	longoria rafael a.	8
+1436	wicker joe	8
+1584	minde mona	8
+3201	blyth matthew p.	8
+919	nassir mohammad	8
+472	dahl filip	8
+74	elaila s. z.	8
+2447	li hongxing	8
+1586	yano t.	8
+1430	wuestefeld andreas	8
+2706	gaither michael	8
+2680	hassan a.	8
+1493	courtier james	8
+2702	al-maqsseed n. h.	8
+1425	anthony e. p.	8
+906	lu q.	8
+478	chujo kota	8
+1483	wang j.	8
+1487	caballero enrique	8
+924	savioli gabriela	8
+3005	pranter m. j.	8
+1480	skaug mats bjorndal	8
+2368	zeng jun	8
+2412	jingen deng.	8
+2370	golovin e.	8
+1473	berry k. g.	8
+273	stas lubomir	8
+2371	ghassemi a.	8
+3043	passalacqua herminio	8
+3038	chen jianguo	8
+3002	loggins s. m. j.	8
+747	cosson camille	8
+2085	he mingmin	8
+66	hai tao li.	8
+505	wilson kurt	8
+2361	yan wei	8
+927	kondratiev s. a.	8
+762	vidal-gilbert s.	8
+3050	nath fatick	8
+3037	shafie zadeh nadia	8
+1448	lou ye	8
+2432	millot pascal	8
+2993	aimene yamina	8
+518	ogiste candice	8
+2695	rodionova e.	8
+2676	oh se-wook	8
+1547	zhu h. y.	8
+897	jian x.	8
+3066	li xiangyang	8
+523	li wan-chiu	8
+2388	li g.	8
+2381	cai xiao	8
+469	williams m.	8
+2707	joodi b.	8
+1607	cheung c. s. n.	8
+3067	kulkarni s.	8
+1609	liu hui-hai	8
+3207	nguyen quoc p.	8
+1612	zuhlke r.	8
+1532	berry s. m.	8
+525	mulev s.	8
+754	chen x.	8
+2336	fang yi	8
+1620	younessi a.	8
+280	evans j. p.	8
+1528	yutkin m. p.	8
+3020	putra dike	8
+1624	crane brady	8
+1393	haige wang	8
+1389	tienhaara mika	8
+3206	zhou yi	8
+1484	george m. c.	8
+698	jun x.	8
+176	saberhosseini seyed erfan	8
+92	gonzales adolfo	8
+62	laubach s. e.	8
+3061	ingraham m. d.	8
+751	trowbridge stacy	8
+2677	li a.	8
+918	sibon h. j.	8
+901	porcu matteo marongiu	8
+3028	al einawi mohamad hasan	8
+2435	tuna tayfun	8
+1546	buijze l.	8
+277	moffitt k. m.	8
+61	van deurzen bente	8
+2400	kadnaji jamaneh mostafa	8
+266	pourpark h.	8
+1408	lin sen	8
+910	bachir aissa	8
+3	borromeo laura	8
+759	garnier a.	6
+2296	wang r.	6
+797	gong wei-ming	6
+2374	lu hong-qian	6
+177	peters j. f.	6
+2386	fan ming	6
+287	marshall eric	6
+2138	ba-wazir omar	6
+2792	paciello antonella	6
+332	zhu h. h.	6
+333	xu h.	6
+210	muryanto b.	6
+2565	yin s.	6
+755	jeanjean philippe	6
+2568	kiselev pavel	6
+4	shrivastava kaustubh	6
+2672	valko p. p.	6
+717	wang lei	6
+2317	ameri s.	6
+2349	ostadhassan. mehdi	6
+2607	dobrokhleb pavel	6
+2803	gholilou a.	6
+2106	parsegov sergei	6
+2105	leach colin	6
+2616	sun li-qiang	6
+2103	huang x. b.	6
+2347	gray k. e.	6
+2346	ribon barrios helena margarita	6
+338	hudec m. r.	6
+2716	gourvenec s. m.	6
+2610	song jinliang	6
+339	wijaya r.	6
+2344	hamada michiko	6
+10	yu h.	6
+2093	barati reza	6
+696	mirza r.	6
+2337	jiang mingze	6
+2090	mirani ankit	6
+2334	singh deepanshu r.	6
+2087	he jiang-da	6
+2350	yadav prahlad	6
+801	feng p.,	6
+2625	ritz elizabeth	6
+2720	zhou zhou	6
+715	zhang l. y.	6
+2299	elkatatny salaheldin	6
+2364	woodward r.	6
+212	han weige	6
+2798	dang tuan a.	6
+2583	ye zhi	6
+2585	zvyagin v. f.	6
+2704	alouhali r. a.	6
+2590	daza juan pablo	6
+721	mishra arvind k.	6
+764	perry andrew	6
+2726	chu weijiang	6
+284	azly abdul aziz ahmed	6
+2118	luo shengmin	6
+2117	baim s ahmad	6
+2618	bere a. t.	6
+2599	lokajicek tomas	6
+2113	khanferi rakkan n.	6
+169	aubeny charles p.	6
+2111	thovert j.-f.	6
+2617	ma t. s.	6
+2595	yu b.	6
+2638	sanz p. f.	6
+753	kralova lucie	6
+326	mcclure james	6
+2759	ortiz murcia ruben dario	6
+2470	haecker adam	6
+2762	pang yu	6
+301	valerio m.	6
+2214	fragachan francisco	6
+686	sakamoto t.	6
+2663	sun shuyu	6
+2662	graham d.	6
+2434	shao j. f.	6
+2433	latham john-paul	6
+2481	dai f.,	6
+2745	tamimi. naser	6
+2258	bawa h. e.	6
+2767	guizada pablo	6
+2429	ng k.	6
+295	yao zixiu	6
+2490	heidari m.	6
+2260	da silva m. g.	6
+2491	culp d.	6
+2494	rosario f. f	6
+164	behnoud far p.	6
+2426	figueiredo b.	6
+2263	bakar mohd farris	6
+2425	therond emmanuel	6
+2497	sun jianlei	6
+2221	pisano f.	6
+2468	feng p.	6
+2222	ma lumin	6
+2457	halisch m.	6
+8	alqahtani n. b.	6
+2451	restrepo dora	6
+742	kabir nurul	6
+2674	liu s.	6
+2237	guo jianchun	6
+2245	franquet javier a.	6
+2246	foster john t.	6
+2234	miguel rosato	6
+2453	yang henglin	6
+2670	kostyleva i.	6
+252	boitnott greg	6
+2232	de silva v. r. s.	6
+2467	lazuardi b. h.	6
+2247	schmatz joyce	6
+2460	smit florian	6
+2461	leveque soazig	6
+2755	garcia p. f. v.	6
+2756	medina leonardo arias	6
+2227	zhou fuping	6
+2747	tang tiewu	6
+248	zhang guoping	6
+778	mendecki maciej	6
+2224	li b.	6
+2664	perez carrillo edgar ricardo	6
+2265	mathews inga	6
+240	hubler m. h.	6
+2192	kaufhold a.	6
+725	evans kate	6
+791	wu zhide	6
+2531	jelinek b.	6
+2408	kimes l.	6
+2740	chawathe adwait	6
+727	ge jun	6
+264	wei chenji	6
+726	whaley kevin	6
+265	roberts d. t.	6
+2397	rassouli f. s.	6
+232	teklu tadesse w.	6
+2396	yu xin	6
+9	terlizzese f.	6
+2642	sadykov l. a.	6
+724	janis michael	6
+2391	kadkhodaie a.	6
+2696	walsh joseph	6
+2548	kozusnikova alena	6
+2550	marsden j.	6
+3255	chen cheng	6
+324	imamshah azza	6
+2785	shi c.	6
+209	rutledge jeffrey m.	6
+2555	gelin francois	6
+168	huerta n. j.	6
+2529	geovany moreno ferney	6
+2409	davies m.	6
+735	peng yan	6
+2512	yu g. z.	6
+2771	zhao jinzhou	6
+2772	liu y.,	6
+2188	ryerson frederick	6
+192	zhu dehan	6
+2186	barnhoorn a.	6
+2184	pamukcu yusuf	6
+2268	lin shu	6
+2651	onugha i. n.	6
+257	tinni ali	6
+2421	ahmed mujahed	6
+2179	cagnola a.	6
+748	katahara keith	6
+2166	deka bhabesh,	6
+2175	slater mark	6
+194	klemetti t. m.	6
+729	wantawin marut	6
+260	jin l.	6
+2173	dontsov e. v.	6
+728	lee hunjoo p.	6
+291	bois axel-pierre	6
+774	hassanpour jafar	6
+2280	hou jin	6
+2644	sofian anas m.	6
+262	paez pablo	6
+2714	huang jing	6
+2913	crandall d.	6
+2809	cui zhendong	6
+1471	hamidi hossein	6
+1422	li wenjing	6
+516	sharma hema	6
+1429	harbert william	6
+1431	rohler h.	6
+1434	morris joseph	6
+514	zhang shicheng	6
+649	pan bing	6
+1447	nadolski s.	6
+1452	lampe b. l.	6
+930	tavanaei fatemeh	6
+1466	al-enezi badriya	6
+1469	janmahomed f. r.	6
+502	mosalam khalid m.	6
+1511	dou yihua	6
+68	salimzadeh s.	6
+1477	castillo ruben	6
+501	birkholzer j.	6
+69	li dong	6
+1488	grajales-saavedra francisco j.	6
+3204	liu zhiqiang	6
+72	manapov t. f.	6
+1498	duveau g.	6
+653	yan shu-wang	6
+493	burgers r.	6
+492	yendaw j. a.	6
+1507	singh hemant	6
+1421	pooniwala shahvir a.	6
+3056	ning j.	6
+521	mohammadnejad mojtaba	6
+1411	henzinger m. r.	6
+542	wahyudhi f.	6
+1337	schreiber y.	6
+55	wettainen thomas	6
+1340	nair sajan	6
+3085	li xiaopeng	6
+951	schechter david	6
+3082	nikolinakou m. a.	6
+1352	al-mufarej mishal	6
+1354	chan andrew	6
+1356	nguyen quoc	6
+3081	ren lan	6
+1359	bavadiya vimlesh a.	6
+3080	ulla josh	6
+530	rashidi b.	6
+3077	machijima y.	6
+3198	wu l. z.	6
+1376	newell p.	6
+648	ahmed omair	6
+3072	li. chunxiao	6
+527	vatcher jessa	6
+1397	li shiyuan	6
+1399	enkababian philippe	6
+1400	fassihi m. r.	6
+941	gringarten a. c.	6
+1410	chatterjee santiram	6
+490	bai y.	6
+1513	onafowokan adebayo o.	6
+1330	macini p.	6
+1614	liang baosheng	6
+1571	elsaig m.	6
+474	dementyev alexander	6
+3209	hoeink tobias	6
+1577	prakasa bona	6
+1579	gui f.	6
+1588	wang q. z.	6
+806	miskimins j. l.	6
+1593	qu hongyan	6
+1596	zhang q.	6
+898	bayati m.	6
+1605	scott t. e.	6
+1611	laake andreas	6
+1615	hambleton j. p.	6
+3026	katiyar amit	6
+1616	bordoloi sanjeev	6
+1617	akutagawa s.	6
+3211	zheng jie	6
+467	shi z.	6
+465	dehkhoda sevda	6
+892	van buchem frans	6
+20	black s.	6
+1629	al-qahtani adel	6
+1631	urbanczyk ch.	6
+1632	aliyeva sabrina	6
+1634	ding xiang	6
+3215	niu geng	6
+1570	blangy j. p.	6
+1568	ghosh amitava	6
+1567	dong l. k.	6
+476	majdi a.	6
+77	moore j. e.	6
+1518	walker martin	6
+1519	cusatis g.	6
+915	hussain maaruf	6
+1522	sun z. s.	6
+1523	deng hucheng	6
+487	danielson j.	6
+656	germaine j. t.	6
+1529	luo xiao	6
+1530	hofmann ronny	6
+3019	ouchi hisanao	6
+1534	hoang son k.	6
+485	sanchez-nagel m. a.	6
+1538	kang yili	6
+3016	wallens aristobulo bejarano	6
+1540	obah b.	6
+82	hernandez luisalic	6
+86	lejay alain	6
+909	sonnemann paul	6
+1553	navia alejandro	6
+479	hajizadeh yasin	6
+1555	mukai d.	6
+3004	gallardo carlos enrique	6
+908	gao ke	6
+1563	yahia z.	6
+1335	al-dossary khalid s	6
+1328	zhang jon	6
+2976	hermawan s.	6
+1139	fadzliana azmi	6
+598	yoshimura koichi	6
+1112	meek robert	6
+998	mourzenko v. v.	6
+594	forbes bryan	6
+1118	aldajani o. a.	6
+593	kretsul vyacheslav	6
+23	sato t.	6
+3154	cadogan p.	6
+1130	zacher g.	6
+34	delaloye d.	6
+589	kinoshita n.	6
+1136	xu chengyuan	6
+1140	ahmed ahmed abdulhamid	6
+1170	fahrman b. p.	6
+636	han zengqiang	6
+3151	gage c.	6
+1148	larose eric	6
+586	styward b.	6
+1154	vavrycuk vaclav	6
+1155	wu b. s.	6
+3148	villa f.	6
+1160	zou xianjian	6
+36	zhang chungsheng	6
+3186	ibeh s. u.	6
+1163	svitek tomas	6
+1164	liu da-an	6
+599	eker erdinc	6
+3156	du meilin	6
+3158	abdulraheem abdulazeez	6
+1099	gong chenjie	6
+1024	ashqar ayham	6
+1037	searles kevin h.	6
+1043	liu jishan	6
+1048	barnett robyn	6
+1050	miranda r.	6
+1052	mesini e. n.	6
+3173	baghdadi f.	6
+1058	mezon c.	6
+3171	zhao zhe	6
+1065	singh s. k.	6
+1007	clayton cameron	6
+1069	li chuan	6
+629	mohamed k. m.	6
+611	yan jianwen	6
+606	martino salvatore	6
+3167	gibson richard	6
+3166	lomask jesse	6
+1005	chibueze s. e.	6
+631	luo jia	6
+605	dachanuwattana silpakorn	6
+632	al-abduljabbar a.	6
+633	lin jeen-shang	6
+1094	yenigul n. b.	6
+1097	miller douglas	6
+601	larmier salome	6
+582	rongved m.	6
+1174	chand karam	6
+1325	reyes allan	6
+1295	azizian ali	6
+1266	bui nghia	6
+555	ferrer giselle garcia	6
+964	kim k.	6
+1273	bobet a.	6
+553	campbell erin	6
+1281	lakings james	6
+960	ross c. m.	6
+1285	lei qinghua	6
+959	schmidt ingelise	6
+1291	you lijun	6
+1292	agrawal harshit	6
+1294	petruzalek matej	6
+1296	lozano henry andrey	6
+38	lim un young	6
+3097	tempone p.	6
+3096	huang c.	6
+1300	sun hao	6
+1304	flemings p. b.	6
+1306	akanji lateef	6
+1308	ding wenqi	6
+548	chew robert	6
+52	alam harry	6
+1318	sherman christopher	6
+1321	fu hao	6
+953	chen p.	6
+3091	fiorucci matteo	6
+1261	lin ran	6
+3113	rostami a.	6
+3114	copeland dylan	6
+3118	paw f.	6
+3138	fuller michael j.	6
+3188	tan q.	6
+3137	vahedifard f.	6
+580	olson jon e.	6
+579	golubtsov r. v.	6
+577	morita nobuo	6
+576	mukerji tapan	6
+3136	al-maqsseed n.	6
+1196	zhang dongxiao	6
+3133	baradaran reza	6
+983	tamburini a.	6
+41	drew dane	6
+1209	fantini andrea	6
+1210	zuberek waclaw m.	6
+43	munkhchuluun m.	6
+1220	young d.	6
+975	morrell dan	6
+973	mostofi m.	6
+3123	kamranzad farnaz	6
+1237	yu j-g.	6
+565	cha m.	6
+3192	takahashi a.	6
+970	stenebraten j. f.	6
+969	sutcliffe owen	6
+968	barker lauren	6
+461	aghighi m. a.	6
+2991	dohmen ted	6
+888	ahmed ramadan	6
+1818	elaila s.	6
+2912	nugroho w. a.	6
+149	riet b. a. m van de	6
+2851	alsaihati zeeneb	6
+1829	espinoza d. nicolas	6
+368	ardila sergio	6
+1976	albahrani hussain	6
+1833	mellors robert	6
+1835	emadi h.	6
+1837	kouretzis g. p.	6
+2903	perdomo juan	6
+120	bello hector	6
+1975	kim jung yong	6
+3241	wilson michael	6
+1972	huang r. q.	6
+2899	amanullah m.	6
+1842	wu lingyun	6
+406	aminian k.	6
+1970	ma xinfang	6
+2854	martinez r.	6
+1821	henck s.	6
+821	razavi omid	6
+403	rutman philippine	6
+1019	maehara yuki	6
+2006	bousikhane f.	6
+3227	park namsu	6
+2923	burgos l.	6
+2922	zou y.	6
+1794	feng jeffrey	6
+2001	liu hui	6
+152	perez e.	6
+1796	zhou dengen	6
+15	calvez joel le	6
+1997	lampe b. c.	6
+670	hay duncan	6
+150	jiang hailong	6
+2917	xu n. w.,	6
+1807	chatterjee avirup	6
+1808	ogata s.	6
+116	ibrahim adamu	6
+1992	memarian hossein	6
+414	xia k.	6
+1813	madon b.	6
+1847	song huan	6
+3232	klein b.	6
+1787	li w.	6
+1949	maquerhua edu taipe	6
+673	zhu ming-xing	6
+1894	tsang c. f.	6
+2886	wojtecki lukasz	6
+1898	knobles mark	6
+387	kinakin d.	6
+2885	felorzabihi neda	6
+386	hou tengfei	6
+3240	alehossein h.	6
+1904	salimi h.	6
+2884	taylor d.	6
+2882	almarri misfer	6
+1942	blake kenyon j.	6
+384	abass hazim	6
+1937	pan zhejun	6
+1920	hamza n.	6
+383	sokol nik	6
+139	martinez eduardo	6
+2872	lacroix pascal	6
+676	andrew m.	6
+1891	you zhenjiang	6
+372	liu hong	6
+129	langford c.	6
+2887	kim a. e.	6
+402	zhang xiaolin	6
+1862	miceli g.	6
+1863	tran tung v.	6
+1864	trinh vinh x.	6
+130	xie hong-qiang	6
+844	kulatilake p. h. s. w.	6
+1868	liu huai-zhong	6
+671	smith clayton s.	6
+1964	niemi a.	6
+1963	arndt s.	6
+2889	gosavi s. v.	6
+1962	safari reza	6
+1873	sjoberg jonny	6
+2888	douma l. a. n. r.	6
+827	soliman mohamed y.	6
+397	hussain aborshaid	6
+392	bian h. b.	6
+1884	anthony e.	6
+1888	yuan zhaoguang	6
+1788	murillo rodriguo	6
+1795	de faria g. v.	6
+1786	sun kewen	6
+2823	gustafson kyle	6
+2064	nguyen h. q.	6
+450	jones r.	6
+2818	klaver jop	6
+449	gutierrez m.	6
+883	fonseca e.	6
+3220	nugroho cahyo	6
+2822	deng j.	6
+880	othman haitham	6
+17	shariat hoss	6
+2946	al-ajmi a. m.	6
+1703	asadi m. s.	6
+1704	xiao yong	6
+112	lansot j-y.	6
+2825	love j.	6
+1721	tupek m. r.	6
+2827	sullivan allison	6
+665	graves ramona	6
+3248	kansake b. a.	6
+2816	al-hamad nasser a	6
+1674	xiong lihui	6
+1672	emadi hossein	6
+451	akisanya alfred	6
+1646	xu wenyue	6
+807	bo<u+00a1>kovik mirjana	6
+2080	ramsay travis	6
+1652	tsau jyun-syung	6
+2813	luo bo	6
+2074	wang chuanying	6
+2073	li baozhu	6
+2072	antoncecchi i.	6
+1653	perry stephanie	6
+457	li dandan	6
+1659	ribeiro lionel	6
+2070	xiao p. w.	6
+3218	schubert w.	6
+455	stemmerik lars	6
+2067	zhou xuejun	6
+2815	nagel n. b.	6
+885	erickson daniel r.	6
+2043	smith s.	6
+872	mondal s.	6
+355	kirane k. s.	6
+2029	seymour nigel	6
+2832	urai janos l.	6
+2833	lumin ma	6
+1751	uzun ilkay	6
+1756	pope timothy	6
+1758	bertotti g.	6
+1732	kassim rashid	6
+1759	saad bilal	6
+109	ren yu-xiao	6
+2032	soga kenichi	6
+858	epifani f.	6
+107	johnson d. h.	6
+2931	mallick subhashis	6
+154	britt larry k.	6
+814	braga a. m.	6
+2837	tran tan	6
+1772	simon michele	6
+1776	tahmeen m.	6
+2838	adabnezhad p.	6
+2840	kong. lingyun	6
+1784	bromhead alex d.	6
+1749	vallejos j. a.	6
+1934	mahmoud mohamed	6
+1740	patel a.	6
+1744	feng x.	6
+2038	espinosa mora carlos alberto	6
+2037	bontemps noelie	6
+2036	li z.	6
+1733	liu he	6
+103	mohammed omar q.	6
+1745	wang kun	6
+2808	lee p. y	4
+3284	wood g.	4
+3143	cirone alessandro	4
+2810	mosharafi m.	4
+2824	wollenweber j.	4
+2641	bazant z. p.	4
+2864	rinaldi a. p.	4
+143	zhao shuai	4
+2789	gibrata muhammad a	4
+206	jarosinski m.	4
+2646	wang yuhe	4
+3131	zertsalov m. g.	4
+2786	sanchez salazar edwin daniel	4
+2801	sanaei alireza	4
+27	hadi f. a.	4
+2790	dessieux l.	4
+145	eidinov a.	4
+2821	gorbovskaia o. a.	4
+2849	hows a.	4
+3254	quevedo r. j.	4
+2620	eckardt stefan	4
+3149	rasskazov i. yu.	4
+2783	boominathan a.	4
+213	tokashiki n.	4
+2781	li b. q.	4
+203	al-zankawi omran	4
+2805	biluta maksim	4
+29	anagnostou g.	4
+3157	al khatib osama	4
+204	samnejad m.	4
+3282	martin r.	4
+151	zhang y. d.	4
+3252	xing y.	4
+31	sasaki t.	4
+2766	bagherian ben	4
+2868	dasari g. r.	4
+16	gei<u+00df>ler peter	4
+3271	mishra brijes	4
+2956	shapiro serge alexander	4
+2953	maji v. b.	4
+2703	mohamed khaled m.	4
+2949	yanagimura y.	4
+3010	du jing	4
+3011	laquini joao paulo	4
+3012	khokhlov i. n.	4
+81	xiroudakis george	4
+106	akkutlu i. y.	4
+2869	koyama t.	4
+2943	monteagudo jorge e.	4
+2697	alsubaih ihsan	4
+2941	li sanbai	4
+3263	mavromatidis angelos	4
+3226	wei mingzhen	4
+110	rodriguez adolfo a.	4
+2692	eaton david w.	4
+2930	maatouk b. h.	4
+3205	leuger b.	4
+2733	ozbay u.	4
+2961	jarosinski marek	4
+2999	jha b.	4
+2966	flores j.	4
+2978	tao z. g.	4
+96	guo xuyang	4
+2972	lukmanov r. b.	4
+2715	tan lili	4
+3217	seiphoori a.	4
+2722	geimer p.	4
+94	pachytel radomir w.	4
+2723	eichhubl p.	4
+170	arsibekov a.	4
+3212	baig a. m.	4
+173	bae<u+00df>ler matthias	4
+214	wu yu-shu	4
+2970	richard t.	4
+2708	orlander t.	4
+2727	hawkes robert v.	4
+2728	flottmann thomas	4
+2989	hu yuxia	4
+3210	ershov a.	4
+2967	ozkaya sait	4
+73	horsrud p.	4
+2687	li xiaorong	4
+2928	buscarnera g.	4
+2897	izimov r. m.	4
+3083	dinske carsten	4
+2977	hashimoto r.	4
+3195	bobek k.	4
+133	hamam hassan h.	4
+51	nielsen soren dam	4
+3233	tatyana timofeeva	4
+2656	aminzadeh fred	4
+3234	das ratan	4
+3235	bubshait ahmed	4
+3099	blyton christopher a. j.	4
+2773	li d. j.	4
+3108	syresin denis	4
+2652	hupka jan	4
+46	zhao hua	4
+3281	pyrak-nolte l. j.	4
+135	duzgun h. s.	4
+2777	mccray michael s.	4
+2877	ranjan animesh	4
+2870	hunt c.	4
+2764	henao tito	4
+121	tsai s. j.	4
+2748	stonis milan	4
+191	xu bin	4
+3044	alsaif noor a.	4
+65	gray kenneth	4
+3051	firme p. a. l. p.	4
+2918	shamsi k.	4
+3053	xie x.	4
+3055	moore j. r.	4
+3199	udegbe egbadon	4
+3230	wydrinski ray	4
+3276	soldal m.	4
+117	fabricius i. l.	4
+2909	weng m. c.	4
+2906	rai c.	4
+3069	will johannes	4
+2758	whitfield stephen	4
+3277	zhou wei	4
+59	sakiyama naoki	4
+58	subaie abdullah	4
+56	zhu j. b.	4
+2761	davidson kimberly d.	4
+706	bittencourt rossi tiago de	4
+1996	andreassen k. a.	4
+2608	alfarge dheiaa	4
+1598	gee r.	4
+1545	konstantin lezhnev	4
+482	de hoop maarten	4
+481	lee kun sang	4
+1552	ramirez m.	4
+1560	taher ahmed	4
+1566	caeiro maria helena	4
+1574	kresse o.	4
+1580	altammar m. j.	4
+1583	nicholson a. kirby	4
+1587	zhang peter	4
+1591	howden b. w.	4
+1592	zhang xiaohu	4
+1606	hossain md mofazzal	4
+1543	azad a.	4
+1608	deng j. h.	4
+468	bachman robert c.	4
+1628	quinn christer	4
+1633	giovanni cascante g. c.	4
+1638	mukhtarov timur	4
+1640	shimizu tsutomu	4
+1642	tamoto hugo	4
+1	salman mohamad	4
+1645	fang jun	4
+1648	shelokov valeri	4
+1651	sarkar mriganko	4
+1678	li c.	4
+483	haber r. b.	4
+1541	hu xiao	4
+1382	carrillo zuly calderon,	4
+1444	spesivtsev p. e.	4
+1387	kim tae hong	4
+1394	nicoll sam	4
+524	kravchenko andrey	4
+1404	dahm haider. h.	4
+1409	adoko a. c.	4
+1415	deger evgeniya	4
+520	gabr m. a.	4
+1418	cho jinhyung	4
+1419	li huazhou andy	4
+517	calvez j. le	4
+1435	al-nakhli ayman	4
+513	adamuszek m.	4
+1456	guy n.	4
+1527	rucinski piotr	4
+1459	staudtmeister k.	4
+1462	chau v. t.	4
+1463	lotidis michail a.	4
+500	killough john	4
+1489	chen t. c.	4
+1494	lorenzo juan m.	4
+1495	alsubaih ahmed. a.	4
+494	kent alana	4
+1502	seidel johannes	4
+1505	li yinghui	4
+491	dalton c. a.	4
+1516	wang xiaoxiao	4
+1683	day j. j.	4
+1688	lagger m.	4
+1697	pandey vibhas j.	4
+1895	kahn dan	4
+1826	omidi o.	4
+410	al awadhi i.	4
+1832	clarke p. l.	4
+408	sandbak l. a.	4
+1839	mittal abhinav	4
+407	bar neil	4
+405	guzev m. a.	4
+404	modiriasari a.	4
+1849	lhomme t.	4
+1853	parastatidis e.	4
+1870	maggard j. bryan	4
+1874	nicholson glenn a.	4
+1905	tarazona darwin mateus,	4
+1706	bauer andreas	4
+1908	watkins trudy l.	4
+1910	zhuang xiangqi	4
+1915	kenar piotr	4
+1916	rinaldi antonio	4
+1924	piotr wiciak p. w.	4
+1926	cappa frederic	4
+1928	schaefer n.	4
+381	aleksandr melnikov	4
+1936	bosman k.	4
+379	exadaktylos george	4
+1945	lai zhiqiang	4
+375	belleza v. c.	4
+411	de simone m.	4
+1823	hedayat ahmadreza	4
+1822	jackson m. d.	4
+1816	dutto paola	4
+1709	wong yuen	4
+1714	vivas j.	4
+1716	alekseev aleksei	4
+2603	bobek kinga	4
+1719	marinelli f.	4
+431	rassenfoss stephen	4
+1727	last nigel	4
+1728	schreiber jan	4
+430	gao f.	4
+1741	agioutantis z.	4
+1747	moradian z.	4
+1762	thagafy marwan	4
+1763	radonjic m.	4
+1767	esterle joan	4
+1771	zeriek rachad	4
+1781	feng j. l.	4
+1783	vallejo luis e.	4
+1785	ye ruichao	4
+417	malinowski michal	4
+1797	noordin f. b. m.	4
+1798	phumaphi p. t.	4
+1799	trainor-guitton whitney j.	4
+1802	huang haiying	4
+1803	bohloli b.	4
+1805	miki s.	4
+1386	mostaghimi peyman	4
+1375	wang haotian	4
+1968	reynolds albert c.	4
+658	mccarter m. k.	4
+672	gulnara gaymaletdinova	4
+846	oyovwevotu j. s.	4
+849	bautmans p.	4
+852	weyher r. d.	4
+667	sultan abdullah	4
+666	grande l.	4
+867	yang baohong	4
+877	palmeiro do amaral c.	4
+881	al-badairy hameed	4
+884	mateus jefferson	4
+886	verkhovtseva natalia	4
+894	mahrous mohamed	4
+907	polsky y.	4
+677	diederichs m. s.	4
+920	ezhov k.	4
+652	silva cristiane	4
+935	tyrrell t.	4
+938	zhao hui	4
+946	mulinska marta	4
+647	toropetsky k. v.	4
+645	zhang z. h.	4
+957	tanriseven e. n.	4
+961	ohtani hayate	4
+976	li hangyu	4
+979	wang zhengxu	4
+985	bai t.	4
+836	yamamoto yoshitaka	4
+822	urpi l.	4
+1372	srinivasan sanjay	4
+691	joshi deep	4
+716	du plessis peter	4
+703	fontoura sergio	4
+702	mohammadnejad t.	4
+739	pervukhina marina	4
+699	franquet j. a.	4
+752	gao deli	4
+756	mansour ahmed khaled	4
+761	cyz marta	4
+766	al kobaisi abdulla	4
+694	panko adam	4
+771	nielsen soren a.	4
+775	hachan j.	4
+690	morgan eugene	4
+820	al-fatlawi omar	4
+779	jha birendra	4
+780	al-mudhafar w. j.	4
+689	boyd d. lane	4
+795	alruwaili khalid mm	4
+796	tarazona jefferson mateus	4
+800	hamidi farzin	4
+682	hutchinson d. j.	4
+803	jing yu	4
+804	lele s. p.	4
+813	krueger oliver	4
+815	torres sergio galindo	4
+816	tsitsiashvili g. sh.	4
+987	soni laura pelaez	4
+993	skripkin a. g.	4
+996	elbanna a.	4
+1268	choi j. c.	4
+1224	amaral ricardo fernandes do	4
+1230	bermudez romulo	4
+566	neves fernando	4
+563	wempen j. m.	4
+1243	beloborodov roman	4
+1246	couples gary d	4
+1248	chuprakov d. a.	4
+1249	pimentel e.	4
+560	shirole deepanshu	4
+558	albertin martin	4
+1263	ouraga z.	4
+556	lau hon chung	4
+1293	henao t.	4
+628	jacobs trent	4
+545	bilgin h. a.	4
+1317	ramamoorthy raghu	4
+1319	vargas e. a. jr.	4
+1324	harrison j. p.	4
+1332	kumar kundan	4
+1333	aydan o.	4
+1338	malachowska aleksandra	4
+1339	alqam mohammad	4
+1342	poeck e.	4
+1348	ngai louis	4
+1365	popova a.	4
+1367	takekawa junichi	4
+1208	terheege j. h.	4
+1203	smith s. s.	4
+1177	zapf d.	4
+581	bajpayee t. s.	4
+1010	sun zhuang	4
+1022	russell a. r.	4
+625	yuan yanguang	4
+1029	russell rodney	4
+1039	pereira f. l. g.	4
+1046	dai junwen	4
+1074	xiong qiquan	4
+1075	choudhury deepankar	4
+1084	balhoff matthew t.	4
+1086	nomikos pavlos p.	4
+1095	tien y. m.	4
+1104	zhang w.	4
+1105	hisette quentin	4
+591	stephansson ove	4
+590	mahbaz s. b.	4
+1127	hanson-hedgecock s.	4
+1132	hampton j. c.	4
+1145	rich jamie	4
+1147	ma jingsheng	4
+1156	pyles david	4
+1161	broussard m. b.	4
+1162	todman s.	4
+1168	malistani n.	4
+1171	matzar l.	4
+1172	hardy m. p.	4
+370	park choon	4
+0	rabe claudio	4
+2455	sirdesai n. n.	4
+2134	akl s. a. y.	4
+336	polyakov d. a.	4
+297	sonnenthal eric	4
+2121	pradhan s.	4
+2250	ding didier-yu	4
+2479	stuart g. w.	4
+2248	manchanda r.	4
+2126	stavropoulou maria	4
+2478	chang kuntan	4
+2476	lee dongkeun	4
+2351	fan z.	4
+2475	quevedo r.	4
+299	ardebili zahra aghazadeh	4
+2131	wanninger t.	4
+2238	vielma w. e. szemat	4
+2458	li ang	4
+2109	aliabadian z.	4
+2345	li s.	4
+2104	yan y.	4
+2084	karahasan k.	4
+279	mukherjee saswata	4
+2514	wu weiwei	4
+2507	wang yue	4
+278	andrey dushin	4
+2269	valko peter p.	4
+2406	barroso fouraux mateus	4
+2088	ibsen lars bo	4
+2261	wang dong	4
+2489	wen heng	4
+2488	perez oswaldo	4
+2485	ohnishi y.	4
+2483	aki ahmet	4
+341	bjornara t. i.	4
+2099	trackemas jack	4
+2133	mikada hitoshi	4
+2233	zhang c. p.	4
+2333	nadimi s.	4
+2454	kumar amit	4
+2217	lopez bruno a.	4
+2189	allahyarov rashad	4
+2380	sheraliyev meiirzhan	4
+2385	baud p.	4
+2191	alkamil k. e. h. k.	4
+259	mikhailov vladimir	4
+270	holt rune	4
+268	bagci s.	4
+2407	galaa a. m.	4
+2197	el mohtar chadi	4
+310	kasper s. frederiksen	4
+2398	bakk audun	4
+2209	perumal k.	4
+2399	thorne m. s.	4
+2404	olorode o. m.	4
+2376	kashihara koji	4
+2427	pejic d.	4
+256	armstrong ryan	4
+2152	pilacik a.	4
+2145	huang shan	4
+2449	ibrahim e. g.	4
+325	olabode a. o.	4
+2358	al-mahallawy m.	4
+2228	ajamzadeh h.	4
+253	pachytel r.	4
+317	liu qing huo	4
+2436	li guoqiang	4
+272	saeedi ali	4
+2440	xu y.	4
+314	huang hai	4
+2172	baizhanov bekdar	4
+2220	farichah h.	4
+313	zhao g. f.	4
+349	newman c.	4
+2499	talukdar ramen	4
+2551	rodrigues roger	4
+2304	adel k.	4
+2537	maria anna polak m. a. p.	4
+2573	belozerov b. v.	4
+2589	ashida akihisa	4
+2538	kang h.	4
+360	efendiev y.	4
+1988	vargas silva diego armando,	4
+2289	seabra gabriel serrao	4
+1993	scheuermann alexander	4
+286	garvey g.	4
+231	kikumoto m.	4
+2292	kawakami tsukasa	4
+2075	leonard paul	4
+2553	trzeciak m.	4
+2535	farah nicolas	4
+2012	tunbridge l.	4
+363	bai baojun	4
+362	hildyard m. w.	4
+221	zwarich nola r.	4
+2010	du h.	4
+227	aminzadeh f.	4
+1999	copley jeff	4
+2298	zang arno	4
+2577	piedrahita jaime	4
+2569	fredd c. n	4
+2576	urbancic t. i.	4
+2005	cedola a. e.	4
+2039	weng x.	4
+2035	pishchuleva a. v.	4
+2528	guo zhenyu	4
+2523	nikishkin m. v.	4
+2332	sofianos alexandros i.	4
+2283	bozorgzadeh n.	4
+2066	babadagli tayfun	4
+290	sonnenberg steve	4
+2314	hage ahmad r.	4
+2063	france brandon	4
+2062	wong t.-f.	4
+2060	zimmermann gunter	4
+2285	li xiang	4
+1974	yu bo	4
+2522	sharma m. m.	4
+1980	aguilera roberto	4
+2046	hsu c. j.	4
+2316	an k.	4
+2527	singh t. n.	4
+2054	al aryani fatima mohamed	4
+2047	tenma norio	4
+2050	gala deepen p.	4
+366	maitra shubhrajit	4
+2287	liu x.	4
+2318	rahman m. s.	4
+2000	varma malavika	4
+2312	fang yuan	4
+2524	nieto nathalie	4
+552	jacobi robert	2
+3101	pourahmadian f.	2
+1289	evans david j.	2
+3098	hasbani j. g.	2
+267	candela t.	2
+2377	puntel de oliveira eduardo augusto	2
+3103	barton n.	2
+1159	assiri wisam j.	2
+2712	oke jeffrey	2
+1282	liu shuai	2
+2354	wolfe c.	2
+2340	usmani m. mohsin	2
+562	yusuf ahmed	2
+3116	ostrowski lukasz	2
+2343	arnipally sumanth kumar	2
+2327	stimpson brian c.	2
+1254	xue yuting	2
+571	raptis g.	2
+1206	dorovsky v. n.	2
+3130	kamgang sebastien	2
+3132	kammerer c. g.	2
+40	de melo moura d.	2
+49	rathbun andrew p.	2
+1195	hynes l.	2
+1192	jebutu segun	2
+1182	johnson james	2
+2719	joshi ravi	2
+1180	van dijke rink	2
+1271	ehlig-economides c.	2
+3140	collins m.	2
+1275	barrufet maria a.	2
+1277	venticinque gaetano	2
+2369	goncalves da silva b.	2
+1106	thierens danny	2
+1390	kamal s.	2
+2689	ertekin turgay	2
+197	yu weiqi	2
+3249	ozyurtkan mustafa hakan	2
+2525	spiers c. j.	2
+2643	ibrahim mazher h.	2
+3244	tshibangu j.-p.	2
+823	deli gao	2
+675	myers michael	2
+13	hanna alla r. r.	2
+2520	brahma jwngsar	2
+887	schubert wulf	2
+839	blasingame thomas a.	2
+840	grover tarun	2
+845	esquivel raul	2
+2519	gambino greg f.	2
+848	kim b. h.	2
+854	zeng zhengwen	2
+2505	damiani saverio	2
+799	ramkumar shwetha	2
+2542	peirce a. p.	2
+783	pazdniakou a.	2
+2633	xiao f.	2
+712	noviasta bonar	2
+2598	haddad m.	2
+3280	hashem mohamed	2
+2591	harpalani s.	2
+2581	norouzi s.	2
+743	cuervo sergio	2
+745	sinha sankhaneel	2
+746	jung hojung	2
+697	utsuki shinji	2
+3268	lin yuan-yun	2
+7	sesetty v.	2
+2561	asadov sardar	2
+2629	park d.	2
+2630	dahi taleghani a.	2
+3261	retnanto albertus	2
+863	chen s. l.	2
+18	moghanloo rouzbeh ghanbarnezhad	2
+1103	verberne b. a.	2
+1059	cuevas palencia cristian fernando	2
+251	kacewicz marek	2
+997	karaoulanis f. e.	2
+1008	prassetyo s. h.	2
+2437	harouaka abdalah	2
+2424	quintero pena yair andres	2
+2419	ma xiaodong	2
+1054	brisco colin	2
+1070	larson m. k.	2
+889	hornby b.	2
+2418	huynh k.	2
+1083	zhiyue wang	2
+261	abbasi-asl y.	2
+3164	fakhimi a.	2
+604	ismael mohamed	2
+602	stefanik thomas m.	2
+183	elowe k. e.	2
+3187	saroglou h.	2
+2446	li yunan	2
+641	deshenenkov ivan	2
+2669	klimenko d.	2
+662	kalenchuk k.	2
+891	sharpe j. d.	2
+661	esmaeili k.	2
+902	sepehrnoori k.	2
+913	kamali a.	2
+916	buyer andreas	2
+245	bachrach ran	2
+925	hai p. u.	2
+3202	zoback mark	2
+2464	mametja t. d.	2
+3200	martin c. d.	2
+2463	guzina b. b.	2
+249	nakaya masashi	2
+954	ahmed sheikh sharif	2
+1299	vtorushin e. v.	2
+551	kgwete m. n.	2
+1717	forouzanfar fahim	2
+1310	konietzky heinz	2
+2315	rebuli d. b.	2
+2144	wang f.	2
+328	bar n.	2
+2974	alber m.	2
+458	grace lee	2
+1663	weibo sun	2
+1670	ozkan erdal	2
+99	gupta neel	2
+2013	swami v.	2
+100	moghaddam rasoul nazari	2
+1679	oyarhossein m.	2
+1682	saurabh s.	2
+2793	fakir muhammad	2
+446	xiao lei	2
+334	liu g.	2
+2891	anderson n. l.	2
+462	pan xinpeng	2
+1890	shen xinpu	2
+1865	mojtabai navid	2
+2980	varela r. a.	2
+1572	esterhuizen gabriel s.	2
+2008	mehranpour m. h.	2
+2883	olatunji oladipo o.	2
+2183	zhou minyue	2
+312	foroozesh jalal	2
+2995	anderson glen	2
+1590	rueda julio alberto	2
+1597	jiang guosheng	2
+2167	chang haibin	2
+470	hernandez forero laura yesenia	2
+2782	shen guoyang	2
+2009	lu jianrong	2
+321	zambrano c.	2
+2149	guangzhi zhang	2
+1900	sun yixuan	2
+1867	zhao gang	2
+2796	makhnenko r. y.	2
+1827	dengo carlos a.	2
+1770	bilgesu ilkin	2
+157	gonze n.	2
+1841	duan benchun	2
+2814	frash luke p.	2
+1790	kovacich j. r.	2
+1793	popovich drew	2
+350	khosravi elahe	2
+2042	zhao peidong	2
+2902	agrawal samarth	2
+351	kuru ergun	2
+415	olivier g.	2
+2057	ayadiuno chris	2
+352	dahmani l.	2
+2055	patino-ramirez fernando	2
+1824	mehrabian amin	2
+2051	hong-yang ni	2
+418	agrawal abhishek	2
+347	solibida c.	2
+2797	oke j.	2
+1764	tudge joanne	2
+2116	vilarrasa v.	2
+1860	van gestel jean-paul	2
+2107	zhao z. y.	2
+1731	wang p.	2
+427	liu songxia	2
+344	arson chloe	2
+1750	pimenov a. a.	2
+1760	ferentinou maria	2
+2939	obaid khalid	2
+2936	yang jijin	2
+2935	hlidek barry t.	2
+2015	kaunda r. b.	2
+356	junqueira cecilia pinheiro	2
+2934	engler thomas	2
+2933	abousleiman younane	2
+87	karantinos emmanouil	2
+2881	konietzky h.	2
+1912	ahmed sheikh shahriar	2
+1475	xu bohan	2
+2275	van der baan m.	2
+3063	ghorai bithin	2
+3062	bessmertnykh a. o.	2
+1412	paydayesh mehdi	2
+1987	hundal i. s.	2
+3058	jin w.	2
+296	mirzazade a.	2
+142	feng y.	2
+2242	amaru maisha	2
+507	tonkins m. c.	2
+3049	avanessian armen b.	2
+1929	vachaparampil alex	2
+2751	holditch stephen a.	2
+1460	seals kelsey	2
+2753	phillips anthony,	2
+3065	yale d. p.	2
+526	labuz j. f.	2
+3071	ewy russell t.	2
+539	shen b.	2
+2313	sircar anirbid	2
+2310	wasantha p. l. p.	2
+2306	roussel nicolas p.	2
+1960	alqahtani mari h.	2
+2301	lee charlie	2
+540	boltz m. s.	2
+1958	micheal obolo	2
+2286	prasad u.	2
+1363	gao c.	2
+2294	sherwood k. w.	2
+1948	hoeink t.	2
+2860	kanevskaya r. d.	2
+1944	shah m. v.	2
+167	lee won-ho	2
+1562	carey james w.	2
+1470	shen l.	2
+1476	shin do	2
+1918	stefano g. de	2
+1521	barthwal h.	2
+2212	davudov davud	2
+1531	ge m.	2
+1533	mborah c.	2
+79	cheng qinglu	2
+137	starr joel	2
+484	lombardo ezequiel	2
+2843	naeimipour a.	2
+2208	falgout c.	2
+306	tang yunlong	2
+480	park e. s.	2
+1551	ma yifei	2
+2196	malkowski piotr	2
+1556	cheng wan	2
+1561	noufal abdelwahab	2
+2229	protasov i. i.	2
+78	urli v.	2
+488	white isabel	2
+2218	yan wang	2
+140	li ziyan	2
+497	condon k. j.	2
+1492	guner d.	2
+2225	coggan j. s.	2
+1922	rostami j.	2
+1919	ozturk h.	2
+2907	he zhenhua	2
+3030	van der baan mirko	2
+1509	kumar dharmendra	2
+1512	fidiansyah ardho	2
+1515	yang h.	2
+2216	chambers d. j.	2
+489	sakhaee-pour ahmad	2
+400	potyondy d. o.	0
+2593	pariseau w. g.	0
+705	tayyab imran	0
+1931	civan faruk	0
+2671	florez horacio	0
+811	faidouzi mohamed mehdi el	0
+2211	muraviev alexander	0
+3023	ozkaya sait i.	0
+2223	asadi a.	0
+2372	moore richard	0
+1178	chun k. h.	0
+1205	oge ibrahim ferid	0
+515	carpenter chris	0
+570	radwan amr	0
+2270	chertov m. a.	0
+2323	grana dario	0
+282	nwozor kingsley	0
+1383	wilson adam	0
+1357	lim michelle	0
+3107	williams-stroud s. c.	0
+2302	atefi monfared k.	0
+1329	zhang zong-xian	0
+1101	polla jukka	0
+1062	gu ming	0
+2916	budennyy semen	0
+475	disiena james p.	0
+2059	amooie mohammad amin	0
+842	tutuncu azra	0
+238	labrie d.	0
+862	pellet f. l.	0
+2112	asadi adel	0
+437	menand stephane	0
+440	gadde murali m.	0
+1692	belanozhka aliaksei	0
+1675	liu. yongsheng	0
+2787	shel egor	0
+3190	he rui	0
+2981	davis thomas	0
+2442	shi gen-hua	0
+621	mcclure mark	0
+2185	khaled mohamed shafik	0
+1969	burghardt j.	0

@@ -1,0 +1,12446 @@
+Masters Theses
+
+Spring 2014
+
+Scholars' Mine
+
+Student Research & Creative Works
+
+The effect of using different rock failure criteria in
+wellbore stability analysis
+Reza Rahimi
+
+Follow this and additional works at: http://scholarsmine.mst.edu/masters_theses
+Department: Geosciences and Geological and Petroleum Engineering
+
+Recommended Citation
+Rahimi, Reza, "The effect of using different rock failure criteria in wellbore stability analysis" (2014). Masters Theses. Paper 7270.
+
+This Thesis - Open Access is brought to you for free and open access by the Student Research & Creative Works at Scholars' Mine. It has been accepted
+for inclusion in Masters Theses by an authorized administrator of Scholars' Mine. For more information, please contact weaverjr@mst.edu.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+THE EFFECT OF USING DIFFERENT ROCK FAILURE CRITERIA IN WELLBORE 
+
+STABILITY ANALYSIS 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+by 
+
+ 
+ 
+
+REZA RAHIMI  
+
+ 
+ 
+
+A THESIS 
+
+ 
+ 
+
+Presented to the Faculty of the Graduate School of the 
+
+ 
+
+MISSOURI UNIVERSITY OF SCIENCE AND TECHNOLOGY 
+
+In Partial Fulfillment of the Requirements for the Degree 
+
+ 
+
+ 
+ 
+ 
+
+MASTER of SCIENCE  
+
+ 
+in 
+ 
+
+PETROLEUM ENGINEERING 
+
+ 
+
+2014 
+
+ 
+ 
+ 
+
+Approved by 
+
+ 
+
+Runar Nygaard, Advisor 
+
+Ralph E. Flori 
+Andreas Eckert 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+                                                    © 2014 
+
+                                               Reza Rahimi 
+
+                                         All Rights Reserved
+
+ABSTRACT 
+
+iii 
+ 
+
+Determination of the appropriate drilling fluid density by rock failure analysis is an 
+
+essential step to control wellbore instability. To determine wellbore failure stresses, the rock 
+
+strength has to be known, an appropriate constitutive model has to be selected, and finally an 
+
+accurate  rock  failure  criterion  must  be  chosen.  Linear-poro  elastic  modeling  of  the 
+
+mechanical wellbore failure is the most common approach to investigate wellbore instability. 
+
+Numerous failure criteria have been used for the rock failure analysis but there is not any 
+
+commonly accepted agreement of which failure criteria to use.. Quantitative comparisons 
+
+have been previously studied on some of the failure criteria but  few  evaluations for the 
+
+selection of the failure criteria are based on  typical petroleum related situations.  In this 
+
+thesis, the thirteen most common rock failure criteria are compared and analyzed. The rock 
+
+failure criteria were evaluated for three lithologies. A statistical analysis was performed to 
+
+determine the similarities and differences among the failure criteria. Field case evaluation of 
+
+failure criteria was conducted for three different offshore wells. According to the results of 
+
+the  statistical  analysis,  the  Tresca,  the  Von  Mises,  and  the  Inscribed  Drucker-Prager 
+
+represent the higher bounds of results for the minimum required mud weight for all cases. 
+
+Although  the  Circumscribed  Drucker-Prager  usually  predicts  the  lower  bound  for  the 
+
+minimum required mud weight, its results are in the middle range for hard formations. The 
+
+Modified Lade, the Modified Wiebols-Cook and the Mogi-Coulomb give similar results for 
+
+the three cases studied so these failure criteria may be used interchangeably without altering 
+
+the results. The results of field cases show that the Mogi-Coulomb, the Modified Lade, and 
+
+the Modified Wiebols-Cook criteria mainly predict minimum required mud weight which is 
+
+close to the field mud weight used to successfully drill the borehole. 
+
+ACKNOWLEDGEMENT 
+
+iv 
+ 
+
+Here is the end of the journey. Let’s look over the past and remember all who have 
+
+helped and supported me along this unique and adventurous experience. 
+
+ 
+
+First and foremost, I would like to thank my advisor, Dr. Runar Nygaard. He has 
+
+been supportive since the first day I started in the Petroleum Engineering department. Dr. 
+
+Nygaard  has  supported  me  not  only  by  providing  a  research  assistantship  and  technical 
+
+advice, but also emotionally through the rough road to finish this thesis and complete my 
+
+graduate study. He gave me the freedom and confidence I needed to move on.  
+
+ 
+
+Besides my advisor, I would like to thank the rest of my thesis committee: Dr. Ralph 
+
+Flori and Dr. Andreas Eckert for their encouragement and insightful comments.  
+
+ 
+
+I would like to acknowledge my fellows in drilling research group: Mohamed Al-
+
+Dushaishi, Mortadha Al-Saba, Benjamin Weideman, Yilin Mao and Yurong Li for their 
+
+supportive idea and technical assistance and also all the wonderful moments we had together.  
+
+ 
+
+I finish with Iran, where the most source of my life’s energy resides: my family. I 
+
+have an amazing family, unique in many ways, and the stereotype of a perfect family in 
+
+many others. Their support has been unconditional all these years; they have given up many 
+
+things for me to be here; they have cherished with me every great moment and supported me 
+
+whenever I needed it.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+TABLE OF CONTENTS 
+
+v 
+ 
+
+                                                                                                                                                                        
+
+Page 
+
+ABSTRACT…. ........................................................................................................................ iii 
+
+ACKNOWLEDGEMENT ........................................................................................................ iv 
+
+LIST OF ILLUSTRATIONS .................................................................................................. vii 
+
+LIST OF TABLES ................................................................................................................... ix 
+
+NOMENCLATURE ................................................................................................................. xi 
+
+SECTION 
+
+ 
+
+    1.  INTRODUCTION ............................................................................................................ 1 
+
+         1.1. OVERVIEW ON WELLBORE STABILITY ANALYSIS ...................................... 1 
+
+         1.2. MOTIVATION FOR EVALUATION OF ROCK FAILURE CRITERIA .............. 2 
+
+         1.3. RESEARCH OBJECTIVES ...................................................................................... 2 
+
+    2.  LITERATURE REVIEW ................................................................................................. 4 
+
+         2.1. ROCK FAILURE CRITERIA ................................................................................... 5 
+
+   2.1.1. Mohr-Coulomb ................................................................................................ 5 
+
+   2.1.2. Mogi-Coulomb ................................................................................................. 6 
+
+   2.1.3. Tresca ............................................................................................................... 7 
+
+   2.1.4. Von Mises ........................................................................................................ 8 
+
+   2.1.5. Drucker-Prager ................................................................................................. 8 
+
+   2.1.6. Modified Wiebols-Cook ................................................................................ 10 
+
+   2.1.7. Hoek-Brown ................................................................................................... 11 
+
+   2.1.8. Modified Lade ................................................................................................ 12 
+
+   2.1.9. Griffith ........................................................................................................... 14 
+
+   2.1.10. Modified Griffith ......................................................................................... 15 
+
+   2.1.11. Murrel .......................................................................................................... 16 
+
+   2.1.12. Stassi D’Alia ................................................................................................ 16 
+
+        2.2. BOREHOLE STRESS TRANSFORMATION ....................................................... .17 
+
+        2.3. NUMERICAL SOLUTION FOR DETERMINATION OF MINIMUM        
+                REQUIRED MUD WEIGHT …..…………........…………………………………….18 
+
+        2.4. REVIEW ON EVALUATION OF ROCK FAILURE CRITERIA ......................... 18 
+
+   3.  METHODOLOGY .......................................................................................................... 24 
+
+vi 
+ 
+
+     3.1. FAILURE CRITERIA ................................................................................................. 24 
+
+            3.1.1 Failure Criteria Parameters ................................................................................. 24 
+
+     3.2. ROCK MECHANICAL & STRESS DATA ............................................................... 25 
+
+     3.3. STATISTICAL ANALYSIS PROCEDURE .............................................................. 28 
+
+4.  RESULTS... ........................................................................................................................ 29 
+
+      4.1. SHALE ....................................................................................................................... 29 
+
+      4.2. SANDSTONE ............................................................................................................ 38 
+
+      4.3. SILTSTONE ............................................................................................................... 44 
+
+5.  FIELD CASE STUDIES... ................................................................................................. 50 
+
+     5.1. NORTH SEA OIL FIELD ........................................................................................... 50 
+
+     5.2. CYRUS FIELD, UK CONTINENTAL SHELF, NORTH SEA ................................. 54 
+
+     5.3. PAGERUNGAN GAS FIELD, OFFSHORE INDONESIA ....................................... 57 
+
+6.  DISCUSSION..................................................................................................................... 59 
+
+7.  CONCLUSIONS... ............................................................................................................. 62 
+
+APPENDIX….. ....................................................................................................................... 63 
+
+BIBLIOGRAPHY ................................................................................................................... 69 
+
+VITA…………........................................................................................................................ 72 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+LIST OF ILLUSTRATIONS 
+
+vii 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    Page 
+
+Figure   
+ 
+3.1. Stress Modeling Results for the Well RWF 332-21(Higgins, 2006) ......................... 26 
+ 
+3.2. Stress Modeling Results for the well RMV 60-17 (Higgins, 2006) .......................... 27 
+ 
+4.1. Minimum mud weight vs wellbore inclination by different failure criteria at  
+       1500 m depth and azimuth of 0° for weak shale ........................................................ 30 
+ 
+4.2. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2000 m depth and azimuth of 0° for weak shale ....................................................... 32 
+ 
+4.3. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2500 m depth and azimuth of 0° for weak shale under Strike Slip faulting regime . 34 
+ 
+4.4. Minimum mud weight vs wellbore inclination by different failure criteria  at 
+        2000 m depth an d azimuth of 0° for hard shale ....................................................... 36 
+ 
+4.5. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2000 m depth and azimuth of 90° for hard shale ...................................................... 37 
+ 
+4.6. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        1500 m depth and azimuth of 0° for weak sandstone ............................................... 39 
+ 
+4.7. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2000 m depth and azimuth of 0° for weak sandstone ............................................... 40 
+ 
+4.8. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2000 m depth and azimuth of 0° for hard sandstone ................................................ 41 
+ 
+4.9. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2000 m depth and azimuth of 30° for hard sandstone .............................................. 42 
+ 
+4.10. Minimum mud weight vs wellbore inclination by different failure criteria at 
+         2000 m depth and azimuth of 90° for hard sandstone ............................................. 43 
+ 
+4.11. Minimum mud weight vs wellbore inclination by different failure criteria at 
+         1500 m depth and azimuth of 0° for weak siltstone ................................................ 44 
+ 
+
+4.12. Minimum mud weight vs wellbore inclination by different failure criteria at 
+         2000 m depth and azimuth of 0° for weak siltstone ................................................ 45 
+ 
+ 
+
+viii 
+ 
+
+4.13. Minimum mud weight vs wellbore inclination by different failure criteria at 
+         2000 m depth and azimuth of 0° for weak siltstone ................................................ 47 
+ 
+4.14. Minimum mud weight vs wellbore inclination by different failure criteria at 
+         2000 m depth and azimuth of 60° for hard siltstone ................................................ 48 
+ 
+4.15. Minimum mud weight vs wellbore inclination by different failure criteria at 
+         2000 m depth and azimuth of 90° for hard siltstone ................................................ 49 
+ 
+5.1. Deviated well plan, North Sea Oil Field .................................................................... 51 
+ 
+5.2. Comparison between results of predicted minimum required mud  weight by 
+        different criteria and field mud weight for Middle Ness formation.......................... 52 
+ 
+5.3. Comparison between results of predicted minimum required mud  weight by 
+        different criteria and field mud weight for Etive formation ..................................... 53 
+ 
+5.4. Comparison between results of predicted minimum required mud  weight by 
+        different criteria and field mud weight for Rannoch formation ................................ 54 
+ 
+5.5. Minimum mud weight vs wellbore inclination by different failure criteria at 
+        2600 m depth and azimuth of 0° for sandstone formation ........................................ 55 
+ 
+5.6. Comparison between results of predicted minimum required mud  weight by 
+        different criteria and field mud weight for vertical well ........................................... 56 
+ 
+5.7. Comparison between results of predicted minimum required mud  weight by 
+        different criteria and field mud weight for horizontal well ....................................... 57 
+ 
+5.8. Comparison between results of predicted minimum required mud  weight by 
+        different criteria and field mud weight for well PGA-2 ........................................... 58 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+LIST OF TABLES 
+
+ix 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    Page 
+
+Table   
+ 
+3.1. Rock mechanical properties ....................................................................................... 26 
+ 
+3.2. Stress data for well RWF 332-21, Normal Faulting regime ...................................... 27 
+ 
+3.3. Stress data for Well RMV 60-17, Strike Slip faulting regime ................................... 27 
+ 
+3.4. Color code for different interval of percentage difference (PD) in table of           
+        contradiction ............................................................................................................. 28 
+ 
+4.1. Comparison of results by different failure criteria for weak shale at depth of                  
+       1500 m and Azimuth of 0° ......................................................................................... 30 
+ 
+4.2. Comparison of results by different failure criteria for weak shale at depth of               
+       1500 m and Azimuth of 30° ....................................................................................... 31 
+ 
+4.3. Comparison of results by different failure criteria for weak shale at depth of               
+        1500m and Azimuth of 90° ....................................................................................... 32 
+ 
+4.4. Comparison of results by different failure criteria for weak shale at depth of               
+        2000 m and Azimuth of 0° ........................................................................................ 33 
+ 
+4.5. Comparison of results by different failure criteria for weak shale at depth of               
+        2000 m and Azimuth of 90° ...................................................................................... 33 
+ 
+4.6. Comparison of results by different failure criteria for weak shale at depth of               
+        2500 m and Azimuth of 0° ........................................................................................ 35 
+ 
+4.7. Comparison of results by different failure criteria for weak shale at depth of               
+        2500 m and Azimuth of 90° ...................................................................................... 35 
+ 
+4.8. Comparison of results by different failure criteria for hard shale at depth of               
+        2000 m and Azimuth of 0° ........................................................................................ 37 
+ 
+4.9. Comparison of results by different failure criteria for hard shale at depth of               
+        2000 m and Azimuth of 90° ...................................................................................... 38 
+ 
+4.10. Comparison of results by different failure criteria for weak sandstone at               
+          depth of 1500 m and Azimuth of 90° ..................................................................... 39 
+ 
+4.11. Comparison of results by different failure criteria for weak sandstone at               
+          depth of 2000 m and Azimuth of 90° ..................................................................... 40 
+
+x 
+ 
+
+4.12. Comparison of results by different failure criteria for hard sandstone at               
+          depth of 2000 m and Azimuth of 0° ....................................................................... 42 
+ 
+4.13. Comparison of results by different failure criteria for hard sandstone at               
+          depth of 2000 m and Azimuth of 90° ..................................................................... 43 
+ 
+4.14. Comparison of results by different failure criteria for weak siltstone  at               
+          depth of 1500 m and Azimuth of 0° ....................................................................... 45 
+ 
+4.15. Comparison of results by different failure criteria for weak siltstone  at               
+          depth of 2000 m and Azimuth of 0° ....................................................................... 46 
+ 
+4.16. Comparison of results by different failure criteria for hard siltstone  at               
+          depth of 2000 m and Azimuth of 0° ....................................................................... 47 
+ 
+4.17. Comparison of results by different failure criteria for hard siltstone  at               
+          depth of 2000 m and Azimuth of 60° ..................................................................... 48 
+ 
+4.18. Comparison of results by different failure criteria for hard siltstone  at               
+          depth of 2000 m and Azimuth of 90° ..................................................................... 49 
+ 
+5.1. Field data, North Sea oil field .................................................................................... 50 
+
+5.2. Results of predicted minimum required mud weight by different criteria                
+        and difference with field mud weight for Middle Ness formation ........................... 51 
+ 
+5.3. Results of predicted minimum required mud weight by different criteria                
+        and difference with field mud weight for Etive formation ....................................... 52 
+ 
+5.4. Results of predicted minimum required mud weight by different criteria                
+        and difference with field mud weight for Etive formation ....................................... 53 
+ 
+5.5. Field data, Cyrus field, UK Continental Shelf, North Sea ......................................... 54 
+ 
+5.6. Results of predicted minimum required mud weight by different criteria                
+        and difference with field mud weight for vertical borehole ..................................... 55 
+ 
+5.7. Results of predicted minimum required mud weight by different criteria                
+        and difference with field mud weight for horizontal borehole ................................. 56 
+ 
+5.8. Field Data, Well PGA-2, Pagerungan gas field ......................................................... 57 
+ 
+5.9. Results of predicted minimum required mud weight by different criteria                
+        and difference with field mud weight for Well PGA-2 ............................................ 58 
+ 
+
+ 
+
+ 
+
+NOMENCLATURE 
+
+ 
+
+ 
+
+ 
+
+Symbol 
+
+Definition 
+
+xi 
+ 
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+  
+
+   
+
+   
+
+  
+
+  
+
+  
+
+  
+
+     
+
+     
+
+       
+
+   
+
+   
+
+   
+
+   
+
+    
+
+    
+
+   
+
+   
+      
+
+  
+
+     
+
+     
+
+      
+
+      
+
+  
+
+Minimum Horizontal Stress 
+
+Maximum Horizontal Stress 
+
+Overburden Stress 
+
+Maximum Principal Stress 
+
+Intermediate Principal Stress 
+
+Minimum Principal Stress 
+
+Internal Angle of Friction 
+
+Uniaxial Compressive Strength 
+
+Uniaxial Tensile Strength 
+
+Cohesion 
+
+Flow Factor 
+
+Coefficient of Internal Angle of Friction 
+
+Shear Stress 
+
+Octahedral Shear Stress 
+
+Octahedral Shear Stress 
+
+Mean Effective Stress 
+
+Mean Effective Confining Stress 
+
+Invariant of Deviatoric Stress 
+
+First Stress Invariant 
+
+Third Stress Invariant 
+
+Modified First Stress Invariant 
+
+Modified Third Stress Invariant 
+
+Wellbore Pressure 
+
+Pore Pressure 
+
+Stress Components of Original Wellbore Coordinate System 
+
+  ,   ,   ,     ,    ,     
+
+Stress Components of Transformed Wellbore Coordinate System 
+
+   
+
+               
+
+ ,   
+
+  ,   
+
+ ,   
+
+    ,    ,    ,     
+
+ ,   
+
+Radial Stress 
+
+Maximum and Minimum Tangential Stress 
+
+Material Parameters for Mogi-Coulomb Criterion 
+
+Material Parameters for Modified Lade Criterion 
+
+Material Parameters for Drucker-Prager Criterion 
+
+Material Parameters for Modified Wiebols-Cook Criterion 
+
+Material Parameters for Hoek-Brown Criterion 
+
+ 
+
+ 
+
+ 
+
+ABBREVIATIONS  
+
+ 
+
+ 
+
+Abbreviation 
+
+Definition 
+
+xii 
+ 
+
+UCS 
+
+CDP 
+
+ML 
+
+MG 
+
+MWC 
+
+MR 
+
+HB 
+
+SD 
+
+MC 
+
+MGR 
+
+IDP 
+
+GR 
+
+VM 
+
+TR 
+
+PD 
+
+Uniaxial Compressive Strength 
+
+Circumscribed Drucker-Prager 
+
+Modified Lade 
+
+Mogi-Coulomb 
+
+Modified Wiebols-Cook 
+
+Murrel 
+
+Hoek-Brown 
+
+Stassi D’Alia 
+
+Mohr-Coulomb 
+
+Modified Griffith 
+
+Inscribed Drucker-Prager 
+
+Griffith 
+
+Von Mises 
+
+Tresca 
+
+Percentage Difference 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1.  INTRODUCTION 
+
+ 
+ 
+
+Costly consequences of wellbore instability problems are one of the major challenges 
+
+in drilling operation. Instability is caused when the stresses locally around the wellbore is 
+
+exceeding the strength of the rock.  Drilling fluid pressure can prevent failure to occur if the 
+
+pressure is kept within the bounds of collapse and fracture gradients around the wellbore. 
+
+Wellbore stability and pore pressure analysis are  the main factors in designing borehole 
+
+pressure  profile  for  selecting  mud  density  which  provides  mechanical  stability  of  the 
+
+borehole wall and decrease Non-Productive Time (NPT). The wellbore stability model must 
+
+include rock strength properties which governs the behavior of the rock when it is subjected 
+
+to the in-situ stresses. A rock failure criterion specifies stress condition at failure. Therefore 
+
+to determine wellbore failure stresses, the rock strength has to be known, an appropriate 
+
+constitutive model has to be selected, and finally an accurate rock failure criterion must be 
+
+chosen. Linear-poro elastic modeling of the mechanical wellbore failure is the most common 
+
+approach to investigate wellbore instability. For safe well construction, in-situ stresses must 
+
+be used to predict minimum required mud weight which cause break outs of the wellbore 
+
+wall. 
+
+ 
+
+1.1. OVERVIEW ON WELLBORE STABILITY ANALYSIS 
+
+Over  the  last  30  years  there  have  been  numerous  investigations  into  developing 
+
+analytical models for mechanical wellbore stability (Bradley, 1979, Aadnoy, 1987, McLean 
+
+and Addis, 1990). All models have in common that they consider the wellbore as a circular 
+
+hole  in  a  rigid  infinite  body  subjected  to  far  field  principal  compressive  stresses.  The 
+
+common form is to consider the wellbore constitutive model as a linear poro-elastic material 
+
+with isotropic rock deformation and strength properties in a 3D principal stress field. The 
+
+minimum drilling fluid pressure is determined to prevent the differential stresses around the 
+
+wellbore to be less than the shear strength of the rock. Different rock failure criteria were 
+
+used  for  wellbore  stability  analysis  to  predict  onset  of  wellbore  failure  but  there  is  no 
+
+agreement on which failure criterion to be used for wellbore stability analysis. Based on the 
+
+different characteristics of the rock failure criteria, their result for the minimum drilling fluid 
+
+density might be significantly different. It is mainly due to how rock failure criteria include
+
+2 
+ 
+
+the effect of in-situ principal stresses. The estimation of minimum drilling fluid density by 
+
+different  criteria  may  lead  to  unsafe  or  conservative  approach  in  the  result  of  wellbore 
+
+stability analysis.  
+
+ 
+
+1.2. MOTIVATION FOR EVALUATION OF ROCK FAILURE CRITERIA 
+
+Previous studies on the evaluation of rock failure criteria is mainly focused on the 
+
+quantitative comparison or determination of the best fitting parameters for the different rock 
+
+failure criteria based on triaxial test results data.  Reviewing previous studies reveals that 
+
+some failure criteria, including Stassi d’Alia, have not been considered (Mclean and Addis, 
+
+1990, Song and Haimson, 1997, Ewy, 1999, Colmenares and Zoback, 2002, Yi et al., 2005, 
+
+Al-Ajmi and Zimmerman, 2006, Simangunsong et al., 2006, Nawrocki, 2010, Zhang et al., 
+
+2010). Also in some of the previous studies, hypothetical data set have been used for the 
+
+stress data, rock mechanical properties, and well depth which caused results to be unrealistic 
+
+in some cases. For instance, true vertical well depth in the range of 12,000 m to 28,000 m has 
+
+been chosen for analysis which caused the results not to be directly applicable to the stability 
+
+of  wells  for  petroleum  exploitation  (Zhang  et  al.,  2010).    Furthermore,  quantitative 
+
+comparisons have been previously studied on some of failure criteria but few evaluations of 
+
+the failure criteria are based on typical petroleum related situations.   
+
+ 
+
+1.3. RESEARCH OBJECTIVES  
+
+The overall objective of this study is to perform a statistical comparison to investigate 
+
+similarities and differences of various rock failure criteria for prediction of the minimum 
+
+drilling fluid density under different rock lithology and stress data. Thirteen of the most 
+
+common  rock  failure  criteria  which  are  used  for  wellbore  stability  analysis  have  been 
+
+statistically evaluated for three rock lithologies including shale, sandstone, and siltstone. 
+
+Rock  mechanical  and  stress  data  from  the  Rulison  field  in  western  Colorado  was  used 
+
+(Higgins, 2006). Results of the statistical analysis are presented using percentage difference 
+
+method and table of contradictions. The field case evaluation of failure criteria was done for 
+
+three different offshore wells in North Sea and Indonesia. Estimated minimum required mud 
+
+weight by different criteria compared to the actual mud weight used to successfully drill the 
+
+borehole. The thesis is based on a situation where there is overbalance in the wellbore (i.e. 
+
+mud pressure is higher than the in-situ formation fluid pressure). 
+
+3 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2.  LITERATURE REVIEW 
+
+4 
+ 
+
+In-situ  stresses  and  rock  mechanical  properties  are  key  input  data  for  wellbore 
+
+stability analysis. In-situ stresses can be defined by three principal stresses that determine the 
+
+loading level on the rock. To determine in-situ stresses on borehole wall, an appropriate 
+
+constitutive model should be chosen. The linear elasticity theory for solid material does not 
+
+give accurate description of rock under loading due to the effect of pore pressure, so linear 
+
+poro-elasticity theory is the common approach in petroleum related geomechanics (Fjaer et 
+
+al., 2008).  The rock failure condition should be known to find the minimum required mud 
+
+weight for keeping the mechanical stability of wellbore wall. Failure criteria were developed 
+
+to estimate stress concentration at which rock fails.  Prediction of accurate stress condition at 
+
+which  rock  breakouts  occurs  is  one  of  the  main  challenges  which  standout  in  wellbore 
+
+stability analysis.  
+
+ 
+
+2.1.  ROCK FAILURE CRITERIA 
+
+A failure criterion specifies at which stress condition failure occurs. The application 
+
+of failure criteria would be limited to the soil, rock, or metal based on their features.  In 
+
+wellbore stability analysis, the rock failure criterion is used to determine borehole breakout 
+
+pressure  due  to  tensile,  shear  or  compressive  failure.  Numerous  rock  failure  criteria  are 
+
+proposed  with  different  characteristics.    Earlier  developed  rock  failure  criteria  are  two 
+
+dimensional since the effect of intermediate principal stresses was not known. Since the 
+
+effect  of  intermediate  principal  stress  is  relatively  low  compared  to  the  minimum  and 
+
+maximum principal stresses, still two dimensional failure criteria will be applicable. Some of 
+
+the failure criteria were included intermediate principal stress by using rotational symmetry 
+
+in  three  dimensional  stress  space  but  there  was  not  any  experimental  evidence  for  that 
+
+inclusion. Based on the original true triaxial test results by Mogi (1971) and the experimental 
+
+analysis done later, the influence of intermediate principal stress on the rock strength has 
+
+been verified (Takahashi and Koide, 1989, Al-Ajmi and Zimmerman, 2005).  As the stress 
+
+state  around  the  borehole  wall  is  true  triaxial,  failure  criteria  which  accounts  for  the 
+
+intermediate principal stress possibly give the accurate stress condition of failure. Linearity 
+
+is the second characteristic which failure criteria will be categorized based on. Non-linear 
+
+5 
+ 
+
+form of failure criteria have been developed to give better curve fitting with polyaxial test 
+
+results data. In the principal stresses space, rock failure criteria will be identified by cross 
+
+sectional shape of failure surface. In the following section each individual failure criteria will 
+
+be  evaluated.  Since  failure  criteria  are  mainly  derived  based  on  the  development  or 
+
+modification of previous failure criteria, the failure criteria are presented in this section in the 
+
+order when they first appeared in the literature.  
+
+ 
+
+2.1.1. Mohr-Coulomb.  The  Mohr-Coulomb  is  the  most  commonly  used  failure 
+
+criterion in geomechanics and has a simple linear form. Mohr-Coulomb criterion is based on 
+
+the two dimensional Mohr’s stress circle which is useful theory in analyzing rock failure. 
+
+Coulomb concluded rock failure will occur alongside a plane due to acting shear stress on 
+
+that plane. Failure of a plane will be resisted by frictional force which is function of internal 
+
+friction of rock, the normal stress components and also internal cohesion of rock. According 
+
+to Coulomb’s failure theory, required compressive stress for failure will be increase linearly 
+
+by increasing the confining stress. Rock failure will occur when following condition is met 
+
+(Derivation of equation 2.1 is shown in appendix A):  
+
+ 
+
+                                                                                 (2.1) 
+
+The parameter c is known as cohesion and parameter μ is the coefficient of internal 
+
+angle of friction ( ). The tangential point of Mohr circle of principal in-situ stresses and 
+
+Mohr-Coulomb failure envelope in       space represents state of stress which rock will fail 
+
+in shear. The coefficient of internal angle of friction will be defined with following relation: 
+
+ 
+
+                                                                                  (2.2) 
+
+The  Mohr-Coulomb  failure  criterion  can  be  expressed  in  term  of  maximum  and 
+
+minimum principal stresses (Derivation of equation 2.3 is shown in appendix A).  
+
+ 
+
+ 
+
+                                      (2.3) 
+ 
+
+The    is uniaxial compressive strength (UCS) which is related to cohesion of rock 
+
+and internal angle of friction. The parameter   is the flow factor which is function of the 
+
+6 
+ 
+
+internal angle of friction.  
+
+ 
+
+               
+
+     
+
+       
+
+                      (2.4) 
+
+     
+
+       
+
+       
+
+                      (2.5) 
+
+ 
+
+ 
+ 
+These two major rock mechanical properties (   ,  ) have been considered as basic 
+
+input data for the evaluation of material parameters for different failure criteria considered. 
+
+Mohr-Coulomb’s failure criterion does not consider the effect of intermediate principal stress 
+
+on the rock strength which is in contrast to the true triaxial state of stress in rock.  
+
+ 
+
+2.1.2. Mogi-Coulomb. Mogi (1971) conducted true-triaxial experiments on different 
+
+rock  types  and  interpreted  the  results.    Based  on  the  test  results,  Mogi  concluded  the 
+
+intermediate principal stress (  ) influences the rock strength for several rock lithologies and 
+
+the fracture occurs along a plane in the direction of intermediate principal stress. Based on 
+
+the polyaxial test results, Mogi pointed out that mean normal stress which opposes creation 
+
+of fracture is     , rather than the octahedral normal stress,     . His observations from the 
+
+laboratory  tests  lead  to  a  rock  failure  criterion  which  takes  into  account  the  effect  of 
+
+intermediate principal stress. Mogi formulated the assumption that, distortional strain energy 
+
+as a frictional force is proportional to the octahedral shear stress,      and will be increased 
+
+by increasing       until a critical level where failure occur. Based on this result, Al-Ajmi 
+
+and Zimmerman (2005) found a linear relation that could fit well with polyaxial tests data in 
+
+    -     space: 
+
+                                 (2.6) 
+ 
+The parameter   is the intersection of line on the τoct axis and   is the inclination of 
+
+the  line.    Al-Ajmi  and  Zimmerman  (2005)  tested  the  developed  linear  function  for  the 
+
+polyaxial test data from eight different rock types and the results show that Mogi-Coulomb 
+
+criterion gives a good fit to polyaxial tests data. They also found out this polyaxial criterion 
+
+                                                                                          
+
+correlates  well  with  conventional  triaxial  test  data.  Al-Ajmi  and  Zimmerman  (2005) 
+
+presented the relation between the linear Mogi-Coulomb failure criterion parameters   and   
+
+based on the Mohr-Coulomb failure criterion parameters,   and    : 
+
+7 
+ 
+
+        
+
+               
+
+ √ 
+
+ 
+
+ √ 
+
+ 
+
+ 
+
+ 
+
+  
+   
+
+                     (2.7) 
+
+                                                                     
+
+                                                                                              
+
+   
+
+   
+
+                     (2.8) 
+
+ 
+Since  linear  Mogi-Coulomb  failure  criterion  is  equivalent  to  Mohr-Coulomb  in 
+
+conventional triaxial stress state, it can be seen as an extension of Mohr-Coulomb in true 
+
+triaxial space. 
+
+  
+
+2.1.3. Tresca. Shear failure occurs when shear stress along some plane reaches a 
+
+critical level. Tresca is the simplest possible criterion for shear failure based on the Mohr’s 
+
+stress circle. Tresca (1864) assumed that failure would occur if maximum shear failure inside 
+
+any  planes  of  rock  reaches  a  critical  value  which  is  equal  to  cohesion  or intrinsic  shear 
+
+strength of rock.  
+
+ 
+
+                                                             
+
+(     )
+
+ 
+
+                                   
+
+ (2.9) 
+
+ 
+
+                                                    
+ 
+
+                                              (2.10)  
+ 
+ 
+Where  the  parameter     is  cohesion  of  rock  and      is  the  uniaxial  compressive 
+
+strength (UCS). Maximum shear stress is derived from Mohr’s stress circle.  In the three 
+
+dimensional principal stresses space, cross section of Tresca criterion is like regular hexagon. 
+
+Tresca can be considered as especial case of Mohr-Coulomb failure criteria when internal 
+
+angle of friction is equal to zero. Recall equations 2.3, 2.4 and 2.5, if the internal angle of 
+
+friction set as zero, Mohr-Coulomb criterion reduced to following form which is  Tresca 
+
+criterion: 
+
+ 
+
+                              
+
+8 
+ 
+
+                   
+
+         
+         
+
+    
+
+ 
+ 
+
+                                                 and         (       )                                         (2.11) 
+
+ 
+
+2.1.4. Von Mises. Before development of true triaxial experiment, couple of scientists 
+
+tried  to  include  the  effect  of  intermediate  principal  stress  in  failure  criterion.    Although 
+
+without any experimental evidence, Von Mises (1913) proposed his failure criterion in an 
+
+interesting way by using rotational symmetry of   –plane which leads to a circular cross 
+
+sectional shape of failure surface in three dimensional stress space. He assumed that rock 
+
+fails when square root of the second invariant of deviatoric stress (  ) reaches a critical level. 
+
+Based on the different form of (  ), Von Mises failure criterion can be written in following 
+
+forms: 
+
+ 
+
+                                                                        √    
+
+  
+ 
+
+                                               (2.12) 
+
+                               √       √ 
+
+ 
+
+  (       )      (       )      (       )    
+
+ 
+
+  
+ 
+
+         (2.13) 
+
+ 
+
+The Von Mises criterion was developed for metals and it has very limited application 
+
+for rocks since it defines failure mechanism which is independent of stress magnitude of 
+
+material  and  it  is  in  contrast  with  experimental  observation  since  yield  of  many  rocks 
+
+increases with increasing mean normal stress. This idea was used later for the development 
+
+of a failure criterion that includes the mean normal stress component.  
+
+ 
+
+2.1.5. Drucker-Prager. Drucker and Prager proposed their failure criterion in the 
+
+sense to extend application of Von-Mises failure criterion to the rock mechanics (Drucker 
+
+and Prager, 1952). As it has been mentioned, Von Mises failure criterion developed without 
+
+experimental  foundation  and  just  by  using  the  rotational  symmetry  of   -plane  in  three 
+
+dimensional stress spaces. The yield stress in most rock types will increase by increasing 
+
+9 
+ 
+
+mean  normal  stress  but  Von  Mises  did  not  include  mean  normal  stress  component. 
+
+Therefore, Von Mises failure criterion does not fit experimental observation.  Originally 
+
+developed for soil mechanic and as an extension of Von Mises criterion, Drucker and Prager 
+
+proposed new failure criterion by including the mean normal stress component,    (Drucker 
+
+and Prager, 1952). The yield surface of the modified Von Mises criterion in principal stresses 
+
+space is a right circular cone equally inclined to the principal-stress axes. The intersection of 
+
+the π−plane with this yield surface is a circle. 
+
+ 
+
+                     √                                (2.14) 
+
+The parameter   and   are material constants and    is the mean effective confining 
+
+ 
+
+stress: 
+
+ 
+
+           
+
+ 
+
+ 
+
+ (            )                  (2.15) 
+
+ 
+
+The material parameters    and   can be identified from the slope and the intercept of 
+
+the failure line which has been plotted in the    and √   space. Since the parameter   is 
+
+related to the internal friction of the rock and   is related to the cohesion of rock. Mohr-
+
+Coulomb criterion parameters could be used to determine Drucker-Prager failure criterion 
+
+parameters. Based on the fitting triaxial test data and comparison with the Mohr-Coulomb 
+
+criterion in three dimensional stress spaces, the Drucker-Prager criterion can be divided into 
+
+Circumscribed Drucker-Prager and Inscribed Drucker-Prager. The outer Drucker Prager or 
+
+circumscribed coincides with the outer apices of the Mohr-Coulomb hexagon in the cross 
+
+sectional view of π-plane while the inscribed Drucker-Prager touches the inside of Mohr-
+
+Coulomb  hexagon.  It  should  be  noted  that  inscribed  Drucker  Prager  is  the  result  of 
+
+trigonometric fitting between Mohr-Coulomb and Drucker-Prager criteria and actually does 
+
+not fit the triaxial test data (Mclean and Addis, 1990). For the Inscribed Drucker-Prager, 
+
+material parameters would be (Vekeens and Walters, 1989): 
+
+ 
+
+   
+
+       
+
+√                            (2.16)                                                                           
+
+10 
+ 
+
+           
+
+         
+
+ √ √                         (2.17) 
+
+ 
+
+For the Circumscribed Drucker-Prager, following solution has been presented using 
+
+Mohr-Coulomb criterion parameters (Zhou 1994):  
+
+ 
+
+                            √ (   )
+(   )
+
+                   (2.18) 
+
+    √   
+   
+
+                   (2.19) 
+
+ 
+
+Main shortcoming of Drucker-Prager criterion is giving same weight to intermediate 
+
+principal  stress  as  minimum  and  maximum  principal  stresses  while  we  know  the 
+
+intermediate principal stress does effect on the rock strength but it is not significant as other 
+
+two principal stresses. That is the main reason why circumscribed Drucker-Prager typically 
+
+represents the lowest bound of results for the minimum required mud weight.  
+
+ 
+
+2.1.6. Modified Wiebols-Cook. Wiebols and Cook (1968) proposed a model which 
+
+describes  the  impact  of  the  intermediate  principal  stress  (  )  on  rock  strength.  By 
+
+considering shear strain energy of microcracks in the rock, they gave physical description of 
+
+sliding microcracks surfaces which cause failure when the stress condition meet frictional 
+
+criterion. In better words, by micromechanical analysis of sliding cracks, Wiebols and Cook 
+
+concluded the rock will fail when shear strain energy which is enclosed with microcracks 
+
+reaches a critical level. A model which presented later on (Zhou, 1994) as an extension of 
+
+circumscribed Drucker Prager is a nonlinear criterion which is called Modified Wiebols-
+
+Cook due to similarities to the original model by Wiebols and Cook (Zhou, 1994). Here is 
+
+the criterion presented by Zhou: 
+
+              √                   
+
+ 
+
+               (2.20) 
+
+                                                                        
+
+11 
+ 
+
+Where     is  the mean effective confining stress  and    is the second invariant of 
+
+deviatoric stress related to octahedral shear stress. The mean normal stress component in 
+
+Modified Wiebols-Cook has quadratic form while in the Drucker-Prager criterion has linear 
+
+form. The parameters A, B, and C can be determined from result of conventional triaxial test 
+
+under  different  conditions.  The  Mohr-Coulomb  criterion  parameters  including  uniaxial 
+
+compressive strength (  ) and flow factor ( ) can be used as input for determination of A, B, 
+
+and C parameters as shown here: 
+
+ 
+
+                 
+
+√  
+
+    (   )     
+
+(
+
+   (   )     
+    (    )     
+
+ 
+
+   
+
+   
+
+)            (2.21) 
+
+ 
+ 
+The parameter   is the flow factor as defined in relation 2.5 and     is function of 
+
+internal angle of friction and uniaxial compressive strength(  ): 
+
+ 
+
+                                                                                          
+
+       (          )                     (2.22) 
+ 
+ 
+
+Where    the coefficient of internal is frictional angle and presented. 
+ 
+
+                                                     
+
+         √ (   )
+
+   
+
+ 
+
+ 
+
+ 
+
+       (     )                (2.23) 
+ 
+ 
+
+And parameter A is function of B and C: 
+ 
+
+                                                                       
+
+     
+
+  
+√ 
+
+ 
+
+  
+ 
+
+   
+
+ 
+
+  
+ 
+
+                  (2.24) 
+
+ 
+ 
+2.1.7. Hoek-Brown. Hoek and Brown (1980) developed an empirical model for the 
+
+failure of fractured rock. To investigate the failure of fracture rocks, both fracture properties 
+
+and rock properties should be taken into account. As result of existing fractures and lower 
+
+resistance for the shear failure, the fractured rock is weaker than intact rock. Failure criterion 
+
+which has been proposed by Hoek and Brown included both rock and fracture properties: 
+
+ 
+
+12 
+ 
+
+                                                                 √           
+
+                                   (2.25) 
+
+ 
+
+Where the uniaxial compressive strength,    is function of rock properties while   
+
+and   are constant depending on the both rock properties and fracture characteristics.  For the 
+
+intact rock, material constant,   is equal to 1 and the fractured rock will be categorized based 
+
+on “1-  ” relation. Although there is a relation between material constant   and internal 
+
+angle of friction but still no mathematical relation has been presented for that (Fjaer et al., 
+
+2008). This could  be count  as a disadvantage of Hoek-Brown  failure  criterion since the 
+
+material constant   could not be evaluated based on the experimental data or well logging 
+
+data  .  Therefore  in  same  practical  situation,  Mohr-Coulomb  will  be  preferred  since  the 
+
+criterion’ constants can be identified by basic rock mechanical data from triaxial tests results. 
+
+Range of the material constant   is in interval of 5 to 30 depends on the rock types (Zoback, 
+
+2007). Since empirical Hoek and Brown failure criterion follow the Mohr’s stress circle, it 
+
+does not consider the effect of intermediate principal stress. Predicted ratio of compressive to 
+
+tensile strength by Hoek-Brown criterion is larger than what the Mohr-Coulomb criterion 
+
+does, in this sense Hoek-Brown gives closer agreement to experimental observation (Jaeger 
+
+et al., 2007). Empirical Hoek-Brown failure criterion has nonlinear form in contrast to the 
+
+linear Mohr-Coulomb criterion.  
+
+ 
+
+2.1.8. Modified  Lade.  According  to  experimental  observations,  Lade  (1977) 
+
+concluded  that  for  cohesionless  soil,  the  frictional  angle  decreases  with  increasing  the 
+
+magnitude of mean normal stress. An original relation which was developed by Lade in term 
+
+of  first  and  third  stress  invariants  includes  material  constant  and  atmospheric  pressure 
+
+parameters. The stress invariant parameters,     and    in Lade criterion did not determine 
+
+based on the effective stresses concept. The Modified Lade criterion was developed by Ewy 
+
+(1999). In Ewy’s version of Lade criterion, material constant,   has been considered as zero 
+
+in order to modify the original lade criterion in the sense that linear shear strength increases 
+
+with  increasing  the  first  stress  invariant,     or  mean  normal  stress  invariant         . 
+
+Furthermore, since original  Lade  criterion  is  defined for  the cohesionless material, Ewy 
+
+proposed  new  way  with  effective  stresses  and  also  introduction  of  the  parameter     as  a 
+
+function of cohesion which changed the Lade criterion to following form: 
+
+13 
+ 
+
+ 
+
+ 
+
+      
+
+   
+  
+                         (2.26) 
+  
+ 
+ 
+
+Where the appropriate stress invariants   
+ 
+ 
+
+  and   
+
+  express as: 
+
+                                                  
+
+      (      )   (      )   (      )          (2.27)  
+
+                                                 
+
+    (      )(      )(      )             (2.28) 
+ 
+ 
+ The Modified  Lade criterion has two main advantages. First, it does  include the 
+
+   
+
+effect of intermediate principal stress on the rock strength. The second advantage is that 
+
+parameters    and   can be determined by Mohr-Coulomb criterion parameters including 
+
+cohesion and internal angle of friction which can be evaluated based on the triaxial test data 
+
+or well logging data: 
+
+   
+
+ 
+
+     
+
+              (2.29) 
+
+                                                                                   
+
+ 
+                                                            
+
+           
+
+        (         )
+
+(       )
+
+                 (2.30) 
+
+ 
+ 
+By introducing the parameter   in the stress invariant components, the application of 
+
+Modified  Lade  criterion  can  be  extended  to  rock  mechanical  applications.    In  the  three 
+
+dimensional stress space, Modified Lade criterion has an triangular cone shape or convex 
+
+which will slightly change depends on the value of  .  The Modified Lade criterion estimates 
+
+that shear strength will be increased by increasing mean effective stress as a frictional force. 
+
+Since Modified Lade has no tension cut off component, it is not accurate in presence of 
+
+tensile stress. This is not a concern in a wellbore stability analysis because the interest points 
+
+on the borehole wall which required mud weight for state of balance are not subjected to 
+
+tension (Ewy, 1999).  
+
+ 
+
+14 
+ 
+
+2.1.9. Griffith.  The  analysis  of  microcracks  in  a  two  dimensional  model  was 
+
+Griffith’s starting point for developing a failure criterion which can be applied under both 
+
+tensile  and  compressive  conditions  (Griffith,  1921,  Jaeger  et  al.,  2007).  Expansion  of 
+
+microcracks is a function of the tensile stress at the tip of the crack if it exceeds a critical 
+
+level. Compressive stress may cause expansion of microcracks if in an anisotropic stress 
+
+state. The stress condition at tip of crack becomes tensile due to the orientation of stresses at 
+
+skew  angle  related  to  maximum  principal  stress  (Fjaer  et  al.,  2008).  Based  on  this 
+
+assumption, Griffith applied his failure theory to general stress state and original Griffith 
+
+criterion was developed in a nonlinear form in Mohr’s space and in terms of uniaxial tensile 
+
+strength,    and two dimensional stress state components: 
+
+ 
+
+     (       )       (       )               (2.31) 
+
+                 if               
+
+      
+
+  
+ 
+
+                     (2.32) 
+
+ 
+
+ 
+
+In σ-τ plane, Griffith criterion can be expressed in the following form:      
+
+ 
+
+                                (      )                  (2.33) 
+
+ 
+
+The Griffith criterion has a parabola curve in two dimensional principal stress space 
+
+which is steeper in low confining stress and close to straight line in high confining stress. 
+
+The constant ratio of uniaxial compressive strength to uniaxial tensile strength which was 
+
+presented by Griffith seems to be practical since it is lower, but close to typical experimental 
+
+observation for the range of this ratio, 10 to 15 (Fjaer et al., 2008).  One of the disadvantages 
+
+of this failure criterion is its dependence on a single variable which makes it harder to fit 
+
+both conventional triaxial and polyaxial test data.  The second shortcoming of the Griffith 
+
+criterion is lack of considering the effect which intermediate principal stress has on the rock 
+
+strength. However, the shape of Griffith criterion on the three dimensional stress space can 
+
+be described using the symmetry same as Mohr-Coulomb failure criterion. As matter of 
+
+15 
+ 
+
+mentioned fact, Griffith criterion will end up with a regular hexagonal shape of cross section 
+
+of failure surface in three dimensional stress space.  
+
+ 
+
+2.1.10. Modified Griffith. Griffith criterion has parabola curve in two dimensional 
+
+principal stress spaces which is steeper in low confining stress and close to straight line in 
+
+high confining stress. Based on the experimental observation, Griffith criterion may give a 
+
+fairly good description of failure at low confining stresses, while Mohr–Coulomb criterion 
+
+gives  a  better  description  of  failure  at  higher  confining  stresses  by  straight  line.  Under 
+
+compression, shear failure due to the closure of crack can occur before tensile stress reaches 
+
+a critical level at the tip of crack to initiate fracture; therefore, criterion should be developed 
+
+in a way to include shear mechanism and frictional behavior (Brace, 1960). McClintock and 
+
+Walsh (1962) included the effect of friction between crack faces and Modified Griffith was 
+
+presented. Ratio of uniaxial compressive strength to uniaxial tensile strength is a function of 
+
+coefficient of internal angle of friction:  
+
+ 
+
+  
+  
+
+ 
+
+ 
+
+√      
+
+                    (2.34) 
+
+ 
+
+It should be noted that the required compressive stress to close the crack has been 
+
+considered  to  be  small.  By  neglecting  the  stress  required  to  close  cracks,  the  Modified 
+
+Griffith criterion can be reduced to the following form: 
+
+ 
+
+                                           [√          ]     [√          ]                           (2.35) 
+
+ 
+
+Modified Griffith criterion is similar to the Mohr-Coulomb criterion if we consider 
+
+the intrinsic shear strength can be evaluated by setting normal stress component as zero in 
+
+relation 2.33 which results in            . Modified Griffith does not consider influence of 
+
+intermediated  principal  stress  and  has  been  modeled  in  two  dimensional  stress  space. 
+
+Although, investigation of the rock failure mechanism with expansion of single crack is 
+
+qualitatively a great way for understanding of failure as function of the stress state but at the 
+
+same  time  it  is  the  oversimplification  of  complicated  processes  in  rock  failure  and 
+
+16 
+ 
+
+deformation (Jaeger et al., 2007).  Computational methods like finite element analysis have 
+
+been used lately to give more realistic explanation of failure based on the micromechanical 
+
+analysis of rock (Jaeger et al., 2007).  
+
+ 
+
+2.1.11.  Murrel. Extended Griffith criterion was introduced by Murrel (1963) and 
+
+includes  intermediate  principal  stress  as  contributing  factor  in  the  rock  strength.  Murrel 
+
+extended Griffith to three dimensional stress spaces: 
+
+ 
+
+         (       )     (       )     (       )        (            )     (2.36)  
+
+ 
+
+The ratio of uniaxial compressive strength to uniaxial tensile strength which was 
+
+presented by Murrel is close to the typical range of experimental observation (Fjaer et al., 
+
+2008): 
+
+                                                                                               
+
+    
+
+  
+  
+
+                     (2.37) 
+
+ 
+ 
+
+In term of octahedral stresses, the Murrel criterion can be written in the following form: 
+
+ 
+
+  
+
+                              (2.38) 
+ 
+
+ 
+
+As mentioned for the Griffith and the Modified Griffith criterion, investigation of the 
+
+rock  failure  mechanism  as  an  expanding  single  crack  is  qualitatively  a  good  way  to 
+
+understand failure as function of stress state it oversimplifies the complicated processes of 
+
+rock failure and deformation (Jaeger et al., 2007). The cross section of the predicted failure 
+
+surface by the Murrel criterion has a circular shape in the three dimensional stress domain.  
+
+ 
+
+2.1.12.  Stassi  D’Alia.  By  modifying  the  plastification  condition,  Stassi  d’Alia 
+
+(1967) developed a non-linear failure criterion in terms of principal stresses and uniaxial 
+
+tensile strength:   
+
+17 
+ 
+
+(       )     (       )     (       )     (       )(            )           (2.39) 
+
+ 
+
+Since the increasing tensile component might have a peculiar effect on the results of 
+
+the  minimum  required  mud  weight  by  the  Stassi  d’Alia  criterion,  commonly  the  tensile 
+
+component is set equal to zero (Stjern et al., 2000). Here in this study, the McClintock and 
+
+Walsh  (1962)  assumption  were  used.  McClintock  and  Walsh  assumed  that  the  tensile 
+
+component in Eq. 39 could be determined by the Modified Griffith criterion ratio of uniaxial 
+
+compressive strength to uniaxial tensile strength (Eq. 2.34). 
+
+ 
+
+ 
+
+2.2.  BOREHOLE STRESS TRANSFORMATION 
+
+The excavation of the underground formation causes redistribution of the stress state 
+
+and the drilling fluid should have sufficient density to provide the mechanical stability of the 
+
+borehole  wall.  In-situ  principal  stresses  have  to  be  known  to  determine  the  appropriate 
+
+drilling fluid density to keep borehole stable. Therefore, stress determination around the 
+
+borehole is a key step in wellbore stability analysis. A linear poro-elasticity model is the 
+
+most  common  approach  for  wellbore  stability  analysis.  The  stress  components  of  the 
+
+wellbore wall in a linear poro-elasticity model are given as (Bradley, 1979, Aadnoy and 
+
+Chenevert, 1987): 
+
+ 
+
+                                                                                                                               (2.40) 
+
+ 
+                            
+
+ 
+
+      
+
+       (  
+
+      
+
+ )             
+
+                              (2.41) 
+
+                                    
+
+     [ (  
+
+      
+
+ 
+ )              
+
+  
+
+        ]                     (2.42) 
+
+                                                                                                                                (2.43) 
+
+                                              (    
+
+             
+
+       )                                      (2.44) 
+
+ 
+
+                                                                                                                               (2.45) 
+
+ 
+
+ 
+
+ 
+
+18 
+ 
+
+   is the drilling fluid pressure,   
+
+     
+
+     
+
+      
+
+      
+
+   and    
+
+  are stress components of 
+
+original coordinate system. Since the shear stress component are non-zero,   ,   , and    are 
+
+not principal stresses. Principal stresses can be determined by following formula: 
+
+ 
+
+                                                             
+
+                                                               (2.46) 
+
+ 
+ 
+
+                                     
+
+ 
+
+ 
+
+((       )   √(       )        
+
+ )                        (2.47) 
+
+ 
+ 
+
+                                      
+ 
+ 
+The maximum and minimum tangential stresses which are perpendicular to each other are 
+
+((       )   √(       )        
+
+ )                       (2.48) 
+
+ 
+
+ 
+
+denoted by        and        . The effective radial stress is one of the other principal stress 
+ . This procedure should be repeated for different orientation in 
+
+component denoted by   
+
+cylindrical coordinate system around the wellbore in order to find maximum differential 
+
+stress at the wellbore wall. 
+
+ 
+
+ 
+
+2.3.  NUMERICAL SOLUTION FOR DETERMINATION OF MINIMUM            
+
+REQUIRED MUD WEIGHT 
+
+Determination of borehole principal stress components is the first step in identifying 
+
+the minimum required mud weight. The linear poro-elasticity model as the most common 
+
+approach for a wellbore stability analysis was chosen to determine in-situ principal stresses. 
+
+The  borehole  in-situ  principal  stresses  which  have  been  determined  by  the  linear  poro-
+
+elasticity model are used to calculate the minimum drilling fluid density by the rock failure 
+
+criterion. Iterations are required to determine breakout pressure (Fjaer et al., 2008).  
+
+ 
+
+2.4.  LITERATURE  REVIEW ON THE EVALUATION OF ROCK FAILURE        
+
+CRITERIA 
+
+One of the first evaluations of rock failure criteria was done by Mclean and Addis 
+
+(1990).  They  compared  Mohr-Coulomb  and  different  forms  of  Drucker-Prager  for  the 
+
+19 
+ 
+
+prediction of the minimum mud weight. The linear elasticity borehole stability model was 
+
+used in their analysis. Failure criteria were evaluated for a sandstone formation in North Sea. 
+
+Based  on  the  results,  they  concluded  that  the  Inscribed  Drucker-Prager  conservatively 
+
+predicts the stresses condition  at  failure  which results in  higher minimum required mud 
+
+weight compared to the Mohr-Coulomb and the Circumscribed Drucker-Prager criteria. The 
+
+Inscribed Drucker-Prager and the Mohr-Coulomb estimated similar results for the vertical 
+
+borehole but by increasing borehole deviation the Inscribed Drucker-Prager predicts much 
+
+higher minimum required mud weight than the Mohr-Coulomb criterion. Minimum mud 
+
+weight  predicted  by  the  Circumscribed  Drucker-Prager  was  lower  than  the  result  of  the 
+
+Mohr-Coulomb and the Inscribed Drucker-Prager criteria. This difference was significant for 
+
+the vertical borehole compared to the horizontal borehole where this difference is lower. In 
+
+their reported field case a horizontal well was drilled successfully with a mud weight close to 
+
+the Circumscribed Drucker-Prager mud weight predictions rather than the Mohr-Coulomb 
+
+and  the  Inscribed  Drucker-Prager.  In  other  case,  they  analyzed  the  results  of  required 
+
+overbalance for drilling a vertical well in the weak sand formation by those three failure 
+
+criteria. Although overbalance was required for drilling the weak sand formation and should 
+
+be increased by depth, the Circumscribed Drucker-Prager estimated that no overbalance was 
+
+required  for  drilling  the  weak  sand  formation  regardless  of  depth.  Due  to  the  major 
+
+difference  of  mud  weight  predictions  by  the  Circumscribed  Drucker-Prager  in  two  case 
+
+studies,  Mclean  and  Addiss  concluded  that  a  criterion  can  predict  realistic  result  in  one 
+
+situation  but  give  unrealistic  results  for  other  conditions.  The  Mohr-Coulomb  failure 
+
+criterion  was  recommended  for  wellbore  stability  analysis  because  of  the  more  realistic 
+
+results compared to  the  results from  the  different  forms  of Drucker-Prager (Mclean and 
+
+Addis, 1990). 
+
+ 
+
+Song  and  Haimson  (1997)  did  laboratory  simulations  of  borehole  breakouts  and 
+
+triaxial tests on Westerly granite and Berea sandstone to determine an appropriate criterion 
+
+for  estimating  breakout  failure  for  each  rock.  They  concluded  that  the  polyaxial  Mogi 
+
+criterion, which includes the intermediate principal stress, can estimate the stress condition 
+
+for breakout failure in a close agreement with breakout boundaries found in the laboratory 
+
+tests for both rock types. The Mohr-Coulomb criterion did not accurately predict breakout in 
+
+20 
+ 
+
+these two types of rocks compared to the polyaxial Mogi criterion. They found the laboratory 
+
+experiment of breakout failure as good method to determine appropriate failure criteria for a 
+
+given rock type.  
+
+ 
+
+The Modified Lade criterion was developed by Ewy (1999) as a polyaxial failure 
+
+criterion which is compatible with the triaxial stress state in the rock.  The results of the 
+
+predicted minimum required mud weight by the Modified Lade have been compared with 
+
+two  common  rock  failure  criteria,  the  Mohr-Coulomb  and  the  Circumscribed  Drucker-
+
+Prager. Ewy used linear elasticity model to determine in-situ principal stress components on 
+
+the  borehole  wall.    The  rock  failure  criteria  were  evaluated  on  three  rock  lithologies 
+
+including sandstone, shale and poorly cemented sand. The typical range of rock mechanical 
+
+properties used for these three lithologies and a hypothetical data set was considered for in-
+
+situ stresses. According to the results, there was a major difference between the results of 
+
+Modified Lade and the other two criteria, Mohr-Coulomb and Drucker-Prager. The predicted 
+
+minimum required mud weight by the Modified Lade is not that high as the Mohr-Coulomb 
+
+and it is not low same as once predicted by the Drucker-Prager. Furthermore, difference 
+
+between  the  results  of  minimum  required  mud  weight  from  the  vertical  to  horizontal 
+
+borehole for Modified Lade is not significant as the Mohr-Coulomb and the Drucker-Prager. 
+
+Ewy concluded this might be the results of including intermediate principal stress in a right 
+
+way.   
+
+ 
+
+Colmenares and Zoback (2002) evaluated seven different rock failure criteria based 
+
+on the fitting of polyaxial test data for five different rock types. They concluded that the 
+
+Modified Wiebols-Cook and the Modified Lade failure criteria had best fit with polyaxial 
+
+test data, especially for those rocks which their failure behavior are significantly depend on 
+
+the  intermediate  principal  stress.  According  to  their  results,  for  rocks  which  are  not 
+
+dependent on the intermediate principal stress, the Mohr-Coulomb and the Hoek-Brown 
+
+criteria had good fit with the polyaxial test data even better than the complicated polyaxial 
+
+criteria. None of the Inscribed or the Circumscribed Drucker-Prager gave a close fit with the 
+
+polyaxial test data for the five different rock types. They also found out that the polyaxial 
+
+failure  criteria  might  give  a  close  fit  to  the  conventional  triaxial  test  data  and  also 
+
+21 
+ 
+
+incorporates the effect of the intermediate principal stress.  It was concluded that the Mohr-
+
+Coulomb  criterion  underestimates  rock  strength  and  the  Drucker-Prager  criterion 
+
+overestimates rock strength. Using of the Modified Wiebols-Cook and the Modified Lade 
+
+failure criteria was recommended.  
+
+ 
+
+Yi et al. (2005) compared three common rock failure criteria based on the minimum 
+
+mud weight estimation by using polyaxial test data for Yuubari shale and Dunham dolomite. 
+
+The linear poro-elasticity model was used to determine borehole in-situ stresses. The Mohr-
+
+Coulomb, the Drucker-Prager and the Modified Lade were the three failure criteria evaluated 
+
+in their study. A hypothetical data set for in-situ stress and pore pressure was used for the 
+
+evaluation  of  rock  failure  criteria.  They  concluded  that  failure  criterion  which  fits  the 
+
+polyaxial test data best describes the rock failure better, and therefore gives more reliable 
+
+results  for  the  minimum  required  mud  weight  predictions.  Based  on  their  results,  no 
+
+particular failure criterion estimates higher or lower minimum mud weight for all the cases 
+
+studied. For Dunham dolomite, the Modified Lade criterion has good fit with polyaxial test 
+
+data and therefore, predicted results of minimum required mud weight by the Modified Lade 
+
+supposed to be reliable. In case of Yuubari shale, the Mohr-Coulomb criterion has good fit 
+
+with  polyaxial  test  data  and  estimated  results  of  minimum  required  mud  by  the  Mohr-
+
+Coulomb criterion are considered to be reliable. 
+
+ 
+
+Al-Ajmi and Zimmerman (2006) developed the linear form of Mogi-Coulomb and 
+
+compared that with the Mohr-Coulomb failure criterion. They proposed the use of the Mogi-
+
+Coulomb  over  the  Mohr-Coulomb  regarding  both  fitting  polyaxial  test  data  and  also 
+
+prediction of the borehole breakout pressure. Since the Mogi-Coulomb can properly account 
+
+strengthening  effect  of  intermediate  principal  stress,  it  can  be  reliable  criterion  for  the 
+
+estimation of borehole breakout pressure compare to the Mohr-Coulomb criterion.  The field 
+
+case evaluation of failure criteria was done on four offshore wells. The results of field case 
+
+studies verified that the Mogi-Coulomb estimates more realistic results for the minimum 
+
+required  mud  weight  than  the  Mohr-Coulomb  criterion.  They  found  out  that  borehole 
+
+stability is remarkably dependent on the intermediate principal stress and using polyaxial 
+
+failure criteria such as the Mogi-Coulomb is an advantage in wellbore stability analysis.  
+
+22 
+ 
+
+ Simangunsong et al. (2006) compared minimum mud weight prediction of three 
+
+common rock failure criteria.  By using linear elasticity borehole stability model, the Mohr-
+
+Coulomb, the Drucker-Prager, and the Modified Lade criteria were evaluated based on rock 
+
+mechanical and stress data from North Sea fields (McLean and Addis, 1990, Wong et al., 
+
+1994). The three failure criteria was used to estimate the minimum required mud weigh 
+
+required to drill the reservoir section in Cyrus field and a North Sea oil field. The results 
+
+were compared with the actual mud weight used to successfully drill the borehole. According 
+
+to the results, the Circumscribed Drucker-Prager underestimated the minimum required mud 
+
+weight  to  prevent  breakouts  from  occurring,  while  the  Mohr-Coulomb  criterion 
+
+overestimates the required minimum required mud weight to prevent borehole breakouts. 
+
+The estimated results of minimum required mud weight by the Modified Lade criterion is not 
+
+as conservative as the Mohr-Coulomb and not as unsafe as the Drucker-Prager and therefore, 
+
+the Modified Lade criterion predicts more realistic results than the other two failure criteria.  
+
+ 
+
+Benz  and  Schwab  (2008)  optimized  the  material  parameters  for  six  rock  failure 
+
+criteria to obtain the least misfit with polyaxial test data of eight different types of rock. They 
+
+concluded that non-linearity and including the effects of intermediate principal stress are two 
+
+features of failure criteria which possibly enhance better fitting of polyaxial test data. Non-
+
+linear polyaxial HBMN criterion (Matsuoka and Nakai, 1982) which is an extension of the 
+
+Hoek-Brown gave a good fit with polyaxial test data compared to other failure criteria.  
+
+ 
+
+Nawrocki (2010) predicted borehole breakout pressure based on the evaluation of 
+
+four rock failure criteria including the Mohr-Coulomb, the Modified Lade, the Inscribed and 
+
+Circumscribed Drucker-Prager.  Laboratory measured rock mechanical properties for two 
+
+different types of sandstone were used in his analysis. He recommended the Modified Lade 
+
+as  a  reliable  failure  criterion  for  wellbore  stability  analysis.    Vertical  stress  gradient 
+
+determined from rock density and horizontal stresses were calculated according to typical 
+
+range  of  effective  horizontal  to  vertical  stress  ratio.  Based  on  his  results,  the  Inscribed 
+
+Drucker-Prager  and  the  Mohr-Coulomb  predict  higher  minimum  required  mud  weight 
+
+compared to other two failure criteria since they underestimate the strength of rock. The 
+
+Circumscribed Drucker-Prager estimates the lowest range of borehole breakout pressure by 
+
+23 
+ 
+
+overestimation of rock strength. The Modified lade predicts the borehole breakout pressure 
+
+in  the  middle  range  of  results  between  upper  and  lower  boundaries  by  other  criteria. 
+
+Furthermore,  the  Modified  Lade  has  minimum  difference  of  results  from  the  vertical  to 
+
+horizontal borehole compared to other three failure criteria. Therefore, Nawrocki concluded 
+
+that the Modified Lade criterion can be a reliable failure criterion for the practical purposes.  
+
+ 
+
+Zhang, Kao, and Radha (2010) compared minimum mud weight prediction of five 
+
+common failure criteria including the Mohr-Coulomb, the Mogi-Coulomb, the Modified 
+
+Lade, the Hoek-Brown and the Drucker-Prager. The results of triaxial tests were used to 
+
+determine material parameters of failure criteria for different lithology. The hypothetical data 
+
+set for in-situ stresses and also well depth (28000m for Dunham Dolomite and 12000m for 
+
+Mizhou Trachyte) was considered. The Mohr-Coulomb and the Drucker-Prager criteria give 
+
+upper and lower bound of results for the minimum required mud weight respectively. The 
+
+Modified Lade criterion was considered as unsafe criterion for wellbore stability analysis due 
+
+to overestimation of rock strength which might be significant. The Mogi-Coulomb and the 
+
+Hoek-Brown  criteria  were  recommended  for  wellbore  stability  analysis  since  the 
+
+overestimation and underestimation of rock strength by these two failure criteria are small 
+
+and can be neglected.  
+
+ 
+
+Reviewing previous studies reveals that some failure criteria, including Stassi d’Alia, 
+
+have not been considered. Also in some of the previous studies, hypothetical data set have 
+
+been  used  for  the  stress  data,  rock  mechanical  properties,  and  well  depth  which  caused 
+
+results to be unrealistic in some cases. For instance, true vertical well depth in the range of 
+
+12,000  m  to  28,000  m  has  been  chosen  for  analysis  which  caused  the  results  not  to  be 
+
+directly applicable to the stability of wells for petroleum exploitation (Zhang et al., 2010).  
+
+Furthermore,  quantitative  comparisons  have  been  previously  studied  on  some  of  failure 
+
+criteria but few evaluations of the failure criteria are based on typical petroleum related 
+
+situations. 
+
+ 
+
+ 
+
+ 
+
+3.  METHODOLOGY 
+
+24 
+ 
+
+Statistical analysis of rock failure criteria is the primary objective of this study. The 
+
+thirteen  of  most  common  failure  criteria  have  been  described  and  the  solution  for  the 
+
+required material parameters was obtained based on the rock mechanical data from Rulison 
+
+field in western Colorado (Higgings, 2006). A linear poro-elasticity model was chosen for 
+
+determination of the borehole principal in-situ stresses. Variables for the statistical analysis 
+
+can be divided in three groups including rock mechanical parameters, stress data, and well 
+
+path parameters. Internal angle of friction and uniaxial compressive strength are the rock 
+
+mechanical variables. Overburden, horizontal stresses and pore pressure are the effective 
+
+stress variables for different depths. Different borehole inclination and azimuth was selected 
+
+for the statistical analysis. Three different rock lithology; shale, sandstone, and siltstone were 
+
+investigated. Similarities and differences of results for minimum required mud weight by 
+
+different rock failure statistically investigated using percentage difference method and results 
+
+presented through the table of contradiction. Different range of percentage difference has 
+
+been specified by color code to highlight similarities and differences.  
+
+ 
+
+3.1. ROCK FAILURE CRITERIA 
+
+In the literature part of thesis (Section 2.2), selected failure criteria for this study 
+
+comprehensively described and desired characteristics and disadvantages of each failure 
+
+criterion has been discussed. Two main concerns which stand out for the evaluation of rock 
+
+failure criteria are how to determine material constant parameters for failure criteria and also 
+
+how to define numerical solution for determination of borehole breakout pressure with each 
+
+different rock failure criterion.  This section will explain method has been used in this study 
+
+to determine material parameters for different criteria.  
+
+ 
+
+3.1.1. Failure Criteria Parameters. One of the major challenges in studying rock 
+
+failure criteria is the determination of material parameters for each criterion to have good fit 
+
+with  polyaxial  test  results.  Previous  studies  have  investigated  mentioned  problem  and 
+
+solution for determination of material parameters provided using the basic rock mechanical 
+
+properties including uniaxial compressive strength (UCS) and frictional angle which are 
+
+25 
+ 
+
+basic parameters of Mohr-Coulomb failure criterion (Vekeens and Walters, 1989, Zhou, 
+
+1994,  Ewy,  1999,  Al-Ajmi  and  Zimmerman,  2005).  In  this  study,  frictional  angle  and 
+
+uniaxial compressive strength from triaxial tests results have been used as basic input data 
+
+for the determination of material parameters for failure criteria. For some of failure criteria, 
+
+flow factor ( ) is one of the input for the solution of material parameters which is function of 
+
+internal angle of friction. For those failure criteria with tensile strength component, uniaxial 
+
+compressive strength data is used to estimate tensile strength. Hoek-Brown failure criterion 
+
+is  an  exception  since  there  is  no  published  solution  for  the  relation  between  material 
+
+constant, m and rock mechanical properties. Different rock mechanical references provided 
+
+range of material constant, m for different rock lithology (Jaeger et al., 2007, Zoback, 2007).   
+
+ 
+
+3.2. ROCK MECHANICAL & STRESS DATA 
+
+Rock mechanical and stress data from the Rulison field in western Colorado have 
+
+been used in this study because the complete set of triaxial test results and stress data for 
+
+different lithologies and effective stress state was reported (Higgins, 2006). The Rulison field 
+
+is a tight gas play of interbedded sandstone, shale and siltstone.  Rock mechanical data from 
+
+triaxial tests  on core samples of shale, sandstone and siltstone was reported. Stress  data 
+
+determined by a one dimensional geomechanical model (Figure 3.1 and 3.2). Based on the 
+
+results of mechanical properties from triaxial tests, each rock lithology has been categorized 
+
+into three groups of weak, medium and hard strength. One of the main reasons of using the 
+
+data set from the Rulison field is its earth stress field. Horizontal compression of the Rocky 
+
+Mountains causes the maximum horizontal stress gradient to be the largest stress component 
+
+for the deeper sections. Stress data for well RWF 323-21 is shown in Table 3.2 where the 
+
+well is in a normal faulting regime but for the pressurized zone at 2500 m depth, magnitude 
+
+of maximum horizontal stress gradient is approaching the vertical stress gradient (Table 3.2 
+
+& Figure 3.1).  Stress data for well RMV 60-17 shows a strike slip faulting regime (Table 3.3 
+
+& Figure 3.2). 
+
+ 
+
+ 
+
+26 
+ 
+
+Table 3.1.  Rock mechanical properties 
+
+Shale 
+
+Sandstone 
+
+Siltstone 
+
+  (°) 
+
+UCS 
+(MPa) 
+
+ 
+ν 
+ 
+
+  (°) 
+
+UCS 
+(MPa) 
+
+ 
+ν 
+ 
+
+  
+(°) 
+
+UCS 
+(MPa) 
+
+22 
+
+15 
+
+7 
+
+6 
+
+9 
+
+0.1 
+
+0.23 
+
+17 
+
+0.15 
+
+40 
+
+33 
+
+33 
+
+11 
+
+16 
+
+24 
+
+0.21 
+
+50 
+
+0.15 
+
+35 
+
+0.2 
+
+8 
+
+15 
+
+30 
+
+37 
+
+ 
+
+ν 
+ 
+
+0.14 
+
+0.2 
+
+0.18 
+
+Strength 
+
+Level 
+
+Weak 
+
+Medium 
+
+Hard 
+
+ 
+
+ 
+
+         Figure 3.1. Stress Modeling Results for the Well RWF 332-21(Higgins, 2006) 
+
+ 
+
+27 
+ 
+
+Table 3.2.  Stress data for well RWF 332-21, Normal Faulting regime 
+
+Depth (m)     (g/cc)     (g/cc)     (g/cc)     (g/cc) 
+
+1500 
+
+2000 
+
+2500 
+
+1.51 
+
+1.75 
+
+2 
+
+2.27 
+
+2.3 
+
+2.5 
+
+2.52 
+
+2.53 
+
+2.5 
+
+1.02 
+
+1.4 
+
+1.6 
+
+ 
+
+ 
+
+Figure 3.2. Stress Modeling Results for the well RMV 60-17 (Higgins, 2006) 
+
+ 
+
+ 
+
+ 
+
+Table 3.3.  Stress data for Well RMV 60-17, Strike Slip faulting regime 
+
+Depth (m) 
+
+   (g/cc) 
+
+   (g/cc) 
+
+   (g/cc) 
+
+   (g/cc) 
+
+1500 
+
+2000 
+
+2500 
+
+1.53 
+
+1.73 
+
+2.05 
+
+2.7 
+
+2.65 
+
+2.8 
+
+2.5 
+
+2.5 
+
+2.5 
+
+1.05 
+
+1.3 
+
+1.5 
+
+28 
+ 
+
+3.3. STATISTICAL ANALYSIS PROCEDURE 
+
+Based on the combination of the variables, different scenarios were defined for the 
+
+statistical analysis.  Rock properties of each different lithology (Table 3.1) were analyzed for 
+
+the stress data in the Table 3.2 and Table 3.3 to determine the minimum drilling fluid density 
+
+by rock failure criteria.  All scenarios have been evaluated for a different well inclination and 
+
+azimuth. Results of minimum required mud weight by different rock failure criteria for each 
+
+specific scenario have been presented in a typical plot of minimum mud weight vs wellbore 
+
+inclination. In order to statistically compare the results for different rock failure criteria, 
+
+percentage difference method has been used and the results have been presented through the 
+
+table  of  contradiction.  The  horizontal  axis  of  contradiction  table  shows  results  of  the 
+
+minimum drilling fluid density for the horizontal borehole and the vertical axis represents the 
+
+results  for  the  vertical  borehole.  A  color  code  has  been  specified  for  each  interval  of 
+
+percentage difference. Percentage difference interval of 0 to 5 which highlighted with orange 
+
+color shows the high level similarity in the results. The part of contradiction table which is 
+
+highlighted by red color shows the high level of difference. Lower level of difference is 
+
+shown by blue color and yellow color represents the lower range of similarity (Table 3.4).  
+
+ 
+
+Table 3.4. Color code for different interval of percentage difference (PD) in table of 
+
+contradiction 
+
+Orange 
+
+Yellow 
+
+Blue 
+
+Red 
+
+[-5 to 5] 
+
+[-15 to -6] & [6 to 15] 
+
+[-30 to -16] & [16 to 30] 
+
+[ PD <-30] & [30 <PD] 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.  RESULTS 
+
+29 
+ 
+
+The  results  of  minimum  required  mud  weight  by  different  failure  criteria  are 
+
+presented for three lithologies, shale, sandstone, and siltstone. The plot of minimum mud 
+
+weight versus borehole inclination shows the results by different criteria for each scenario. 
+
+Statistical  comparison  was  done  using  percentage  difference  method  and  the  results 
+
+presented through the table of contradiction. Similarities and differences between the results 
+
+of different rock failure criteria are investigated by interpretation of color mapping in tables 
+
+of contradiction which represents the distribution of results. The effect of variation in rock 
+
+mechanical properties on the results of different failure criteria for the minimum required 
+
+mud weight was analyzed. The failure criteria on the boundaries of results, failure criteria 
+
+with highest degree of similarity in results, and criterion with lowest difference between the 
+
+results for the vertical and horizontal borehole are specified for different scenario. Also, the 
+
+effect  of  strike-slip  stress  faulting  regime  on  the  distribution  of  results  is  interpreted. 
+
+Furthermore, difference between the distribution of results for the normally pressurized zone 
+
+and over pressurized zone is analyzed. 
+
+4.1. SHALE 
+
+For the weak shale which has the lowest UCS value in the series of rock mechanical 
+
+data,  the  Tresca  and  the  Von  Mises  give  the  upper  high  range  of  results  and  the 
+
+Circumscribed  Drucker-Prager  predicts  the  lowest  range  of  results.  The  Circumscribed 
+
+Drucker-Prager approached the middle range of results by increasing inclination and show 
+
+similar results as the Modified Lade for the horizontal borehole. The Mohr-Coulomb has 
+
+minimum difference of results from vertical borehole to horizontal borehole and the Von 
+
+Mises has maximum difference (Fig 4.1 and Table 4.1). The Modified Wiebols-Cook and the 
+
+Mogi-Coulomb show closest match. For the wellbore case with 30 degree azimuth, there is 
+
+difference in the distribution of results. In this condition, the Hoek-Brown and the Inscribed 
+
+Drucker-Prager  estimated  the  highest  and  lowest  boundary  of  results  for  the  vertical 
+
+borehole. The Modified Wiebols-Cook and the Mogi-Coulomb predicted very similar results 
+
+for a case with 30 degree azimuth. The Circumscribed Drucker-Prager predicts same results 
+
+as the Modified Lade for the horizontal borehole (Table 4.2). 
+
+30 
+ 
+
+Figure 4.1. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+1500m depth and azimuth of 0° for weak shale 
+
+ 
+
+Table 4.1. Comparison of results by different failure criteria for weak shale at 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+depth of 1500m and Azimuth of 0° 
+
+ 
+
+Horizontal Borehole 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-6 
+
+1 
+
+  
+
+MG 
+
+-8 
+
+-1 
+
+3 
+
+1 
+
+  
+
+MWC 
+
+-8 
+
+-2 
+
+-1 
+
+4 
+
+2 
+
+1 
+
+  
+
+MR 
+
+-10 
+
+-3 
+
+-2 
+
+-1 
+
+11 
+
+9 
+
+8 
+
+7 
+
+  
+
+6 
+
+4 
+
+3 
+
+2 
+
+-5 
+
+HB 
+
+-11 
+
+-4 
+
+-3 
+
+-2 
+
+-1 
+
+  
+
+SD 
+
+-14 
+
+-7 
+
+-6 
+
+-5 
+
+-4 
+
+-2 
+
+15 
+
+13 
+
+12 
+
+11 
+
+3 
+
+9 
+
+  
+
+7 
+
+6 
+
+4 
+
+3 
+
+-4 
+
+1 
+
+14 
+
+23 
+
+19 
+
+51 
+
+51 
+
+12 
+
+21 
+
+17 
+
+49 
+
+49 
+
+11 
+
+19 
+
+15 
+
+47 
+
+47 
+
+10 
+
+19 
+
+14 
+
+46 
+
+46 
+
+3 
+
+8 
+
+11 
+
+7 
+
+36 
+
+36 
+
+16 
+
+12 
+
+43 
+
+43 
+
+-7 
+
+-1 
+
+7 
+
+3 
+
+32 
+
+32 
+
+MC 
+
+-14 
+
+-8 
+
+-6 
+
+-6 
+
+-4 
+
+-3 
+
+-1 
+
+  
+
+MGR  -18 
+
+-12 
+
+-10 
+
+-9 
+
+-8 
+
+-7 
+
+-4 
+
+-4 
+
+6 
+
+  
+
+IDP 
+
+-23 
+
+-16 
+
+-15 
+
+-14 
+
+-12 
+
+-11 
+
+-8 
+
+-8 
+
+-4 
+
+15 
+
+11 
+
+41 
+
+41 
+
+8 
+
+  
+
+4 
+
+33 
+
+33 
+
+-4 
+
+23 
+
+23 
+
+GR 
+
+-24 
+
+-17 
+
+-15 
+
+-14 
+
+-13 
+
+-12 
+
+-9 
+
+-8 
+
+-5 
+
+-1 
+
+  
+
+27 
+
+27 
+
+VM 
+
+-44 
+
+-36 
+
+-34 
+
+-33 
+
+-32 
+
+-30 
+
+-27 
+
+-26 
+
+-22 
+
+-17 
+
+-16 
+
+  
+
+TR 
+
+-46 
+
+-38 
+
+-36 
+
+-35 
+
+-33 
+
+-32 
+
+-29 
+
+-28 
+
+-24 
+
+-19 
+
+-18 
+
+-1 
+
+0 
+
+  
+
+Table 4.2. Comparison of results by different failure criteria for weak shale at 
+
+depth of 1500m and Azimuth of 30° 
+
+31 
+ 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-2 
+
+0 
+
+  
+
+MG 
+
+-4 
+
+-2 
+
+1 
+
+1 
+
+  
+
+MWC 
+
+-4 
+
+-2 
+
+-1 
+
+2 
+
+1 
+
+0 
+
+  
+
+MR 
+
+-11 
+
+-9 
+
+-7 
+
+-7 
+
+9 
+
+9 
+
+8 
+
+8 
+
+  
+
+5 
+
+5 
+
+4 
+
+3 
+
+-4 
+
+HB 
+
+1 
+
+3 
+
+4 
+
+5 
+
+11 
+
+  
+
+SD 
+
+-17 
+
+-14 
+
+-13 
+
+-12 
+
+-5 
+
+-17 
+
+MC 
+
+-8 
+
+-6 
+
+-5 
+
+-4 
+
+3 
+
+-9 
+
+MGR  -15 
+
+-12 
+
+-10 
+
+-10 
+
+-3 
+
+-15 
+
+14 
+
+14 
+
+13 
+
+12 
+
+4 
+
+9 
+
+  
+
+7 
+
+2 
+
+4 
+
+3 
+
+2 
+
+2 
+
+-5 
+
+-1 
+
+10 
+
+23 
+
+19 
+
+46 
+
+54 
+
+9 
+
+8 
+
+8 
+
+0 
+
+4 
+
+22 
+
+18 
+
+45 
+
+53 
+
+21 
+
+17 
+
+44 
+
+51 
+
+21 
+
+17 
+
+43 
+
+51 
+
+12 
+
+9 
+
+33 
+
+40 
+
+17 
+
+13 
+
+38 
+
+46 
+
+-9 
+
+-4 
+
+8 
+
+4 
+
+27 
+
+34 
+
+  
+
+-6 
+
+6 
+
+  
+
+19 
+
+15 
+
+40 
+
+48 
+
+12 
+
+8 
+
+33 
+
+40 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+IDP 
+
+-42 
+
+-39 
+
+-37 
+
+-36 
+
+-27 
+
+-43 
+
+-22 
+
+-31 
+
+-24 
+
+GR 
+
+-29 
+
+-27 
+
+-24 
+
+-24 
+
+-16 
+
+-30 
+
+-11 
+
+-19 
+
+-13 
+
+VM 
+
+-40 
+
+-37 
+
+-35 
+
+-34 
+
+-26 
+
+-41 
+
+-20 
+
+-29 
+
+-22 
+
+TR 
+
+-41 
+
+-38 
+
+-36 
+
+-35 
+
+-26 
+
+-41 
+
+-20 
+
+-30 
+
+-23 
+
+  
+
+9 
+
+1 
+
+1 
+
+-3 
+
+18 
+
+25 
+
+  
+
+23 
+
+29 
+
+-8 
+
+-9 
+
+  
+
+0 
+
+5 
+
+  
+
+ 
+
+ 
+
+The failure criteria show different trends of results for horizontal wells oriented with 
+
+a 90 degree from North. The differences between highest and lowest boundary of results for 
+
+vertical borehole is higher than other cases (Tables 4.3 and 4.5). Distribution of results is less 
+
+than  other  cases  except  the  higher  boundary  of  results  for  the  vertical  borehole.  Failure 
+
+criteria in the high range estimated the same results for the horizontal borehole (Tables 4.3 
+
+and 4.5).  The Modified Wiebols-Cook and the Mogi-Coulomb predicted very similar results 
+
+in  all  cases  studied  for  the  weak  shale.  Although,  the  Circumscribed  Drucker-Prager 
+
+predicted the lowest range of results but its difference with failure criteria in the middle 
+
+range of results is relatively small especially for the horizontal borehole (Tables 4.1, 4.2 and 
+
+4.4).  Distribution of results for the deeper depth in over pressurized zone is lower than 
+
+normally pressurized zone in shallower depth (Tables 4.1, 4.4, and 4.7). For over pressurized 
+
+zone at 2000 m depth, the Tresca and the Circumscribed Drucker-Prager predicted the higher 
+
+and lower bound of results respectively (Figure 4.3 and Tables 4.4 and 4.5). In all cases 
+
+studied for the weak shale, the results of the Tresca and the Von Mises as higher bound have 
+
+major difference with the results of other failure criteria (Figures 4.1 and 4.2)  
+
+Table 4.3. Comparison of results by different failure criteria for weak shale at 
+
+depth of 1500m and Azimuth of 90° 
+
+ 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+32 
+ 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+CDP 
+
+  
+
+ML 
+
+-6 
+
+7 
+
+  
+
+MG 
+
+-8 
+
+-1 
+
+5 
+
+  
+
+MWC 
+
+-8 
+
+-2 
+
+-1 
+
+MR 
+
+-10 
+
+-3 
+
+-2 
+
+-1 
+
+  
+
+HB 
+
+-11 
+
+-4 
+
+-3 
+
+-2 
+
+-1 
+
+12 
+
+12 
+
+6 
+
+12 
+
+7 
+
+23 
+
+22 
+
+23 
+
+23 
+
+22 
+
+23 
+
+4 
+
+0 
+
+  
+
+-1 
+
+-5 
+
+-5 
+
+4 
+
+0 
+
+0 
+
+6 
+
+  
+
+-1 
+
+14 
+
+14 
+
+14 
+
+14 
+
+14 
+
+15 
+
+-5 
+
+-5 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+10 
+
+10 
+
+0 
+
+15 
+
+15 
+
+15 
+
+15 
+
+15 
+
+16 
+
+-5 
+
+9 
+
+9 
+
+9 
+
+9 
+
+9 
+
+10 
+
+SD 
+
+-14 
+
+-7 
+
+-6 
+
+-5 
+
+-4 
+
+-2 
+
+  
+
+15 
+
+15 
+
+15 
+
+15 
+
+15 
+
+16 
+
+MC 
+
+-14 
+
+-8 
+
+-6 
+
+-6 
+
+-4 
+
+-3 
+
+-1 
+
+  
+
+MGR  -18 
+
+-12 
+
+-10 
+
+-9 
+
+-8 
+
+-7 
+
+-4 
+
+-4 
+
+0 
+
+  
+
+IDP 
+
+-23 
+
+-16 
+
+-15 
+
+-14 
+
+-12 
+
+-11 
+
+-8 
+
+-8 
+
+-4 
+
+0 
+
+0 
+
+  
+
+GR 
+
+-24 
+
+-17 
+
+-15 
+
+-14 
+
+-13 
+
+-12 
+
+-9 
+
+-8 
+
+-5 
+
+-1 
+
+0 
+
+0 
+
+0 
+
+  
+
+VM 
+
+-44 
+
+-36 
+
+-34 
+
+-33 
+
+-32 
+
+-30 
+
+-27 
+
+-26 
+
+-22 
+
+-17 
+
+-16 
+
+0 
+
+0 
+
+0 
+
+0 
+
+  
+
+TR 
+
+-71 
+
+-61 
+
+-59 
+
+-58 
+
+-56 
+
+-54 
+
+-50 
+
+-49 
+
+-44 
+
+-39 
+
+-38 
+
+-18 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+  
+
+ 
+ 
+ 
+ 
+ 
+
+Figure 4.2. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+2000m depth and azimuth of 0° for weak shale 
+
+ 
+
+Table 4.4. Comparison of results by different failure criteria for weak shale at depth of 
+
+   
+
+ 
+
+2000 m and Azimuth of 0° 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+33 
+ 
+
+CDP 
+
+  
+
+ML 
+
+-4 
+
+1 
+
+  
+
+MG 
+
+-5 
+
+-1 
+
+MWC 
+
+-6 
+
+-1 
+
+2 
+
+1 
+
+  
+
+0 
+
+MR 
+
+-6 
+
+-2 
+
+-1 
+
+2 
+
+1 
+
+0 
+
+  
+
+0 
+
+8 
+
+7 
+
+6 
+
+5 
+
+  
+
+3 
+
+3 
+
+2 
+
+1 
+
+-4 
+
+HB 
+
+-7 
+
+-3 
+
+-2 
+
+-1 
+
+-1 
+
+  
+
+SD 
+
+-9 
+
+-4 
+
+-3 
+
+-3 
+
+-3 
+
+-1 
+
+10 
+
+10 
+
+9 
+
+8 
+
+3 
+
+7 
+
+  
+
+4 
+
+3 
+
+2 
+
+2 
+
+-3 
+
+1 
+
+9 
+
+8 
+
+7 
+
+7 
+
+1 
+
+6 
+
+8 
+
+13 
+
+-6 
+
+-1 
+
+5 
+
+MC 
+
+-10 
+
+-5 
+
+-4 
+
+-4 
+
+-3 
+
+-2 
+
+-1 
+
+  
+
+MGR  -12 
+
+-7 
+
+-6 
+
+-6 
+
+-6 
+
+-5 
+
+-3 
+
+-2 
+
+5 
+
+  
+
+IDP 
+
+-15 
+
+-10 
+
+-9 
+
+-9 
+
+-9 
+
+-8 
+
+-6 
+
+-5 
+
+-3 
+
+GR 
+
+-16 
+
+-11 
+
+-10 
+
+-9 
+
+-9 
+
+-8 
+
+-7 
+
+-6 
+
+-3 
+
+12 
+
+7 
+
+  
+
+0 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+16 
+
+13 
+
+35 
+
+35 
+
+15 
+
+12 
+
+34 
+
+34 
+
+14 
+
+11 
+
+33 
+
+33 
+
+14 
+
+10 
+
+32 
+
+32 
+
+5 
+
+9 
+
+2 
+
+8 
+
+3 
+
+25 
+
+25 
+
+31 
+
+31 
+
+22 
+
+22 
+
+30 
+
+30 
+
+24 
+
+24 
+
+-3 
+
+16 
+
+16 
+
+  
+
+20 
+
+20 
+
+VM 
+
+-29 
+
+-24 
+
+-23 
+
+-22 
+
+-22 
+
+-21 
+
+-19 
+
+-18 
+
+-15 
+
+-12 
+
+-12 
+
+  
+
+TR 
+
+-30 
+
+-25 
+
+-24 
+
+-23 
+
+-23 
+
+-22 
+
+-20 
+
+-19 
+
+-16 
+
+-13 
+
+-13 
+
+-1 
+
+0 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+Table 4.5. Comparison of results by different failure criteria for weak shale at depth of 
+
+   
+
+ 
+
+2000 m and Azimuth of 90° 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+CDP 
+
+  
+
+ML 
+
+-4 
+
+8 
+
+  
+
+MG 
+
+-5 
+
+-1 
+
+MWC 
+
+-6 
+
+-1 
+
+2 
+
+  
+
+0 
+
+5 
+
+2 
+
+  
+
+0 
+
+10 
+
+13 
+
+5 
+
+10 
+
+11 
+
+15 
+
+15 
+
+15 
+
+15 
+
+15 
+
+16 
+
+-2 
+
+-4 
+
+2 
+
+0 
+
+3 
+
+1 
+
+-7 
+
+-2 
+
+-1 
+
+7 
+
+5 
+
+2 
+
+7 
+
+5 
+
+2 
+
+7 
+
+5 
+
+2 
+
+7 
+
+5 
+
+2 
+
+7 
+
+5 
+
+2 
+
+8 
+
+6 
+
+3 
+
+MR 
+
+-6 
+
+-2 
+
+-1 
+
+  
+
+10 
+
+10 
+
+10 
+
+10 
+
+10 
+
+11 
+
+HB 
+
+-7 
+
+-3 
+
+-2 
+
+-1 
+
+-1 
+
+SD 
+
+-9 
+
+-4 
+
+-3 
+
+-3 
+
+-2 
+
+-1 
+
+5 
+
+  
+
+6 
+
+1 
+
+  
+
+MC 
+
+-10 
+
+-5 
+
+-4 
+
+-4 
+
+-3 
+
+-2 
+
+-1 
+
+MGR  -12 
+
+-7 
+
+-6 
+
+-6 
+
+-6 
+
+-5 
+
+-3 
+
+-2 
+
+IDP 
+
+-15 
+
+-10 
+
+-9 
+
+-9 
+
+-9 
+
+-8 
+
+-6 
+
+-5 
+
+-3 
+
+GR 
+
+-16 
+
+-11 
+
+-10 
+
+-9 
+
+-9 
+
+-8 
+
+-6 
+
+-6 
+
+-3 
+
+VM 
+
+-29 
+
+-24 
+
+-23 
+
+-22 
+
+-22 
+
+-21 
+
+-19 
+
+-18 
+
+-15 
+
+-12 
+
+-12 
+
+TR 
+
+-47 
+
+-41 
+
+-39 
+
+-39 
+
+-38 
+
+-37 
+
+-35 
+
+-34 
+
+-31 
+
+-27 
+
+-27 
+
+-14 
+
+5 
+
+4 
+
+  
+
+5 
+
+4 
+
+0 
+
+  
+
+5 
+
+4 
+
+0 
+
+0 
+
+  
+
+0 
+
+5 
+
+4 
+
+0 
+
+0 
+
+0 
+
+  
+
+5 
+
+4 
+
+0 
+
+0 
+
+0 
+
+0 
+
+  
+
+6 
+
+5 
+
+1 
+
+1 
+
+1 
+
+1 
+
+1 
+
+  
+
+34 
+ 
+
+When the rock mechanical properties of weak shale has been analyzed with the stress 
+
+data of a strike slip faulting regime, the results show the same distribution as the normal 
+
+faulting scenario but the difference is in a decreasing trend toward the horizontal borehole. 
+
+The Mogi-Coulomb and the Modified Wiebols-Cook criteria show very close results in all 
+
+cases have been studied for strike slip faulting regime in the weak shale (Figure 4.3, Tables 
+
+4.6 and 4.7). The Tresca and the Von Mises represented the highest bound of results with 
+
+significant differences with the results of other failure criteria. The Mohr-Coulomb has the 
+
+minimum  difference  between  results  for  the  vertical  and  horizontal  borehole.  The 
+
+Circumscribed Drucker-Prager predicts same result as the Modified Lade for the vertical 
+
+borehole (Figure 4.3). For a case with 90 degree azimuth, group of failure criteria estimated 
+
+the same results for the horizontal borehole in the higher bound of results (Table 4.7). By 
+
+increasing  azimuth,  distribution  of  results  for  the  horizontal  borehole  tends  to  be  lower 
+
+(Table 4.7). 
+
+ 
+ 
+ 
+
+Figure 4.3. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+2500m depth and azimuth of 0° for weak shale under Strike Slip faulting regime 
+
+ 
+
+Table 4.6. Comparison of results by different failure criteria for weak shale at depth of 
+
+   
+
+ 
+
+2500 m and Azimuth of 0° 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+35 
+ 
+
+11 
+
+10 
+
+14 
+
+15 
+
+17 
+
+31 
+
+32 
+
+CDP 
+
+  
+
+ML 
+
+0 
+
+5 
+
+  
+
+MG 
+
+-1 
+
+-1 
+
+MWC 
+
+-2 
+
+-1 
+
+6 
+
+1 
+
+  
+
+0 
+
+6 
+
+1 
+
+0 
+
+  
+
+MR 
+
+-11 
+
+-10 
+
+-10 
+
+-9 
+
+HB 
+
+-5 
+
+-4 
+
+-4 
+
+-3 
+
+9 
+
+4 
+
+3 
+
+2 
+
+  
+
+5 
+
+9 
+
+4 
+
+3 
+
+2 
+
+0 
+
+  
+
+SD 
+
+-13 
+
+-13 
+
+-12 
+
+-11 
+
+-2 
+
+-8 
+
+MC 
+
+-3 
+
+-3 
+
+-2 
+
+-2 
+
+MGR  -11 
+
+-10 
+
+-9 
+
+-9 
+
+7 
+
+0 
+
+1 
+
+-6 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+6 
+
+5 
+
+5 
+
+2 
+
+2 
+
+  
+
+9 
+
+2 
+
+5 
+
+4 
+
+3 
+
+1 
+
+1 
+
+-1 
+
+  
+
+-7 
+
+9 
+
+8 
+
+7 
+
+5 
+
+5 
+
+3 
+
+4 
+
+  
+
+IDP 
+
+-16 
+
+-15 
+
+-14 
+
+-14 
+
+-4 
+
+-10 
+
+-2 
+
+-12 
+
+-4 
+
+GR 
+
+-18 
+
+-17 
+
+-16 
+
+-16 
+
+-6 
+
+-12 
+
+-4 
+
+-14 
+
+-6 
+
+-2 
+
+12 
+
+25 
+
+26 
+
+11 
+
+24 
+
+25 
+
+10 
+
+23 
+
+25 
+
+8 
+
+8 
+
+5 
+
+7 
+
+3 
+
+2 
+
+  
+
+21 
+
+22 
+
+21 
+
+22 
+
+18 
+
+19 
+
+20 
+
+21 
+
+15 
+
+16 
+
+14 
+
+15 
+
+12 
+
+13 
+
+VM 
+
+-33 
+
+-32 
+
+-31 
+
+-31 
+
+-20 
+
+-27 
+
+-17 
+
+-29 
+
+-20 
+
+-15 
+
+-13 
+
+  
+
+TR 
+
+-33 
+
+-32 
+
+-31 
+
+-31 
+
+-20 
+
+-27 
+
+-17 
+
+-29 
+
+-20 
+
+-15 
+
+-13 
+
+0 
+
+1 
+
+  
+
+ 
+ 
+ 
+
+Table 4.7. Comparison of results by different failure criteria for weak shale at depth of 
+
+   
+
+ 
+
+2500 m and Azimuth of 90° 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+9 
+
+8 
+
+8 
+
+5 
+
+5 
+
+3 
+
+5 
+
+0 
+
+  
+
+8 
+
+8 
+
+3 
+
+5 
+
+0 
+
+  
+
+10 
+
+11 
+
+16 
+
+14 
+
+19 
+
+19 
+
+19 
+
+19 
+
+20 
+
+14 
+
+11 
+
+17 
+
+17 
+
+17 
+
+17 
+
+17 
+
+12 
+
+10 
+
+15 
+
+15 
+
+15 
+
+15 
+
+15 
+
+13 
+
+13 
+
+13 
+
+13 
+
+14 
+
+CDP 
+
+  
+
+ML 
+
+0 
+
+2 
+
+  
+
+MG 
+
+-1 
+
+-1 
+
+MWC 
+
+-2 
+
+-1 
+
+4 
+
+2 
+
+  
+
+0 
+
+5 
+
+3 
+
+1 
+
+  
+
+MR 
+
+-11 
+
+-10 
+
+-10 
+
+-9 
+
+HB 
+
+-5 
+
+-4 
+
+-4 
+
+-3 
+
+8 
+
+6 
+
+5 
+
+  
+
+5 
+
+8 
+
+7 
+
+5 
+
+1 
+
+  
+
+SD 
+
+-13 
+
+-13 
+
+-12 
+
+-11 
+
+-2 
+
+-8 
+
+MC 
+
+-3 
+
+-3 
+
+-2 
+
+-2 
+
+MGR  -11 
+
+-10 
+
+-9 
+
+-9 
+
+7 
+
+0 
+
+1 
+
+-6 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+10 
+
+5 
+
+5 
+
+  
+
+9 
+
+2 
+
+8 
+
+3 
+
+3 
+
+-2 
+
+  
+
+-7 
+
+8 
+
+8 
+
+3 
+
+5 
+
+  
+
+IDP 
+
+-16 
+
+-15 
+
+-14 
+
+-14 
+
+-4 
+
+-10 
+
+-2 
+
+-12 
+
+-4 
+
+GR 
+
+-18 
+
+-17 
+
+-16 
+
+-16 
+
+-6 
+
+-12 
+
+-4 
+
+-14 
+
+-6 
+
+-2 
+
+VM 
+
+-36 
+
+-35 
+
+-34 
+
+-34 
+
+-22 
+
+-29 
+
+-20 
+
+-31 
+
+-22 
+
+-17 
+
+-15 
+
+8 
+
+8 
+
+3 
+
+5 
+
+0 
+
+0 
+
+  
+
+8 
+
+8 
+
+3 
+
+5 
+
+0 
+
+0 
+
+0 
+
+  
+
+9 
+
+8 
+
+3 
+
+5 
+
+0 
+
+0 
+
+0 
+
+0 
+
+  
+
+TR 
+
+-33 
+
+-33 
+
+-32 
+
+-31 
+
+-20 
+
+-27 
+
+-18 
+
+-29 
+
+-20 
+
+-15 
+
+-13 
+
+2 
+
+ 
+
+36 
+ 
+
+For the medium strength and hard shale, higher UCS caused different failure criteria 
+
+to be in the lower boundaries of results. The differences between failure criteria for the lower 
+
+boundary and middle range of results are more significant in hard shale compare to medium 
+
+strength shale. Greater magnitude of tensile component due to higher UCS is the main reason 
+
+why  the  Murrel,  the  Stassi  d’Alia,  and  the  Modified  Griffith  criteria  are  in  the  lower 
+
+boundary of results (Figures 4.4 and 4.5, Tables 4.8 and 4.9). The Tresca criterion represents 
+
+the highest boundary of results and the Murrel predicts the lowest boundary of results.  The 
+
+Inscribed  Drucker-Prager  and  the  Modified  Griffith  replaced  the  Tresca  and  the  Murrel 
+
+respectively as the highest and lowest boundary of results by increasing inclination toward 
+
+horizontal borehole and this is more dominant for the high azimuth cases (Table 4.9). In all 
+
+cases studied for the hard shale, the Modified Lade, the Mogi-Coulomb, and the Modified 
+
+Wiebols-Cook estimated very similar results (Figures 4.4 and 4.5, Tables 4.8 and 4.9). In this 
+
+situation,  the  results  of  the  Circumscribed  Drucker-Prager  is  different  than  weak  shale 
+
+(Figure 4.1) and are very close to the results of the Modified Lade, the Mogi-Coulomb, and 
+
+the Modified Wiebols-Cook criteria in the upper medium range of results (Figures 4.4 and 
+
+4.5, Tables 4.8 and 4.9).  
+
+ 
+
+Figure 4.4. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+2000m depth and azimuth of 0° for hard shale 
+
+ 
+
+Table 4.8. Comparison of results by different failure criteria for the hard shale at depth 
+
+2000 m and Azimuth of 0° 
+
+ 
+
+37 
+ 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-1 
+
+MG 
+
+-2 
+
+MWC 
+
+-1 
+
+0 
+
+  
+
+0 
+
+0 
+
+0 
+
+0 
+
+  
+
+1 
+
+0 
+
+0 
+
+0 
+
+  
+
+-19 
+
+-16 
+
+-15 
+
+-19 
+
+-16 
+
+-15 
+
+-20 
+
+-16 
+
+-15 
+
+-19 
+
+-16 
+
+-15 
+
+3 
+
+3 
+
+2 
+
+2 
+
+-19 
+
+11 
+
+-8 
+
+-19 
+
+10 
+
+-8 
+
+-20 
+
+10 
+
+-8 
+
+-19 
+
+10 
+
+-8 
+
+8 
+
+8 
+
+8 
+
+8 
+
+9 
+
+9 
+
+8 
+
+9 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+20 
+
+21 
+
+21 
+
+20 
+
+  
+
+HB 
+
+10 
+
+11 
+
+11 
+
+11 
+
+-12 
+
+SD 
+
+15 
+
+16 
+
+17 
+
+16 
+
+-6 
+
+4 
+
+  
+
+6 
+
+6 
+
+1 
+
+  
+
+27 
+
+0 
+
+37 
+
+14 
+
+34 
+
+35 
+
+22 
+
+-4 
+
+31 
+
+20 
+
+-5 
+
+30 
+
+9 
+
+8 
+
+28 
+
+29 
+
+27 
+
+28 
+
+MC 
+
+-6 
+
+-4 
+
+-4 
+
+-5 
+
+-32 
+
+-17 
+
+-25 
+
+  
+
+-21 
+
+8 
+
+-10 
+
+5 
+
+6 
+
+MGR  16 
+
+17 
+
+17 
+
+16 
+
+-5 
+
+6 
+
+1 
+
+20 
+
+  
+
+37 
+
+14 
+
+34 
+
+35 
+
+IDP 
+
+-11 
+
+-10 
+
+-9 
+
+-10 
+
+-38 
+
+-23 
+
+-31 
+
+-5 
+
+-32 
+
+  
+
+-16 
+
+-2 
+
+-1 
+
+GR 
+
+4 
+
+5 
+
+5 
+
+5 
+
+-20 
+
+-7 
+
+-13 
+
+9 
+
+-14 
+
+13 
+
+  
+
+17 
+
+18 
+
+VM 
+
+-8 
+
+-6 
+
+-6 
+
+-7 
+
+-34 
+
+-19 
+
+-27 
+
+-2 
+
+-28 
+
+TR 
+
+-11 
+
+-9 
+
+-9 
+
+-10 
+
+-38 
+
+-23 
+
+-31 
+
+-5 
+
+-31 
+
+3 
+
+0 
+
+-12 
+
+  
+
+-15 
+
+-3 
+
+1 
+
+  
+
+ 
+ 
+ 
+
+Figure 4.5. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+2000m depth and azimuth of 90° for hard shale 
+
+Table 4.9. Comparison of results by different failure criteria for the hard shale at depth of 
+
+2000 m and Azimuth of 90° 
+
+ 
+
+38 
+ 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-1 
+
+MG 
+
+-2 
+
+MWC 
+
+-1 
+
+1 
+
+  
+
+0 
+
+0 
+
+2 
+
+1 
+
+  
+
+1 
+
+1 
+
+0 
+
+-18 
+
+-22 
+
+-14 
+
+-19 
+
+-22 
+
+-15 
+
+-1 
+
+-19 
+
+-23 
+
+-15 
+
+  
+
+-18 
+
+-22 
+
+-15 
+
+9 
+
+8 
+
+8 
+
+9 
+
+-26 
+
+17 
+
+-8 
+
+10 
+
+15 
+
+-27 
+
+16 
+
+-9 
+
+-27 
+
+15 
+
+-10 
+
+-27 
+
+16 
+
+-9 
+
+9 
+
+8 
+
+9 
+
+14 
+
+13 
+
+14 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+20 
+
+21 
+
+21 
+
+20 
+
+  
+
+-5 
+
+5 
+
+33 
+
+-10 
+
+43 
+
+12 
+
+34 
+
+40 
+
+HB 
+
+10 
+
+11 
+
+12 
+
+11 
+
+-12 
+
+SD 
+
+15 
+
+16 
+
+17 
+
+16 
+
+-6 
+
+  
+
+5 
+
+10 
+
+40 
+
+-6 
+
+49 
+
+17 
+
+40 
+
+47 
+
+  
+
+27 
+
+-14 
+
+36 
+
+7 
+
+28 
+
+34 
+
+MC 
+
+-6 
+
+-4 
+
+-4 
+
+-5 
+
+-32 
+
+-18 
+
+-25 
+
+  
+
+-33 
+
+7 
+
+-16 
+
+1 
+
+5 
+
+MGR  16 
+
+17 
+
+17 
+
+16 
+
+-5 
+
+6 
+
+1 
+
+20 
+
+  
+
+59 
+
+24 
+
+49 
+
+56 
+
+IDP 
+
+-11 
+
+-10 
+
+-9 
+
+-10 
+
+-38 
+
+-24 
+
+-31 
+
+-5 
+
+-32 
+
+  
+
+-22 
+
+-6 
+
+-2 
+
+GR 
+
+4 
+
+5 
+
+5 
+
+5 
+
+-20 
+
+-7 
+
+-13 
+
+9 
+
+-14 
+
+13 
+
+  
+
+20 
+
+25 
+
+VM 
+
+-8 
+
+-6 
+
+-6 
+
+-7 
+
+-34 
+
+-20 
+
+-27 
+
+-2 
+
+-28 
+
+TR 
+
+-11 
+
+-9 
+
+-9 
+
+-10 
+
+-38 
+
+-24 
+
+-31 
+
+-5 
+
+-31 
+
+3 
+
+0 
+
+-12 
+
+  
+
+-15 
+
+-3 
+
+4 
+
+  
+
+ 
+
+ 
+
+4.2. SANDSTONE 
+
+In the case of sandstone, the table of contradiction is dominated with red for  the 
+
+normally pressurized zone which shows a major difference in distribution of results (Figure 
+
+4.6, Tables 4.10). This is the same for the different level of strength in sandstone (Table 
+
+4.11).  Higher  internal  angle  of  friction  in  the  weak  sandstone  caused  the  results  of  the 
+
+Circumscribed Drucker-Prager remarkably decrease and distribution of results be higher. 
+
+This situation is different for the over pressurized zone (deeper depth) and distribution of 
+
+results  is  lower  than  the  normally  pressurized  zone  (Tables  4.11).  The  Tresca  and  the 
+
+Circumscribed Drucker-Prager criteria represent the highest and lowest boundaries of results 
+
+respectively.  The  Modified  Lade  shows  lowest  difference  of  results  from  vertical  to 
+
+horizontal  borehole  (Figures  4.6).  The  Modified  Lade  and  the  Mogi-Coulomb  criteria 
+
+predicted  very  similar  results  in  all  cases  for  the  weak  sandstone.  Failure  criteria  in  the 
+
+middle range of results show significant difference with the higher and lower boundaries of 
+
+results (Figures 4.6 and 4.7).  
+
+39 
+ 
+
+Figure 4.6. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+1500 m depth and azimuth of 0° for weak sandstone 
+
+ 
+ 
+
+ 
+
+Table 4.10. Comparison of results by different failure criteria for the weak sandstone at 
+
+depth of 1500 m and Azimuth of 0° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+30 
+
+33 
+
+39 
+
+77 
+
+57 
+
+83 
+
+53 
+
+106 
+
+92 
+
+106  152  153 
+
+ML 
+
+-48 
+
+  
+
+MG 
+
+-50 
+
+-2 
+
+2 
+
+  
+
+MWC  -56 
+
+-6 
+
+-4 
+
+7 
+
+5 
+
+  
+
+36 
+
+21 
+
+40 
+
+18 
+
+59 
+
+47 
+
+58 
+
+94 
+
+95 
+
+33 
+
+18 
+
+37 
+
+15 
+
+55 
+
+44 
+
+55 
+
+89 
+
+90 
+
+27 
+
+13 
+
+31 
+
+10 
+
+48 
+
+38 
+
+48 
+
+81 
+
+82 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+-78 
+
+-21 
+
+-19 
+
+-14 
+
+  
+
+-11 
+
+3 
+
+-13 
+
+17 
+
+9 
+
+17 
+
+43 
+
+43 
+
+HB 
+
+-71 
+
+-16 
+
+-14 
+
+-10 
+
+4 
+
+  
+
+16 
+
+-3 
+
+31 
+
+22 
+
+31 
+
+60 
+
+61 
+
+SD 
+
+-85 
+
+-25 
+
+-23 
+
+-19 
+
+-4 
+
+-8 
+
+MC 
+
+-71 
+
+-16 
+
+-14 
+
+-10 
+
+4 
+
+0 
+
+  
+
+7 
+
+-19 
+
+13 
+
+5 
+
+13 
+
+38 
+
+39 
+
+  
+
+35 
+
+25 
+
+35 
+
+65 
+
+65 
+
+MGR  -121 
+
+-50 
+
+-47 
+
+-42 
+
+-24 
+
+-29 
+
+-19 
+
+-29 
+
+IDP  -101 
+
+-36 
+
+-33 
+
+-29 
+
+-13 
+
+-17 
+
+-8 
+
+-17 
+
+GR 
+
+-118 
+
+-48 
+
+-45 
+
+-40 
+
+-22 
+
+-27 
+
+-18 
+
+-27 
+
+  
+
+9 
+
+1 
+
+-7 
+
+  
+
+-9 
+
+1 
+
+8 
+
+  
+
+22 
+
+23 
+
+31 
+
+32 
+
+22 
+
+23 
+
+VM  -160 
+
+-76 
+
+-73 
+
+-67 
+
+-46 
+
+-52 
+
+-41 
+
+-52 
+
+-18 
+
+-30 
+
+-19 
+
+  
+
+TR 
+
+-165 
+
+-80 
+
+-76 
+
+-70 
+
+-49 
+
+-55 
+
+-43 
+
+-55 
+
+-20 
+
+-32 
+
+-22 
+
+-2 
+
+1 
+
+  
+
+40 
+ 
+
+ 
+
+ 
+
+Figure 4.7. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+2000m depth and azimuth of 0° for weak sandstone 
+
+Table 4.11. Comparison of results by different failure criteria for the weak sandstone at 
+
+ 
+ 
+ 
+
+depth of 2000 m and Azimuth of 0° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+16 
+
+17 
+
+21 
+
+42 
+
+31 
+
+45 
+
+28 
+
+58 
+
+50 
+
+58 
+
+84 
+
+84 
+
+ML 
+
+-25 
+
+  
+
+MG 
+
+-26 
+
+-1 
+
+1 
+
+  
+
+MWC  -28 
+
+-3 
+
+-2 
+
+4 
+
+3 
+
+  
+
+23 
+
+13 
+
+26 
+
+11 
+
+37 
+
+30 
+
+36 
+
+59 
+
+59 
+
+21 
+
+11 
+
+24 
+
+18 
+
+8 
+
+20 
+
+9 
+
+6 
+
+35 
+
+28 
+
+34 
+
+57 
+
+57 
+
+31 
+
+24 
+
+31 
+
+52 
+
+53 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+-38 
+
+-11 
+
+-10 
+
+-8 
+
+HB 
+
+-36 
+
+-9 
+
+-8 
+
+-6 
+
+  
+
+2 
+
+-8 
+
+2 
+
+-10 
+
+11 
+
+6 
+
+11 
+
+29 
+
+30 
+
+  
+
+11 
+
+-2 
+
+21 
+
+15 
+
+21 
+
+41 
+
+41 
+
+SD 
+
+-42 
+
+-14 
+
+-12 
+
+-10 
+
+-2 
+
+-4 
+
+MC 
+
+-36 
+
+-9 
+
+-8 
+
+-6 
+
+2 
+
+0 
+
+  
+
+4 
+
+-12 
+
+9 
+
+3 
+
+8 
+
+26 
+
+27 
+
+  
+
+23 
+
+17 
+
+23 
+
+43 
+
+44 
+
+MGR  -60 
+
+-28 
+
+-27 
+
+-24 
+
+-16 
+
+-18 
+
+-13 
+
+-18 
+
+IDP 
+
+-50 
+
+-21 
+
+-19 
+
+-17 
+
+-9 
+
+-11 
+
+-6 
+
+-10 
+
+GR 
+
+-58 
+
+-27 
+
+-26 
+
+-23 
+
+-14 
+
+-17 
+
+-12 
+
+-16 
+
+  
+
+6 
+
+1 
+
+-5 
+
+  
+
+-5 
+
+0 
+
+5 
+
+  
+
+16 
+
+17 
+
+22 
+
+23 
+
+17 
+
+17 
+
+VM 
+
+-80 
+
+-44 
+
+-42 
+
+-40 
+
+-30 
+
+-32 
+
+-27 
+
+-32 
+
+-12 
+
+-20 
+
+-13 
+
+  
+
+TR 
+
+-82 
+
+-46 
+
+-44 
+
+-41 
+
+-31 
+
+-34 
+
+-28 
+
+-33 
+
+-14 
+
+-21 
+
+-15 
+
+-1 
+
+0 
+
+  
+
+41 
+ 
+
+Increasing UCS caused the Murrel and the Stassi d’Alia approach the middle range of 
+
+results in medium strength sandstone and lower boundary of results for the vertical borehole 
+
+in  the  hard  sandstone  (Figures  4.8,  4.9,  and  4.10).  The  Tresca  and  the  Circumscribed 
+
+Drucker-Prager represent the highest and lowest boundaries of results respectively (Figures 
+
+4.8, 4.9, Tables 4.12). The results of the Inscribed Drucker-Prager moved toward the higher 
+
+bound of results (Figures 4.8, 4.9, and 4.10). The Hoek-Brown replaced the Circumscribed 
+
+Drucker-Prager  as  the  lowest  boundary  of  the  results  for  the  horizontal  borehole  by 
+
+increasing the azimuth to 90 degree. In this situation, the Inscribed Drucker-Prager criterion 
+
+estimated same result as the Tresca for the highest boundary of results (Figure 4.10 and 
+
+Table  4.13).  By  increasing  azimuth,  the  results  of  the  Circumscribed  Drucker-Prager 
+
+approached the middle range of result with similarity to the results of the Modified Lade 
+
+criterion for the horizontal borehole (Figure 4.10 and Table 4.13). The Hoek-Brown criterion 
+
+has lowest difference of results from vertical to the horizontal borehole (Figures 4.8, 4.9, and 
+
+4.10, Tables 4.12 and 4.13). Distribution of the results is going to be lower by increasing 
+
+wellbore azimuth (Tables 4.12 and 4.13). 
+
+ 
+ 
+ 
+
+Figure 4.8. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+2000 m depth and azimuth of 0° for hard sandstone 
+
+ 
+
+Table 4.12. Comparison of results by different failure criteria for hard sandstone at depth 
+
+of 2000 m and Azimuth of 0° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+12 
+
+14 
+
+14 
+
+12 
+
+15 
+
+16 
+
+25 
+
+32 
+
+47 
+
+35 
+
+55 
+
+59 
+
+42 
+ 
+
+ML 
+
+-20 
+
+  
+
+MG 
+
+-23 
+
+-2 
+
+MWC  -20 
+
+MR 
+
+-9 
+
+0 
+
+9 
+
+2 
+
+  
+
+2 
+
+11 
+
+2 
+
+0 
+
+  
+
+9 
+
+0 
+
+-2 
+
+-2 
+
+  
+
+HB 
+
+-25 
+
+-4 
+
+-2 
+
+-4 
+
+-15 
+
+SD 
+
+-14 
+
+5 
+
+7 
+
+5 
+
+-4 
+
+3 
+
+1 
+
+1 
+
+3 
+
+  
+
+9 
+
+4 
+
+2 
+
+2 
+
+4 
+
+1 
+
+  
+
+MC 
+
+-34 
+
+-11 
+
+-9 
+
+-12 
+
+-23 
+
+-7 
+
+-18 
+
+9 
+
+8 
+
+  
+
+MGR  -37 
+
+-14 
+
+-11 
+
+-14 
+
+-25 
+
+-9 
+
+-20 
+
+-2 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+12 
+
+18 
+
+31 
+
+21 
+
+38 
+
+43 
+
+10 
+
+16 
+
+28 
+
+18 
+
+35 
+
+40 
+
+10 
+
+16 
+
+29 
+
+19 
+
+36 
+
+40 
+
+12 
+
+19 
+
+31 
+
+21 
+
+38 
+
+43 
+
+15 
+
+28 
+
+18 
+
+34 
+
+39 
+
+14 
+
+26 
+
+16 
+
+33 
+
+37 
+
+6 
+
+  
+
+17 
+
+11 
+
+  
+
+6 
+
+8 
+
+2 
+
+23 
+
+27 
+
+17 
+
+20 
+
+-8 
+
+5 
+
+9 
+
+  
+
+14 
+
+18 
+
+IDP 
+
+-49 
+
+-24 
+
+-21 
+
+-24 
+
+-36 
+
+-19 
+
+-31 
+
+-11 
+
+-9 
+
+GR 
+
+-40 
+
+-16 
+
+-14 
+
+-16 
+
+-28 
+
+-12 
+
+-23 
+
+-4 
+
+-2 
+
+VM 
+
+-52 
+
+-26 
+
+-24 
+
+-26 
+
+-39 
+
+-21 
+
+-33 
+
+-13 
+
+-11 
+
+-2 
+
+-9 
+
+  
+
+TR 
+
+-59 
+
+-32 
+
+-29 
+
+-32 
+
+-45 
+
+-27 
+
+-39 
+
+-19 
+
+-16 
+
+-7 
+
+-14 
+
+-5 
+
+3 
+
+  
+
+ 
+ 
+ 
+
+Figure 4.9. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+2000 m depth and azimuth of 30° for hard sandstone 
+
+43 
+ 
+
+Figure 4.10. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+ 
+
+2000 m depth and azimuth of 90° for hard sandstone 
+
+ 
+ 
+ 
+ 
+
+Table 4.13. Comparison of results by different failure criteria for the hard sandstone at 
+
+depth of 2000 m and Azimuth of 90° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-20 
+
+1 
+
+  
+
+MG 
+
+-23 
+
+-2 
+
+MWC  -20 
+
+MR 
+
+-9 
+
+0 
+
+9 
+
+3 
+
+2 
+
+  
+
+2 
+
+11 
+
+2 
+
+1 
+
+-1 
+
+  
+
+9 
+
+4 
+
+3 
+
+1 
+
+1 
+
+  
+
+HB 
+
+-25 
+
+-4 
+
+-2 
+
+-4 
+
+-15 
+
+SD 
+
+-14 
+
+5 
+
+7 
+
+5 
+
+-4 
+
+-2 
+
+-3 
+
+-4 
+
+-4 
+
+-5 
+
+  
+
+9 
+
+7 
+
+6 
+
+4 
+
+4 
+
+3 
+
+8 
+
+  
+
+6 
+
+5 
+
+3 
+
+3 
+
+2 
+
+7 
+
+-1 
+
+MC 
+
+-34 
+
+-11 
+
+-9 
+
+-12 
+
+-23 
+
+-7 
+
+-18 
+
+  
+
+MGR  -37 
+
+-14 
+
+-11 
+
+-14 
+
+-25 
+
+-9 
+
+-20 
+
+-2 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+IDP 
+
+-49 
+
+-24 
+
+-21 
+
+-24 
+
+-36 
+
+-19 
+
+-31 
+
+-11 
+
+-9 
+
+GR 
+
+-40 
+
+-16 
+
+-14 
+
+-16 
+
+-28 
+
+-12 
+
+-23 
+
+-4 
+
+-2 
+
+VM 
+
+-52 
+
+-26 
+
+-24 
+
+-26 
+
+-39 
+
+-21 
+
+-33 
+
+-13 
+
+-11 
+
+-2 
+
+-9 
+
+  
+
+TR 
+
+-59 
+
+-32 
+
+-29 
+
+-32 
+
+-45 
+
+-27 
+
+-39 
+
+-19 
+
+-16 
+
+-7 
+
+-14 
+
+-5 
+
+5 
+
+  
+
+9 
+
+8 
+
+6 
+
+6 
+
+5 
+
+39 
+
+11 
+
+32 
+
+39 
+
+37 
+
+10 
+
+31 
+
+38 
+
+35 
+
+36 
+
+34 
+
+8 
+
+9 
+
+7 
+
+29 
+
+35 
+
+29 
+
+36 
+
+28 
+
+34 
+
+11 
+
+41 
+
+13 
+
+34 
+
+42 
+
+2 
+
+3 
+
+  
+
+30 
+
+31 
+
+28 
+
+  
+
+6 
+
+4 
+
+5 
+
+2 
+
+24 
+
+31 
+
+25 
+
+32 
+
+22 
+
+28 
+
+-20 
+
+-5 
+
+0 
+
+  
+
+19 
+
+25 
+
+44 
+ 
+
+4.3. SILTSTONE 
+
+The weak siltstone has an average UCS but had the highest internal angle of friction 
+
+between  all  cases  of  rock  mechanical  properties.  In  this  condition,  the  Circumscribed 
+
+Drucker-Prager as the lowest boundary of results has significant differences with the results 
+
+of other failure criteria especially in normally pressurized zone (Figure 4.11 and Table 4.14). 
+
+Higher frictional angle in the weak siltstone is the main reason for this distribution. The 
+
+results of the Mogi-Coulomb and the Modified Lade criteria show close similarity in all 
+
+cases studied weak siltstone (Figures 4.11 & 4.12, Tables 4.14 & 4.15). The results of the 
+
+Tresca  and  the  Circumscribed  Drucker-Prager  criteria  show  the  highest  difference. 
+
+Difference  between  results  of  failure  criteria  for  the  vertical  and  horizontal  borehole  is 
+
+smaller than other cases. For this situation, the Modified Lade criterion represents the lowest 
+
+difference between results for the vertical and horizontal borehole (Figures 4.11 & 4.12). The 
+
+failure criteria analysis for the weak siltstone for a normally pressurized zone show largest 
+
+distribution between all different statistical analysis cases (Tables 4.14). 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+Figure 4.11. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+1500 m depth and azimuth of 0° for weak siltstone 
+
+Table 4.14. Comparison of results by different failure criteria for the weak siltstone at 
+
+45 
+ 
+
+depth of 1500 m and Azimuth of 0° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+72 
+
+71 
+
+85 
+
+152  149  160  106  225  188  203  276  278 
+
+ML 
+
+-118 
+
+  
+
+-1 
+
+MG  -115 
+
+1 
+
+  
+
+MWC  -129 
+
+-5 
+
+-7 
+
+8 
+
+8 
+
+  
+
+47 
+
+45 
+
+52 
+
+20 
+
+89 
+
+68 
+
+76 
+
+119  120 
+
+48 
+
+46 
+
+53 
+
+21 
+
+90 
+
+68 
+
+77 
+
+120  121 
+
+37 
+
+35 
+
+41 
+
+12 
+
+76 
+
+56 
+
+64 
+
+103  104 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR  -170 
+
+-24 
+
+-26 
+
+-18 
+
+  
+
+-1 
+
+HB 
+
+-193 
+
+-35 
+
+-37 
+
+-28 
+
+-9 
+
+SD 
+
+-180 
+
+-28 
+
+-30 
+
+-22 
+
+-4 
+
+  
+
+5 
+
+MC  -157 
+
+-18 
+
+-20 
+
+-12 
+
+5 
+
+12 
+
+3 
+
+5 
+
+  
+
+8 
+
+-18 
+
+29 
+
+14 
+
+20 
+
+49 
+
+50 
+
+-17 
+
+31 
+
+16 
+
+22 
+
+51 
+
+52 
+
+-21 
+
+25 
+
+10 
+
+16 
+
+44 
+
+45 
+
+  
+
+58 
+
+39 
+
+47 
+
+82 
+
+83 
+
+MGR  -274 
+
+-72 
+
+-74 
+
+-63 
+
+-39 
+
+-28 
+
+-34 
+
+-46 
+
+  
+
+-11 
+
+-7 
+
+16 
+
+16 
+
+IDP  -223 
+
+-48 
+
+-51 
+
+-41 
+
+-20 
+
+-10 
+
+-15 
+
+-26 
+
+14 
+
+  
+
+GR 
+
+-248 
+
+-60 
+
+-62 
+
+-52 
+
+-29 
+
+-18 
+
+-24 
+
+-35 
+
+7 
+
+-8 
+
+5 
+
+  
+
+31 
+
+31 
+
+24 
+
+25 
+
+VM  -312 
+
+-90 
+
+-92 
+
+-80 
+
+-53 
+
+-41 
+
+-48 
+
+-61 
+
+-10 
+
+-28 
+
+-19 
+
+  
+
+TR 
+
+-328 
+
+-97 
+
+-99 
+
+-87 
+
+-58 
+
+-46 
+
+-53 
+
+-67 
+
+-14 
+
+-33 
+
+-23 
+
+-4 
+
+0 
+
+  
+
+ 
+ 
+ 
+ 
+
+Figure 4.12. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+2000 m depth and azimuth of 0° for weak siltstone 
+
+Table 4.15. Comparison of results by different failure criteria for the weak siltstone at 
+
+46 
+ 
+
+depth of 2000 m and Azimuth of 0° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+30 
+
+29 
+
+36 
+
+66 
+
+63 
+
+70 
+
+45 
+
+97 
+
+82 
+
+87 
+
+121  122 
+
+ML 
+
+-44 
+
+  
+
+MG 
+
+-43 
+
+1 
+
+0 
+
+  
+
+MWC  -48 
+
+-3 
+
+-4 
+
+5 
+
+5 
+
+  
+
+28 
+
+26 
+
+31 
+
+12 
+
+52 
+
+40 
+
+44 
+
+70 
+
+71 
+
+28 
+
+26 
+
+31 
+
+12 
+
+52 
+
+40 
+
+45 
+
+70 
+
+71 
+
+23 
+
+21 
+
+25 
+
+7 
+
+45 
+
+34 
+
+38 
+
+63 
+
+64 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+ 
+
+MR 
+
+-61 
+
+-12 
+
+-12 
+
+-9 
+
+  
+
+-2 
+
+HB 
+
+-71 
+
+-18 
+
+-19 
+
+-15 
+
+-6 
+
+SD 
+
+-65 
+
+-14 
+
+-15 
+
+-11 
+
+-2 
+
+MC 
+
+-58 
+
+-10 
+
+-11 
+
+-7 
+
+2 
+
+  
+
+4 
+
+7 
+
+2 
+
+4 
+
+  
+
+4 
+
+-13 
+
+18 
+
+9 
+
+13 
+
+33 
+
+33 
+
+-11 
+
+20 
+
+11 
+
+14 
+
+35 
+
+36 
+
+-15 
+
+16 
+
+7 
+
+10 
+
+30 
+
+31 
+
+  
+
+36 
+
+26 
+
+29 
+
+53 
+
+53 
+
+MGR  -100 
+
+-38 
+
+-39 
+
+-35 
+
+-24 
+
+-17 
+
+-21 
+
+-26 
+
+IDP 
+
+-82 
+
+-26 
+
+-27 
+
+-22 
+
+-13 
+
+-6 
+
+-10 
+
+-15 
+
+GR 
+
+-90 
+
+-32 
+
+-33 
+
+-28 
+
+-18 
+
+-11 
+
+-15 
+
+-20 
+
+  
+
+9 
+
+5 
+
+-8 
+
+-5 
+
+12 
+
+13 
+
+  
+
+-5 
+
+3 
+
+  
+
+22 
+
+22 
+
+18 
+
+18 
+
+VM  -114 
+
+-48 
+
+-49 
+
+-44 
+
+-32 
+
+-25 
+
+-30 
+
+-35 
+
+-7 
+
+-18 
+
+-12 
+
+  
+
+TR 
+
+-119 
+
+-52 
+
+-53 
+
+-48 
+
+-36 
+
+-28 
+
+-33 
+
+-38 
+
+-10 
+
+-21 
+
+-15 
+
+-3 
+
+0 
+
+  
+
+  
+
+ 
+
+The hard siltstone has the highest UCS and lowest frictional angle among all cases of 
+
+rock mechanical properties. The Inscribed Drucker-Prager and the Murrel represented the 
+
+highest  and lowest  boundaries of results respectively  (Figure 4.13 and Table 4.16).   By 
+
+increasing azimuth, the Modified Griffith replaced the Murrel as the lowest boundary of the 
+
+results for the horizontal borehole (Figures 4.14 & 4.15, Tables 4.17 & 4.18). The results of 
+
+the Circumscribed Drucker-Prager criterion represented the middle range of results with 
+
+close similarity to the results of the Modified Wiebols-Cook. The Modified Wiebols-Cook, 
+
+the Circumscribed Drucker-Prager, the Mogi-Coulomb and the Modified Lade give very 
+
+similar  results  for  all  cases  studied  for  the  hard  siltstone.  The  Hoek-Brown  criterion 
+
+represented the lowest difference between results for the vertical and horizontal borehole 
+
+(Figures 4.13, 4.14 and 4.15). Distribution of results for the horizontal borehole is lower for 
+
+those cases with  higher  azimuth  (Tables 4.17 & 4.18). Although  the Von Mises usually 
+
+predicted the higher bound of results for the minimum required mud weight, its results are in 
+
+the middle range for the hard siltstone. 
+
+47 
+ 
+
+Figure 4.13. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+2000 m depth and azimuth of 0° for hard siltstone 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+Table 4.16. Comparison of results by different failure criteria for the hard siltstone 
+
+at depth 2000 m and Azimuth of 0° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+1 
+
+0 
+
+CDP 
+
+  
+
+ML 
+
+-3 
+
+1 
+
+  
+
+MG 
+
+-5 
+
+-1 
+
+MWC 
+
+-1 
+
+2 
+
+2 
+
+1 
+
+  
+
+3 
+
+8 
+
+6 
+
+5 
+
+7 
+
+15 
+
+14 
+
+13 
+
+14 
+
+-24 
+
+-7 
+
+-18 
+
+11 
+
+-22 
+
+24 
+
+0 
+
+-25 
+
+-9 
+
+-19 
+
+-1 
+
+-26 
+
+-10 
+
+-20 
+
+9 
+
+8 
+
+-23 
+
+22 
+
+-1 
+
+-24 
+
+21 
+
+-2 
+
+  
+
+-25 
+
+-8 
+
+-19 
+
+10 
+
+-23 
+
+23 
+
+0 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+24 
+
+26 
+
+27 
+
+25 
+
+  
+
+22 
+
+8 
+
+46 
+
+3 
+
+63 
+
+32 
+
+42 
+
+52 
+
+HB 
+
+-6 
+
+-2 
+
+-1 
+
+-4 
+
+-39 
+
+  
+
+-12 
+
+19 
+
+-16 
+
+34 
+
+8 
+
+16 
+
+24 
+
+SD 
+
+18 
+
+21 
+
+22 
+
+19 
+
+-8 
+
+23 
+
+  
+
+35 
+
+-5 
+
+51 
+
+23 
+
+32 
+
+41 
+
+MC 
+
+-15 
+
+-11 
+
+-10 
+
+-14 
+
+-51 
+
+-9 
+
+-40 
+
+  
+
+-29 
+
+12 
+
+-9 
+
+-3 
+
+4 
+
+MGR  15 
+
+17 
+
+18 
+
+16 
+
+-12 
+
+19 
+
+-4 
+
+26 
+
+  
+
+58 
+
+29 
+
+38 
+
+47 
+
+IDP 
+
+-28 
+
+-24 
+
+-23 
+
+-26 
+
+-69 
+
+-21 
+
+-56 
+
+-11 
+
+-50 
+
+  
+
+-19 
+
+-13 
+
+-7 
+
+GR 
+
+-10 
+
+-6 
+
+-5 
+
+-8 
+
+-44 
+
+-4 
+
+-34 
+
+VM 
+
+-7 
+
+-4 
+
+-3 
+
+-6 
+
+-41 
+
+-1 
+
+-31 
+
+5 
+
+7 
+
+-28 
+
+14 
+
+-26 
+
+16 
+
+  
+
+2 
+
+7 
+
+  
+
+TR 
+
+-17 
+
+-14 
+
+-12 
+
+-16 
+
+-54 
+
+-11 
+
+-43 
+
+-2 
+
+-38 
+
+8 
+
+-7 
+
+-10 
+
+15 
+
+7 
+
+  
+
+48 
+ 
+
+Figure 4.14. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+2000 m depth and azimuth of 60° for hard siltstone 
+
+ 
+
+Table 4.17. Comparison of results by different failure criteria for the hard siltstone at 
+
+ 
+ 
+ 
+
+depth 2000 m and Azimuth of 60° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-3 
+
+0 
+
+  
+
+MG 
+
+-4 
+
+-1 
+
+MWC 
+
+-1 
+
+2 
+
+1 
+
+1 
+
+  
+
+3 
+
+0 
+
+0 
+
+-17 
+
+-6 
+
+-13 
+
+-17 
+
+-7 
+
+-13 
+
+-1 
+
+-18 
+
+-7 
+
+-14 
+
+  
+
+-17 
+
+-7 
+
+-13 
+
+6 
+
+6 
+
+5 
+
+6 
+
+6 
+
+6 
+
+5 
+
+6 
+
+26 
+
+-1 
+
+26 
+
+-2 
+
+25 
+
+-2 
+
+26 
+
+-1 
+
+5 
+
+5 
+
+4 
+
+5 
+
+9 
+
+9 
+
+8 
+
+9 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+24 
+
+26 
+
+27 
+
+25 
+
+  
+
+13 
+
+5 
+
+28 
+
+28 
+
+52 
+
+19 
+
+27 
+
+32 
+
+HB 
+
+-5 
+
+-1 
+
+0 
+
+-3 
+
+-37 
+
+  
+
+-7 
+
+13 
+
+13 
+
+35 
+
+6 
+
+12 
+
+17 
+
+SD 
+
+18 
+
+20 
+
+21 
+
+19 
+
+-8 
+
+22 
+
+  
+
+22 
+
+22 
+
+45 
+
+13 
+
+20 
+
+25 
+
+MC 
+
+-15 
+
+-12 
+
+-11 
+
+-14 
+
+-51 
+
+-10 
+
+-40 
+
+  
+
+MGR  16 
+
+18 
+
+19 
+
+17 
+
+-11 
+
+19 
+
+-3 
+
+27 
+
+0 
+
+  
+
+19 
+
+-7 
+
+-1 
+
+19 
+
+-7 
+
+-1 
+
+3 
+
+3 
+
+IDP 
+
+-29 
+
+-25 
+
+-24 
+
+-27 
+
+-69 
+
+-23 
+
+-57 
+
+-12 
+
+-52 
+
+  
+
+-22 
+
+-17 
+
+-13 
+
+GR 
+
+-9 
+
+-6 
+
+-4 
+
+-7 
+
+-43 
+
+-4 
+
+-33 
+
+VM 
+
+-7 
+
+-4 
+
+-3 
+
+-6 
+
+-41 
+
+-3 
+
+-31 
+
+6 
+
+7 
+
+-29 
+
+15 
+
+-27 
+
+17 
+
+  
+
+1 
+
+6 
+
+  
+
+TR 
+
+-18 
+
+-14 
+
+-13 
+
+-16 
+
+-55 
+
+-13 
+
+-44 
+
+-2 
+
+-40 
+
+8 
+
+-8 
+
+-10 
+
+11 
+
+4 
+
+  
+
+49 
+ 
+
+Figure 4.15. Minimum mud weight vs wellbore inclination by different failure criteria at 
+
+ 
+
+2000 m depth and azimuth of 90° for hard siltstone 
+
+Table 4.18. Comparison of results by different failure criteria for the hard siltstone at 
+
+ 
+ 
+ 
+
+depth of 2000 m and Azimuth of 90° 
+
+   
+
+ 
+
+Horizontal Borehole 
+
+ 
+
+  CDP  ML  MG  MWC  MR  HB  SD  MC  MGR  IDP  GR  VM  TR 
+
+CDP 
+
+  
+
+ML 
+
+-3 
+
+0 
+
+  
+
+MG 
+
+-5 
+
+-1 
+
+MWC 
+
+-1 
+
+2 
+
+1 
+
+1 
+
+  
+
+3 
+
+0 
+
+0 
+
+-14 
+
+-7 
+
+-12 
+
+-14 
+
+-7 
+
+-12 
+
+-1 
+
+-15 
+
+-7 
+
+-12 
+
+  
+
+-14 
+
+-7 
+
+-12 
+
+4 
+
+4 
+
+3 
+
+4 
+
+-24 
+
+27 
+
+-2 
+
+-24 
+
+27 
+
+-2 
+
+-25 
+
+26 
+
+-3 
+
+-24 
+
+27 
+
+-2 
+
+4 
+
+4 
+
+3 
+
+4 
+
+6 
+
+6 
+
+6 
+
+6 
+
+ 
+e
+l
+o
+h
+e
+r
+o
+B
+
+ 
+l
+a
+c
+i
+t
+r
+e
+V
+
+MR 
+
+24 
+
+26 
+
+27 
+
+25 
+
+  
+
+HB 
+
+-6 
+
+-2 
+
+-1 
+
+-4 
+
+-39 
+
+9 
+
+  
+
+3 
+
+21 
+
+-12 
+
+48 
+
+14 
+
+21 
+
+24 
+
+-5 
+
+11 
+
+-19 
+
+36 
+
+5 
+
+11 
+
+14 
+
+SD 
+
+18 
+
+21 
+
+22 
+
+19 
+
+-8 
+
+23 
+
+  
+
+18 
+
+-14 
+
+44 
+
+11 
+
+18 
+
+21 
+
+MC 
+
+-15 
+
+-11 
+
+-10 
+
+-14 
+
+-51 
+
+-9 
+
+-40 
+
+  
+
+-27 
+
+22 
+
+-6 
+
+0 
+
+3 
+
+MGR  15 
+
+17 
+
+18 
+
+16 
+
+-12 
+
+19 
+
+-4 
+
+26 
+
+  
+
+68 
+
+29 
+
+37 
+
+41 
+
+IDP 
+
+-28 
+
+-24 
+
+-23 
+
+-26 
+
+-69 
+
+-21 
+
+-56 
+
+-11 
+
+-50 
+
+  
+
+-23 
+
+-18 
+
+-16 
+
+GR 
+
+-10 
+
+-6 
+
+-5 
+
+-8 
+
+-44 
+
+-4 
+
+-34 
+
+VM 
+
+-7 
+
+-4 
+
+-3 
+
+-6 
+
+-41 
+
+-1 
+
+-31 
+
+5 
+
+7 
+
+-28 
+
+14 
+
+-26 
+
+16 
+
+  
+
+2 
+
+6 
+
+  
+
+TR 
+
+-17 
+
+-14 
+
+-12 
+
+-16 
+
+-54 
+
+-11 
+
+-43 
+
+-2 
+
+-38 
+
+8 
+
+-7 
+
+-10 
+
+9 
+
+2 
+
+  
+
+5.  FIELD CASE STUDIES 
+
+50 
+ 
+
+Failure criteria were evaluated on three field cases in order to compare the predicted 
+
+results of minimum required mud weight by field mud weight. A North Sea oil field (Wong 
+
+et al., 1994), UK continental shelf (Mclean and Addis, 1990), and Pagerungan gas field 
+
+(Ramos et al., 1998) are three fields which have been chosen for the evaluation of failure 
+
+criteria since the complete set of rock mechanical properties, stress data and also information 
+
+about drilling history (well trajectory and field mud weight) were provided.  The percentage 
+
+difference method was used to compare the results of minimum required mud weight by 
+
+different failure criteria and field mud weight. The result of comparison is presented using 
+
+the conventional column chart.  
+
+ 
+
+5.1. NORTH SEA OIL FIELD 
+
+Field data from the first extended-reach horizontal well drilled in North Sea oil field 
+
+was used for the evaluation of failure criteria. Rock mechanical properties were determined 
+
+based on the triaxial and thick walled cylinder strength (TWC) test results on core samples 
+
+from three intervals, the Middle Ness (Sandstone with shale streaks), Etive (Sandstone), 
+
+Rannoch  (Sandstone)  (Table  5.1).  The  deviated  well  plan  is  shown  on  figure  5.1.  The 
+
+extended-reach horizontal well was drilled successfully using the mud weight of 1.3 g/cc 
+
+(0.57 psi/ft) for all three formations, Middle Ness, Etive and Rannoch.  
+
+ 
+
+ 
+
+          Table 5.1. Field Data, North Sea Oil Field (Wong et al., 1994) 
+
+Rock Properties 
+
+Stress Data 
+
+Formation 
+
+  (°) 
+
+  
+
+(MPa) 
+
+   
+
+   
+
+   
+
+   
+
+(g/cc) 
+
+(g/cc) 
+
+(g/cc) 
+
+(g/cc) 
+
+Field  
+MW  
+(g/cc) 
+
+ 
+ν 
+ 
+
+0.2 
+
+0.1 
+
+Middle Ness 
+
+Etive 
+
+Rannoch 
+
+39 
+
+30 
+
+36 
+
+9 
+
+7 
+
+1.66 
+
+1.66 
+
+1.66 
+
+1.66 
+
+2.3 
+
+2.3 
+
+2.3 
+
+1.24 
+
+1.24 
+
+1.24 
+
+1.3 
+
+1.3 
+
+1.3 
+
+25 
+
+0.25 
+
+1.66 
+
+1.66 
+
+51 
+ 
+
+      Figure 5.1. Deviated well plan, North Sea Oil Field (Wong et al., 1994) 
+
+ 
+
+ 
+
+ 
+
+Table 5.2. Results of predicted minimum required mud weight by different 
+
+criteria and difference with field mud weight for Middle Ness formation (60° Inclination) 
+
+Failure Criteria 
+
+Minimum Mud Weight  
+
+Predicted Required 
+
+Ins. Drucker-Prager 
+
+Tresca 
+
+Von Mises 
+
+Modified Griffith 
+
+Griffith 
+
+Mohr-Coulomb 
+
+Hoek-Brown 
+
+Mogi-Coulomb 
+Modified Lade 
+
+Modified Wiebols-Cook 
+
+Stassi D'Alia 
+
+Murrel 
+
+Cir. Drucker-Prager 
+
+(g/cc) 
+
+1.72 
+1.67 
+1.59 
+1.50 
+1.48 
+1.40 
+1.35 
+1.27 
+1.24 
+1.24 
+1.24 
+1.20 
+1.08 
+
+Percentage 
+
+Difference with 
+
+Field Mud Weight 
+
+(%) 
+31.3 
+27.6 
+21.4 
+14.7 
+13.1 
+6.8 
+2.7 
+-3.2 
+-5.3 
+-5.5 
+-5.5 
+-8.5 
+-17.7 
+
+52 
+ 
+
+ 
+Figure 5.2. Comparison between results of predicted minimum required mud      
+
+weight by different criteria and field mud weight for Middle Ness formation (60° 
+
+Inclination)1 
+
+ 
+
+ 
+
+Table 5.3. Results of predicted minimum required mud weight by different 
+criteria and difference with field mud weight for Etive formation (70° Inclination) 
+
+Failure Criteria 
+
+Predicted Required 
+
+Difference with 
+
+Minimum Mud Weight  
+
+Field Mud Weight  
+
+Percentage 
+
+Tresca 
+
+Von Mises 
+
+Ins. Drucker-Prager 
+
+Griffith 
+
+Modified Griffith 
+
+Stassi D'Alia 
+
+Mohr-Coulomb 
+
+Murrel 
+
+Mogi-Coulomb 
+
+Modified Wiebols-Cook 
+
+Modified Lade 
+
+Cir. Drucker-Prager 
+
+Hoek-Brown 
+
+(g/cc) 
+2.27 
+2.16 
+2.06 
+1.75 
+1.70 
+1.67 
+1.65 
+1.62 
+1.59 
+1.59 
+1.56 
+1.54 
+1.49 
+
+(%) 
+73.4 
+64.7 
+57.3 
+33.9 
+29.6 
+27.7 
+25.9 
+23.4 
+21.6 
+21.3 
+19.4 
+17.8 
+13.6 
+
+                     
+1 Meshed column indicates negative value.  
+
+53 
+ 
+
+ 
+Figure 5.3. Comparison between results of predicted minimum required mud      
+
+weight by different criteria and field mud weight for Etive formation (70° Inclination) 
+
+Table 5.4. Results of predicted minimum required mud weight by different 
+
+criteria and difference with field mud weight for Rannoch formation (90° Inclination) 
+
+ 
+ 
+ 
+
+Failure Criteria 
+
+Minimum Mud Weight  
+
+Predicted Required 
+
+Ins. Drucker-Prager 
+
+Hoek-Brown 
+
+Mohr-Coulomb 
+
+Griffith 
+
+Modified Griffith 
+
+Mogi-Coulomb 
+
+Tresca 
+
+Modified Lade 
+
+Murrel 
+
+Cir. Drucker-Prager 
+
+Stassi D'Alia 
+
+Von Mises 
+
+Modified Wiebols-Cook 
+
+(g/cc) 
+
+1.59 
+
+1.13 
+
+1.08 
+
+1.05 
+
+1.04 
+
+0.88 
+
+0.84 
+
+0.82 
+
+0.62 
+
+0.62 
+
+0.62 
+
+0.60 
+
+0.60 
+
+Percentage 
+
+Difference with 
+
+Field Mud Weight 
+
+(%) 
+21.1 
+
+-13.5 
+
+-17.9 
+
+-19.6 
+
+-20.7 
+
+-33.1 
+
+-35.6 
+
+-37.1 
+
+-52.8 
+
+-52.9 
+
+-53.0 
+
+-54.0 
+
+-54.2 
+
+54 
+ 
+
+Figure 5.4. Comparison between results of predicted minimum required mud      
+weight by different criteria and field mud weight for Rannoch formation (90° Inclination) 
+
+ 
+
+ 
+ 
+ 
+
+5.2. CYRUS FIELD, UK CONTINENTAL SHELF, NORTH SEA 
+
+Stress data and laboratory measured rock mechanical properties (Table 5.5) from 
+
+sandstone formation in Cyrus field (UK Continental Shelf, North Sea) used as second field 
+
+case study for the evaluation of failure criteria.  The horizontal well was drilled in direction 
+
+of maximum horizontal stress.  Both horizontal and vertical well drilled successfully through 
+
+sandstone formation with the mud weight of 1.17 g/cc.  
+
+  
+
+                          Table 5.5. Field Data, Cyrus Field (Mclean & Addis., 1990) 
+
+Rock Properties 
+
+Stress Data 
+
+Formation 
+
+  (°) 
+
+  
+
+(MPa) 
+
+ 
+ν 
+ 
+
+   
+
+   
+
+   
+
+   
+
+(g/cc) 
+
+(g/cc) 
+
+(g/cc) 
+
+(g/cc) 
+
+Field  
+MW  
+(g/cc) 
+
+Depth 
+
+(m) 
+
+Sanstone 
+
+43.8 
+
+6 
+
+0.2 
+
+1.73 
+
+1.73 
+
+2.3 
+
+1.04 
+
+1.17 
+
+2600 
+
+55 
+ 
+
+Figure 5.5. Minimum mud weight vs wellbore inclination by different failure criteria at 
+2600m depth and azimuth of 0° for sandstone formation, Field MW is shown with red  
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+Table 5.4. Results of predicted minimum required mud weight by different 
+
+criteria and difference with field mud weight for vertical well 
+
+Failure Criteria 
+
+Minimum Mud Weight  
+
+Predicted Required 
+
+Ins. Drucker-Prager 
+
+Tresca 
+
+Von Mises 
+
+Modified Griffith 
+
+Griffith 
+
+Mohr-Coulomb 
+
+Hoek-Brown 
+
+Mogi-Coulomb 
+
+Modified Lade 
+
+Modified Wiebols-Cook 
+
+Stassi D'Alia 
+
+Murrel 
+
+Cir. Drucker-Prager 
+
+(g/cc) 
+
+1.24 
+1.20 
+1.18 
+1.16 
+1.11 
+1.08 
+1.07 
+1.06 
+0.99 
+0.97 
+0.83 
+0.80 
+0.61 
+
+Percentage 
+
+Difference with 
+
+Field Mud Weight 
+
+(%) 
+5.9 
+2.2 
+1.2 
+-0.9 
+-4.9 
+-7.5 
+-8.4 
+-9.5 
+-15.0 
+-17.0 
+-28.7 
+-31.6 
+-48.1 
+
+56 
+ 
+
+Figure 5.6. Comparison between results of predicted minimum required mud      
+
+weight by different criteria and field mud weight for Vertical Well 
+
+ 
+
+ 
+
+ 
+
+Table 5.5. Results of predicted minimum required mud weight by different criteria and 
+
+difference with field mud weight for horizontal well 
+
+Failure Criteria 
+
+Minimum Mud Weight  
+
+Predicted Required 
+
+Tresca 
+
+Von Mises 
+
+Ins. Drucker-Prager 
+
+Modified Griffith 
+
+Griffith 
+
+Stassi D'Alia 
+
+Murrel 
+
+Mohr-Coulomb 
+
+Hoek-Brown 
+
+Modified Wiebols-Cook 
+
+Mogi-Coulomb 
+
+Modified Lade 
+
+Cir. Drucker-Prager 
+
+(g/cc) 
+
+2.11 
+2.06 
+1.84 
+1.73 
+1.66 
+1.48 
+1.43 
+1.35 
+1.34 
+1.22 
+1.20 
+1.17 
+0.98 
+
+Percentage 
+
+Difference with 
+
+Field Mud Weight 
+
+(%) 
+80.1 
+76.1 
+57.1 
+48.0 
+42.0 
+26.1 
+21.8 
+15.0 
+14.6 
+4.2 
+2.6 
+-0.2 
+-16.1 
+
+57 
+ 
+
+Figure 5.7. Comparison between results of predicted minimum required mud      
+weight by different criteria and field mud weight for horizontal well 
+
+ 
+
+ 
+ 
+
+ 
+
+5.3. PAGERUNGAN GAS FIELD, NORTH OF BALI ISLAND, INDONESIA 
+
+Wellbore instabilities associated with drilling of hard and brittle Ngimbang Shale was 
+
+the major challenge of developing the Pagerungan gas field in Bali Island. By determining 
+
+the accurate stress field (Strike Slip faulting regime), optimization of mud weight was done 
+
+which resulted in improving of drilling efficiency. Laboratory measured rock mechanical 
+
+properties and stress data for Well PGA-2 are presented in table 5.6. The development PGA-
+
+2 well was drilled successfully through Ngimbang Shale with 25 degree inclination, azimuth 
+
+of N47E, and mud weight of 10.6 ppg.  
+
+ 
+
+ Table 5.6. Field Data, Well PGA-2, North Sea Oil Field (Ramos et al., 1998) 
+
+Rock Properties 
+
+Stress Data 
+
+Formation 
+
+  (°) 
+
+  
+
+(MPa) 
+
+ 
+ν 
+ 
+
+   
+
+   
+
+   
+
+   
+
+(g/cc) 
+
+(g/cc) 
+
+(g/cc) 
+
+(g/cc) 
+
+Field  
+MW  
+(g/cc) 
+
+Depth 
+
+(m) 
+
+Sanstone 
+
+35 
+
+12 
+
+0.3 
+
+2 
+
+2.81 
+
+2.3 
+
+1.04 
+
+1.27 
+
+1830 
+
+Table 5.7. Results of predicted minimum required mud weight by different criteria and 
+
+difference with field mud weight for Well PGA-2 
+
+ 
+
+Failure Criteria 
+
+Predicted Required 
+
+Difference with 
+
+Minimum Mud Weight  
+
+Field Mud Weight  
+
+Percentage 
+
+58 
+ 
+
+Ins. Drucker-Prager 
+
+Tresca 
+
+Von Mises 
+
+Griffith 
+
+Modified Griffith 
+
+Mohr-Coulomb 
+
+Hoek-Brown 
+
+Mogi-Coulomb 
+
+Modified Wiebols-Cook 
+
+Modified Lade 
+
+Stassi D'Alia 
+
+Murrel 
+
+Cir. Drucker-Prager 
+
+(g/cc) 
+2.10 
+2.00 
+1.87 
+1.57 
+1.54 
+1.44 
+1.35 
+1.19 
+1.14 
+1.13 
+1.12 
+1.03 
+0.87 
+
+ 
+
+(%) 
+65.3 
+57.7 
+47.5 
+23.8 
+21.0 
+13.0 
+6.0 
+-6.2 
+-10.6 
+-11.2 
+-12.1 
+-19.2 
+-31.7 
+
+ 
+ 
+ 
+ 
+
+Figure 5.8. Comparison between results of predicted minimum required mud weight by 
+
+different criteria and field mud weight for Well PGA-2 
+
+ 
+
+6.  DISCUSSION 
+
+59 
+ 
+
+According to the results of the statistical analysis, rock mechanical properties as a 
+
+main  category  of  variables  can  significantly  change  the  distribution  of  results  for  the 
+
+minimum required mud weight by different rock failure criteria. Major difference in the 
+
+frictional angle and UCS may cause different rock failure criteria to be in the higher and 
+
+lower boundaries of the results. The Mohr-Coulomb criterion always estimates the higher 
+
+minimum required mud weight than actual polyaxial failure criteria because of neglecting the 
+
+effect of intermediate principal stress. For the high strength formation, the results of Mohr-
+
+Coulomb criterion approach upper bounds of results which show it might not be an accurate 
+
+criterion  for  failure  analysis  of  hard  lithology.  The  Mohr-Coulomb  criterion  is  mainly 
+
+represents the middle range of results. The results of the polyaxial Mogi-Coulomb criterion 
+
+do not show a major difference when varying rock mechanical properties and are always 
+
+between middle range to lower range of the results.  
+
+The Tresca criterion is mainly representing the highest boundary of the results. Since 
+
+linear the Tresca criterion is only dependent on a single variable (UCS) and also does not 
+
+include the effect of intermediate principal stress, it cannot give an accurate description of 
+
+stress condition at breakout failure around a wellbore. The results of the Inscribed Drucker-
+
+Prager replaced the Tresca as the highest boundary for high strength formations. The Von 
+
+Mises  criterion  predicts  high  values  for  the  minimum  required  mud  weight  since  this 
+
+criterion does not change results with changing differential stress around the borehole due to 
+
+its symmetrical properties of failure. Although intermediate principal stress does effect rock 
+
+strength, it is not significant as the other principal stresses. Dependency on a single variable 
+
+is other shortcoming of this criterion for accurate description of stress condition at failure 
+
+and estimation of the minimum required mud weight. The results of Von Mises criterion 
+
+approached the middle range of results for the high strength formations. 
+
+ 
+
+The Inscribed Drucker-Prager criterion estimates the high range of minimum required 
+
+mud  weight  compared  to  other  rock  failure  criteria  because  of  underestimation  of  rock 
+
+strength. The results of the Inscribed Drucker-Prager are higher than the Tresca and the Von 
+
+60 
+ 
+
+Mises  for  the  high  strength  formation.  The  Circumscribed  Drucker-Prager  is  mainly 
+
+estimating the lower minimum required mud weight than other rock failure criteria because 
+
+of overestimation of rock strength. The results of the Circumscribed Drucker-Prager are 
+
+significantly lower than other failure criteria for the weaker formation with high internal 
+
+angle of friction. For the hard formation, the results of the Circumscribed Drucker-Prager 
+
+show close similarity to the Midfield Lade, the Mogi-Coulomb, and the Modified Wiebols-
+
+Cook results especially for the horizontal borehole. In this situation, the results of the Murrel 
+
+criterion replaced the Circumscribed Drucker-Prager as the  lowest boundary of results. The 
+
+results of the Hoek-Brown criterion mainly have minimum difference between the vertical 
+
+and  horizontal  borehole.    Range  of  results  for  the  Hoek-Brown  criterion  is  remarkably 
+
+depends on the magnitude of material constant,   for different lithology.  
+
+ 
+
+The results of the Modified Lade and the Modified Wiebols-Cook show very close 
+
+similarity to the results of the Mogi-Coulomb criterion for all cases of statistical analysis. 
+
+These three polyaxial failure criteria typically  have small difference between results for 
+
+vertical  and horizontal borehole.  Also, variation  of rock mechanical properties does not 
+
+change the range of results by these three criteria. These three criteria potentially can give 
+
+more accurate description of rock at failure because of considering the effect of intermediate 
+
+principal stress on rock strength and good fitting of polyaxial test data for different types of 
+
+rock. 
+
+ 
+
+Range of results for the Griffith criterion is changing by variation in compressive 
+
+strength  of  rock  (UCS)  since  the  tensile  component  in  this  criterion  determines  from  a 
+
+constant ratio with UCS. For the Modified Griffith criterion, variation of rock mechanical 
+
+properties has more influence on the range of results for minimum required mud weight 
+
+because  the  tensile  component  in  the  Modified  Griffith  is  a  function  of  both  UCS  and 
+
+internal angle of friction. For the hard formations with low internal angle of friction, the 
+
+Modified Griffith criterion represents the lower range of the results. For weak formations 
+
+with high internal angle of friction, the Modified Griffith criterion predicts the higher range 
+
+of results for the minimum required mud weight.  
+
+ 
+
+61 
+ 
+
+Variation of rock mechanical  properties affects  the results of  the Murrel  and  the 
+
+Stassi d’Alia more than other criteria. The Murrel criterion estimates the lowest boundary of 
+
+results for hard formations with low internal angle of friction since the tensile component in 
+
+this criterion only depends on uniaxial compressive strength (UCS).  In general, increasing 
+
+UCS caused the results of both the Murrel and the Stassi d’Alia approach the lower range of 
+
+results for the minimum required mud weight. For medium strength and weak formations, 
+
+the results of the Murrel and the Stassi d’Alia criteria represent the middle range of results.  
+
+ 
+
+In general, distribution of the result in normally pressurized zone (lower depth) is 
+
+higher  than  over  pressurized  zone  (deeper  depth).  Furthermore,  differences  between  the 
+
+results for the vertical and horizontal boreholes by different  failure criteria are typically 
+
+higher in normally pressurized zone rather than over pressurized zone of deeper depth. Based 
+
+on the results of all cases, increasing azimuth usually caused that distribution of results  to be 
+
+lower for the horizontal borehole.   
+
+ 
+
+According to the results of field cases, the Mogi-Coulomb, the Modified Lade, and 
+
+the  Modified  Wiebols-Cook  predict  minimum  required  mud  weight  which  has  close 
+
+similarity to the field mud weight used to successfully drill the borehole. For some cases, the 
+
+lower mud weight can be potentially used because the lower mud weight estimated by those 
+
+polyaxial failure criteria which give better description of stress condition at failure. Other 
+
+than those three criteria, the Hoek-Brown criterion mainly estimates close results to the field 
+
+mud  weight.  Results  of  field  cases  verified  the  results  of  statistical  analysis  about  the 
+
+different  distribution  and  boundaries  of  results  due  to  variation  of  rock  mechanical 
+
+properties. There was a different distribution of results for the Rannoch formation of the 
+
+North Sea Oil Field. Since the Rannoch formation has the highest UCS between all cases in 
+
+statistical analysis and field cases, different failure criteria represent the lower boundaries of 
+
+results. In this situation, Modified Wiebols-Cook and Von Mises criteria predict the lower 
+
+bound of results.  
+
+ 
+
+ 
+
+ 
+
+7.  CONCLUSIONS 
+
+62 
+ 
+
+Based on the results of statistical  analysis, rock  mechanical  properties should be 
+
+considered as key factor in the process of selecting appropriate rock failure criterion for 
+
+wellbore  stability  analysis.  A  failure  criterion  might  give  comparable  results  with  other 
+
+criteria  in  one  condition  but  estimates  very  high  or  very  low  results  for  the  minimum 
+
+required mud weight in other situation due to variation of rock mechanical properties. The 
+
+results  of  the  Murrel,  the  Stassi  d’Alia,  the  Modified  Griffith,  and  the  Circumscribed 
+
+Drucker-Prager criteria show high sensitivity to variation of rock mechanical properties.  
+
+The Tresca, the Von Mises, and the Inscribed Drucker-Prager estimate the higher 
+
+bounds for the minimum required mud weight for all cases. Although the Circumscribed 
+
+Drucker-Prager usually predicts the lower bound for the minimum required mud weight, its 
+
+results are in the middle range for the hard formations with low internal angle of friction. 
+
+The Modified Lade, the Modified Wiebols-Cook and the Mogi-Coulomb give similar results 
+
+for three lithology studied so these failure criteria may be used interchangeably without 
+
+altering the results.  
+
+ 
+
+The results of field case studies show that the Mogi-Coulomb, the Modified Lade, 
+
+and the Modified Wiebols-Cook criteria predict close results to the field mud weight used to 
+
+successfully drill the borehole. For some field cases, lower mud weight can be potentially 
+
+used because the lower results estimated by those three polyaxial failure criteria which give 
+
+more accurate description of stress condition at failure. The Hoek-Brown criterion mainly 
+
+estimates close but higher results to the field mud weight for the studied cases. Since the 
+
+results  of  this  criterion  are  mainly  dependent  to  material  parameter,     it  might  give 
+
+unrealistic results in other situation. The results of field case study are comparable with the 
+
+results of statistical analysis about the different distribution and boundaries of results for the 
+
+minimum required mud weight due to variation of rock mechanical properties.  
+
+ 
+
+ 
+
+ 
+
+APPENDIX  
+
+63 
+ 
+
+DERIVATION OF ROCK FAILURE CRITERIA 
+
+This appendix explains and derives the failure criteria investigated in chapter 2.1: 
+
+ 
+ 
+ 
+
+1.  MOHR-COULOMB 
+
+                            Figure A-1. Mohr-Coulomb failure envelope in       
+ 
+ 
+
+ 
+
+Governing equation for Mohr-Coulomb failure criterion is function of normal stress 
+
+components and rock mechanical properties (Eq A.1). Based on the Mohr-Coulomb theory, 
+
+failure in compression will happen at point P where shear stress on specific planes reaches 
+
+value that is sufficient to overcome both the natural cohesion of rock and frictional force that 
+
+oppose along the failure plane: 
+
+ 
+
+                                                                                   (A.1) 
+
+                                       
+
+The parameter c is known as cohesion and parameter μ is the coefficient of internal 
+
+angle of friction. The point P which is tangential point of Mohr circle and failure envelope 
+
+represents state of stress on the plane of failure. By using basic trigonometric, the relation 
+
+between angle of internal friction and angle β which is orientation of failure plane in to 
+
+direction of σ1 could be derived as shown here: 
+
+ 
+
+                                                             (A.2)   
+ 
+ 
+                                                              (A.3)           
+ 
+As P is tangential point of the circle and the failure line, line BP is perpendicular to failure line 
+(AL): 
+
+64 
+ 
+
+                                   (A.4) 
+ 
+
+                                                         
+
+                                                                           
+
+            (A.5)   
+
+ 
+
+Finally, following relation derived based on (A.2), (A.3), and (A.4): 
+ 
+ 
+                                                                                  
+ 
+                                               
+The Mohr-Coulomb can also be expressed in term of principal stresses which is presented 
+here: 
+ 
+                                                         |  |   (|  |     |  |)                   (A.6) 
+                                                         
+ 
+This above relation can be written in following form: 
+ 
+                      
+
+(       )               (A.7) 
+
+(       )              
+
+ 
+
+ 
+
+ 
+
+ 
+                                              
+The mean normal stress (σm )  and maximum shear stress (τm)   on the figure is: 
+ 
+                                         
+
+(       )                        
+
+ 
+
+ 
+
+(       )           (A.8)  
+
+ 
+
+ 
+
+ 
+
+ 
+
+Then Mohr-Coulomb failure criterion can be presented in following way: 
+ 
+                                                                                                (A.9) 
+
+ 
+                             
+
+By changing order of (A.7), we will have Mohr-Coulomb failure criteria in form of 
+
+                                                 
+  
+
+principal stresses: 
+
+                                                                         
+
+       
+
+     
+
+       
+
+      
+
+       
+
+       
+
+           (A.10)  
+
+                                   
+
+65 
+ 
+
+This can be simplified to following form: 
+ 
+ 
+
+                                                                                            (A.11)  
+
+                                            
+
+The    is uniaxial compressive strength (UCS) and   is the flow factor which is 
+
+function of internal angle of friction. The    and   parameters can be found from the results 
+
+of triaxial tests.  
+
+ 
+ 
+                                    
+ 
+
+     
+
+       
+
+                          (A.12)     
+
+                            
+
+ 
+ 
+                
+
+2.  MOGI-COULOMB 
+
+       
+
+       
+
+                   (A.13)  
+
+Mogi (1971) verified the effects of the intermediate principal stress on the strength of 
+
+couple of different rock types based on the results of the true triaxial test. Mogi found out 
+
+that mean normal  stress  that opposes creation of  fracture is     , rather than  octahedral 
+
+normal stress,       . 
+
+                       (    )                    (A.14)   
+
+    
+                                                                 
+
+                                                                          
+
+Based on Mogi’s assumption and the polyaxial test data provided by Takahashi and 
+
+Koide (1989), Al-Ajmi and Zimmerman (2005) found linear relation that could give a good 
+
+fit with test results in             space: 
+
+ 
+
+                                                                                              (A.15) 
+
+ 
+                                                                
+
+The parameter   is intersection of line on the       axis and    is the inclination of the 
+
+envelope  in               space.    Al-Ajmi  and  Zimmerman  tested  new  developed  linear 
+
+criterion for polyaxial test data from eight different rock types and the results verified the 
+
+Mogi failure based on triaxial test data correlates well with the polyaxial test data. Therefore 
+
+the Mogi Coulomb failure parameters   and   can be evaluated based on the triaxial test 
+
+result. 
+
+66 
+ 
+
+  
+
+Figure A-2. Principal Stresses 
+
+ 
+
+ 
+ 
+ 
+ 
+
+The direction which plane will be equally inclined to principal axes is: 
+
+                                                                            
+
+              
+
+ 
+
+√ 
+
+                   (A.16)  
+
+                                                     
+
+The plane is called octahedral plane because it is parallel to face of an octahedron 
+
+with vertices on the principal axes. The normal and shear stress acting on this plane called 
+
+the octahedral shear stress (    ) and octahedral normal stress (    ). The stresses σ and τ in a 
+
+general direction λ1, λ2, and λ3 will be determined by following relation (Fjaer et al., 2008): 
+
+ 
+
+                                       
+
+          
+
+          
+
+                                                (A.17) 
+
+                  
+
+   
+
+        
+
+   
+
+ 
+ 
+        
+ 
+ 
+
+   
+
+                         (A.18) 
+
+By substituting (A.16) into (A.17) and (A.18), octahedral normal and shear stress will be: 
+ 
+ 
+
+                                          
+
+ 
+
+ 
+
+(              )                (A.19)  
+
+                         
+
+ 
+
+ 
+
+ √(       )      (       )      (       )         (A.20)  
+
+67 
+ 
+
+Considering conventional triaxial test (σ2=σ3), octahedral shear stress will reduce to:  
+ 
+
+ 
+                           
+
+                                   
+
+      
+
+ 
+
+ 
+
+√(       )      (       )      (       )      √ 
+
+ 
+
+ (       )    (A.21) 
+
+                     
+ 
+
+The substituting of (A.21) into (A.15) will result in:  
+ 
+
+   √ 
+ 
+
+(       )                       (A.22)                                 
+
+                                                              
+
+ 
+ 
+
+Rearranging (A.22) will change the linear Mogi criterion to a new form: 
+ 
+ 
+                          
+
+ (       )   ( 
+
+)   ( 
+
+ 
+
+ 
+
+ 
+
+ √ 
+
+ 
+
+ √ 
+
+)              (A.23)   
+
+ 
+                               
+
+Considering maximum shear stress definition in A.8, the relation A.23 can be written 
+
+in following form: 
+
+ 
+
+                                  ( 
+
+ 
+
+)   ( 
+
+ 
+
+)                  (A.24)  
+
+ √ 
+
+ √ 
+ 
+                                          
+
+If we compare the Mohr-Coulomb failure criterion given in A.9 with A.24, the linear 
+
+Mogi-Coulomb criterion parameters   and   can be determined by following relations: 
+
+ 
+
+                                                                  
+
+                           (A.25) 
+
+ √ 
+
+ 
+ 
+
+                    
+
+ √ 
+
+ 
+
+                         (A.26)                                             
+
+                                                             
+
+The parameter   represents the internal friction, while the parameter   is related to 
+
+the both cohesion and internal friction of rock. Using relation A.12 and A.13, the linear 
+
+Mogi-Coulomb failure criterion parameters   and   can be identified based on the Mohr-
+
+Coulomb criteria parameters (q, C0): 
+
+68 
+ 
+
+  
+   
+
+                      (A.27)   
+
+                                                            
+
+                                                   
+                                                                
+
+   
+
+   
+
+                      (A.28)                                                         
+
+        
+
+ √ 
+
+ 
+
+               
+
+ √ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+BIBLIOGRAPHY 
+
+69 
+ 
+
+ 
+
+Aadnoy,  B.S,  Chenevert,  M.E.  1987.  Stability  of  highly  inclined  boreholes. J.  SPE  Drilling 
+Engineering, Res. 2: 364-374.  
+ 
+Al-Ajmi, A.M, Zimmerman, R.W. 2005. Relation between the Mogi and the Coulomb failure 
+criteria.  International Journal of Rock Mechanics & Mining Sciences. Res. 42: 431–439. 
+ 
+Al-Ajmi, A.M, Zimmerman, R.W. 2006. Stability analysis of deviated boreholes using the Mogi-
+Coulomb failure criterion, with applications to some North Sea and Indonesian reservoirs. SPE-
+104035.  In  proceeding  of  the  IADC/SPE  Asia  Pacific  Drilling  Technology  Conference  and 
+Exhibition, Bangkok, Thailand, November 13-15, 2006. 
+ 
+Benz, T., Schwab, R. 2008. A quantitative comparison of six rock failure criteria. International 
+Journal of Rock Mechanics & Mining Sciences. Res. 45: 1176–1186. 
+ 
+Brace,  W.F.  1960.  An  extension  of  the  Griffith  theory  of  fracture  to  rocks.  J.  Geophysical 
+Research. Res. 65:3477-3480. 
+ 
+Bradley,  W.B.  1979.  Failure  of  inclined  borehole.  J.  Energy  Resources  Technology.  Res. 
+101:232-239. 
+ 
+Colmenares, L.B.,  Zoback, M.D. 2002. A statistical evaluation of intact rock failure criteria 
+constrained  by  polyaxial  test  data  for  five  different  rocks.    International  Journal  of  Rock 
+Mechanics & Mining Sciences. Res. 39: 695–729. 
+ 
+Drucker, D.C, Prager, W., 1952. Soil mechanics and plastic analysis of limit design. J. Quarterly 
+of Applied Mathematics. Res. 10: 157–165. 
+ 
+Ewy, R.T. 1999. Wellbore-stability predictions by  use of a Modified  Lade criterion. J. SPE 
+Drilling & Completion. SPE-56862. Res. 14: 85–91. 
+ 
+Fjaer,  E.,  R.M.  Holt,  P.  Horsrud,  A.M.  Raaen,  R.  Risnes.    2008.  Petroleum  Related  Rock 
+Mechanics, 2rd ed. Elsevier. 
+ 
+Griffith, A.A. 1921. The phenomena of rupture and flow in solids J. Philosophical Transactions 
+of the Royal Society of London. Res. 221: 163–198. 
+ 
+Higgins, S.M. 2006. Geomechanical modeling as a reservoir characterization tool at Rulison 
+field, Piceance basin, Colorado, M.S. Dissertation, Colorado School of Mine, Golden, 2006. 
+ 
+Hoek,  E.,  Brown,  E.T.  1980.  Empirical  strength  criterion  for  rock  masses.  J.  Geotechnical 
+Engineering Div. Res. 106: 1013–1035. 
+ 
+Jaeger, J.C., Cook, N.G.W., Zimmerman, R.W. 2007. Fundamentals of Rock Mechanics, 4rd ed. 
+Blackwell Publishing. 
+ 
+ 
+
+ 
+
+70 
+ 
+
+Lade,  P.V.  1977.  Elasto-plastic  stress-strain  theory  for  cohesionless  soil  with  curved  yield 
+surfaces. J. Solid Structures. Res. 13: 1019–1035. 
+ 
+McLean, M.R., Addis, M.A. 1990. Wellbore Stability Analysis: A review of current methods of 
+analysis and their field application. IADC/SPE 19941. In proceeding of the IADC/SPE Drilling 
+Conference, Houston, Texas, February 27- March 2, 1990. 
+ 
+McClintock, F.A., J.B. Walsh. 1962. Friction on Griffith cracks under pressure. In proceeding of 
+the 4th U.S. National Congress of Applied Mechanics. P 1015–1021, Berkeley, California, 1962. 
+ 
+Mogi, K. 1971. Fracture and Flow under High Triaxial Compression. J. Geophysical Research. 
+Res. 76: 1255–1269. 
+ 
+Murrel, S.A.F. 1963. A criterion for brittle fracture of rocks and concrete under triaxial stress and 
+the effect of pore pressure on the criterion. Fairhurst, C. (Ed.), Rock Mechanics (In proceeding of 
+5th  symposium  on  Rock  Mechanics,  The  university  of  Minnesota,  Minneapolis,  1962). 
+Pergamon Press, New York, pp. 563–577. 
+ 
+Nawrocki,  P.A.  2010.  Critical  wellbore  pressures  using  different  rock  failure  criteria. 
+ARMA/USRMS 05-794. In proceeding of ISRM International Symposium and 6th Asian Rock 
+Mechanics Symposium, New Delhi, India, 23 – 27 October, 2010. 
+ 
+Ramos,  G.G.,  Mouton,  D.E.,  Wilton,  B.S.  1998.  Integrating  Rock  Mechanics  with  Drilling 
+Strategies in a Tectonic Belt, Offshore Bali, Indonesia. SPE/ISRM 47286. In proceeding of the 
+SPE/ISRM Conference, Trondheim, Norway, 8-10 July, 1998. 
+ 
+Simangunsong, R.A., Villatoro, J.J., Davis, A.K. 2006. Wellbore stability assessment for highly 
+inclined wells using limited rock-mechanics data. SPE-99644. In proceeding of the ATCE/SPE 
+Conference, San Antonio, Texas, September 24-27, 2006. 
+ 
+Song, I., Haimson, B.C. 1997. Polyaxial strength criteria and their use in estimating in-situ stress 
+magnitudes from borehole breakout dimensions.  International Journal of Rock Mechanics & 
+Mining Sciences. Res. 34: 116.e1–116.e16. 
+ 
+Stassi D’Alia, F. 1967. Flow and fracture of materials according to a new limiting condition of 
+yielding. J. Mechanica. Res. 2: 178–195. 
+ 
+Stjern, G., Horsrud, P., Agle, A. 2000. Improving Drilling Performance in Troublesome Clay 
+Formations in the Heidrun Field. IADC/SPE 59219. In proceeding of the IADC/SPE Drilling 
+Conference, New Orleans, Louisiana, February 23-25, 2000. 
+ 
+Takahashi M, Koide H. 1989. Effect of the intermediate principal stress on strength and 
+deformation behavior of sedimentary rocks at the depth shallower than 2000 m. In: Maury V, 
+Fourmaintraux D, editors. Rock at great depth. Rotterdam: Balkema; 1989. p. 19–26. 
+ 
+Veeken, C.A.M., Walters, J.V., Kenter, C.J., Davies, D.R. 1989. Use of Plasticity Models for 
+Predicting  Borehole  Stability.  ISRM-IS-1989-106.  In  proceeding  of  the  ISRM  International 
+Symposium, Pau, France, 30 August-2 September, 1989. 
+
+71 
+ 
+
+ 
+Wiebols, G.A., Cook, N.G.W. 1968. An energy criterion for the strength of rock in polyaxial 
+compression. International Journal of Rock Mechanics & Mining Sciences. Res. 5: 529–549. 
+ 
+Wong, S.W., Vekeen, C.A.M., Kenter, C.J. 1994. The rock mechanical aspects of drilling a north 
+sea horizontal well. J. SPE Drilling & Completion. SPE-56862. Res. 9: 47–52. 
+ 
+Yi, X., Ong, S.H., and Russel, J.E. 2005. Improving Borehole Stability Analysis by Quantifying 
+the  Effects  of  Intermediate  Principal  Stress  using  Polyaxial  Rock  Strength  Test  Data. 
+ARMA/USRMS  05-794.  In  proceeding  of  the  40th  U.S.  Symposium  on  Rock  Mechanics 
+(USRMS), Anchorage, Alaska, 25–29 June, 2005. 
+ 
+Zhang, L., P. Cao, K.C. Radha. 2010. Evaluation of rock strength criteria for wellbore stability 
+analysis.  International Journal of Rock Mechanics & Mining Sciences. Res. 47: 1304–1316. 
+ 
+Zoback, M.D. 2007. Reservoir Geomechanics, 1rd ed. Cambridge University Press. 
+ 
+Zhou,  S.  1994.  A  Program  to  Model  the  Initial  Shape  and  Extent  of  Borehole  Breakout.  J. 
+Computers and Geosciences. Res. 20: 1143–1160. 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+VITA 
+
+72 
+ 
+
+Reza Rahimi was born on September 21, 1986. Reza entered Petroleum University of 
+
+Technology in Abadan, Iran on 2005 and completed his Bachelor’s degree in 2009. He has 
+
+done  two  summer  internship  with  Iranian  Offshore  Oil  Company  (IOOC)  and  National 
+
+Iranian  Oil  Company  (NIOC)  on  2007  and  2008.  After  finishing  his  Bachelor,  he  was 
+
+employed by PETROPRAS Oil and Gas Institute (POGI) as Research Petroleum Engineer. 
+
+Then he joint MAPSA ENG Co. as Drilling Engineer for the exploratory wells drilled in the 
+
+Golshan and Ferdows offshore gas fields in Persian Gulf. He was involved in well planning 
+
+and drilling program. Later on, he was hired by PPL Ltd as Field Drilling Engineer on Jack 
+
+up Rig for the wells drilled in the phase 12 of South Pars gas field in Persian Gulf. He was in 
+
+charge  of  supervision  on  daily  drilling  activities,  providing  daily  drilling  report,  and 
+
+management of field operation. In August 2012, he entered the Graduate School of Missouri 
+
+University  of  Science  and  Technology  as  a  Master’s  student  in  Petroleum  Engineering 
+
+program. While working on his Master, Reza served as a Teaching Assistant for the Drilling 
+
+& Well Design class. Reza completed his MS in Petroleum Engineering in May, 2014. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+
